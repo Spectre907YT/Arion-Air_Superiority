@@ -1,6 +1,9 @@
 event "Luna FOB access"
 		planet Luna
 			shipyard "Arion Ships"
+			shipyard "Arion Heavy Ships"
+			shipyard "Arion Midnight Ships"
+			shipyard "Arion Czartrak Ships"
 			outfitter "Arion Outfits"
 			outfitter "Arion Hand to hand Outfits"
 

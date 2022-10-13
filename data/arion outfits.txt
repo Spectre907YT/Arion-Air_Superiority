@@ -336,6 +336,26 @@ outfit "Arion B.E.W.S"
 	"energy consumption" 1
 	description "This is the cheaper alternative to the A.E.W.S."
 
+outfit "Arion Hull Plating Mk1"
+	category "Systems"
+	cost 500000
+	thumbnail "outfit/interference plating"
+	"mass" 5
+	"outfit space" -5
+	"hull" 100
+	description "To help increase survivability of non Arion Ships you might use, we developed hull plating for you to equip."
+
+outfit "Arion Hull Plating Mk2"
+	category "Systems"
+	cost 2500000
+	thumbnail "outfit/interference plating"
+	"mass" 5
+	"outfit space" -5
+	"hull" 1000
+	"ion resistance" 1
+	"ion protection" 3
+	description "To help increase survivability of non Arion Ships you might use, we developed hull plating for you to equip. The mk 2 variant is also useful for Arion Ships due to the addition of ionic resistance."
+
 outfit "Arion P.C.S"
 	category "Systems"
 	cost 50000000
@@ -714,6 +734,7 @@ outfit "Arion Disabler Laser"
 		"hull damage" 10
 		"ion damage" 1.0
 		"heat damage" 1.0
+		"slowing damage" 1.0
 	description "This is what Arion uses when we want to capture, we were able to make a variant of our disabler to fit on your ships."
 
 outfit "Arion Disabler Laser Turret"
@@ -745,6 +766,7 @@ outfit "Arion Disabler Laser Turret"
 		"hull damage" 10
 		"ion damage" 1.0
 		"heat damage" 1.0
+		"slowing damage" 1.0
 	description "This is what Arion uses when we want to capture, we were able to make a variant of our disabler to fit on your ships. This one is the turret variant."
 
 outfit "Arion Stunner Laser"
@@ -1023,7 +1045,7 @@ outfit "Arion M.L.M.S"
 	category "Secondary Weapons"
 	licenses
 			"Arion"
-	cost 10000000
+	cost 5000000
 	thumbnail "outfit/sheragiam"
 	"mass" 45
 	"outfit space" -45
@@ -1043,21 +1065,105 @@ outfit "Arion M.L.M.S"
 		"turret turn" 3
 		"velocity" 1000
 		"lifetime" 5
-		"firing energy" 500
-		"firing heat" 750
+		"firing energy" 750
+		"firing heat" 500
 		"drag" 0.5
-		"turn" 7.5
+		"turn" 25
 		"homing" 15
-		"tracking" 10
-		"radar tracking" 10
-		"shield damage" 1000
-		"hull damage" 2000
-		"reload" 100
-		"burst count" 12
+		"tracking" 25
+		"radar tracking" 25
+		"shield damage" 2000
+		"hull damage" 2500
+		"reload" 50
+		"burst count" 6
 		"burst reload" 5
-		"infrared tracking" 10
+		"infrared tracking" 25
 		"hit force" 50
 		"blast radius" 5
 		"missile strength" 30
 		"cluster"
-	description "Ah the Multiple Launch Missile System, we made this system to help destroy incoming threats from a slightly longer distance then the lasers. Due to our advanced fabrication systems, it uses energy instead of ammo."
+		"ion damage" 1000
+		"heat damage" 1000
+		"slowing damage" 50
+	description "Ah the Multiple Launch Missile System, we made this system to help destroy incoming threats from a slightly longer distance than the lasers. Due to our advanced fabrication systems, it uses energy instead of ammo."
+
+outfit "Arion M.L.M.P.L"
+	category "Secondary Weapons"
+	cost 4000000
+	thumbnail "outfit/sidewinder launcher"
+	"mass" 15
+	"outfit space" -15
+	"weapon capacity" -15
+	"gun ports" -1
+	weapon
+		sprite "projectile/sidewinder"
+			"no repeat"
+			"frame rate" .25
+		sound "sidewinder"
+		icon "icon/sidewinder"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 0.25
+		"velocity" 1000
+		"lifetime" 5
+		"firing energy" 750
+		"firing heat" 500
+		"drag" 0.5
+		"turn" 25
+		"homing" 15
+		"tracking" 25
+		"radar tracking" 25
+		"shield damage" 2000
+		"hull damage" 2500
+		"reload" 50
+		"burst count" 6
+		"burst reload" 5
+		"infrared tracking" 25
+		"hit force" 50
+		"blast radius" 5
+		"missile strength" 30
+		"cluster"
+		"ion damage" 1000
+		"heat damage" 1000
+		"slowing damage" 50
+	description "The Multiple Launch Missile Pod Large is a larger version of the missile launchers found on our fighters, bombers and such. Due to our advanced fabrication system it uses energy instead of ammo."
+
+outfit "Arion Missile Pod"
+	category "Secondary Weapons"
+	cost 600000
+	thumbnail "outfit/sidewinder pod"
+	"mass" 2
+	"outfit space" -2
+	"weapon capacity" -2
+	"gun ports" -1
+	weapon
+		sprite "projectile/sidewinder"
+			"no repeat"
+			"frame rate" .25
+		sound "sidewinder"
+		icon "icon/sidewinder"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 0.2
+		"velocity" 1000
+		"lifetime" 5
+		"firing energy" 750
+		"firing heat" 500
+		"drag" 0.5
+		"turn" 25
+		"homing" 15
+		"tracking" 25
+		"radar tracking" 25
+		"shield damage" 2000
+		"hull damage" 2500
+		"reload" 50
+		"infrared tracking" 25
+		"hit force" 50
+		"blast radius" 5
+		"missile strength" 30
+		"ion damage" 1000
+		"heat damage" 1000
+		"slowing damage" 50
+	description "This is the single launch version of the Multiple Launch Missile systems, made for fighters. Like the others, it uses energy instead of ammo."

@@ -97,7 +97,7 @@ ship "Arion Bactrian H.A.T Block I"
 		"Arion A.E.W.S"
 		"Arion Dragonfire C.I.W.S" 3
 		"Arion Fusion Reactor" 2
-		"Arion Jump Drive Core"
+		"Hyperdrive"
 		"Arion L.A.R.S"
 		"Arion L.C.D" 3
 		"Arion L.H.W Atomic Engines"
@@ -174,8 +174,8 @@ ship "Arion Kestrel Block I"
 	outfits
 		"Arion A.E.W.S"
 		"Arion Fusion Reactor"
-		"Arion Dragonfire C.I.W.S" 2
-		"Arion Jump Drive Core"
+		"Arion Myriad C.I.W.S" 2
+		"Hyperdrive"
 		"Arion L.A.R.S"
 		"Arion L.C.D"
 		"Arion L.H.W Atomic Engines"
@@ -243,8 +243,8 @@ ship "Arion Cruiser Block I"
 	outfits
 		"Arion A.E.W.S"
 		"Arion Fusion Reactor"
-		"Arion Dragonfire C.I.W.S" 2
-		"Arion Jump Drive Core"
+		"Arion Myriad C.I.W.S" 2
+		"Hyperdrive"
 		"Arion L.A.R.S"
 		"Arion L.C.D"
 		"Arion M.H.W Atomic Engines"
@@ -316,7 +316,7 @@ ship "Arion Carrier Block I"
 		"Arion A.E.W.S"
 		"Arion Fusion Reactor"
 		"Arion Dragonfire C.I.W.S" 2
-		"Arion Jump Drive Core"
+		"Hyperdrive"
 		"Arion L.A.R.S"
 		"Arion L.C.D"
 		"Arion L.H.W Atomic Engines"
@@ -395,10 +395,10 @@ ship "Arion Auxiliary Block I"
 		"gun ports" 2
 		"turret ports" 4
 	outfits
-		"Arion A.E.W.S"
+		"Arion B.E.W.S"
 		"Arion Fusion Reactor"
-		"Arion Dragonfire C.I.W.S" 2
-		"Arion Jump Drive Core"
+		"Arion Phalanx C.I.W.S" 2
+		"Hyperdrive"
 		"Arion L.A.R.S"
 		"Arion L.C.D"
 		"Arion L.H.W Atomic Engines"
@@ -429,6 +429,60 @@ ship "Arion Auxiliary Block I"
 	"final explode" "final explosion large"
 	description "The Navy's Auxillary, a real useful ship for this expedition. It'll help store crew members and supplies for this trip. Not only that but it can also carry 4 fighters, so that'll be handy. Remember, guns wins battles but logistics wins wars.""
 
+ship "Arion Frigate Block I"
+	sprite "ship/frigate"
+	thumbnail "thumbnail/frigate"
+	attributes
+		category "Medium Warship"
+		licenses
+			Arion
+		"cost" 9000000
+		"shields" 15000
+		"hull" 5000
+		"required crew" 1
+		"bunks" 45
+		"mass" 310
+		"drag" 5.0
+		"heat dissipation" 0.9
+		"fuel capacity" 500
+		"cargo space" 45
+		"outfit space" 450
+		"weapon capacity" 200
+		"engine capacity" 100
+		"gun ports" 4
+		"turret ports" 3
+	outfits
+		"Arion B.E.W.S"
+		"Arion Small Fusion Reactor" 3
+		"Arion Phalanx C.I.W.S"
+		"Hyperdrive"
+		"Arion M.L.W Atomic Engines"
+		"Arion S.A.R.S"
+		"Arion L.C.D"
+		"Arion S.I Equipment" 5
+		"Arion Stunner Laser" 4
+		"Arion Stunner Laser Turret" 2
+		"Fuel Processor" 2
+		
+	engine -26 96.5
+	engine 26 96.5
+	gun -11 -84.5 
+	gun 11 -84.5 
+	gun -11 -84.5 
+	gun 11 -84.5 
+	turret 0 -37.5 
+	turret -15.5 -12.5 
+	turret 15.5 -12.5 
+	leak "leak" 40 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion medium"
+	description "While the navy only fly these ships due to the abundance they have in storage, we fly these whenever a cruiser or kestrel would be overkill. These ships are one of the greatest anti piracy tools we have due to the lower cost of building these ships."
+
 ship "Arion Dreadnought Block I"
 	sprite ship/dreadnought
 	thumbnail thumbnail/dreadnought
@@ -457,7 +511,7 @@ ship "Arion Dreadnought Block I"
 		"Arion Disabler Laser" 4
 		"Arion Disabler Laser Turret" 3
 		"Arion Dragonfire C.I.W.S" 2
-		"Arion Jump Drive Core"
+		"Hyperdrive"
 		"Arion L.A.R.S"
 		"Arion L.C.D"
 		"Arion M.H.W Atomic Engines"
@@ -493,143 +547,6 @@ ship "Arion Dreadnought Block I"
 	"final explode" "final explosion large" 1
 	description "Ah the Dreadnought, it looks pretty and ugly at the same time. Those people at the Free worlds sure made an interesting ships. We'll look over the data from the scans of your ship. In the mean time, enjoy this improved version."
 
-ship "Arion Emerald Sword"
-	sprite ship/emeraldsword
-	thumbnail thumbnail/emeraldsword
-	attributes
-		category "Heavy Warship"
-		licenses
-			"Arion"
-		cost 100000000
-		mass 1520
-		bunks 305
-		"cargo space" 180
-		drag 18
-		"engine capacity" 250
-		"fuel capacity" 900
-		"gun ports" 1
-		"heat dissipation" 0.9
-		hull 50000
-		"outfit space" 1500
-		"required crew" 1
-		shields 25000
-		"spinal mount" 1
-		"turret mounts" 8
-		"weapon capacity" 600
-	outfits
-		"Arion P.C.S"
-		"Arion L.A.R.S" 2
-		"Arion A.E.W.S"
-		"Arion Jump Drive Core"
-		"Arion H.H.W Atomic Engines"
-		"Arion L.R.A.M.S" 2
-		"Arion Dragonsbreath Railgun"
-		"Arion Dragonfire C.I.W.S" 4
-		"Arion Antimatter Reactor" 3
-		"Arion L.C.D" 3
-		"Arion E.M.L Turret Compact"
-		"Quantum Keystone"
-	engine 83 275
-		zoom 1.3
-		angle 0
-		over
-	engine 132 282
-		zoom 0.8
-		angle 0
-		over
-	engine -83 275
-		zoom 1.3
-		angle 0
-		over
-	engine -132 282
-		zoom 0.8
-		angle 0
-		over
-	"reverse engine" -131 136
-		zoom 0.6
-		angle -24.99939
-		over
-	"reverse engine" 131 136
-		zoom 0.6
-		angle -335.00061
-		over
-	"steering engine" -131 136
-		zoom 0.5
-		angle 155.00061
-		over
-		left
-	"steering engine" 131 136
-		zoom 0.5
-		angle -155.00061
-		over
-		right
-	"steering engine" -34.5 -221.5
-		zoom 0.2
-		angle 60.001831
-		over
-		right
-	"steering engine" -39 -193.5
-		zoom 0.2
-		angle 60.001831
-		over
-		right
-	"steering engine" -43.5 -165.5
-		zoom 0.2
-		angle 60.001831
-		over
-		right
-	"steering engine" 34.5 -221.5
-		zoom 0.2
-		angle -60.001831
-		over
-		left
-	"steering engine" 39 -193.5
-		zoom 0.2
-		angle -60.001831
-		over
-		left
-	"steering engine" 43.5 -165.5
-		zoom 0.2
-		angle -60.001831
-		over
-		left
-	turret -18 -41.5
-	turret 18 -41.5
-	turret -70 70.5
-	turret 70 70.5
-	turret -128.5 174
-	turret 128.5 174
-	turret 0 114
-	turret 0 183
-	gun 0 -276
-	bay Fighter 0 220.5
-		angle -180
-		"launch effect" "basic launch"
-	bay Fighter 0 220.5
-		angle -180
-		"launch effect" "basic launch"
-	bay Fighter 0 220.5
-		angle -180
-		"launch effect" "basic launch"
-	bay Fighter 0 220.5
-		angle -180
-		"launch effect" "basic launch"
-	bay Fighter 0 220.5
-		angle -180
-		"launch effect" "basic launch"
-	bay Fighter 0 220.5
-		angle -180
-		"launch effect" "basic launch"
-	explode "huge explosion" 42
-	explode "large explosion" 39
-	explode "medium explosion" 47
-	explode "nuke explosion" 2
-	explode "small explosion" 26
-	explode "tiny explosion" 60
-	"final explode" "nuke explosion" 2
-	"final explode" "nuke residue fast" 50
-	description ""
-
 ship "Arion Headhunter Block I"
 	sprite "ship/headhunter"
 	thumbnail "thumbnail/headhunter"
@@ -656,7 +573,7 @@ ship "Arion Headhunter Block I"
 		"Arion Small Fusion Reactor"
 		"Arion Phalanx C.I.W.S"
 		"Arion Gau-8 Avenger" 4
-		"Arion Jump Drive Core"
+		"Hyperdrive"
 		"Arion M.L.W Atomic Engines"
 		"Arion S.A.R.S"
 		"Arion S.C.D"
@@ -701,10 +618,10 @@ ship "Arion Marauder Leviathan Block I"
 		"turret mounts" 4
 		"weapon capacity" 275
 	outfits
-		"Arion A.E.W.S"
+		"Arion B.E.W.S"
 		"Arion Fusion Reactor"
-		"Arion Dragonfire C.I.W.S" 2
-		"Arion Jump Drive Core"
+		"Arion Phalanx C.I.W.S" 2
+		"Hyperdrive"
 		"Arion L.A.R.S"
 		"Arion L.C.D"
 		"Arion S.H.W Atomic Engines"
@@ -758,10 +675,10 @@ ship "Arion Marauder Falcon Block I"
 		"turret mounts" 4
 		"weapon capacity" 300
 	outfits
-		"Arion A.E.W.S"
+		"Arion B.E.W.S"
 		"Arion Fusion Reactor"
-		"Arion Dragonfire C.I.W.S" 2
-		"Arion Jump Drive Core"
+		"Arion Phalanx C.I.W.S" 2
+		"Hyperdrive"
 		"Arion L.A.R.S"
 		"Arion L.C.D"
 		"Arion M.H.W Atomic Engines"
@@ -795,6 +712,8 @@ ship "Arion Marauder Falcon Block I"
 	"final explode" "final explosion large" 1
 	description "While our earlier expeditions were exploring, they found a group of pirates with upgraded ships. After they defeated them, they captured 2 heavy warships, the Marauder Falcon and Marauder Leviathan. High command took interest with these ships and now they are available for purchase to Arion's captains."
 
+===============================
+
 Hai Ships
 ship "Arion Shield Beetle Block I"
 	sprite "ship/hai shield beetle"
@@ -821,8 +740,8 @@ ship "Arion Shield Beetle Block I"
 	outfits
 		"Arion A.E.W.S"
 		"Arion Fusion Reactor"
-		"Arion Dragonfire C.I.W.S" 2
-		"Arion Jump Drive Core"
+		"Arion Myriad C.I.W.S" 2
+		"Hyperdrive"
 		"Arion L.A.R.S"
 		"Arion L.C.D"
 		"Arion S.H.W Atomic Engines"
@@ -858,6 +777,8 @@ ship "Arion Shield Beetle Block I"
 	"final explode" "final explosion large" 1
 	description "The Hai shield beetle, it sure as hell is really strong. It can carry a lot of guns and have a really strong hull. The Hai sure are lucky to have this ship protecting them. Who are the Hai you might ask? Well, lets just say you aren't alone in this universe."
 
+===============================
+
 Remnant Ships
 ship "Arion Pelican Block I"
 	sprite ship/pelican
@@ -891,9 +812,9 @@ ship "Arion Pelican Block I"
 		"weapon capacity" 200
 	outfits
 		"Arion A.E.W.S"
-		"Arion Dragonfire C.I.W.S"
+		"Arion Phalanx C.I.W.S"
 		"Arion Fusion Reactor"
-		"Arion Jump Drive Core"
+		"Hyperdrive"
 		"Arion L.C.D"
 		"Arion M.A.R.S"
 		"Arion S.H.W Atomic Engines"
@@ -947,7 +868,7 @@ ship "Arion Albatross Block I"
 		"engine capacity" 150
 		"fuel capacity" 600
 		"gun ports" 7
-		"heat dissipation" 0.6
+		"heat dissipation" 0.9
 		hull 20000
 		"hull energy" 1.2
 		"hull repair rate" 1.5
@@ -964,11 +885,11 @@ ship "Arion Albatross Block I"
 		"weapon capacity" 300
 	outfits
 		"Arion A.E.W.S"
-		"Arion Dragonfire C.I.W.S" 2
+		"Arion Myriad C.I.W.S" 2
 		"Arion Fusion Reactor"
-		"Arion Jump Drive Core"
+		"Hyperdrive"
 		"Arion L.C.D"
-		"Arion M.A.R.S"
+		"Arion S.A.R.S"
 		"Arion S.H.W Atomic Engines"
 		"Arion Stunner Laser" 7
 		"Arion Stunner Laser Turret" 3
