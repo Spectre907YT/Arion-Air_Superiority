@@ -24,7 +24,7 @@ ship "Arion Carabao H.A.T Block I"
 		"Arion Fusion Reactor" 2
 		"Arion L.C.D"
 		"Arion L.H.W Atomic Engines"
-		"Arion L.A.R.S"
+		"Arion L.B.R.S"
 		"Arion Dragonfire C.I.W.S" 2
 		"Arion S.I Equipment" 245
 		"Arion Stunner Laser" 4

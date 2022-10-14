@@ -4,7 +4,8 @@ event "Luna FOB access"
 			shipyard "Arion Heavy Ships"
 			shipyard "Arion Midnight Ships"
 			shipyard "Arion Czartrak Ships"
-			outfitter "Arion Outfits"
+			outfitter "Arion Basic Outfits"
+			outfitter "Arion Advanced Outfits"
 			outfitter "Arion Hand to hand Outfits"
 
 ==========================

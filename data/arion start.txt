@@ -95,11 +95,11 @@ conversation "arion intro"
 			goto proof
 		"(Accept the deal)"
 			goto end
-			label proof
+	label proof
 	scene "thumbnail/bactrian"
 	"	The man brings you to a hangar area where you see the equipment you'll be using. He tells you that you will receive these ships by 'purchasing' them from the shipyard."
 				goto end
-			label end
+	label end
 	"	Of course, you accept the deal. The man first asks for your name before you continue."
 	name
 	"	He hand you a credit chip worth the amount of money needed to 'purchase' the ships plus an additional 1 million credits to start your journey. You know that this will be an interesting journey as you head on out to the shipyard. "
