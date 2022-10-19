@@ -66,6 +66,8 @@ outfitter "Arion Advanced Outfits"
 	"Arion E.M.L Compact (Disabler)"
 	"Arion Destroyer Laser"
 	"Arion Destroyer Laser Turret"
+	"Arion Deadlock Laser"
+	"Arion Deadlock Laser Turret"
 	"Arion M.L.M.S"
 	"Arion M.L.M.P.L"
 	

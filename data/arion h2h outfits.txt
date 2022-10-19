@@ -75,7 +75,7 @@ outfit "Arion M82 Barrett"
 	cost 190000
 	thumbnail "outfit/m82barrett"
 	"capture attack" 10
-	"capture defense" 4
+	"capture defense" 4.25
 	"unplunderable" 1
 	description "Besides the standard armor, this soldier has an M82 Barrett 50 cal Anti Material Rifle, allowing them to annihilate any enemy they encounter. However, due to its unwieldiness and scope, its only suited for attacking."
 
@@ -83,8 +83,8 @@ outfit "Arion M95 Barrett"
 	category "Hand to Hand"
 	cost 180000
 	thumbnail "outfit/m95barrett"
-	"capture attack" 8
-	"capture defense" 6
+	"capture attack" 9.5
+	"capture defense" 4.25
 	"unplunderable" 1
 	description "Besides the standard armor, this soldier has an M82 Barrett 50 cal Anti Material Rifle, allowing them to annihilate any enemy they encounter. However, due to its unwieldiness and scope, its only suited for attacking. Also due to its bullpup configuration it is better at defending but its bolt action nature does kind of nullify that advantage."
 
@@ -92,16 +92,34 @@ outfit "Arion GM6 Lynx"
 	category "Hand to Hand"
 	cost 200000
 	thumbnail "outfit/gm6lynx"
-	"capture attack" 10
-	"capture defense" 5
+	"capture attack" 10.5
+	"capture defense" 4.25
 	"unplunderable" 1
 	description "Besides the standard armor, this soldier has an M82 Barrett 50 cal Anti Material Rifle, allowing them to annihilate any enemy they encounter. However, due to its unwieldiness and scope, its only suited for attacking. Because its a semi automatic bullpen however, its slightly better."
 
 outfit "Arion AK 50 V1"
-	category "Hand to Hand"
-	cost 200000
+	category "Special"
+	cost 250000
 	thumbnail "outfit/ak50v1"
-	"capture attack" 8.5
+	"capture attack" 9
 	"capture defense" 6
 	"unplunderable" 1
 	description "What is up you sexy youtube motherlovers! Originally designed by Brandon Herrera, you too can now feel the power of the AK 50!"
+
+outfit "Gold AK 74"
+	category "Special"
+	cost 45000
+	thumbnail "outfit/goldak74"
+	"capture attack" 1.2
+	"capture defense" 1.5
+	"unplunderable" 1
+	description "A gold plated AK once owned by a pirate warlord."
+
+outfit "Gold AKs 74u"
+	category "Special"
+	cost 50000
+	thumbnail "outfit/goldaks74u"
+	"capture attack" 1.5
+	"capture defense" 1.6
+	"unplunderable" 1
+	description "A gold plated AK once owned by a pirate warlord."
