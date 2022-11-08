@@ -1,0 +1,43 @@
+outfit "Spearfish VLS Array"
+	category "Secondary Weapons"
+	cost 400000
+	thumbnail "outfit/spearfish vls"
+	"mass" 2
+	"outfit space" -12
+	"weapon capacity" -12
+	"turret mounts" -1
+	"spearfish capacity" 12
+	"vertical launching support" -1
+	weapon
+		sprite "projectile/spearfish proj"
+			"no repeat"
+			"frame rate" 6
+		sound "sidewinder"
+		ammo "Spearfish Missile"
+		stream
+		icon "icon/spearfish"
+		"live effect" "spearfish flare" 250
+		"live effect" "spearfish smoke" 500
+		"live effect" "spearfish smoke" 500
+		"fire effect" "smoke"
+		"hit effect" "huge explosion"
+		"turret turn" 360
+		"velocity override" 1000
+		"inaccuracy" 1
+		"velocity" 1
+		"lifetime" 800
+		"reload" 35
+		"firing energy" 10
+		"firing heat" 48
+		"acceleration" 1
+		"drag" .08
+		"turn" 4
+		"homing" 4
+		"radar tracking" .7
+		"optical tracking" .8
+		"blast radius" 30
+		"shield damage" 1080
+		"hull damage" 680
+		"hit force" 520
+		"missile strength" 12
+	description "Powerful anti-ship missile"

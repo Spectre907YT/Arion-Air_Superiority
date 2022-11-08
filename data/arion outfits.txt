@@ -8,18 +8,18 @@ outfit "Arion F.A Engines"
 	category "Engines"
 	licenses
 			"Arion"
-	cost 1250000
+	cost 900000
 	thumbnail "outfit/fissiondrive"
 	"mass" 25
 	"outfit space" -25
 	"engine capacity" -25
-	"thrust" 15
-	"thrusting energy" 2
-	"thrusting heat" 1
-	"turn" 350
+	"thrust" 27.5
+	"thrusting energy" 2.5
+	"thrusting heat" 1.25
+	"turn" 450
 	"turning energy" 1
 	"turning heat" 0.5
-	"reverse thrust" 5
+	"reverse thrust" 20
 	"reverse thrusting energy" 1
 	"reverse thrusting heat" 0.5
 	"flare sprite" "effect/fissionflare"
@@ -36,18 +36,18 @@ outfit "Arion I.A Engines"
 	category "Engines"
 	licenses
 			"Arion"
-	cost 1250000
+	cost 900000
 	thumbnail "outfit/fissiondrive"
 	"mass" 25
 	"outfit space" -25
 	"engine capacity" -25
-	"thrust" 21
-	"thrusting energy" 2
-	"thrusting heat" 1
-	"turn" 250
+	"thrust" 32.5
+	"thrusting energy" 2.5
+	"thrusting heat" 1.25
+	"turn" 375
 	"turning energy" 1
 	"turning heat" 0.5
-	"reverse thrust" 5
+	"reverse thrust" 20
 	"reverse thrusting energy" 1
 	"reverse thrusting heat" 0.5
 	"flare sprite" "effect/fissionflare"
@@ -63,20 +63,20 @@ outfit "Arion B.A Engines"
 	category "Engines"
 	licenses
 			"Arion"
-	cost 1500000
+	cost 1000000
 	thumbnail "outfit/fissiondrive"
 	"mass" 30
 	"outfit space" -30
 	"engine capacity" -30
-	"thrust" 18
-	"thrusting energy" 2
-	"thrusting heat" 1
-	"turn" 300
-	"turning energy" 1
-	"turning heat" 0.5
-	"reverse thrust" 5
-	"reverse thrusting energy" 1
-	"reverse thrusting heat" 0.5
+	"thrust" 32.5
+	"thrusting energy" 3
+	"thrusting heat" 1.5
+	"turn" 450
+	"turning energy" 1.25
+	"turning heat" 0.625
+	"reverse thrust" 20
+	"reverse thrusting energy" 1.25
+	"reverse thrusting heat" 0.625
 	"flare sprite" "effect/fissionflare"
 		"frame rate" 30
 		"rewind"
@@ -91,20 +91,20 @@ outfit "Arion M.L.W Atomic Engines"
 	category "Engines"
 	licenses
 			"Arion"
-	cost 5000000
+	cost 2800000
 	thumbnail "outfit/fusiondrive"
 	"mass" 80
 	"outfit space" -80
 	"engine capacity" -80
 	"turn" 1200
-	"turning energy" 4
-	"turning heat" 2
-	"thrust" 80
+	"turning energy" 3.75
+	"turning heat" 1.375
+	"thrust" 87.5
 	"thrusting energy" 8
 	"thrusting heat" 4
-	"reverse thrust" 25
-	"reverse thrusting energy" 5
-	"reverse thrusting heat" 2.5
+	"reverse thrust" 55
+	"reverse thrusting energy" 3.75
+	"reverse thrusting heat" 1.375
 	"flare sprite" "effect/fusionflare"
 		"frame rate" 30
 		"rewind"
@@ -118,13 +118,46 @@ outfit "Arion M.L.W Atomic Engines"
 		"rewind"
 	"reverse flare sound" "atomic large"
 	unplunderable 1
-	description "The Arion Medium Light Warship Atomic Engine is an engine used for heavy ships in this expedition that don't have much space for engines."
+	description "The Arion Medium Light Warship Atomic Engine is an engine used for lighter ships in this expedition."
+
+outfit "Arion L.L.W Atomic Engines"
+	category "Engines"
+	licenses
+			"Arion"
+	cost 3000000
+	thumbnail "outfit/fusiondrive"
+	"mass" 100
+	"outfit space" -100
+	"engine capacity" -100
+	"turn" 1500
+	"turning energy" 4.75
+	"turning heat" 2.375
+	"thrust" 107.5
+	"thrusting energy" 10
+	"thrusting heat" 5
+	"reverse thrust" 67.5
+	"reverse thrusting energy" 4.75
+	"reverse thrusting heat" 2.375
+	"flare sprite" "effect/fusionflare"
+		"frame rate" 30
+		"rewind"
+	"flare sound" "atomic huge"
+	"steering flare sprite" "effect/fusionflare"
+		"frame rate" 30
+		"rewind"
+	"steering flare sound" "atomic medium"
+	"reverse flare sprite" "effect/fusionflare"
+		"frame rate" 30
+		"rewind"
+	"reverse flare sound" "atomic large"
+	unplunderable 1
+	description "The Arion Large Light Warship Atomic Engine is an engine used for lighter ships in this expedition."
 
 outfit "Arion S.H.W Atomic Engines"
 	category "Engines"
 	licenses
 			"Arion"
-	cost 10000000
+	cost 6000000
 	thumbnail "outfit/fusiondrive"
 	"mass" 150
 	"outfit space" -150
@@ -136,8 +169,8 @@ outfit "Arion S.H.W Atomic Engines"
 	"thrusting energy" 15
 	"thrusting heat" 7.5
 	"reverse thrust" 100
-	"reverse thrusting energy" 9
-	"reverse thrusting heat" 4.5
+	"reverse thrusting energy" 7
+	"reverse thrusting heat" 3.5
 	"flare sprite" "effect/fusionflare"
 		"frame rate" 30
 		"rewind"
@@ -157,20 +190,20 @@ outfit "Arion M.H.W Atomic Engines"
 	category "Engines"
 	licenses
 			"Arion"
-	cost 15000000
+	cost 7200000
 	thumbnail "outfit/fusiondrive"
 	"mass" 180
 	"outfit space" -180
 	"engine capacity" -180
-	"turn" 3000
+	"turn" 2700
 	"turning energy" 8
 	"turning heat" 4
-	"thrust" 210
+	"thrust" 190
 	"thrusting energy" 18
 	"thrusting heat" 9
-	"reverse thrust" 150
-	"reverse thrusting energy" 7
-	"reverse thrusting heat" 3.5
+	"reverse thrust" 120
+	"reverse thrusting energy" 8
+	"reverse thrusting heat" 4
 	"flare sprite" "effect/fusionflare"
 		"frame rate" 30
 		"rewind"
@@ -190,20 +223,20 @@ outfit "Arion L.H.W Atomic Engines"
 	category "Engines"
 	licenses
 			"Arion"
-	cost 20000000
+	cost 8400000
 	thumbnail "outfit/fusiondrive"
 	"mass" 210
 	"outfit space" -210
 	"engine capacity" -210
-	"turn" 4500
-	"turning energy" 9
-	"turning heat" 4.5
-	"thrust" 250
-	"thrusting energy" 20
-	"thrusting heat" 10
-	"reverse thrust" 200
-	"reverse thrusting energy" 8
-	"reverse thrusting heat" 4
+	"turn" 3150
+	"turning energy" 9.5
+	"turning heat" 4.75
+	"thrust" 220
+	"thrusting energy" 21
+	"thrusting heat" 10.5
+	"reverse thrust" 140
+	"reverse thrusting energy" 9.5
+	"reverse thrusting heat" 4.75
 	"flare sprite" "effect/fusionflare"
 		"frame rate" 30
 		"rewind"
@@ -223,20 +256,20 @@ outfit "Arion H.H.W Atomic Engines"
 	category "Engines"
 	licenses
 			"Arion"
-	cost 25000000
+	cost 10000000
 	thumbnail "outfit/fusiondrive"
 	"mass" 250
 	"outfit space" -250
 	"engine capacity" -250
-	"turn" 6000
-	"turning energy" 10
-	"turning heat" 5
-	"thrust" 350
-	"thrusting energy" 23
-	"thrusting heat" 11.5
-	"reverse thrust" 250
-	"reverse thrusting energy" 9
-	"reverse thrusting heat" 4.5
+	"turn" 3750
+	"turning energy" 11.5
+	"turning heat" 5.75
+	"thrust" 265
+	"thrusting energy" 25
+	"thrusting heat" 12.5
+	"reverse thrust" 165
+	"reverse thrusting energy" 11.5
+	"reverse thrusting heat" 5.75
 	"flare sprite" "effect/fusionflare"
 		"frame rate" 30
 		"rewind"
@@ -290,14 +323,14 @@ outfit "Arion Jump Drive Core"
 	category "Systems"
 	licenses
 			"Arion"
-	cost 10000000
+	cost 5000000
 	thumbnail "outfit/hyperdrive"
 	"mass" 30
 	"outfit space" -30
 	"jump speed" 2.0
 	"jump fuel" 100
 	"jump drive" 1
-	"jump range" 150
+	"jump range" 100
 	"scram drive" 0.2
 	"hyperdrive" 1
 	description "In day to day life, we usually don't use technology like this, but this world works differently, so we have created this device to help with your expedition. To blend in better, this thing can also do a hyperdrive jump."
@@ -307,7 +340,7 @@ outfit "Arion Scram Drive Core"
 	category "Systems"
 	licenses
 			"Arion"
-	cost 1000000
+	cost 250000
 	thumbnail "outfit/hyperdrive"
 	"mass" 30
 	"outfit space" -30
@@ -572,7 +605,7 @@ outfit "Arion Small Fusion Reactor"
 
 outfit "Arion Fusion Reactor"
 	category "Power"
-	cost 10000000
+	cost 7500000
 	thumbnail "outfit/fusion"
 	"mass" 100
 	"outfit space" -100
@@ -581,3 +614,23 @@ outfit "Arion Fusion Reactor"
 	"energy capacity" 25000
 	"unplunderable" 1
 	description "The Arion Fusion Reactor is a much cheaper alternative to the Arion Antimatter Reactor usually found on Arion's ships. Like the antimatter reactor before it, it can store some of the energy it produces."
+
+outfit "Arion Multirole Fuel System"
+	category "Systems"
+	cost 1000000
+	thumbnail "outfit/korath fuel processor"
+	"mass" 15
+	"outfit space" -15
+	"fuel capacity" 200
+	"ramscoop" 3
+	description "Similar to the Korath fuel processor."
+
+outfit "Arion Small Multirole Fuel System"
+	category "Systems"
+	cost 600000
+	thumbnail "outfit/korath fuel processor"
+	"mass" 10
+	"outfit space" -10
+	"fuel capacity" 100
+	"ramscoop" 4
+	description "Similar to the Korath fuel processor."

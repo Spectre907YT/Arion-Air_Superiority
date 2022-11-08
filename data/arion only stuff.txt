@@ -57,7 +57,7 @@ ship "Arion Argosy Block IIIA"
 	explode "medium explosion" 25
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
-	description "(Note, if you are reading this then you are either cheating or looking at the game files. These equipment are not meant for player use) The Block IIIA Argosy is made to safely transport important goods through dangerous areas safely."
+	description "(Note, if you are reading this then you are either cheating, stole the ship or looking at the game files. These equipment are not meant for player use) The Block IIIA Argosy is made to safely transport important goods through dangerous areas safely."
 
 ship "Arion Headhunter Block IIIA"
 	sprite "ship/headhunter"
@@ -114,6 +114,6 @@ ship "Arion Headhunter Block IIIA"
 	explode "small explosion" 25
 	explode "medium explosion" 15
 	"final explode" "final explosion small"
-	description "(Note, if you are reading this then you are either cheating or looking at the game files. These equipment are not meant for player use) The Block IIIA Headhunter is made to scout dangerous territory safely."
+	description "(Note, if you are reading this then you are either cheating, stole the ship or looking at the game files. These equipment are not meant for player use) The Block IIIA Headhunter is made to scout dangerous territory safely."
 
 Government outfits

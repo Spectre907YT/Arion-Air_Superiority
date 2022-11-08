@@ -83,7 +83,7 @@ outfit "Arion M95 Barrett"
 	category "Hand to Hand"
 	cost 180000
 	thumbnail "outfit/m95barrett"
-	"capture attack" 9.5
+	"capture attack" 9.25
 	"capture defense" 4.25
 	"unplunderable" 1
 	description "Besides the standard armor, this soldier has an M82 Barrett 50 cal Anti Material Rifle, allowing them to annihilate any enemy they encounter. However, due to its unwieldiness and scope, its only suited for attacking. Also due to its bullpup configuration it is better at defending but its bolt action nature does kind of nullify that advantage."
@@ -95,7 +95,7 @@ outfit "Arion GM6 Lynx"
 	"capture attack" 10.5
 	"capture defense" 4.25
 	"unplunderable" 1
-	description "Besides the standard armor, this soldier has an M82 Barrett 50 cal Anti Material Rifle, allowing them to annihilate any enemy they encounter. However, due to its unwieldiness and scope, its only suited for attacking. Because its a semi automatic bullpen however, its slightly better."
+	description "Besides the standard armor, this soldier has an M82 Barrett 50 cal Anti Material Rifle, allowing them to annihilate any enemy they encounter. However, due to its unwieldiness and scope, its only suited for attacking. Because its a semi automatic bullpup however, its slightly better."
 
 outfit "Arion AK 50 V1"
 	category "Special"
