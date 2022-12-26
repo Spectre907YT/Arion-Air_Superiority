@@ -1,0 +1,103 @@
+ship "Arion Prowler Mk1"
+	sprite "ship/submarine"
+	thumbnail "thumbnail/submarine"
+	attributes
+		licenses
+			Arion
+		category "Medium Warship"
+		"cost" 12420000
+		"shields" 23500
+		"hull" 4500
+		"required crew" 55
+		"bunks" 123
+		"mass" 469
+		"drag" 4.20
+		"heat dissipation" .69
+		"fuel capacity" 1200
+		"cargo space" 80
+		"outfit space" 650
+		"weapon capacity" 318
+		"engine capacity" 160
+		"radar jamming" 500
+		"tactical scan power" 128
+		"asteroid scan power" 40
+		"outfit scan power" 50
+		"outfit scan speed" 2
+		"cargo scan power" 18
+		"cargo scan speed" 2
+		"atmosphere scan" 100
+		"scan interference" 15
+		"gaslining" 1
+	outfits
+		"Scram Drive"
+		"Anti-Missile Turret"
+		"A525 Atomic Steering"
+		"A520 Atomic Thruster"
+		"Afterburner"
+		"Catalyctic Ramscoop" 2
+		"Breeder Reactor"
+		"Liquid Nitrogen Cooler"
+		"Typhoon Launcher" 8
+		"Typhoon Torpedo" 300
+		"Typhoon Storage Tube" 4
+		"AR120 Reverse Thruster"
+	turret 0 -91.5 
+	gun -21.5 -184 
+	gun 21.5 -184
+	gun -16 -198.5
+	gun 16 -198.5
+	gun -11 -212.5
+	gun 11 -212.5
+	gun -6.5 -224
+	gun 6.5 -224
+	engine -16 220.5
+		zoom 1
+		angle 0
+		under
+	engine 16 220.5
+		zoom 1
+		angle 0
+		under
+	"reverse engine" -31 146.5
+		zoom 1
+		angle -35
+		under
+	"reverse engine" 31 146.5
+		zoom 1
+		angle 35
+		under
+	"steering engine" -11.5 166
+		zoom 1
+		angle 45
+		under
+		left
+	"steering engine" 11.5 166
+		zoom 1
+		angle -45
+		under
+		right
+	"steering engine" -1 -91
+		zoom 1
+		angle 105
+		under
+		right
+	"steering engine" 1 -91
+		zoom 1
+		angle -105
+		under
+		left
+	description "The navy made an interesting ship based on naval submarines, and we also took interest in it. So we made our own variant with some upgrades. Mainly it has an improved version of our prototype cloaking system. It is better than the outfit version due to this one being built in to the ship."
+	
+	
+#	other possible effects
+
+		"cloak" .02
+		"cloaking energy" 5
+		"cloaking fuel" .1
+		
+		
+		
+		"force protection" 1
+		"heat protection" 1.5
+		"ion resistance" 0.3
+		"slowing resistance" 3
