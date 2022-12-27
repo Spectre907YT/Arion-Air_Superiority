@@ -425,12 +425,12 @@ outfit "Arion 30mm Autocannon"
 		sound "gatling"
 		icon "icon/bombardment turret"
 		"velocity" 70
-		"lifetime" 5
+		"lifetime" 6
 		"shield damage" 15
 		"hull damage" 30
 		"hit force" 5
 		"inaccuracy" 0.25
-		"reload" 6
+		"reload" 5
 		"firing energy" 12
 		"firing heat" 12
 		"hit effect" "bullet impact"
@@ -551,7 +551,9 @@ outfit "Arion Dragonsbreath Railgun"
 	weapon
 		sound "dragonflame" 
 		icon "icon/dragonflame"
-		"fire effect" "dragonflame"
+		sprite "projectile/rail slug"
+			"frame rate" 30
+		"fire effect" "rail sparks"
 		"hit effect" "bright hit"
 		"hit effect" "dragonflame plasma" 30
 		"hit effect" "dragonflame debris" 50
@@ -568,6 +570,7 @@ outfit "Arion Dragonsbreath Railgun"
 		"ion damage" 50000
 		"piercing" 0.95
 		"stream"
+		"phasing"
 	description "This is a super weapon adapted from our usual ships to be fitted on ships in this universe. Altho, like our usual ships, it requires a special mount to be fitted on, so only certain ships can be fitted with these. Anything that isn't destroyed should be disabled after a shot, but the energy, heat and reload time should encourage you to only shoot at high priority targets."
 
 outfit "Arion E.M.L Turret Compact"
@@ -584,7 +587,9 @@ outfit "Arion E.M.L Turret Compact"
 		sound "dragonflame" 
 		"hardpoint sprite" "hardpoint/pwavehp"
 		"hardpoint offset" 11
-		"fire effect" "dragonflame"
+		sprite "projectile/rail slug"
+			"frame rate" 30
+		"fire effect" "rail sparks"
 		"hit effect" "bright hit"
 		"hit effect" "dragonflame plasma" 30
 		"hit effect" "dragonflame debris" 50
@@ -601,6 +606,7 @@ outfit "Arion E.M.L Turret Compact"
 		"hit force" 250
 		"piercing" 0.8
 		"stream"
+		"phasing"
 	description "Ah, the Electromagnetic Launcher Compact, its basically a more compact railgun that you can fit in a ship without needing special mounts, making it more flexible."
 
 outfit "Arion E.M.L Compact"
@@ -616,7 +622,9 @@ outfit "Arion E.M.L Compact"
 	weapon
 		sound "dragonflame" 
 		icon "icon/dragonflame"
-		"fire effect" "dragonflame"
+		sprite "projectile/rail slug"
+			"frame rate" 30
+		"fire effect" "rail sparks"
 		"hit effect" "bright hit"
 		"hit effect" "dragonflame plasma" 30
 		"hit effect" "dragonflame debris" 50
@@ -632,6 +640,7 @@ outfit "Arion E.M.L Compact"
 		"hit force" 250
 		"piercing" 0.8
 		"stream"
+		"phasing"
 	description "Ah, the Electromagnetic Launcher Compact, its basically a more compact railgun that you can fit in a ship without needing special mounts, making it more flexible."
 
 outfit "Arion E.M.L Compact (Disabler)"
@@ -647,7 +656,9 @@ outfit "Arion E.M.L Compact (Disabler)"
 	weapon
 		sound "dragonflame" 
 		icon "icon/dragonflame"
-		"fire effect" "dragonflame"
+		sprite "projectile/rail slug"
+			"frame rate" 30
+		"fire effect" "rail sparks"
 		"hit effect" "bright hit"
 		"hit effect" "dragonflame plasma" 30
 		"hit effect" "dragonflame debris" 50
@@ -665,11 +676,12 @@ outfit "Arion E.M.L Compact (Disabler)"
 		"heat damage" 1000
 		"slowing damage" 100
 		"stream"
+		"phasing"
 	description "We've noticed there were problems with the E.M.L being overkill, so we made this version to stun enemies instead of destroying them."
 
 outfit "Arion G.A.A.C"
 	category "Secondary Weapons"
-	cost 2500000
+	cost 2100000
 	thumbnail "outfit/railgun"
 	"mass" 10
 	"outfit space" -10
@@ -686,8 +698,8 @@ outfit "Arion G.A.A.C"
 		"velocity" 500
 		"lifetime" 5
 		"reload" 30
-		"firing energy" 45
-		"firing heat" 20
+		"firing energy" 75
+		"firing heat" 60
 		"firing force" 25
 		"hit force" 50
 		"shield damage" 60
@@ -695,6 +707,35 @@ outfit "Arion G.A.A.C"
 		"piercing" 0.45
 		"stream"
 	description "The Gauss Assisted Auto Cannon is made to help our fighters remain out of the enemies firing range while still maintaining an internal gun. It is inferior to our E.M.L but it is good enough as an internal auto cannon for fighters."
+
+outfit "Arion G.A.G.G"
+	category "Secondary Weapons"
+	cost 2500000
+	thumbnail "outfit/railgun"
+	"mass" 10
+	"outfit space" -10
+	"weapon capacity" -10
+	"gun ports" -1
+	weapon
+		sprite "projectile/rail slug"
+			"frame rate" 30
+		icon "icon/rail gun"
+		sound "ion"
+		"fire effect" "rail sparks"
+		"hit effect" "bullet impact"
+		"inaccuracy" 0.45
+		"velocity" 312.5
+		"lifetime" 8
+		"reload" 7.5
+		"firing energy" 25
+		"firing heat" 20
+		"firing force" 20
+		"hit force" 30
+		"shield damage" 20
+		"hull damage" 25
+		"piercing" 0.25
+		"stream"
+	description "The Gauss Assisted Gatling Gun is made to help our fighters remain out of the enemies firing range while still maintaining an internal gun. It is inferior to our E.M.L but it is good enough as an internal gatling gun for fighters. Compared to the G.A.C.C, it has lower per damage shot and slower velocity but higher rate of fire."
 
 outfit "Arion M.L.M.S"
 	category "Secondary Weapons"
@@ -720,7 +761,7 @@ outfit "Arion M.L.M.S"
 		"reload" 120
 		"burst count" 6
 		"burst reload" 30
-		"velocity" 75
+		"velocity" 50
 		"lifetime" 60
 		"firing energy" 750
 		"firing heat" 500
@@ -734,7 +775,7 @@ outfit "Arion M.L.M.S"
 		"ion damage" 500
 		"heat damage" 500
 		"slowing damage" 50
-		"acceleration" 10
+		"acceleration" 60
 		"phasing"
 		"safe"
 	description "Ah the Multiple Launch Missile System, we made this system to help destroy incoming threats from a slightly longer distance than the lasers. Due to our advanced fabrication systems, it uses energy instead of ammo. The missiles are made to destroy shields and stun enemies."
@@ -759,7 +800,7 @@ outfit "Arion M.L.M.P.L"
 		"reload" 120
 		"burst count" 6
 		"burst reload" 60
-		"velocity" 75
+		"velocity" 50
 		"lifetime" 60
 		"firing energy" 750
 		"firing heat" 500
@@ -773,7 +814,7 @@ outfit "Arion M.L.M.P.L"
 		"ion damage" 500
 		"heat damage" 500
 		"slowing damage" 50
-		"acceleration" 10
+		"acceleration" 60
 		"phasing"
 		"safe"
 	description "The Multiple Launch Missile Pod Large is a larger version of the missile launchers found on our fighters, bombers and such. Due to our advanced fabrication system it uses energy instead of ammo. The missiles are made to destroy shields and stun enemies."
@@ -796,7 +837,7 @@ outfit "Arion Missile Pod"
 		"die effect" "missile death"
 		"hit effect" "missile hit"
 		"reload" 120
-		"velocity" 75
+		"velocity" 50
 		"lifetime" 60
 		"firing energy" 750
 		"firing heat" 500
@@ -810,7 +851,7 @@ outfit "Arion Missile Pod"
 		"ion damage" 500
 		"heat damage" 500
 		"slowing damage" 50
-		"acceleration" 10
+		"acceleration" 60
 		"phasing"
 		"safe"
 	description "This is the single launch version of the Multiple Launch Missile systems, made for fighters. Like the others, it uses energy instead of ammo. The missiles are made to destroy shields and stun enemies."
@@ -832,7 +873,7 @@ outfit "Arion 76mm Oto Melara Turret"
 		"inaccuracy" 0.5
 		"turret turn" 3.5
 		"velocity" 125
-		"lifetime" 20
+		"lifetime" 10
 		"reload" 90
 		"burst count" 12
 		"burst reload" 30
@@ -862,7 +903,7 @@ outfit "Arion 127mm Mk 45 Turret"
 		"inaccuracy" 0.25
 		"turret turn" 2.0
 		"velocity" 100
-		"lifetime" 28
+		"lifetime" 25
 		"reload" 60
 		"firing energy" 750
 		"firing heat" 500
