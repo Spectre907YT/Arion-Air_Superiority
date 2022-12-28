@@ -393,7 +393,7 @@ outfit "Arion P.C.S"
 	"outfit space" -10
 	"cloak" 0.1
 	"cloaking energy" 10
-	"heat generation" 5
+	"cloaking heat" 5
 	description "The Arion Prototype Cloaking System is built for special forces. This device is incredibly expensive so most of our ships don't use it."
 
 outfit "Arion B.C.S"
@@ -404,7 +404,7 @@ outfit "Arion B.C.S"
 	"outfit space" -50
 	"cloak" 1.5
 	"cloaking energy" 50
-	"heat generation" 50
+	"cloaking heat" 50
 	description "Due to the price of the P.C.S, we made this simpler mass producible version."
 
 outfit "Arion T.B.R.S"

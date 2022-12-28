@@ -667,10 +667,10 @@ outfit "Arion E.M.L Compact (Disabler)"
 		"lifetime" 1
 		"reload" 300
 		"firing energy" 5000
-		"firing heat" 5000
+		"firing heat" 2500
 		"firing force" 100
 		"shield damage" 5000
-		"hull damage" 1000
+		"hull damage" 500
 		"hit force" 150
 		"ion damage" 1000
 		"heat damage" 1000
@@ -681,7 +681,7 @@ outfit "Arion E.M.L Compact (Disabler)"
 
 outfit "Arion G.A.A.C"
 	category "Secondary Weapons"
-	cost 2100000
+	cost 2250000
 	thumbnail "outfit/railgun"
 	"mass" 10
 	"outfit space" -10
@@ -704,13 +704,13 @@ outfit "Arion G.A.A.C"
 		"hit force" 50
 		"shield damage" 60
 		"hull damage" 75
-		"piercing" 0.45
+		"piercing" 0.075
 		"stream"
 	description "The Gauss Assisted Auto Cannon is made to help our fighters remain out of the enemies firing range while still maintaining an internal gun. It is inferior to our E.M.L but it is good enough as an internal auto cannon for fighters."
 
 outfit "Arion G.A.G.G"
 	category "Secondary Weapons"
-	cost 2500000
+	cost 2250000
 	thumbnail "outfit/railgun"
 	"mass" 10
 	"outfit space" -10
@@ -733,7 +733,7 @@ outfit "Arion G.A.G.G"
 		"hit force" 30
 		"shield damage" 20
 		"hull damage" 25
-		"piercing" 0.25
+		"piercing" 0.025
 		"stream"
 	description "The Gauss Assisted Gatling Gun is made to help our fighters remain out of the enemies firing range while still maintaining an internal gun. It is inferior to our E.M.L but it is good enough as an internal gatling gun for fighters. Compared to the G.A.C.C, it has lower per damage shot and slower velocity but higher rate of fire."
 
@@ -763,19 +763,19 @@ outfit "Arion M.L.M.S"
 		"burst reload" 30
 		"velocity" 50
 		"lifetime" 60
-		"firing energy" 750
-		"firing heat" 500
-		"turn" 10
+		"firing energy" 1250
+		"firing heat" 750
+		"turn" 60
 		"homing" 4
 		"tracking" 1
-		"shield damage" 2750
+		"shield damage" 1000
 		"hull damage" 250
 		"hit force" 50
 		"missile strength" 30
 		"ion damage" 500
 		"heat damage" 500
 		"slowing damage" 50
-		"acceleration" 60
+		"acceleration" 50
 		"phasing"
 		"safe"
 	description "Ah the Multiple Launch Missile System, we made this system to help destroy incoming threats from a slightly longer distance than the lasers. Due to our advanced fabrication systems, it uses energy instead of ammo. The missiles are made to destroy shields and stun enemies."
@@ -802,19 +802,19 @@ outfit "Arion M.L.M.P.L"
 		"burst reload" 60
 		"velocity" 50
 		"lifetime" 60
-		"firing energy" 750
-		"firing heat" 500
-		"turn" 10
+		"firing energy" 1250
+		"firing heat" 750
+		"turn" 60
 		"homing" 4
 		"tracking" 1
-		"shield damage" 2750
+		"shield damage" 1000
 		"hull damage" 250
 		"hit force" 50
 		"missile strength" 30
 		"ion damage" 500
 		"heat damage" 500
 		"slowing damage" 50
-		"acceleration" 60
+		"acceleration" 50
 		"phasing"
 		"safe"
 	description "The Multiple Launch Missile Pod Large is a larger version of the missile launchers found on our fighters, bombers and such. Due to our advanced fabrication system it uses energy instead of ammo. The missiles are made to destroy shields and stun enemies."
@@ -839,19 +839,19 @@ outfit "Arion Missile Pod"
 		"reload" 120
 		"velocity" 50
 		"lifetime" 60
-		"firing energy" 750
-		"firing heat" 500
-		"turn" 10
+		"firing energy" 1250
+		"firing heat" 750
+		"turn" 60
 		"homing" 4
 		"tracking" 1
-		"shield damage" 2750
+		"shield damage" 1000
 		"hull damage" 250
 		"hit force" 50
 		"missile strength" 30
 		"ion damage" 500
 		"heat damage" 500
 		"slowing damage" 50
-		"acceleration" 60
+		"acceleration" 50
 		"phasing"
 		"safe"
 	description "This is the single launch version of the Multiple Launch Missile systems, made for fighters. Like the others, it uses energy instead of ammo. The missiles are made to destroy shields and stun enemies."
@@ -860,9 +860,9 @@ outfit "Arion 76mm Oto Melara Turret"
 	category "Turrets"
 	cost 2000000
 	thumbnail "outfit/proton turret"
-	"mass" 40
-	"outfit space" -40
-	"weapon capacity" -40
+	"mass" 35
+	"outfit space" -35
+	"weapon capacity" -35
 	"turret mounts" -1
 	weapon
 		sprite "projectile/proton"
@@ -870,20 +870,20 @@ outfit "Arion 76mm Oto Melara Turret"
 		"hardpoint offset" 14.
 		sound "proton"
 		"hit effect" "proton impact" 3
-		"inaccuracy" 0.5
-		"turret turn" 3.5
+		"inaccuracy" 0.25
+		"turret turn" 4.5
 		"velocity" 125
 		"lifetime" 10
-		"reload" 90
+		"reload" 60
 		"burst count" 12
-		"burst reload" 30
+		"burst reload" 20
 		"firing energy" 500
 		"firing heat" 400
 		"firing force" 25
 		"hit force" 25
-		"shield damage" 1500
-		"hull damage" 2500
-		"piercing" 0.25
+		"shield damage" 375
+		"hull damage" 750
+		"piercing" 0.1
 	description "Usually used on our navy ships, it is also quite useful for our spaceships in this expedition. This cannon fires in 12 round bursts."
 
 outfit "Arion 127mm Mk 45 Turret"
@@ -900,19 +900,19 @@ outfit "Arion 127mm Mk 45 Turret"
 		"hardpoint offset" 14.
 		sound "proton"
 		"hit effect" "proton impact" 3
-		"inaccuracy" 0.25
+		"inaccuracy" 0.45
 		"turret turn" 2.0
 		"velocity" 100
 		"lifetime" 25
-		"reload" 60
+		"reload" 120
 		"firing energy" 750
 		"firing heat" 500
 		"firing force" 50
 		"hit force" 50
-		"shield damage" 2500
-		"hull damage" 4000
-		"piercing" 0.35
-	description "Usually used on our navy ships, it is also quite useful for our spaceships in this expedition. This cannon fires in a steady rate of 1 round per second."
+		"shield damage" 600
+		"hull damage" 1250
+		"piercing" 0.15
+	description "Usually used on our navy ships, it is also quite useful for our spaceships in this expedition. This cannon fires in a steady rate of 1 round per 2 second."
 
 outfit "Arion Vengeance ICBM"
 	category "Secondary Weapons"

@@ -1240,12 +1240,12 @@ ship "Arion F-111XS Aardvark Block I"
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 140
-		"weapon capacity" 45
+		"weapon capacity" 50
 		"engine capacity" 30
 		"gun ports" 4
 	outfits
 		"Arion M61 Vulcan"
-		"Arion Missile Pod" 3
+		"Arion Missile Pod" 4
 		"Arion Chaff and Flares Tier 1"
 		"Arion S.C.D"
 		"Arion T.B.R.S"
@@ -1255,8 +1255,9 @@ ship "Arion F-111XS Aardvark Block I"
 	engine -10 98
 	gun 11.5 -29 "Arion M61 Vulcan"
 	gun -11 19.5
-	gun -0.5 19.5
 	gun 8 19.5
+	gun -0.5 20
+	gun -0.5 3.5
 	turret 0.5 58.5 "Arion Chaff and Flares Tier 1"
 	leak "leak" 60 50
 	explode "tiny explosion" 15
@@ -1282,12 +1283,12 @@ ship "Arion Su-34XS Fullback Block I"
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 150
-		"weapon capacity" 45
+		"weapon capacity" 50
 		"engine capacity" 30
 		"gun ports" 4
 	outfits
 		"Arion 30mm Autocannon"
-		"Arion Missile Pod" 3
+		"Arion Missile Pod" 4
 		"Arion Chaff and Flares Tier 1"
 		"Arion S.C.D"
 		"Arion T.B.R.S"
@@ -1296,9 +1297,10 @@ ship "Arion Su-34XS Fullback Block I"
 	engine 7.5 98
 	engine -10 98
 	gun 10 25.5 "Arion 30mm Autocannon"
-	gun 0 19
-	gun -13 19
-	gun 13 19
+	gun -13.5 24
+	gun 13.5 24
+	gun -74 50
+	gun 74 50
 	turret 0 90.5 "Arion Chaff and Flares Tier 1"
 	leak "leak" 60 50
 	explode "tiny explosion" 15
@@ -1315,8 +1317,8 @@ ship "Arion X-47 Block I"
 		licenses
 			"Arion"
 		"cost" 3000000
-		"shields" 800
-		"hull" 400
+		"shields" 500
+		"hull" 250
 		"automaton" 1
 		"mass" 20
 		"drag" 0.65
@@ -1327,7 +1329,7 @@ ship "Arion X-47 Block I"
 		"engine capacity" 25
 		"cloak" 1.5
 		"cloaking energy" 10
-		"heat generation" 5
+		"cloaking heat" 5
 	outfits
 		"Arion Missile Pod"
 		"Arion F.A Engines"
@@ -1423,3 +1425,256 @@ ship "Arion Su-35XS Flanker Block I"
 	explode "small explosion" 5
 	"final explode" "final explosion small"
 	description "Fighter originally used by Russia, it has been modernized extensively and now also has the ability for space flight."
+
+ship "Arion F-14XS Tomcat Block I"
+	sprite "ship/arionf14"
+		"scale" 0.5
+	thumbnail "ship/arionf14"
+	attributes
+		category "Fighter"
+		licenses
+			"Arion"
+		"cost" 950000
+		"shields" 1400
+		"hull" 700
+		"required crew" 1
+		"bunks" 1
+		"mass" 33
+		"drag" 0.85
+		"heat dissipation" 0.9
+		"fuel capacity" 200
+		"outfit space" 125
+		"weapon capacity" 30
+		"engine capacity" 25
+	outfits
+		"Arion M61 Vulcan"
+		"Arion Missile Pod" 3
+		"Arion Chaff and Flares Tier 1"
+		"Arion I.A Engines"
+		"Arion S.C.D"
+		"Arion T.B.R.S"
+		"Arion Small Fusion Reactor"
+	engine -14 89
+	engine 14 89
+	gun -20.5 -9 "Arion M61 Vulcan"
+	gun 0 -3
+	gun -35.5 22
+	gun 35.5 22
+	turret 0 83
+	leak "leak" 60 50
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
+	description "Interceptor originally used by the US and some of its allies, it has been modernized extensively and now also has the ability for space flight."
+
+ship "Arion Mig-31XS Foxhound Block I"
+	sprite "ship/arionmig31"
+		"scale" 0.5
+	thumbnail "ship/arionmig31"
+	attributes
+		category "Fighter"
+		licenses
+			"Arion"
+		"cost" 1500000
+		"shields" 1200
+		"hull" 600
+		"required crew" 2
+		"bunks" 2
+		"mass" 46
+		"drag" 0.55
+		"heat dissipation" 0.9
+		"fuel capacity" 200
+		"outfit space" 125
+		"weapon capacity" 30
+		"engine capacity" 25
+	outfits
+		"Arion 30mm Autocannon"
+		"Arion Missile Pod" 2
+		"Arion Chaff and Flares Tier 1"
+		"Arion I.A Engines"
+		"Arion S.C.D"
+		"Arion T.B.R.S"
+		"Arion Small Fusion Reactor"
+	engine -8.5 112.5
+	engine 8.5 112.5
+	gun 11 -26 "Arion 30mm Autocannon"
+	gun -33 44
+	gun 33 44
+	turret 0 102
+	leak "leak" 60 50
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
+	description "Interceptor originally used by the Soviet Union, it has been modernized extensively and now also has the ability for space flight."
+
+ship "Arion A-10XS Warthog Block I"
+	sprite "ship/ariona10"
+		"scale" 0.5
+	thumbnail "ship/ariona10"
+	attributes
+		category "Fighter"
+		licenses
+			"Arion"
+		"cost" 800000
+		"shields" 2400
+		"hull" 1200
+		"required crew" 1
+		"bunks" 1
+		"mass" 21
+		"drag" 2.5
+		"heat dissipation" 0.9
+		"fuel capacity" 200
+		"outfit space" 125
+		"weapon capacity" 35
+		"engine capacity" 25
+	outfits
+		"Arion Gau-8 Avenger"
+		"Arion Missile Pod" 4
+		"Arion Chaff and Flares Tier 1"
+		"Arion F.A Engines"
+		"Arion S.C.D"
+		"Arion T.B.R.S"
+		"Arion Small Fusion Reactor"
+	engine -13.5 48
+	engine 13.5 48
+	gun -1.5 -78 "Arion Gau-8 Avenger"
+	gun -57 4
+	gun 57 4
+	gun -41.5 4
+	gun 41.5 4
+	turret 0 4
+	leak "leak" 60 50
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
+	description "Attacker originally used by the US, it has been modernized extensively and now also has the ability for space flight."
+
+ship "Arion Su-25XS Frogfoot Block I"
+	sprite "ship/arionsu25"
+		"scale" 0.5
+	thumbnail "ship/arionsu25"
+	attributes
+		category "Fighter"
+		licenses
+			"Arion"
+		"cost" 750000
+		"shields" 2000
+		"hull" 1000
+		"required crew" 1
+		"bunks" 1
+		"mass" 19
+		"drag" 2.25
+		"heat dissipation" 0.9
+		"fuel capacity" 200
+		"outfit space" 125
+		"weapon capacity" 35
+		"engine capacity" 25
+	outfits
+		"Arion 30mm Autocannon"
+		"Arion Missile Pod" 4
+		"Arion Chaff and Flares Tier 1"
+		"Arion F.A Engines"
+		"Arion S.C.D"
+		"Arion T.B.R.S"
+		"Arion Small Fusion Reactor"
+	engine -7 37
+	engine 7 37
+	gun 11 -26 "Arion 30mm Autocannon"
+	gun -47.5 12.5
+	gun 47.5 12.5
+	gun -29 10.5
+	gun 29 10.5
+	turret 0 44.5
+	leak "leak" 60 50
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
+	description "Attacker originally used by the Soviet Union, it has been modernized extensively and now also has the ability for space flight."
+
+ship "Arion F-22XS Raptor Block I"
+	sprite "ship/arionf22"
+		"scale" 0.5
+	thumbnail "ship/arionf22"
+	attributes
+		category "Fighter"
+		licenses
+			"Arion"
+		"cost" 4000000
+		"shields" 1500
+		"hull" 750
+		"required crew" 1
+		"bunks" 1
+		"mass" 36
+		"drag" 1
+		"heat dissipation" 0.9
+		"fuel capacity" 200
+		"outfit space" 125
+		"weapon capacity" 30
+		"engine capacity" 25
+		"cloak" 1.5
+		"cloaking energy" 10
+		"cloaking heat" 5
+	outfits
+		"Arion M61 Vulcan"
+		"Arion Missile Pod" 3
+		"Arion Chaff and Flares Tier 1"
+		"Arion F.A Engines"
+		"Arion S.C.D"
+		"Arion T.B.R.S"
+		"Arion Small Fusion Reactor"
+	engine -7 81
+	engine 7 81
+	gun -13.5 -23 "Arion M61 Vulcan"
+	gun 0 20
+	gun -15.5 20
+	gun 15.5 20
+	turret 0 61
+	leak "leak" 60 50
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
+	description "Stealth Fighter originally used by the US, it has been modernized extensively and now also has the ability for space flight. It has a built in cloak."
+
+ship "Arion Su-57XS Raptor Block I"
+	sprite "ship/arionsu57"
+		"scale" 0.5
+	thumbnail "ship/arionsu57"
+	attributes
+		category "Fighter"
+		licenses
+			"Arion"
+		"cost" 3750000
+		"shields" 1400
+		"hull" 700
+		"required crew" 1
+		"bunks" 1
+		"mass" 35
+		"drag" 1.05
+		"heat dissipation" 0.9
+		"fuel capacity" 200
+		"outfit space" 125
+		"weapon capacity" 30
+		"engine capacity" 25
+		"cloak" 2
+		"cloaking energy" 12
+		"cloaking heat" 6
+	outfits
+		"Arion 30mm Autocannon"
+		"Arion Missile Pod" 3
+		"Arion Chaff and Flares Tier 1"
+		"Arion F.A Engines"
+		"Arion S.C.D"
+		"Arion T.B.R.S"
+		"Arion Small Fusion Reactor"
+	engine -6.5 69.5
+	engine 6.5 69.5
+	gun -13.5 -23 "Arion 30mm Autocannon"
+	gun 0 20
+	gun -15.5 20
+	gun 15.5 20
+	turret 0 50.5
+	leak "leak" 60 50
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
+	description "Prototype Fighter originally made by Russia, it has been turned into a proper fighter, modernized extensively and now also has the ability for space flight. It has a built in cloak."
