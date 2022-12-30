@@ -59,6 +59,7 @@ outfit "Arion I.A Engines"
 		"rewind"
 	"steering flare sound" "atomic tiny"
 	description "This is an engine used for interceptor aircraft of the Arion expeditionary fleet."
+
 outfit "Arion B.A Engines"
 	category "Engines"
 	licenses
@@ -86,6 +87,62 @@ outfit "Arion B.A Engines"
 		"rewind"
 	"steering flare sound" "atomic tiny"
 	description "This is an engine used for bomber aircraft of the Arion expeditionary fleet."
+
+outfit "Arion M.B.A Engines"
+	category "Engines"
+	licenses
+			"Arion"
+	cost 1000000
+	thumbnail "outfit/fissiondrive"
+	"mass" 50
+	"outfit space" -50
+	"engine capacity" -50
+	"thrust" 54.25
+	"thrusting energy" 5.4
+	"thrusting heat" 2.7
+	"turn" 750
+	"turning energy" 2
+	"turning heat" 1
+	"reverse thrust" 25
+	"reverse thrusting energy" 2
+	"reverse thrusting heat" 1
+	"flare sprite" "effect/fissionflare"
+		"frame rate" 30
+		"rewind"
+	"flare sound" "atomic small"
+	"steering flare sprite" "effect/fissionflare"
+		"frame rate" 30
+		"rewind"
+	"steering flare sound" "atomic tiny"
+	description "This is an engine used for medium bomber aircraft of the Arion expeditionary fleet."
+
+outfit "Arion H.B.A Engines"
+	category "Engines"
+	licenses
+			"Arion"
+	cost 1200000
+	thumbnail "outfit/fissiondrive"
+	"mass" 60
+	"outfit space" -60
+	"engine capacity" -60
+	"thrust" 65
+	"thrusting energy" 6
+	"thrusting heat" 3
+	"turn" 900
+	"turning energy" 2.5
+	"turning heat" 1.25
+	"reverse thrust" 30
+	"reverse thrusting energy" 2.5
+	"reverse thrusting heat" 1.25
+	"flare sprite" "effect/fissionflare"
+		"frame rate" 30
+		"rewind"
+	"flare sound" "atomic small"
+	"steering flare sprite" "effect/fissionflare"
+		"frame rate" 30
+		"rewind"
+	"steering flare sound" "atomic tiny"
+	description "This is an engine used for heavy bomber aircraft of the Arion expeditionary fleet."
 
 outfit "Arion M.L.W Atomic Engines"
 	category "Engines"

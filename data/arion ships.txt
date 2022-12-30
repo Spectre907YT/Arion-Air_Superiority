@@ -795,7 +795,7 @@ ship "Arion Hawk Block I"
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	"final explode" "final explosion small"
-	description "After somehow shrinking down the Hawk to fit in fighter bays, it has now been used as a gun fighter to exploit enemies with no shields. It still has fuel on board to help if retreating is needed."
+	description "(Outdated) After somehow shrinking down the Hawk to fit in fighter bays, it has now been used as a gun fighter to exploit enemies with no shields. It still has fuel on board to help if retreating is needed."
 
 ship "Arion Lance Block I"
 	sprite "ship/lance"
@@ -829,7 +829,7 @@ ship "Arion Lance Block I"
 	gun 13.5 -6.5 
 	explode "tiny explosion" 15
 	explode "small explosion" 5
-	description "After being shrunken down and removed the pilot to fit in the drone bay, the Lance can now be used to help remove enemy shields. It still has fuel on board to help if retreating is needed."
+	description "(Outdated) After being shrunken down and removed the pilot to fit in the drone bay, the Lance can now be used to help remove enemy shields. It still has fuel on board to help if retreating is needed."
 
 ship "Arion Argosy Block I"
 	sprite "ship/argosy"
@@ -1224,7 +1224,6 @@ ship "Arion Cruiser Block III"
 Arion Custom stuff
 ship "Arion F-111XS Aardvark Block I"
 	sprite "ship/arionf111"
-		"scale" 0.5
 	thumbnail "ship/arionf111"
 	attributes
 		category "Fighter"
@@ -1251,14 +1250,14 @@ ship "Arion F-111XS Aardvark Block I"
 		"Arion T.B.R.S"
 		"Arion Small Fusion Reactor"
 		"Arion B.A Engines"
-	engine 7.5 98
-	engine -10 98
-	gun 11.5 -29 "Arion M61 Vulcan"
-	gun -11 19.5
-	gun 8 19.5
-	gun -0.5 20
-	gun -0.5 3.5
-	turret 0.5 58.5 "Arion Chaff and Flares Tier 1"
+	engine -5 48
+	engine 4 48
+	gun -5.5 -9.5 "Arion M61 Vulcan"
+	gun 0 1
+	gun 0 13.5
+	gun -6 10
+	gun 5.5 10
+	turret 0 45.5 "Arion Chaff and Flares Tier 1"
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -1267,15 +1266,14 @@ ship "Arion F-111XS Aardvark Block I"
 
 ship "Arion Su-34XS Fullback Block I"
 	sprite "ship/arionsu34"
-		"scale" 0.5
 	thumbnail "ship/arionsu34"
 	attributes
 		category "Fighter"
 		licenses
 			"Arion"
 		"cost" 1100000
-		"shields" 1700
-		"hull" 850
+		"shields" 1600
+		"hull" 800
 		"required crew" 2
 		"bunks" 2
 		"mass" 45
@@ -1294,14 +1292,14 @@ ship "Arion Su-34XS Fullback Block I"
 		"Arion T.B.R.S"
 		"Arion Small Fusion Reactor"
 		"Arion B.A Engines"
-	engine 7.5 98
-	engine -10 98
-	gun 10 25.5 "Arion 30mm Autocannon"
-	gun -13.5 24
-	gun 13.5 24
-	gun -74 50
-	gun 74 50
-	turret 0 90.5 "Arion Chaff and Flares Tier 1"
+	engine -6 41.5
+	engine 6.5 41.5
+	gun 6.5 -11.5 "Arion 30mm Autocannon"
+	gun -37 24.5
+	gun 37.5 24.5
+	gun -7 9.5
+	gun 6.5 9.5
+	turret 0 51.5 "Arion Chaff and Flares Tier 1"
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -1310,7 +1308,6 @@ ship "Arion Su-34XS Fullback Block I"
 
 ship "Arion X-47 Block I"
 	sprite "ship/arionx47"
-		"scale" 0.5
 	thumbnail "ship/arionx47"
 	attributes
 		category "Drone"
@@ -1337,16 +1334,15 @@ ship "Arion X-47 Block I"
 		"Arion S.C.D"
 		"Arion T.B.R.S"
 		"Arion Small Fusion Reactor"
-	engine 0 51
-	gun 0 12
-	turret 0 30
+	engine 0 28
+	gun 0 3.5
+	turret 0 14.5
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	description "Experimental Drone originally made by Northrop Grumman, it has been modernized extensively and now also has the ability for space flight. It has built in stealth technology."
 
 ship "Arion F-15XS Eagle Block I"
 	sprite "ship/arionf15"
-		"scale" 0.5
 	thumbnail "ship/arionf15"
 	attributes
 		category "Fighter"
@@ -1372,13 +1368,13 @@ ship "Arion F-15XS Eagle Block I"
 		"Arion S.C.D"
 		"Arion T.B.R.S"
 		"Arion Small Fusion Reactor"
-	engine -7 81
-	engine 7 81
-	gun -17 -3 "Arion M61 Vulcan"
-	gun 0 28
-	gun -35.5 33
-	gun 35.5 33
-	turret 0 61
+	engine -3.5 40
+	engine 3.5 40
+	gun -7 1 "Arion M61 Vulcan"
+	gun -18 10.5
+	gun 18 10.5
+	gun 0 13
+	turret 0 27.5
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -1387,7 +1383,6 @@ ship "Arion F-15XS Eagle Block I"
 
 ship "Arion Su-35XS Flanker Block I"
 	sprite "ship/arionsu35"
-		"scale" 0.5
 	thumbnail "ship/arionsu35"
 	attributes
 		category "Fighter"
@@ -1413,13 +1408,13 @@ ship "Arion Su-35XS Flanker Block I"
 		"Arion S.C.D"
 		"Arion T.B.R.S"
 		"Arion Small Fusion Reactor"
-	engine -12.5 87.5
-	engine 12.5 87.5
-	gun 11 -19.5 "Arion 30mm Autocannon"
-	gun 0 25.5
-	gun 49 35
-	gun -49 35
-	turret 0 90
+	engine -6 43
+	engine 7 43
+	gun 6 -6.5 "Arion 30mm Autocannon"
+	gun -17 5
+	gun 17 5
+	gun 0 12.5
+	turret 0 49
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -1428,7 +1423,6 @@ ship "Arion Su-35XS Flanker Block I"
 
 ship "Arion F-14XS Tomcat Block I"
 	sprite "ship/arionf14"
-		"scale" 0.5
 	thumbnail "ship/arionf14"
 	attributes
 		category "Fighter"
@@ -1454,13 +1448,13 @@ ship "Arion F-14XS Tomcat Block I"
 		"Arion S.C.D"
 		"Arion T.B.R.S"
 		"Arion Small Fusion Reactor"
-	engine -14 89
-	engine 14 89
-	gun -20.5 -9 "Arion M61 Vulcan"
-	gun 0 -3
-	gun -35.5 22
-	gun 35.5 22
-	turret 0 83
+	engine -7 43
+	engine 7 43
+	gun -7 -1 "Arion M61 Vulcan"
+	gun 0 -1.5
+	gun -17.5 8
+	gun 17.5 8
+	turret 0 42
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -1469,7 +1463,6 @@ ship "Arion F-14XS Tomcat Block I"
 
 ship "Arion Mig-31XS Foxhound Block I"
 	sprite "ship/arionmig31"
-		"scale" 0.5
 	thumbnail "ship/arionmig31"
 	attributes
 		category "Fighter"
@@ -1495,12 +1488,12 @@ ship "Arion Mig-31XS Foxhound Block I"
 		"Arion S.C.D"
 		"Arion T.B.R.S"
 		"Arion Small Fusion Reactor"
-	engine -8.5 112.5
-	engine 8.5 112.5
-	gun 11 -26 "Arion 30mm Autocannon"
-	gun -33 44
-	gun 33 44
-	turret 0 102
+	engine -4.5 55
+	engine 4.5 55
+	gun 4.5 -19.5 "Arion 30mm Autocannon"
+	gun -17 11.5
+	gun 17 11.5
+	turret 0 47.5
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -1509,19 +1502,18 @@ ship "Arion Mig-31XS Foxhound Block I"
 
 ship "Arion A-10XS Warthog Block I"
 	sprite "ship/ariona10"
-		"scale" 0.5
 	thumbnail "ship/ariona10"
 	attributes
 		category "Fighter"
 		licenses
 			"Arion"
 		"cost" 800000
-		"shields" 2400
-		"hull" 1200
+		"shields" 2100
+		"hull" 1050
 		"required crew" 1
 		"bunks" 1
 		"mass" 21
-		"drag" 2.5
+		"drag" 2
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 125
@@ -1535,13 +1527,13 @@ ship "Arion A-10XS Warthog Block I"
 		"Arion S.C.D"
 		"Arion T.B.R.S"
 		"Arion Small Fusion Reactor"
-	engine -13.5 48
-	engine 13.5 48
-	gun -1.5 -78 "Arion Gau-8 Avenger"
-	gun -57 4
-	gun 57 4
-	gun -41.5 4
-	gun 41.5 4
+	engine -7 24
+	engine 7 24
+	gun -0.5 -39 "Arion Gau-8 Avenger"
+	gun -8.5 -3.5
+	gun 8.5 -3.5
+	gun -29 -3
+	gun 29 -3
 	turret 0 4
 	leak "leak" 60 50
 	explode "tiny explosion" 15
@@ -1551,19 +1543,18 @@ ship "Arion A-10XS Warthog Block I"
 
 ship "Arion Su-25XS Frogfoot Block I"
 	sprite "ship/arionsu25"
-		"scale" 0.5
 	thumbnail "ship/arionsu25"
 	attributes
 		category "Fighter"
 		licenses
 			"Arion"
 		"cost" 750000
-		"shields" 2000
-		"hull" 1000
+		"shields" 1800
+		"hull" 900
 		"required crew" 1
 		"bunks" 1
 		"mass" 19
-		"drag" 2.25
+		"drag" 1.75
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 125
@@ -1577,14 +1568,14 @@ ship "Arion Su-25XS Frogfoot Block I"
 		"Arion S.C.D"
 		"Arion T.B.R.S"
 		"Arion Small Fusion Reactor"
-	engine -7 37
-	engine 7 37
-	gun 11 -26 "Arion 30mm Autocannon"
-	gun -47.5 12.5
-	gun 47.5 12.5
-	gun -29 10.5
-	gun 29 10.5
-	turret 0 44.5
+	engine -4 18.5
+	engine 4 18.5
+	gun 0 -33.5 "Arion 30mm Autocannon"
+	gun -14.5 -2.5
+	gun 14.5 -2.5
+	gun -23.5 1
+	gun 23.5 1
+	turret 0 31.5
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -1593,7 +1584,6 @@ ship "Arion Su-25XS Frogfoot Block I"
 
 ship "Arion F-22XS Raptor Block I"
 	sprite "ship/arionf22"
-		"scale" 0.5
 	thumbnail "ship/arionf22"
 	attributes
 		category "Fighter"
@@ -1622,22 +1612,21 @@ ship "Arion F-22XS Raptor Block I"
 		"Arion S.C.D"
 		"Arion T.B.R.S"
 		"Arion Small Fusion Reactor"
-	engine -7 81
-	engine 7 81
-	gun -13.5 -23 "Arion M61 Vulcan"
-	gun 0 20
-	gun -15.5 20
-	gun 15.5 20
-	turret 0 61
+	engine -3.5 34
+	engine 3.5 34
+	gun -7 -13 "Arion M61 Vulcan"
+	gun 0 4
+	gun -8 4
+	gun 8 4
+	turret 0 38
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	"final explode" "final explosion small"
 	description "Stealth Fighter originally used by the US, it has been modernized extensively and now also has the ability for space flight. It has a built in cloak."
 
-ship "Arion Su-57XS Raptor Block I"
+ship "Arion Su-57XS Felon Block I"
 	sprite "ship/arionsu57"
-		"scale" 0.5
 	thumbnail "ship/arionsu57"
 	attributes
 		category "Fighter"
@@ -1666,15 +1655,285 @@ ship "Arion Su-57XS Raptor Block I"
 		"Arion S.C.D"
 		"Arion T.B.R.S"
 		"Arion Small Fusion Reactor"
-	engine -6.5 69.5
-	engine 6.5 69.5
-	gun -13.5 -23 "Arion 30mm Autocannon"
-	gun 0 20
-	gun -15.5 20
-	gun 15.5 20
-	turret 0 50.5
+	engine -7 39
+	engine 7 39
+	gun 6.5 -6.5 "Arion 30mm Autocannon"
+	gun 0 10
+	gun -5.5 10
+	gun 5.5 10
+	turret 0 44.5
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	"final explode" "final explosion small"
 	description "Prototype Fighter originally made by Russia, it has been turned into a proper fighter, modernized extensively and now also has the ability for space flight. It has a built in cloak."
+
+ship "Arion F-23XS Black Widow Block I"
+	sprite "ship/arionf23"
+	thumbnail "ship/arionf23"
+	attributes
+		category "Fighter"
+		licenses
+			"Arion"
+		"cost" 4000000
+		"shields" 1450
+		"hull" 725
+		"required crew" 1
+		"bunks" 1
+		"mass" 28
+		"drag" 0.9
+		"heat dissipation" 0.9
+		"fuel capacity" 200
+		"outfit space" 120
+		"weapon capacity" 30
+		"engine capacity" 25
+		"cloak" 1.5
+		"cloaking energy" 10
+		"cloaking heat" 5
+	outfits
+		"Arion M61 Vulcan"
+		"Arion Missile Pod" 3
+		"Arion Chaff and Flares Tier 1"
+		"Arion I.A Engines"
+		"Arion S.C.D"
+		"Arion T.B.R.S"
+		"Arion Small Fusion Reactor"
+	engine -6 36.5
+	engine 6 36.5
+	gun -4.5 -15.5 "Arion M61 Vulcan"
+	gun 0 4
+	gun -7
+	gun 7 4
+	turret 0 43.5
+	leak "leak" 60 50
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
+	description "Stealth Fighter/Interceptor prototype originally made by Northrop Grumman, it has been modernized extensively and now also has the ability for space flight. It has a built in cloak."
+
+ship "Arion F-35XS Lightning Block I"
+	sprite "ship/arionf35"
+	thumbnail "ship/arionf35"
+	attributes
+		category "Fighter"
+		licenses
+			"Arion"
+		"cost" 3400000
+		"shields" 1300
+		"hull" 650
+		"required crew" 1
+		"bunks" 1
+		"mass" 30
+		"drag" 1.3
+		"heat dissipation" 0.9
+		"fuel capacity" 200
+		"outfit space" 105
+		"weapon capacity" 25
+		"engine capacity" 25
+		"cloak" 1.75
+		"cloaking energy" 11
+		"cloaking heat" 5.5
+	outfits
+		"Arion Gau-12 Equalizer"
+		"Arion Missile Pod"
+		"Arion L.R.A.S.M Pod"
+		"Arion Chaff and Flares Tier 1"
+		"Arion F.A Engines"
+		"Arion S.C.D"
+		"Arion T.B.R.S"
+		"Arion Small Fusion Reactor"
+	engine 0 30
+	gun -6 -9 "Arion Gau-12 Equalizer"
+	gun -3.5 7.5
+	gun 3.5 7.5
+	turret 0 22
+	leak "leak" 60 50
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
+	description "Stealth Fighter originally used by the US and its allies, it has been modernized extensively and now also has the ability for space flight. It has a built in cloak."
+
+ship "Arion Su-47XS Berkut Block I"
+	sprite "ship/arionsu47"
+	thumbnail "ship/arionsu47"
+	attributes
+		category "Fighter"
+		licenses
+			"Arion"
+		"cost" 3800000
+		"shields" 1350
+		"hull" 675
+		"required crew" 1
+		"bunks" 1
+		"mass" 34
+		"drag" 1.075
+		"heat dissipation" 0.9
+		"fuel capacity" 200
+		"outfit space" 125
+		"weapon capacity" 30
+		"engine capacity" 25
+		"cloak" 2.5
+		"cloaking energy" 15
+		"cloaking heat" 7.5
+	outfits
+		"Arion 30mm Autocannon"
+		"Arion Missile Pod" 3
+		"Arion Chaff and Flares Tier 1"
+		"Arion F.A Engines"
+		"Arion S.C.D"
+		"Arion T.B.R.S"
+		"Arion Small Fusion Reactor"
+	engine -2.5 50
+	engine 2.5 50
+	gun 7.5 -12.5 "Arion 30mm Autocannon"
+	gun 0 20
+	gun -8 20
+	gun 8 20
+	turret 0 40
+	leak "leak" 60 50
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
+	description "Prototype Fighter originally made by Russia, it has been turned into a proper fighter, modernized extensively and now also has the ability for space flight. It has a built in cloak."
+
+ship "Arion B-52XS Stratofortress Block I"
+	sprite "ship/arionb52"
+	thumbnail "ship/arionb52"
+	attributes
+		category "Light Warship"
+		licenses
+			"Arion"
+		"cost" 3000000
+		"shields" 4000
+		"hull" 2000
+		"required crew" 5
+		"bunks" 5
+		"mass" 221
+		"drag" 4.5
+		"heat dissipation" 0.9
+		"fuel capacity" 500
+		"outfit space" 250
+		"weapon capacity" 50
+		"engine capacity" 60
+		"gun ports" 2
+		"turret mounts" 1
+		"b52 bomb bay" 1
+	outfits
+		"Arion B.T Laser"
+		"Arion B52 Bomb Bay Mk1"
+		"Arion Chaff and Flares Tier 1"
+		"Arion L.C.D"
+		"Arion S.B.R.S"
+		"Arion Small Fusion Reactor" 3
+		"Arion H.B.A Engines"
+		"Arion Multirole Fuel System"
+		"Hyperdrive"
+	engine -42.5 -29
+	engine -73.5 -4
+	engine 41.5 -29.5
+	engine 74 -4.5
+	gun -1 -94.5 "Arion B.T Laser"
+	gun -0.5 -14 "Arion B52 Bomb Bay Mk1"
+	turret -0.5 95.5 "Arion Chaff and Flares Tier 1"
+	leak "leak" 60 50
+	leak "flame" 80 80
+	explode "tiny explosion" 20
+	explode "small explosion" 25
+	explode "medium explosion" 15
+	"final explode" "final explosion small"
+	description "Bomber originally used by the US, it has unsurprisingly been modernized extensively and now also has the ability for space flight. It relies on its high hit points amount to survive."
+
+ship "Arion B-1XS Lancer Block I"
+	sprite "ship/arionb1"
+	thumbnail "ship/arionb1"
+	attributes
+		category "Light Warship"
+		licenses
+			"Arion"
+		"cost" 3000000
+		"shields" 3000
+		"hull" 1500
+		"required crew" 4
+		"bunks" 4
+		"mass" 216
+		"drag" 2.5
+		"heat dissipation" 0.9
+		"fuel capacity" 400
+		"outfit space" 230
+		"weapon capacity" 40
+		"engine capacity" 50
+		"gun ports" 2
+		"turret mounts" 1
+		"b1 bomb bay" 1
+	outfits
+		"Arion B.T Laser"
+		"Arion B1 Bomb Bay Mk1"
+		"Arion Chaff and Flares Tier 1"
+		"Arion L.C.D"
+		"Arion S.B.R.S"
+		"Arion Small Fusion Reactor" 3
+		"Arion M.B.A Engines"
+		"Arion Multirole Fuel System"
+		"Hyperdrive"
+	engine -22 56
+	engine -14 56
+	engine 22 56
+	engine 14
+	gun 0 -109 "Arion B.T Laser"
+	gun 0 11 "Arion B1 Bomb Bay Mk1"
+	turret 0 80 "Arion Chaff and Flares Tier 1"
+	leak "leak" 60 50
+	leak "flame" 80 80
+	explode "tiny explosion" 20
+	explode "small explosion" 25
+	explode "medium explosion" 15
+	"final explode" "final explosion small"
+	description "Bomber originally used by the US, it has been modernized extensively and now also has the ability for space flight. It relies on speed to survive."
+
+ship "Arion B-2XS Spirit Block I"
+	sprite "ship/arionb2"
+	thumbnail "ship/arionb2"
+	attributes
+		category "Light Warship"
+		licenses
+			"Arion"
+		"cost" 6000000
+		"shields" 2500
+		"hull" 1250
+		"required crew" 2
+		"bunks" 2
+		"mass" 170
+		"drag" 4.1
+		"heat dissipation" 0.9
+		"fuel capacity" 400
+		"outfit space" 225
+		"weapon capacity" 35
+		"engine capacity" 50
+		"gun ports" 2
+		"turret mounts" 1
+		"cloak" 1
+		"cloaking energy" 8
+		"cloaking heat" 4
+		"b2 bomb bay" 1
+	outfits
+		"Arion B.T Laser"
+		"Arion B2 Bomb Bay Mk1"
+		"Arion Chaff and Flares Tier 1"
+		"Arion L.C.D"
+		"Arion S.B.R.S"
+		"Arion Small Fusion Reactor" 3
+		"Arion M.B.A Engines"
+		"Arion Multirole Fuel System"
+		"Hyperdrive"
+	engine -16 19.5
+	engine 16 19.5
+	gun 0 -39.5 "Arion B.T Laser"
+	gun 0 -5.5 "Arion B2 Bomb Bay Mk1"
+	turret 0 32.5 "Arion Chaff and Flares Tier 1"
+	leak "leak" 60 50
+	leak "flame" 80 80
+	explode "tiny explosion" 20
+	explode "small explosion" 25
+	explode "medium explosion" 15
+	"final explode" "final explosion small"
+	description "Stealth Bomber originally used by the US, it has been modernized extensively and now also has the ability for space flight. It relies on stealth to survive."
