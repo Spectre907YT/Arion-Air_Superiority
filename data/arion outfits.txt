@@ -4,11 +4,39 @@ outfit "Arion License"
 	thumbnail "outfit/license"
 	description "A special license for captains affiliated with Arion."
 
+outfit "Arion A.A Engines"
+	category "Engines"
+	licenses
+			"Arion"
+	cost 800000
+	thumbnail "outfit/fissiondrive"
+	"mass" 20
+	"outfit space" -20
+	"engine capacity" -20
+	"thrust" 21.75
+	"thrusting energy" 2
+	"thrusting heat" 1
+	"turn" 325
+	"turning energy" 0.9
+	"turning heat" 0.45
+	"reverse thrust" 20
+	"reverse thrusting energy" 1
+	"reverse thrusting heat" 0.5
+	"flare sprite" "effect/fissionflare"
+		"frame rate" 30
+		"rewind"
+	"flare sound" "atomic small"
+	"steering flare sprite" "effect/fissionflare"
+		"frame rate" 30
+		"rewind"
+	"steering flare sound" "atomic tiny"
+	description "This is an engine used for attacker aircraft of the Arion expeditionary fleet."
+
 outfit "Arion F.A Engines"
 	category "Engines"
 	licenses
 			"Arion"
-	cost 500000
+	cost 1000000
 	thumbnail "outfit/fissiondrive"
 	"mass" 25
 	"outfit space" -25
@@ -36,7 +64,7 @@ outfit "Arion I.A Engines"
 	category "Engines"
 	licenses
 			"Arion"
-	cost 500000
+	cost 1000000
 	thumbnail "outfit/fissiondrive"
 	"mass" 25
 	"outfit space" -25
@@ -64,7 +92,7 @@ outfit "Arion B.A Engines"
 	category "Engines"
 	licenses
 			"Arion"
-	cost 600000
+	cost 1200000
 	thumbnail "outfit/fissiondrive"
 	"mass" 30
 	"outfit space" -30
@@ -92,7 +120,7 @@ outfit "Arion M.B.A Engines"
 	category "Engines"
 	licenses
 			"Arion"
-	cost 1000000
+	cost 2000000
 	thumbnail "outfit/fissiondrive"
 	"mass" 50
 	"outfit space" -50
@@ -120,7 +148,7 @@ outfit "Arion H.B.A Engines"
 	category "Engines"
 	licenses
 			"Arion"
-	cost 1200000
+	cost 2400000
 	thumbnail "outfit/fissiondrive"
 	"mass" 60
 	"outfit space" -60
@@ -148,7 +176,7 @@ outfit "Arion M.L.W Atomic Engines"
 	category "Engines"
 	licenses
 			"Arion"
-	cost 1600000
+	cost 3200000
 	thumbnail "outfit/fusiondrive"
 	"mass" 80
 	"outfit space" -80
@@ -181,7 +209,7 @@ outfit "Arion L.L.W Atomic Engines"
 	category "Engines"
 	licenses
 			"Arion"
-	cost 2000000
+	cost 4000000
 	thumbnail "outfit/fusiondrive"
 	"mass" 100
 	"outfit space" -100
@@ -342,70 +370,6 @@ outfit "Arion H.H.W Atomic Engines"
 	unplunderable 1
 	description "The Arion Huge Heavy Warship Atomic Engine is an engine used for the largest heavy ships in this expedition."
 
-outfit "Arion Flagship Atomic Engines"
-	category "Engines"
-	licenses
-			"Arion"
-	cost 100000000
-	thumbnail "outfit/fusiondrive"
-	"mass" 210
-	"outfit space" -210
-	"engine capacity" -210
-	"turn" 8100
-	"turning energy" 10
-	"turning heat" 5
-	"thrust" 425
-	"thrusting energy" 20
-	"thrusting heat" 10
-	"reverse thrust" 500
-	"reverse thrusting energy" 7.5
-	"reverse thrusting heat" 5
-	"flare sprite" "effect/fusionflare"
-		"frame rate" 30
-		"rewind"
-	"flare sound" "atomic huge"
-	"steering flare sprite" "effect/fusionflare"
-		"frame rate" 30
-		"rewind"
-	"steering flare sound" "atomic medium"
-	"reverse flare sprite" "effect/fusionflare"
-		"frame rate" 30
-		"rewind"
-	"reverse flare sound" "atomic large"
-	unplunderable 1
-	description "This monster will be the engine mounted on your flagship, this bad boy will make your flagship fly with the speed of an interceptor and the maneuverability of a fighter."
-
-outfit "Arion Jump Drive Core"
-	unplunderable 1
-	category "Systems"
-	licenses
-			"Arion"
-	cost 5000000
-	thumbnail "outfit/hyperdrive"
-	"mass" 30
-	"outfit space" -30
-	"jump speed" 2.0
-	"jump fuel" 100
-	"jump drive" 1
-	"jump range" 100
-	"scram drive" 0.2
-	"hyperdrive" 1
-	description "In day to day life, we usually don't use technology like this, but this world works differently, so we have created this device to help with your expedition. To blend in better, this thing can also do a hyperdrive jump."
-
-outfit "Arion Scram Drive Core"
-	unplunderable 1
-	category "Systems"
-	licenses
-			"Arion"
-	cost 250000
-	thumbnail "outfit/hyperdrive"
-	"mass" 30
-	"outfit space" -30
-	"jump fuel" 100
-	"scram drive" 0.2
-	"hyperdrive" 1
-	description "In day to day life, we usually don't use technology like this, but this world works differently, so we have created this device to help with your expedition."
-
 outfit "Arion A.E.W.S"
 	category "Systems"
 	licenses
@@ -468,7 +432,7 @@ outfit "Arion T.B.R.S"
 	category "Systems"
 	licenses
 			"Arion"
-	cost 1000000
+	cost 750000
 	thumbnail "outfit/tiny systems core"
 	"mass" 10
 	"outfit space" -10
@@ -483,7 +447,7 @@ outfit "Arion S.B.R.S"
 	category "Systems"
 	licenses
 			"Arion"
-	cost 2500000
+	cost 1875000
 	thumbnail "outfit/small systems core"
 	"mass" 25
 	"outfit space" -25
@@ -498,7 +462,7 @@ outfit "Arion M.B.R.S"
 	category "Systems"
 	licenses
 			"Arion"
-	cost 5000000
+	cost 3750000
 	thumbnail "outfit/medium systems core"
 	"mass" 50
 	"outfit space" -50
@@ -513,7 +477,7 @@ outfit "Arion L.B.R.S"
 	category "Systems"
 	licenses
 			"Arion"
-	cost 10000000
+	cost 7500000
 	thumbnail "outfit/large systems core"
 	"mass" 100
 	"outfit space" -100
@@ -528,7 +492,7 @@ outfit "Arion T.A.R.S"
 	category "Systems"
 	licenses
 			"Arion"
-	cost 4500000
+	cost 5000000
 	thumbnail "outfit/tiny systems core"
 	"mass" 10
 	"outfit space" -10
@@ -543,7 +507,7 @@ outfit "Arion S.A.R.S"
 	category "Systems"
 	licenses
 			"Arion"
-	cost 11250000
+	cost 12500000
 	thumbnail "outfit/small systems core"
 	"mass" 25
 	"outfit space" -25
@@ -558,7 +522,7 @@ outfit "Arion M.A.R.S"
 	category "Systems"
 	licenses
 			"Arion"
-	cost 22500000
+	cost 25000000
 	thumbnail "outfit/medium systems core"
 	"mass" 50
 	"outfit space" -50
@@ -573,7 +537,7 @@ outfit "Arion L.A.R.S"
 	category "Systems"
 	licenses
 			"Arion"
-	cost 45000000
+	cost 50000000
 	thumbnail "outfit/large systems core"
 	"mass" 100
 	"outfit space" -100
@@ -588,24 +552,24 @@ outfit "Arion S.C.D"
 	category "Systems"
 	licenses
 			"Arion"
-	cost 250000
+	cost 200000
 	thumbnail "outfit/small heat shunt"
 	"mass" 5
 	"outfit space" -5
 	"energy capacity" 500
-	"cooling" 15
+	"cooling" 12.5
 	description "The Arion Small Cooling Device is a small cooling device used for mostly fighter sized spacecraft. It also has some extra battery space"
 
 outfit "Arion L.C.D"
 	category "Systems"
 	licenses
 			"Arion"
-	cost 1000000
+	cost 800000
 	thumbnail "outfit/large heat shunt"
 	"mass" 20
 	"outfit space" -20
 	"energy capacity" 2500
-	"cooling" 60
+	"cooling" 50
 	description "The Arion Large Cooling Device is a large cooling device to make sure large spaceships don't get overheated. It also has some extra battery space."
 
 outfit "Arion Automation Upgrade"
@@ -677,13 +641,13 @@ outfit "Arion Antimatter Reactor Small"
 
 outfit "Arion Small Fusion Reactor"
 	category "Power"
-	cost 2000000
+	cost 1500000
 	thumbnail "outfit/fusion"
-	"mass" 20
-	"outfit space" -20
-	"energy generation" 5
-	"heat generation" 5
-	"energy capacity" 5000
+	"mass" 15
+	"outfit space" -15
+	"energy generation" 3.75
+	"heat generation" 5.625
+	"energy capacity" 3750
 	"unplunderable" 1
 	description "The Arion Small Fusion Reactor is a much cheaper alternative to the Arion Small Antimatter Reactor usually found on Arion's ships. Like the antimatter reactor before it, it can store some of the energy it produces."
 
@@ -694,7 +658,7 @@ outfit "Arion Fusion Reactor"
 	"mass" 100
 	"outfit space" -100
 	"energy generation" 25
-	"heat generation" 25
+	"heat generation" 37.5
 	"energy capacity" 25000
 	"unplunderable" 1
 	description "The Arion Fusion Reactor is a much cheaper alternative to the Arion Antimatter Reactor usually found on Arion's ships. Like the antimatter reactor before it, it can store some of the energy it produces."
@@ -723,7 +687,7 @@ outfit "Arion Mini Overcharge Core"
 
 outfit "Arion Multirole Fuel System"
 	category "Systems"
-	cost 1000000
+	cost 500000
 	thumbnail "outfit/korath fuel processor"
 	"mass" 15
 	"outfit space" -15
@@ -733,10 +697,75 @@ outfit "Arion Multirole Fuel System"
 
 outfit "Arion Small Multirole Fuel System"
 	category "Systems"
-	cost 600000
+	cost 350000
 	thumbnail "outfit/korath fuel processor"
 	"mass" 10
 	"outfit space" -10
 	"fuel capacity" 100
 	"ramscoop" 4
 	description "Similar to the Korath fuel processor."
+==============Unused===========
+
+outfit "Arion Flagship Atomic Engines"
+	category "Engines"
+	licenses
+			"Arion"
+	cost 100000000
+	thumbnail "outfit/fusiondrive"
+	"mass" 210
+	"outfit space" -210
+	"engine capacity" -210
+	"turn" 8100
+	"turning energy" 10
+	"turning heat" 5
+	"thrust" 425
+	"thrusting energy" 20
+	"thrusting heat" 10
+	"reverse thrust" 500
+	"reverse thrusting energy" 7.5
+	"reverse thrusting heat" 5
+	"flare sprite" "effect/fusionflare"
+		"frame rate" 30
+		"rewind"
+	"flare sound" "atomic huge"
+	"steering flare sprite" "effect/fusionflare"
+		"frame rate" 30
+		"rewind"
+	"steering flare sound" "atomic medium"
+	"reverse flare sprite" "effect/fusionflare"
+		"frame rate" 30
+		"rewind"
+	"reverse flare sound" "atomic large"
+	unplunderable 1
+	description "This monster will be the engine mounted on your flagship, this bad boy will make your flagship fly with the speed of an interceptor and the maneuverability of a fighter."
+
+outfit "Arion Jump Drive Core"
+	unplunderable 1
+	category "Systems"
+	licenses
+			"Arion"
+	cost 5000000
+	thumbnail "outfit/hyperdrive"
+	"mass" 30
+	"outfit space" -30
+	"jump speed" 2.0
+	"jump fuel" 100
+	"jump drive" 1
+	"jump range" 100
+	"scram drive" 0.2
+	"hyperdrive" 1
+	description "In day to day life, we usually don't use technology like this, but this world works differently, so we have created this device to help with your expedition. To blend in better, this thing can also do a hyperdrive jump."
+
+outfit "Arion Scram Drive Core"
+	unplunderable 1
+	category "Systems"
+	licenses
+			"Arion"
+	cost 250000
+	thumbnail "outfit/hyperdrive"
+	"mass" 30
+	"outfit space" -30
+	"jump fuel" 100
+	"scram drive" 0.2
+	"hyperdrive" 1
+	description "In day to day life, we usually don't use technology like this, but this world works differently, so we have created this device to help with your expedition."

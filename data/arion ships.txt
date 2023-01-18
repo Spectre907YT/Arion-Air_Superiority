@@ -1229,7 +1229,7 @@ ship "Arion F-111XS Aardvark Block I"
 		category "Fighter"
 		licenses
 			"Arion"
-		"cost" 900000
+		"cost" 500000
 		"shields" 1500
 		"hull" 750
 		"required crew" 2
@@ -1241,10 +1241,12 @@ ship "Arion F-111XS Aardvark Block I"
 		"outfit space" 140
 		"weapon capacity" 50
 		"engine capacity" 30
-		"gun ports" 4
+		"gun ports" 5
+		"flares" 1
 	outfits
 		"Arion M61 Vulcan"
-		"Arion Missile Pod" 4
+		"Arion Missile Pod" 2
+		"Arion G.P.B Pod" 2
 		"Arion Chaff and Flares Tier 1"
 		"Arion S.C.D"
 		"Arion T.B.R.S"
@@ -1253,8 +1255,8 @@ ship "Arion F-111XS Aardvark Block I"
 	engine -5 48
 	engine 4 48
 	gun -5.5 -9.5 "Arion M61 Vulcan"
-	gun 0 1
-	gun 0 13.5
+	gun 0 1 "Arion G.P.B Pod"
+	gun 0 13.5 "Arion G.P.B Pod"
 	gun -6 10
 	gun 5.5 10
 	turret 0 45.5 "Arion Chaff and Flares Tier 1"
@@ -1271,7 +1273,7 @@ ship "Arion Su-34XS Fullback Block I"
 		category "Fighter"
 		licenses
 			"Arion"
-		"cost" 1100000
+		"cost" 650000
 		"shields" 1600
 		"hull" 800
 		"required crew" 2
@@ -1283,10 +1285,12 @@ ship "Arion Su-34XS Fullback Block I"
 		"outfit space" 150
 		"weapon capacity" 50
 		"engine capacity" 30
-		"gun ports" 4
+		"gun ports" 5
+		"flares" 1
 	outfits
 		"Arion 30mm Autocannon"
-		"Arion Missile Pod" 4
+		"Arion Missile Pod" 2
+		"Arion G.P.B Pod" 2
 		"Arion Chaff and Flares Tier 1"
 		"Arion S.C.D"
 		"Arion T.B.R.S"
@@ -1297,8 +1301,8 @@ ship "Arion Su-34XS Fullback Block I"
 	gun 6.5 -11.5 "Arion 30mm Autocannon"
 	gun -37 24.5
 	gun 37.5 24.5
-	gun -7 9.5
-	gun 6.5 9.5
+	gun -7 9.5 "Arion G.P.B Pod"
+	gun 6.5 9.5 "Arion G.P.B Pod"
 	turret 0 51.5 "Arion Chaff and Flares Tier 1"
 	leak "leak" 60 50
 	explode "tiny explosion" 15
@@ -1327,6 +1331,7 @@ ship "Arion X-47 Block I"
 		"cloak" 1.5
 		"cloaking energy" 10
 		"cloaking heat" 5
+		"flares" 1
 	outfits
 		"Arion Missile Pod"
 		"Arion F.A Engines"
@@ -1348,7 +1353,7 @@ ship "Arion F-15XS Eagle Block I"
 		category "Fighter"
 		licenses
 			"Arion"
-		"cost" 900000
+		"cost" 400000
 		"shields" 1500
 		"hull" 750
 		"required crew" 1
@@ -1360,9 +1365,11 @@ ship "Arion F-15XS Eagle Block I"
 		"outfit space" 125
 		"weapon capacity" 30
 		"engine capacity" 25
+		"flares" 1
 	outfits
 		"Arion M61 Vulcan"
-		"Arion Missile Pod" 3
+		"Arion Finisher Missile Pod" 2
+		"Arion Pursuer Missile Pod"
 		"Arion Chaff and Flares Tier 1"
 		"Arion F.A Engines"
 		"Arion S.C.D"
@@ -1373,7 +1380,7 @@ ship "Arion F-15XS Eagle Block I"
 	gun -7 1 "Arion M61 Vulcan"
 	gun -18 10.5
 	gun 18 10.5
-	gun 0 13
+	gun 0 13 "Arion Pursuer Missile Pod"
 	turret 0 27.5
 	leak "leak" 60 50
 	explode "tiny explosion" 15
@@ -1388,7 +1395,7 @@ ship "Arion Su-35XS Flanker Block I"
 		category "Fighter"
 		licenses
 			"Arion"
-		"cost" 850000
+		"cost" 380000
 		"shields" 1400
 		"hull" 700
 		"required crew" 1
@@ -1400,9 +1407,11 @@ ship "Arion Su-35XS Flanker Block I"
 		"outfit space" 125
 		"weapon capacity" 30
 		"engine capacity" 25
+		"flares" 1
 	outfits
 		"Arion 30mm Autocannon"
-		"Arion Missile Pod" 3
+		"Arion Finisher Missile Pod" 2
+		"Arion Pursuer Missile Pod"
 		"Arion Chaff and Flares Tier 1"
 		"Arion F.A Engines"
 		"Arion S.C.D"
@@ -1413,7 +1422,7 @@ ship "Arion Su-35XS Flanker Block I"
 	gun 6 -6.5 "Arion 30mm Autocannon"
 	gun -17 5
 	gun 17 5
-	gun 0 12.5
+	gun 0 12.5 "Arion Pursuer Missile Pod"
 	turret 0 49
 	leak "leak" 60 50
 	explode "tiny explosion" 15
@@ -1428,7 +1437,7 @@ ship "Arion F-14XS Tomcat Block I"
 		category "Fighter"
 		licenses
 			"Arion"
-		"cost" 950000
+		"cost" 420000
 		"shields" 1400
 		"hull" 700
 		"required crew" 1
@@ -1440,9 +1449,11 @@ ship "Arion F-14XS Tomcat Block I"
 		"outfit space" 125
 		"weapon capacity" 30
 		"engine capacity" 25
+		"flares" 1
 	outfits
 		"Arion M61 Vulcan"
-		"Arion Missile Pod" 3
+		"Arion Finisher Missile Pod"
+		"Arion Pursuer Missile Pod" 2
 		"Arion Chaff and Flares Tier 1"
 		"Arion I.A Engines"
 		"Arion S.C.D"
@@ -1451,7 +1462,7 @@ ship "Arion F-14XS Tomcat Block I"
 	engine -7 43
 	engine 7 43
 	gun -7 -1 "Arion M61 Vulcan"
-	gun 0 -1.5
+	gun 0 -1.5 "Arion Finisher Missile Pod"
 	gun -17.5 8
 	gun 17.5 8
 	turret 0 42
@@ -1468,7 +1479,7 @@ ship "Arion Mig-31XS Foxhound Block I"
 		category "Fighter"
 		licenses
 			"Arion"
-		"cost" 1500000
+		"cost" 700000
 		"shields" 1200
 		"hull" 600
 		"required crew" 2
@@ -1480,9 +1491,10 @@ ship "Arion Mig-31XS Foxhound Block I"
 		"outfit space" 125
 		"weapon capacity" 30
 		"engine capacity" 25
+		"flares" 1
 	outfits
 		"Arion 30mm Autocannon"
-		"Arion Missile Pod" 2
+		"Arion Pursuer Missile Pod" 2
 		"Arion Chaff and Flares Tier 1"
 		"Arion I.A Engines"
 		"Arion S.C.D"
@@ -1507,7 +1519,7 @@ ship "Arion A-10XS Warthog Block I"
 		category "Fighter"
 		licenses
 			"Arion"
-		"cost" 800000
+		"cost" 300000
 		"shields" 2100
 		"hull" 1050
 		"required crew" 1
@@ -1518,20 +1530,21 @@ ship "Arion A-10XS Warthog Block I"
 		"fuel capacity" 200
 		"outfit space" 125
 		"weapon capacity" 35
-		"engine capacity" 25
+		"engine capacity" 20
+		"flares" 1
 	outfits
 		"Arion Gau-8 Avenger"
-		"Arion Missile Pod" 4
+		"Arion Rocket Pod" 2
 		"Arion Chaff and Flares Tier 1"
-		"Arion F.A Engines"
+		"Arion A.A Engines"
 		"Arion S.C.D"
 		"Arion T.B.R.S"
 		"Arion Small Fusion Reactor"
 	engine -7 24
 	engine 7 24
 	gun -0.5 -39 "Arion Gau-8 Avenger"
-	gun -8.5 -3.5
-	gun 8.5 -3.5
+	gun -8.5 -3.5 "Arion Rocket Pod"
+	gun 8.5 -3.5 "Arion Rocket Pod"
 	gun -29 -3
 	gun 29 -3
 	turret 0 4
@@ -1548,7 +1561,7 @@ ship "Arion Su-25XS Frogfoot Block I"
 		category "Fighter"
 		licenses
 			"Arion"
-		"cost" 750000
+		"cost" 250000
 		"shields" 1800
 		"hull" 900
 		"required crew" 1
@@ -1559,20 +1572,21 @@ ship "Arion Su-25XS Frogfoot Block I"
 		"fuel capacity" 200
 		"outfit space" 125
 		"weapon capacity" 35
-		"engine capacity" 25
+		"engine capacity" 20
+		"flares" 1
 	outfits
 		"Arion 30mm Autocannon"
-		"Arion Missile Pod" 4
+		"Arion Rocket Pod" 2
 		"Arion Chaff and Flares Tier 1"
-		"Arion F.A Engines"
+		"Arion A.A Engines"
 		"Arion S.C.D"
 		"Arion T.B.R.S"
 		"Arion Small Fusion Reactor"
 	engine -4 18.5
 	engine 4 18.5
 	gun 0 -33.5 "Arion 30mm Autocannon"
-	gun -14.5 -2.5
-	gun 14.5 -2.5
+	gun -14.5 -2.5 "Arion Rocket Pod"
+	gun 14.5 -2.5 "Arion Rocket Pod"
 	gun -23.5 1
 	gun 23.5 1
 	turret 0 31.5
@@ -1604,9 +1618,11 @@ ship "Arion F-22XS Raptor Block I"
 		"cloak" 1.5
 		"cloaking energy" 10
 		"cloaking heat" 5
+		"flares" 1
 	outfits
 		"Arion M61 Vulcan"
-		"Arion Missile Pod" 3
+		"Arion Pursuer Missile Pod"
+		"Arion Finisher Missile Pod" 2
 		"Arion Chaff and Flares Tier 1"
 		"Arion F.A Engines"
 		"Arion S.C.D"
@@ -1615,7 +1631,7 @@ ship "Arion F-22XS Raptor Block I"
 	engine -3.5 34
 	engine 3.5 34
 	gun -7 -13 "Arion M61 Vulcan"
-	gun 0 4
+	gun 0 4 "Arion Pursuer Missile Pod"
 	gun -8 4
 	gun 8 4
 	turret 0 38
@@ -1647,9 +1663,11 @@ ship "Arion Su-57XS Felon Block I"
 		"cloak" 2
 		"cloaking energy" 12
 		"cloaking heat" 6
+		"flares" 1
 	outfits
 		"Arion 30mm Autocannon"
-		"Arion Missile Pod" 3
+		"Arion Pursuer Missile Pod"
+		"Arion Finisher Missile Pod" 2
 		"Arion Chaff and Flares Tier 1"
 		"Arion F.A Engines"
 		"Arion S.C.D"
@@ -1658,7 +1676,7 @@ ship "Arion Su-57XS Felon Block I"
 	engine -7 39
 	engine 7 39
 	gun 6.5 -6.5 "Arion 30mm Autocannon"
-	gun 0 10
+	gun 0 10 "Arion Pursuer Missile Pod"
 	gun -5.5 10
 	gun 5.5 10
 	turret 0 44.5
@@ -1690,9 +1708,11 @@ ship "Arion F-23XS Black Widow Block I"
 		"cloak" 1.5
 		"cloaking energy" 10
 		"cloaking heat" 5
+		"flares" 1
 	outfits
 		"Arion M61 Vulcan"
-		"Arion Missile Pod" 3
+		"Arion Finisher Missile Pod" 
+		"Arion Pursuer Missile Pod" 2
 		"Arion Chaff and Flares Tier 1"
 		"Arion I.A Engines"
 		"Arion S.C.D"
@@ -1701,7 +1721,7 @@ ship "Arion F-23XS Black Widow Block I"
 	engine -6 36.5
 	engine 6 36.5
 	gun -4.5 -15.5 "Arion M61 Vulcan"
-	gun 0 4
+	gun 0 4 "Arion Finisher Missile Pod" 
 	gun -7
 	gun 7 4
 	turret 0 43.5
@@ -1733,6 +1753,7 @@ ship "Arion F-35XS Lightning Block I"
 		"cloak" 1.75
 		"cloaking energy" 11
 		"cloaking heat" 5.5
+		"flares" 1
 	outfits
 		"Arion Gau-12 Equalizer"
 		"Arion Missile Pod"
@@ -1775,9 +1796,11 @@ ship "Arion Su-47XS Berkut Block I"
 		"cloak" 2.5
 		"cloaking energy" 15
 		"cloaking heat" 7.5
+		"flares" 1
 	outfits
 		"Arion 30mm Autocannon"
-		"Arion Missile Pod" 3
+		"Arion Finisher Missile Pod" 2
+		"Arion Pursuer Missile Pod"
 		"Arion Chaff and Flares Tier 1"
 		"Arion F.A Engines"
 		"Arion S.C.D"
@@ -1786,7 +1809,7 @@ ship "Arion Su-47XS Berkut Block I"
 	engine -2.5 50
 	engine 2.5 50
 	gun 7.5 -12.5 "Arion 30mm Autocannon"
-	gun 0 20
+	gun 0 20 "Arion Pursuer Missile Pod"
 	gun -8 20
 	gun 8 20
 	turret 0 40
@@ -1818,8 +1841,8 @@ ship "Arion B-52XS Stratofortress Block I"
 		"gun ports" 2
 		"turret mounts" 1
 		"b52 bomb bay" 1
+		"heavy flares" 1
 	outfits
-		"Arion B.T Laser"
 		"Arion B52 Bomb Bay Mk1"
 		"Arion Chaff and Flares Tier 1"
 		"Arion L.C.D"
@@ -1832,7 +1855,6 @@ ship "Arion B-52XS Stratofortress Block I"
 	engine -73.5 -4
 	engine 41.5 -29.5
 	engine 74 -4.5
-	gun -1 -94.5 "Arion B.T Laser"
 	gun -0.5 -14 "Arion B52 Bomb Bay Mk1"
 	turret -0.5 95.5 "Arion Chaff and Flares Tier 1"
 	leak "leak" 60 50
@@ -1865,8 +1887,8 @@ ship "Arion B-1XS Lancer Block I"
 		"gun ports" 2
 		"turret mounts" 1
 		"b1 bomb bay" 1
+		"heavy flares" 1
 	outfits
-		"Arion B.T Laser"
 		"Arion B1 Bomb Bay Mk1"
 		"Arion Chaff and Flares Tier 1"
 		"Arion L.C.D"
@@ -1879,7 +1901,6 @@ ship "Arion B-1XS Lancer Block I"
 	engine -14 56
 	engine 22 56
 	engine 14
-	gun 0 -109 "Arion B.T Laser"
 	gun 0 11 "Arion B1 Bomb Bay Mk1"
 	turret 0 80 "Arion Chaff and Flares Tier 1"
 	leak "leak" 60 50
@@ -1915,8 +1936,8 @@ ship "Arion B-2XS Spirit Block I"
 		"cloaking energy" 8
 		"cloaking heat" 4
 		"b2 bomb bay" 1
+		"heavy flares" 1
 	outfits
-		"Arion B.T Laser"
 		"Arion B2 Bomb Bay Mk1"
 		"Arion Chaff and Flares Tier 1"
 		"Arion L.C.D"
@@ -1927,7 +1948,6 @@ ship "Arion B-2XS Spirit Block I"
 		"Hyperdrive"
 	engine -16 19.5
 	engine 16 19.5
-	gun 0 -39.5 "Arion B.T Laser"
 	gun 0 -5.5 "Arion B2 Bomb Bay Mk1"
 	turret 0 32.5 "Arion Chaff and Flares Tier 1"
 	leak "leak" 60 50
