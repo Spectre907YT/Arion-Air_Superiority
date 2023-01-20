@@ -44,7 +44,7 @@ outfit "Arion F.A Engines"
 	"thrust" 27.5
 	"thrusting energy" 2.5
 	"thrusting heat" 1.25
-	"turn" 450
+	"turn" 480
 	"turning energy" 1
 	"turning heat" 0.5
 	"reverse thrust" 20
@@ -704,7 +704,8 @@ outfit "Arion Small Multirole Fuel System"
 	"fuel capacity" 100
 	"ramscoop" 4
 	description "Similar to the Korath fuel processor."
-==============Unused===========
+
+==============Outdated===========
 
 outfit "Arion Flagship Atomic Engines"
 	category "Engines"

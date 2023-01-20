@@ -85,7 +85,7 @@ outfit "Arion Goalkeeper C.I.W.S"
 		"hardpoint offset" 3.
 		"hit effect" "bullet impact"
 		sound "gatling"
-		"anti-missile" 30
+		"anti-missile" 15
 		"velocity" 150
 		"lifetime" 2
 		"reload" 1
@@ -108,7 +108,7 @@ outfit "Arion Myriad C.I.W.S"
 		"hardpoint offset" 3.
 		"hit effect" "bullet impact"
 		sound "gatling"
-		"anti-missile" 25
+		"anti-missile" 13
 		"velocity" 175
 		"lifetime" 2
 		"reload" 1
@@ -131,7 +131,7 @@ outfit "Arion Phalanx C.I.W.S"
 		"hardpoint offset" 3.
 		"hit effect" "bullet impact"
 		sound "gatling"
-		"anti-missile" 20
+		"anti-missile" 10
 		"velocity" 200
 		"lifetime" 2
 		"reload" 1
@@ -409,7 +409,7 @@ outfit "Arion Gau-8 Avenger"
 			"random start frame"
 			"frame rate" 0
 		sound "gatling"
-		"inaccuracy" 0.75
+		"inaccuracy" 1.25
 		"velocity" 70
 		"lifetime" 5
 		"shield damage" 15
@@ -444,12 +444,12 @@ outfit "Arion 30mm Autocannon"
 		"shield damage" 15
 		"hull damage" 30
 		"hit force" 5
-		"inaccuracy" 0.25
+		"inaccuracy" 0.5
 		"reload" 5
 		"firing energy" 12
 		"firing heat" 12
 		"hit effect" "bullet impact"
-	description "An auto cannon version of the GAU 8, it is more compact but has a slower firing rate than the gatling version. It does however benefit from having more accuracy. (Q to fire) (Special thanks to 1010todd for letting me use the artwork from the 50 cal mod)"
+	description "Firing the same cartridge as the GAU 8, it is more compact but has a slower firing rate. It does however benefit from having more accuracy and slightly higher range. (Q to fire) (Special thanks to 1010todd for letting me use the artwork from the 50 cal mod)"
 
 outfit "30mmbullet"
 	weapon
@@ -480,7 +480,7 @@ outfit "Arion Gau-12 Equalizer"
 			"random start frame"
 			"frame rate" 0
 		sound "gatling"
-		"inaccuracy" 0.5
+		"inaccuracy" 1.1
 		"velocity" 80
 		"lifetime" 5
 		"shield damage" 15
@@ -523,7 +523,7 @@ outfit "Arion M61 Vulcan"
 			"random start frame"
 			"frame rate" 0
 		sound "gatling"
-		"inaccuracy" 0.45
+		"inaccuracy" 1
 		"velocity" 100
 		"lifetime" 5
 		"shield damage" 10
@@ -536,6 +536,34 @@ outfit "Arion M61 Vulcan"
 		"firing heat" 6
 		"hit effect" "bullet impact"
 	description "This is a gun originally used in a lot of our atmospheric fighters. It uses 20mm rounds. It is now available for you to put on your ships. Due to our advanced fabrication systems, it uses energy instead of ammo.(Q to fire)"
+
+outfit "Arion 20mm Autocannon"
+	category "Guns"
+	licenses
+			"Arion"
+	cost 100000
+	thumbnail "outfit/arionautocannon"
+	"mass" 2
+	"outfit space" -2
+	"weapon capacity" -2
+	"gun ports" -1
+	weapon
+		sprite "projectile/bullet"
+			"delay" 5
+			"random start frame"
+			"frame rate" 0
+		sound "gatling"
+		"inaccuracy" 0.4
+		"velocity" 100
+		"lifetime" 6
+		"shield damage" 10
+		"hull damage" 20
+		"hit force" 2
+		"reload" 5
+		"firing energy" 8
+		"firing heat" 6
+		"hit effect" "bullet impact"
+	description "Firing the same cartridge as the M61, it is more compact but has a slower firing rate. It does however benefit from having more accuracy and slightly higher range. (Q to fire) (Special thanks to 1010todd for letting me use the artwork from the 50 cal mod)"
 
 outfit "20mmbullet"
 	weapon
@@ -572,7 +600,7 @@ outfit "Arion Dragonsbreath Railgun"
 		"hit effect" "dragonflame debris" 50
 		"velocity" 1000
 		"lifetime" 10
-		"reload" 750
+		"reload" 900
 		"firing energy" 125000
 		"firing heat" 100000
 		"firing force" 1000
@@ -611,8 +639,8 @@ outfit "Arion E.M.L Turret Compact"
 		"hit effect" "dragonflame debris" 50
 		"inaccuracy" 0.15
 		"turret turn" 2
-		"velocity" 500
-		"lifetime" 6
+		"velocity" 600
+		"lifetime" 5
 		"reload" 240
 		"firing energy" 5000
 		"firing heat" 3500
@@ -620,7 +648,7 @@ outfit "Arion E.M.L Turret Compact"
 		"hull damage" 6000
 		"firing force" 250
 		"hit force" 250
-		"piercing" 0.8
+		"piercing" 0.85
 		"ion damage" 25
 		"stream"
 		"phasing"
@@ -646,8 +674,8 @@ outfit "Arion E.M.L Compact"
 		"hit effect" "dragonflame plasma" 30
 		"hit effect" "dragonflame debris" 50
 		"inaccuracy" 0.1
-		"velocity" 500
-		"lifetime" 6
+		"velocity" 600
+		"lifetime" 5
 		"reload" 240
 		"firing energy" 5000
 		"firing heat" 3500
@@ -655,7 +683,7 @@ outfit "Arion E.M.L Compact"
 		"hull damage" 6000
 		"hit force" 250
 		"firing force" 250
-		"piercing" 0.8
+		"piercing" 0.85
 		"ion damage" 25
 		"stream"
 		"phasing"
@@ -681,7 +709,7 @@ outfit "Arion G.A.A.C"
 		"reload" 15
 		"firing energy" 75
 		"firing heat" 60
-		"firing force" 25
+		"firing force" 10
 		"shield damage" 60
 		"hull damage" 75
 		"piercing" 0.075
@@ -708,12 +736,70 @@ outfit "Arion G.A.G.G"
 		"reload" 5
 		"firing energy" 25
 		"firing heat" 20
-		"firing force" 10
+		"firing force" 7.5
 		"shield damage" 20
 		"hull damage" 25
 		"piercing" 0.025
 		"stream"
 	description "The Gauss Assisted Gatling Gun is made to help our fighters remain out of the enemies firing range while still maintaining an internal gun. It is inferior to our E.M.L but it is good enough as an internal gatling gun for fighters. Compared to the G.A.C.C, it has lower per damage shot and slower velocity but higher rate of fire."
+
+outfit "Arion Arclight E.M.L"
+	category "Secondary Weapons"
+	cost 8000000
+	thumbnail "outfit/railgun"
+	"mass" 30
+	"outfit space" -30
+	"weapon capacity" -30
+	"gun ports" -1
+	"arclight eml" -1
+	weapon
+		sprite "projectile/rail slug"
+			"frame rate" 30
+		sound "ion"
+		icon "icon/rail gun"
+		"fire effect" "rail sparks"
+		"hit effect" "bullet impact"
+		"inaccuracy" 0.25
+		"velocity" 500
+		"lifetime" 6
+		"reload" 300
+		"firing energy" 1750
+		"firing heat" 900
+		"firing force" 80
+		"shield damage" 900
+		"hull damage" 2000
+		"piercing" 0.8
+		"stream"
+	description "The Archlight E.M.L is a specially built railgun for the X-02x Wyvern and ASF-01 Wyvern."
+
+outfit "Arion Purgatorio E.M.L"
+	category "Secondary Weapons"
+	cost 4000000
+	thumbnail "outfit/railgun"
+	"mass" 15
+	"outfit space" -15
+	"weapon capacity" -15
+	"gun ports" -1
+	"purgatorio eml" -1
+	weapon
+		sprite "projectile/rail slug"
+			"frame rate" 30
+		sound "ion"
+		icon "icon/rail gun"
+		"fire effect" "rail sparks"
+		"hit effect" "bullet impact"
+		"inaccuracy" 0.4
+		"velocity" 500
+		"lifetime" 5
+		"reload" 360
+		"firing energy" 1100
+		"firing heat" 500
+		"firing force" 60
+		"shield damage" 500
+		"hull damage" 1200
+		"piercing" 0.7
+		"stream"
+	description "The Purgatorio E.M.L is a specially built railgun for the CFA-44x Nosferatu and ASF-02 Nosferatu."
 
 outfit "Arion M.L.M.S"
 	category "Secondary Weapons"
@@ -1016,8 +1102,8 @@ outfit "Arion 76mm Oto Melara Turret"
 		"hardpoint offset" 14.
 		sound "proton"
 		"hit effect" "proton impact" 3
-		"inaccuracy" 0.25
-		"turret turn" 4.5
+		"inaccuracy" 0.3
+		"turret turn" 4
 		"velocity" 125
 		"lifetime" 10
 		"reload" 60
@@ -1045,7 +1131,7 @@ outfit "Arion 127mm Mk 45 Turret"
 		"hardpoint offset" 14.
 		sound "proton"
 		"hit effect" "proton impact" 3
-		"inaccuracy" 0.45
+		"inaccuracy" 0.5
 		"turret turn" 2.0
 		"velocity" 100
 		"lifetime" 25
@@ -1161,6 +1247,41 @@ outfit "Arion B2 Bomb Bay Mk1"
 		"missile strength" 100
 		"piercing" 0.25
 	description "The bomb bay on the B-2 used for storing guided penetration bombs until needed."
+
+outfit "Arion Vulcan Bomb Bay Mk1"
+	category "Secondary Weapons"
+	cost 5000000
+	thumbnail "outfit/torpedo storage"
+	"mass" 25
+	"outfit space" -25
+	"weapon capacity" -25
+	"gun ports" -1
+	"vulcan bomb bay" -1
+	weapon
+		sprite "projectile/ariongpb"
+		sound "typhoon"
+		icon "icon/typhoon"
+		"fire effect" "typhoon fire"
+		"hit effect" "torpedo hit"
+		"die effect" "tiny explosion"
+		"burst count" 4
+		"burst reload" 30
+		"inaccuracy" 1
+		"velocity" 6
+		"lifetime" 420
+		"reload" 180
+		"firing energy" 1250
+		"firing heat" 750
+		"acceleration" 0.6
+		"drag" 0.1
+		"turn" 1.5
+		"homing" 4
+		"tracking" 0.5
+		"shield damage" 1250
+		"hull damage" 2100
+		"missile strength" 100
+		"piercing" 0.25
+	description "The bomb bay on the Vulcan used for storing guided penetration bombs until needed."
 
 outfit "Arion Vengeance ICBM"
 	category "Secondary Weapons"
@@ -1279,7 +1400,7 @@ outfit "Arion B1 Nuclear Bomb Bay Mk1"
 		"heat damage" 2500
 	description "The bomb bay on the B-1 used for storing nuclear bombs until needed."
 
-outfit "Arion B2 Bomb Bay Mk1"
+outfit "Arion B2 Nuclear Bomb Bay Mk1"
 	category "Secondary Weapons"
 	cost 1500000
 	thumbnail "outfit/torpedo storage"
@@ -1313,7 +1434,41 @@ outfit "Arion B2 Bomb Bay Mk1"
 		"heat damage" 2500
 	description "The bomb bay on the B-2 used for storing nuclear bombs until needed."
 
-=========================Unused==========
+outfit "Arion Vulcan Nuclear Bomb Bay Mk1"
+	category "Secondary Weapons"
+	cost 1000000
+	thumbnail "outfit/torpedo storage"
+	"mass" 0
+	"outfit space" -25
+	"weapon capacity" -25
+	"gun ports" -1
+	"a nuclear bomb capacity" 4
+	"vulcan bomb bay" -1
+	weapon
+		sprite "projectile/ariontacticalnuclearbomb"
+		ammo "Arion Tactical Nuclear Bomb Mk1"
+		sound "torpedo"
+		icon "icon/nuke"
+		"hit effect" "nuke explosion"
+		"hit effect" "nuke residue fast" 10
+		"hit effect" "nuke residue slow" 10
+		"die effect" "missile death"
+		"inaccuracy" 1
+		"velocity" 10
+		"lifetime" 300
+		"reload" 30
+		"firing energy" 10
+		"firing heat" 400
+		"trigger radius" 60
+		"blast radius" 300
+		"shield damage" 15000
+		"hull damage" 10000
+		"hit force" 5000
+		"ion damage" 2500
+		"heat damage" 2500
+	description "The bomb bay on the Vulcan used for storing nuclear bombs until needed."
+
+=========================Outdated==========
 outfit "Arion Dragonfire C.I.W.S"
 	category "Turrets"
 	licenses

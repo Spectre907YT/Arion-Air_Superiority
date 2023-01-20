@@ -1,7 +1,7 @@
 Human Ships
 ship "Arion Carabao H.A.T Block I"
-	sprite ship/carabao
-	thumbnail thumbnail/carabao-thumb
+	sprite "ship/carabao"
+	thumbnail "thumbnail/carabao-thumb"
 	attributes
 		category "Heavy Warship"
 		cost 40000000
