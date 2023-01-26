@@ -411,12 +411,12 @@ outfit "Arion Gau-8 Avenger"
 		sound "gatling"
 		"inaccuracy" 1.25
 		"velocity" 70
-		"lifetime" 5
+		"lifetime" 7
 		"shield damage" 15
 		"hull damage" 30
 		"hit force" 5
 		"reload" 4
-		"burst count" 200
+		"burst count" 240
 		"burst reload" 1
 		"firing energy" 15
 		"firing heat" 15
@@ -440,7 +440,7 @@ outfit "Arion 30mm Autocannon"
 			"frame rate" 0
 		sound "gatling"
 		"velocity" 70
-		"lifetime" 6
+		"lifetime" 8
 		"shield damage" 15
 		"hull damage" 30
 		"hit force" 5
@@ -482,12 +482,12 @@ outfit "Arion Gau-12 Equalizer"
 		sound "gatling"
 		"inaccuracy" 1.1
 		"velocity" 80
-		"lifetime" 5
+		"lifetime" 6
 		"shield damage" 15
 		"hull damage" 25
 		"hit force" 3
 		"reload" 3
-		"burst count" 300
+		"burst count" 180
 		"burst reload" 1
 		"firing energy" 10
 		"firing heat" 7.5
@@ -530,7 +530,7 @@ outfit "Arion M61 Vulcan"
 		"hull damage" 20
 		"hit force" 2
 		"reload" 2
-		"burst count" 400
+		"burst count" 300
 		"burst reload" 1
 		"firing energy" 8
 		"firing heat" 6
@@ -637,7 +637,7 @@ outfit "Arion E.M.L Turret Compact"
 		"hit effect" "bright hit"
 		"hit effect" "dragonflame plasma" 30
 		"hit effect" "dragonflame debris" 50
-		"inaccuracy" 0.15
+		"inaccuracy" 0.25
 		"turret turn" 2
 		"velocity" 600
 		"lifetime" 5
@@ -660,9 +660,9 @@ outfit "Arion E.M.L Compact"
 			"Arion"
 	cost 30000000
 	thumbnail "outfit/dragonflame"
-	"mass" 45
-	"outfit space" -45
-	"weapon capacity" -45
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
 	"gun ports" -1
 	weapon
 		sound "dragonflame" 
@@ -689,8 +689,83 @@ outfit "Arion E.M.L Compact"
 		"phasing"
 	description "Ah, the Electromagnetic Launcher Compact, its basically a more compact railgun that you can fit in a ship without needing special mounts, making it more flexible."
 
+outfit "Arion E.M.L Turret"
+	category "Secondary Weapons"
+	licenses
+			"Arion"
+	cost 85000000
+	thumbnail "outfit/pwave turret"
+	"mass" 105
+	"outfit space" -105
+	"weapon capacity" -105
+	"turret mounts" -1
+	weapon
+		sound "dragonflame" 
+		icon "icon/dragonflame"
+		"hardpoint sprite" "hardpoint/pwavehp"
+		"hardpoint offset" 11
+		sprite "projectile/arionemlslugmedium"
+			"frame rate" 30
+		"fire effect" "rail sparks"
+		"hit effect" "bright hit"
+		"hit effect" "dragonflame plasma" 30
+		"hit effect" "dragonflame debris" 50
+		"inaccuracy" 0.35
+		"turret turn" 1.25
+		"velocity" 700
+		"lifetime" 5
+		"reload" 420
+		"firing energy" 7000
+		"firing heat" 14000
+		"shield damage" 8000
+		"hull damage" 15000
+		"hit force" 500
+		"firing force" 500
+		"piercing" 0.9
+		"ion damage" 50
+		"stream"
+		"phasing"
+	description "Ah, the Electromagnetic Launcher, its the full sized E.M.L that most of our ships in the 'outside' uses."
+
+outfit "Arion E.M.L"
+	category "Secondary Weapons"
+	licenses
+			"Arion"
+	cost 70000000
+	thumbnail "outfit/dragonflame"
+	"mass" 80
+	"outfit space" -80
+	"weapon capacity" -80
+	"gun ports" -1
+	weapon
+		sound "dragonflame" 
+		icon "icon/dragonflame"
+		sprite "projectile/arionemlslugmedium"
+			"frame rate" 30
+		"fire effect" "rail sparks"
+		"hit effect" "bright hit"
+		"hit effect" "dragonflame plasma" 30
+		"hit effect" "dragonflame debris" 50
+		"inaccuracy" 0.15
+		"velocity" 700
+		"lifetime" 5
+		"reload" 420
+		"firing energy" 7000
+		"firing heat" 14000
+		"shield damage" 8000
+		"hull damage" 15000
+		"hit force" 500
+		"firing force" 500
+		"piercing" 0.9
+		"ion damage" 50
+		"stream"
+		"phasing"
+	description "Ah, the Electromagnetic Launcher, its the full sized E.M.L that most of our ships in the 'outside' uses."
+
 outfit "Arion G.A.A.C"
 	category "Guns"
+	licenses
+			"Arion"
 	cost 2000000
 	thumbnail "outfit/railgun"
 	"mass" 10
@@ -718,6 +793,8 @@ outfit "Arion G.A.A.C"
 
 outfit "Arion G.A.G.G"
 	category "Guns"
+	licenses
+			"Arion"
 	cost 2000000
 	thumbnail "outfit/railgun"
 	"mass" 10
@@ -745,11 +822,13 @@ outfit "Arion G.A.G.G"
 
 outfit "Arion Arclight E.M.L"
 	category "Secondary Weapons"
+	licenses
+			"Arion"
 	cost 8000000
 	thumbnail "outfit/railgun"
-	"mass" 30
-	"outfit space" -30
-	"weapon capacity" -30
+	"mass" 25
+	"outfit space" -25
+	"weapon capacity" -25
 	"gun ports" -1
 	"arclight eml" -1
 	weapon
@@ -774,6 +853,8 @@ outfit "Arion Arclight E.M.L"
 
 outfit "Arion Purgatorio E.M.L"
 	category "Secondary Weapons"
+	licenses
+			"Arion"
 	cost 4000000
 	thumbnail "outfit/railgun"
 	"mass" 15
@@ -791,7 +872,7 @@ outfit "Arion Purgatorio E.M.L"
 		"inaccuracy" 0.4
 		"velocity" 500
 		"lifetime" 5
-		"reload" 360
+		"reload" 300
 		"firing energy" 1100
 		"firing heat" 500
 		"firing force" 60
@@ -800,6 +881,112 @@ outfit "Arion Purgatorio E.M.L"
 		"piercing" 0.7
 		"stream"
 	description "The Purgatorio E.M.L is a specially built railgun for the CFA-44x Nosferatu and ASF-02 Nosferatu."
+
+outfit "Arion Zoisite T.L.S"
+	category "Secondary Weapons"
+	licenses
+			"Arion"
+	cost 8000000
+	thumbnail "outfit/bombardment cannon"
+	"mass" 25
+	"outfit space" -25
+	"weapon capacity" -25
+	"gun ports" -1
+	"morgan hardpoint" -1
+	weapon
+		sprite "projectile/arionlonglaser"
+			"frame rate" 1
+		sound "skylance"
+		icon "icon/dragonflame"
+		"hit effect" "beam laser impact"
+		"inaccuracy" 0
+		"velocity" 2500
+		"lifetime" 1
+		"reload" 5
+		"burst count" 60
+		"burst reload" 1
+		"firing energy" 44
+		"firing heat" 44
+		"shield damage" 40
+		"hull damage" 44
+	description "The Zoisite Tactical Laser System is a specifically built laser for the ADFX-01 Morgan and ASF-0 Morgan."
+
+outfit "Arion Joint Strike Missile"
+	category "Secondary Weapons"
+	licenses
+			"Arion"
+	cost 3500000
+	thumbnail "outfit/thunderhead launcher"
+	"mass" 10
+	"outfit space" -10
+	"weapon capacity" -10
+	"gun ports" -1
+	"xfa27 hardpoint" -2
+	weapon
+		sprite "projectile/thunderhead"
+			"no repeat"
+			"frame rate" .1
+		sound "thunderhead"
+		icon "icon/thunderhead"
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"hit effect" "medium explosion"
+		"inaccuracy" 0.6
+		"reload" 120
+		"velocity" 45
+		"lifetime" 70
+		"firing energy" 1050
+		"firing heat" 750
+		"turn" 75
+		"homing" 4
+		"tracking" 1
+		"shield damage" 1250
+		"hull damage" 1100
+		"missile strength" 40
+		"ion damage" 25
+		"acceleration" 4.5
+		"drag" 0.1
+		"phasing"
+	description "The Joint Strike Missile is specifically built for the XFA-27 and the ASF-03 Scarface."
+
+outfit "Arion L.S.W.M"
+	category "Secondary Weapons"
+	cost 8500000
+	thumbnail "outfit/rocket pod"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"gun ports" -1
+	"fenrir hardpoint" -1
+	weapon
+		sprite "projectile/missile"
+			"no repeat"
+			"frame rate" .25
+		"hardpoint sprite" "hardpoint/nuke"
+		sound "nuke"
+		icon "icon/nuke"
+		"hit effect" "nuke explosion"
+		"hit effect" "nuke residue fast" 10
+		"hit effect" "nuke residue slow" 10
+		"die effect" "missile death"
+		"inaccuracy" 0.5
+		"velocity" 15
+		"lifetime" 250
+		"reload" 360
+		"firing energy" 4000
+		"firing heat" 3500
+		"acceleration" 1.5
+		"drag" 0.1
+		"turn" 15
+		"homing" 4
+		"tracking" 1
+		"blast radius" 50
+		"shield damage" 4000
+		"hull damage" 4500
+		"hit force" 500
+		"missile strength" 80
+		"phasing"
+	description "The Long Range Shockwave Missile is specifically built for the XFA-33 Fenrir and the ASF-04 Fenrir."
 
 outfit "Arion M.L.M.S"
 	category "Secondary Weapons"
@@ -1009,10 +1196,10 @@ outfit "Arion Rocket Pod"
 		"hit effect" "tiny explosion"
 		"inaccuracy" 4
 		"burst count" 12
-		"burst reload" 10
+		"burst reload" 5
 		"velocity" 25
 		"lifetime" 100
-		"reload" 60
+		"reload" 45
 		"firing energy" 175
 		"firing heat" 90
 		"shield damage" 200
@@ -1298,7 +1485,6 @@ outfit "Arion Vengeance ICBM"
 		"hardpoint sprite" "hardpoint/nuke"
 		sound "nuke"
 		ammo "Arion Vengeance ICBM"
-		stream
 		icon "icon/nuke"
 		"hit effect" "nuke explosion"
 		"hit effect" "nuke residue fast" 10

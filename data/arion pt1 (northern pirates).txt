@@ -1,25 +1,39 @@
 mission "Arion:North Supply 1"
+	name "Your first mission"
 	landing
-	description "Head over to <destination> and go to the spaceport to start your mission with the 11th Transport Squadron"
+	description "Head over to <destination> to start your mission with the 11th Transport Squadron"
 	source "Luna"
 	destination "Sunracer"
 	to offer
 		has "Arion:First Contact=done"
 	on offer 
 		conversation
-			`"Alright, for your first mission, you will need to meet up with the 11th Transport Squadron in <destination> and head to the spaceport to do a supply run in the north, so you can be more familiar with how we do things. You can do this mission anytime you are available,"the Handler tells you.`
-				accept
+			`	After concluding the base tour, the Handler approaches you. "Well i guess it's time for your first mission. You will be escorting the 11th transport squadron and help deliver some needed supplies. You can accept this mission whenever you're ready, although i recommend that you use a Heavy Warship or something that can capture Heavy Warships, although its not really necessary, since that's only needed if you want some bonus rewards. After all we might not even need backup since our ships should be able to handle themselves."`
+			choice
+				`	Accept the mission`
+					accept
+				`	Maybe Later`
+					defer
+	on fail
+		event "Arion leaves"
+		dialog `You have failed/aborted an essential Arion mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+	on abort
+		event "Arion leaves"
+		dialog `You have failed/aborted an essential Arion mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
 
 mission "Arion:North Supply 2"
-	description "Escort the the 11th Transport Squadron to <destination> and clear the northern passage from pirates. Remember to board them to take their captains."
+	name "Operation Shield"
+	description "Escort the the 11th Transport Squadron to <destination> and clear the northern passage from pirates. Remember to board them to capture their captains."
+	landing
 	source "Sunracer"
+	waypoint "Sumar"
 	destination "Farpoint"
 	to offer 
 		has "Arion:North Supply 1: offered"
 	on offer
 		conversation
 			`As soon as you enter the Spaceport, as instructed, a man in a uniform greets you. Unlike everyone else in the spaceport, he is armed with a conventional sidearm, a suppressed Glock. When he sees you, he immediately approaches you. You make a mental note to remember the Arion uniform.`
-			`	"Hello Captain <first> <last>! I am Captain Sam of the SFF Amazon. You will be joining our squadron, the 11th Transport Squadron, for our transport operation. We will be supporting the navy base in Farpoint by bringing in needed supplies while hopefully clearing up some pirates in the northern passage. There is a pirate gang patrolling the area we will be passing through and if they attack, we should disable and board their ships to capture their captain for interrogation. You should definitely capture them if you can since they will definitely have some goodies. Also, remember to take the conventional route, we want to make sure that the route is clear! The SFF Wish will also be accompanying us."`
+			`	"Hello Captain <first> <last>! I am Captain Sam of the SFF Amazon. You will be joining our squadron, the 11th Transport Squadron, for our transport operation. We will be supporting the navy base in Farpoint by bringing in needed supplies while hopefully clearing up some pirates in the northern passage. There is a pirate gang patrolling the area we will be passing through and if they attack, we should disable and board their ships to capture their captain for interrogation. You should definitely capture them if you can since they will definitely have some goodies."`
 				accept
 	npc save accompany
 		government "Arion (SFF)"
@@ -40,16 +54,24 @@ mission "Arion:North Supply 2"
 			choice
 				`	(Hand over the prisoner)`
 			`"Good job capturing the enemy captain, <first>!" Sam tells you. "The Navy will be pleased that they will not only be receiving supplies, but also a prisoner to interrogate. Anyways we probably attracted the attention of their leader, so we should be careful when we head back later on."`
+	on fail
+		event "Arion leaves"
+		dialog `You have failed/aborted an essential Arion mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+	on abort
+		event "Arion leaves"
+		dialog `You have failed/aborted an essential Arion mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
 
 mission "Arion:North Supply 3"
-	description "Escort the 11th Transport Squadron back to <destination>. Be wary, the pirate gang who you recently just attacked will probably want revenge. Capture their leaders ship."
+	name "Operation Shield"
+	description "Escort the 11th Transport Squadron back to <destination>. Be wary, the pirate gang who you recently just attacked will probably want revenge."
 	source "Farpoint"
+	waypoint "Sumar"
 	destination "Sunracer"
 	to offer 
 		has "Arion:North Supply 2: offered"
 	on offer
 		conversation
-			`"Alright <first>, we have confirmation from Navy personnel, the captain you captured is an important member of this gang. We will have to watch our backs since their leader will be out for our blood. If we do find them, capture their ship, we might find something interesting."`
+			`"Alright <first>, we have confirmation from Navy personnel, the captain you captured is an important member of this gang. We will have to watch our backs since their leader will be out for our blood. If we do find them, capture their ship, it's called the Chieftain, we might find something interesting."`
 				accept
 	npc save accompany
 		government "Arion (SFF)"
@@ -57,7 +79,7 @@ mission "Arion:North Supply 3"
 			confusion 1
 		ship "Arion Argosy Block IIIA" "SFF Amazon"
 		ship "Arion Argosy Block IIIA" "SFF Wish"
-	npc capture
+	npc
 		government Pirate
 		personality staying waiting target
 		system Sumar
@@ -72,14 +94,21 @@ mission "Arion:North Supply 3"
 		ship "Marauder Splinter (Northern Pirate Arion)" "Ripper"
 	on complete
 		payment "1000000"
-		"salary: Arion" = 1000
+		"salary: Arion" = 11000
 		log "People" "Captain Sam" "The leader of the 11th Transport Squadron."
 		conversation
-			`"Great work dealing with the pirate leader <first>. Although, we should both watch our backs since we have probably enraged their gang. That is however a problem for later. You should check their leaders ship, i heard they keep a special gun. Think of it as a trophy. Anyways Captain, I'm sure we both have tasks to return to. Good luck and goodbye, may our paths cross again," Tod says to you as he returns to his ship.`
+			`"Great work dealing with the pirate leader Captain. Although, we should both watch our backs since we have probably enraged their gang. That is however a problem for later. You should check their leaders ship, i heard they keep a special gun. Think of it as a trophy. Anyways Captain, I'm sure we both have tasks to return to. Good luck and goodbye, may our paths cross again," Tod says to you as he returns to his ship.`
+	on fail
+		event "Arion leaves"
+		dialog `You have failed/aborted an essential Arion mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+	on abort
+		event "Arion leaves"
+		dialog `You have failed/aborted an essential Arion mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
 
 
 
 mission "Arion:North Scout 1"
+	name "Your second mission"
 	landing
 	description "Head over to <destination> and go to the spaceport to begin your mission with the 7th scouting squadron"
 	source Luna
@@ -88,10 +117,21 @@ mission "Arion:North Scout 1"
 		has "Arion:North Supply 3: done"
 	on offer
 		conversation
-			`"Good job helping the 11th Transport Squadron. While they probably didn't need help, it's good to have backup. Besides, you helped us neutralize the pirate gang, for now. We will need to check on them. You will be joining the 7th Scouting Squadron on Farpoint, and help find their base to determine their strength, meet them in the spaceport," the Handler tells you.`
-				accept
+			`	When you return to the base, the Handler happily approaches you. "Good job completing your first assignment Captain! Its good to know that we can count on you. For your next mission you will be scouting out the pirate's base to determine their strength. As usual, you can do this mission whenever you are ready."`
+			choice
+				`	Accept the mission`
+					accept
+				`	Maybe Later`
+					defer
+	on fail
+		event "Arion leaves"
+		dialog `You have failed/aborted an essential Arion mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+	on abort
+		event "Arion leaves"
+		dialog `You have failed/aborted an essential Arion mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
 
 mission "Arion:North Scout 2"
+	name "Operation Sword"
 	spaceport
 	description "Scout Haven for the precense of the pirate who you fought previously."
 	clearance
@@ -101,7 +141,7 @@ mission "Arion:North Scout 2"
 		has "Arion:North Scout 1: offered"
 	on offer
 		conversation
-			`After landing, you head straight to the spaceport. When you enter the spaceport, you see a man in a familiar uniform, not to different from Tod's. You have a feeling that he is your man.`
+			`After landing, you head straight to the spaceport. When you enter the spaceport, you see a man in a familiar uniform, not too different from Tod's. You have a feeling that he is your man.`
 			choice
 				`	(Approach the man)`
 			`The man stands up and greets you. "Hello Captain <first> <last>, my name is Tom. I am the commander of the 7th scouting squadron. Usually there would be another ship accompanying us but the captain got injured in a recent battle, so you will be my temporary squadmate. Our first task is to scout Haven, a pirate system where the main base of the pirates you recently fought resides. We need to check their strength and how much ships they have left. It will not be easy since it will only be the 2 of us. But hey, we are only there to scout, not fight."`
@@ -111,8 +151,15 @@ mission "Arion:North Scout 2"
 		personality escort disables
 			confusion 1
 		ship "Arion Headhunter Block IIIA" "SFF Overseer"
+	on fail
+		event "Arion leaves"
+		dialog `You have failed/aborted an essential Arion mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+	on abort
+		event "Arion leaves"
+		dialog `You have failed/aborted an essential Arion mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
 
 mission "Arion:North Scout 3"
+	name "Operation Sword"
 	landing
 	description "Return to Farpoint. Evade or kill the enemies pursuing you."
 	source "Haven"
@@ -142,8 +189,15 @@ mission "Arion:North Scout 3"
 		conversation
 			`You quickly land near the spaceport, the SFF Overseer following quickly behind you. Hopefully, you were able to get some important information.`
 			`	"Well <first>, looks like we got some interesting intel, hopefully we get something useful out of it. Like i said while at Haven, it appears we hit em quite hard. While the 11th Transport Squadron sent some reports of pirates attacking their convoys, it appears that they are using less and less Heavy Warships, instead relying more on their Splinters and Ravens. How ever, there are rumors of their second in command beginning to raid again. I'll look over this data for now. You can meet in the spaceport later, maybe i'll have some information by then."`
+	on fail
+		event "Arion leaves"
+		dialog `You have failed/aborted an essential Arion mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+	on abort
+		event "Arion leaves"
+		dialog `You have failed/aborted an essential Arion mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
 
 mission "Arion:North Scout 4"
+	name "Operation Sword"
 	spaceport
 	description "Investigate rumors of the pirate gang's second in command chasing after you."
 	clearance
@@ -165,10 +219,17 @@ mission "Arion:North Scout 4"
 		ship "Arion Headhunter Block IIIA" "SFF Overseer"
 		ship "Arion Argosy Block IIIA" "SFF Amazon"
 		ship "Arion Argosy Block IIIA" "SFF Wish"
+	on fail
+		event "Arion leaves"
+		dialog `You have failed/aborted an essential Arion mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+	on abort
+		event "Arion leaves"
+		dialog `You have failed/aborted an essential Arion mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
 
 mission "Arion:North Scout 5"
+	name "Operation Sword"
 	landing
-	description "Eliminate the warlord and then capture his ship, good luck"
+	description "Eliminate the warlord, good luck"
 	source "Haven"
 	destination "Farpoint"
 	to offer
@@ -177,7 +238,7 @@ mission "Arion:North Scout 5"
 		conversation
 			`When you are just about to approach their base, someone hails you.`
 			`"Head out to space, i will test you in 1 to 1 combat. Your 'friends' will also be tested. It's time to see how strong you really are."`
-			`"Well that doesn't sound good," Tom says to you. "Looks like they aren't happy with us taking out their leader. Its the 4 of us against god knows how many of em. Well, wish us luck captain."`
+			`"Well that doesn't sound good," Tom says to you. "Looks like they aren't happy with us taking out their leader. Its the 4 of us against god knows how many of em. Target the nemesis, that's their leaders ship. Well, wish us luck captain."`
 
 	npc save accompany
 		government "Arion (SFF)"
@@ -186,7 +247,7 @@ mission "Arion:North Scout 5"
 		ship "Arion Headhunter Block IIIA" "SFF Overseer"
 		ship "Arion Argosy Block IIIA" "SFF Amazon"
 		ship "Arion Argosy Block IIIA" "SFF Wish"
-	npc capture
+	npc
 		government Pirate
 		personality nemesis target
 		ship "Marauder Falcon (Northern Pirate Leader Arion)" "Nemesis"
@@ -205,10 +266,16 @@ mission "Arion:North Scout 5"
 		ship "Marauder Raven (Northern Pirate Arion)" "Opressor 5"
 	on complete
 		payment "1250000"
-		"salary: Arion" = 1500
+		"salary: Arion" = 12500
 		log "People" "Captain Tom" "The leader of the 7th Scouting Squadron."
 		conversation
 			`The 4 of you land near the spaceport, lucky to be alive. While Arion's tech is powerful, being outnumbered is tense, even though Arion is used to fighting large amounts of enemies with few troops.`
 			`	"Well, looks like the 4 of us make a good team, Captain Sam says."`
 			`	"I agree," Captain Tom replies.`
 			`	"Well then Captain <first> <last>, looks like we did a hell of a good job, those pirates should be down and out for now. Just like with their leader, i heard that their 2nd in command also keeps a special gun. Well, me and the boys in the 11th Squadron have to return to our duties, maybe the boys in Luna have a new job for you. Good luck Captain, and may your journey be full of good luck," Tom says to you as he and Sam return to their duties.`
+	on fail
+		event "Arion leaves"
+		dialog `You have failed/aborted an essential Arion mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
+	on abort
+		event "Arion leaves"
+		dialog `You have failed/aborted an essential Arion mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`

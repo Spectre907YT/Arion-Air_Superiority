@@ -1553,8 +1553,8 @@ ship "Arion Su-57XS Felon Block I"
 		"weapon capacity" 30
 		"engine capacity" 25
 		"cloak" 2
-		"cloaking energy" 12
-		"cloaking heat" 6
+		"cloaking energy" 13
+		"cloaking heat" 6.5
 		"flares" 1
 	outfits
 		"Arion 30mm Autocannon"
@@ -1938,7 +1938,7 @@ ship "Arion A-4XS Skyhawk Block I"
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	"final explode" "final explosion small"
-	description "Attacker originally used by the US and its allies, it has been modernized extensively and now also has the ability for space flight."
+	description "This was an Attacker aircraft used by the US and some of its allies. It has been modified and upgrade extensively not only to survive modern combat but also to fly in space. It is used mainly by the Arion Marine Corps and the Arion Army Air Corps as an attacker and a light fighter. While it isn't the best for A2A roles, its cheapness, ruggedness, maneuverability and ability to take off from almost any road has made it very useful. It is also used in the Arion Air Force, Arion Navy and Arion Foreign Legion mainly as Trainers."
 
 ship "Arion X-02XS Wyvern Block I"
 	sprite "ship/arionx02"
@@ -1952,7 +1952,7 @@ ship "Arion X-02XS Wyvern Block I"
 		"hull" 900
 		"required crew" 1
 		"bunks" 1
-		"mass" 34
+		"mass" 37
 		"drag" 0.9
 		"heat dissipation" 0.9
 		"fuel capacity" 200
@@ -1984,7 +1984,7 @@ ship "Arion X-02XS Wyvern Block I"
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	"final explode" "final explosion small"
-	description "Prototype Fighter originally made by Erusea, it has been modernized extensively and now also has the ability for space flight. It has a built in cloak."
+	description "This was a super fighter made by a 'Strangereal' nation called Erusea. The Strike Wyvern of this aircraft came equipped with the advanced Arclight EML. It has been modified and upgraded to suite Arion's needs. This aircraft is used by the SFF and is given to Ace pilots who have proven themselves worthy of a super fighter. Unlike the original fighter, it can operate in space."
 
 ship "Arion CFA-44XS Nosferatu Block I"
 	sprite "ship/arioncfa44"
@@ -1999,15 +1999,15 @@ ship "Arion CFA-44XS Nosferatu Block I"
 		"required crew" 1
 		"bunks" 1
 		"mass" 40
-		"drag" 1
+		"drag" 0.95
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 135
 		"weapon capacity" 45
 		"engine capacity" 25
 		"cloak" 2
-		"cloaking energy" 12
-		"cloaking heat" 6
+		"cloaking energy" 11
+		"cloaking heat" 5.5
 		"flares" 1
 		"purgatorio eml" 2
 	outfits
@@ -2030,7 +2030,7 @@ ship "Arion CFA-44XS Nosferatu Block I"
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	"final explode" "final explosion small"
-	description "Prototype Fighter originally made by Estovakia, it has been modernized extensively and now also has the ability for space flight. It has a built in cloak."
+	description "This was a super fighter made by a 'Strangereal' nation called Estovakia. It is equipped with a bunch of advanced technologies including the All Direction Multi-purpose Missiles and Purgatorio EML. It has been modified and upgraded to suite Arion's needs. This aircraft is used by the SFF and is given to Ace pilots who have proven themselves worthy of a super fighter. Unlike the original fighter, it can operate in space, only has 1 auto cannon and only comes equipped with its purgatorio eml super weapon."
 
 ship "Arion Su-27XS Flanker Block I"
 	sprite "ship/arionsu27"
@@ -2234,7 +2234,7 @@ ship "Arion F-18XS Hornet Block I"
 	"final explode" "final explosion small"
 	description "Fighter originally used by the US and its allies, it has been modernized extensively and now also has the ability for space flight."
 
-ship "Arion Mig-29XS Fulcrum Block I"
+ship "Arion Mig-35XS Fulcrum Block I"
 	sprite "ship/arionmig35"
 	thumbnail "ship/arionmig35"
 	attributes
@@ -2483,6 +2483,145 @@ ship "Arion F-22NXS Raptor Block I"
 	explode "small explosion" 5
 	"final explode" "final explosion small"
 	description "Stealth naval fighter interceptor concept, it has been modernized extensively and now also has the ability for space flight. It has a built in cloak."
+
+ship "Arion ADFX-02XS Morgan Block I"
+	sprite "ship/arionadfx02"
+	thumbnail "ship/arionadfx02"
+	attributes
+		category "Fighter"
+		licenses
+			"Arion"
+		"cost" 5000000
+		"shields" 1550
+		"hull" 775
+		"required crew" 1
+		"bunks" 1
+		"mass" 43
+		"drag" 1.0
+		"heat dissipation" 0.9
+		"fuel capacity" 200
+		"outfit space" 135
+		"weapon capacity" 50
+		"engine capacity" 25
+		"cloak" 2
+		"cloaking energy" 13
+		"cloaking heat" 6.5
+		"flares" 1
+		"morgan hardpoint" 1
+	outfits
+		"Arion G.A.G.G"
+		"Arion Missile Pod" 2
+		"Arion Zoisite T.L.S"
+		"Arion Chaff and Flares Tier 1"
+		"Arion F.A Engines"
+		"Arion S.C.D"
+		"Arion T.B.R.S"
+		"Arion Mini Overcharge Core"
+	engine -10 58
+	engine 10 58
+	gun -6.5 -11.5 "Arion G.A.G.G"
+	gun 0 17.5 "Arion Zoisite T.L.S"
+	gun -10.5 21
+	gun 10.5 21
+	turret 0 33
+	leak "leak" 60 50
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
+	description "This was a super fighter made by a 'Strangereal' nation called Belka. The Morgan comes with either a Hypersthene Multi-Purpose Burst Missile or Zoisite Tactical Laser System. It has been modified and upgraded to suite Arion's needs. This aircraft is used by the SFF and is given to Ace pilots who have proven themselves worthy of a super fighter. Unlike the original fighter, it can operate in space."
+
+ship "Arion XFA-27XS Block I"
+	sprite "ship/arionxfa27"
+	thumbnail "ship/arionxfa27"
+	attributes
+		category "Fighter"
+		licenses
+			"Arion"
+		"cost" 5000000
+		"shields" 1600
+		"hull" 800
+		"required crew" 1
+		"bunks" 1
+		"mass" 36
+		"drag" 0.85
+		"heat dissipation" 0.9
+		"fuel capacity" 200
+		"outfit space" 135
+		"weapon capacity" 50
+		"engine capacity" 25
+		"cloak" 2
+		"cloaking energy" 13
+		"cloaking heat" 6.5
+		"flares" 1
+		"xfa27 hardpoint" 2
+	outfits
+		"Arion G.A.G.G"
+		"Arion Missile Pod" 2
+		"Arion Joint Strike Missile" 2
+		"Arion Chaff and Flares Tier 1"
+		"Arion F.A Engines"
+		"Arion S.C.D"
+		"Arion T.B.R.S"
+		"Arion Mini Overcharge Core"
+	engine -9.5 44
+	engine 9.5 44
+	gun -4 -21.5 "Arion G.A.G.G"
+	gun 14 4.5 "Arion Missile Pod"
+	gun -14 4.5 "Arion Missile Pod"
+	gun -16.5 4.5
+	gun 16.5 4.5
+	turret 0 50
+	leak "leak" 60 50
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
+	description "This was a super fighter made by a 'Strangereal' faction called the Usean Allied Forces. The XFA-27 comes with a the Joint. It has been modified and upgraded to suite Arion's needs. This aircraft is used by the SFF and is given to Ace pilots who have proven themselves worthy of a super fighter. Unlike the original fighter, it can operate in space."
+
+ship "Arion XFA-33XS Fenrir Block I"
+	sprite "ship/arionxfa33"
+	thumbnail "ship/arionxfa33"
+	attributes
+		category "Fighter"
+		licenses
+			"Arion"
+		"cost" 5600000
+		"shields" 2100
+		"hull" 1050
+		"required crew" 1
+		"bunks" 1
+		"mass" 55
+		"drag" 1.1
+		"heat dissipation" 0.9
+		"fuel capacity" 300
+		"outfit space" 150
+		"weapon capacity" 60
+		"engine capacity" 30
+		"cloak" 1.5
+		"cloaking energy" 9
+		"cloaking heat" 4.5
+		"flares" 1
+		"fenrir hardpoint" 1
+	outfits
+		"Arion G.A.A.C"
+		"Arion Missile Pod" 2
+		"Arion L.S.W.M"
+		"Arion Chaff and Flares Tier 1"
+		"Arion B.A Engines"
+		"Arion S.C.D"
+		"Arion T.B.R.S"
+		"Arion Mini Overcharge Core"
+	engine -12.5 63
+	engine 12.5 63
+	gun 7.5 -22.5 "Arion G.A.A.C"
+	gun 0 12
+	gun -12 12 "Arion Missile Pod"
+	gun 12 12 "Arion Missile Pod"
+	turret 0 51.5
+	leak "leak" 60 50
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
+	description "This was a super fighter made by a 'Strangereal' nation called Leasath. It is equipped with a bunch of advanced technologies including the already built in cloaking device, The Long Range Shockwave Missile and High Powered Microwave. It has been modified and upgraded to suite Arion's needs. This aircraft is used by the SFF and is given to Ace pilots who have proven themselves worthy of a super fighter. Unlike the original fighter, it can operate in space, only has 1 auto cannon and only comes equipped with its L.S.W.M."
 
 =================Outdated==================
 

@@ -1,3 +1,5 @@
+=====NOT YET DONE=====
+
 mission "Arion:Northern Raid 1"
 	landing
 	description "Head over to <destination> and go to the spaceport to start your mission with the 2nd Combined Assault Squadron"

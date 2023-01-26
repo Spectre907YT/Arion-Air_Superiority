@@ -1,5 +1,6 @@
 Government ships
 ship "Arion Argosy Block IIIA"
+	"never disabled"
 	sprite "ship/argosy"
 	thumbnail "thumbnail/argosy"
 	attributes
@@ -28,7 +29,7 @@ ship "Arion Argosy Block IIIA"
 		"burn resistance" 5
 	outfits
 		"Arion A.E.W.S"
-		"Arion Scram Drive Core"
+		"Hyperdrive"
 		"Arion Missile Pod" 4
 		"Arion Myriad C.I.W.S"
 		"Arion Deadlock Laser Turret"
@@ -36,7 +37,7 @@ ship "Arion Argosy Block IIIA"
 		"Arion M.L.W Atomic Engines"
 		"Arion M.A.R.S"
 		"Arion L.C.D"
-		"Fuel Processor" 2
+		"Arion Multirole Fuel System"
 		"Arion Riot Soldier"
 		"Arion Heavy CQB"
 		"Arion M82 Barrett"
@@ -56,10 +57,11 @@ ship "Arion Argosy Block IIIA"
 	explode "small explosion" 25
 	explode "medium explosion" 25
 	explode "large explosion" 10
-	"final explode" "final explosion medium"
+	"final explode" "arion teleport"
 	description "(Note, if you are reading this then you are either cheating, stole the ship or looking at the game files. These equipment are not meant for player use) The Block IIIA Argosy is made to safely transport important goods through dangerous areas safely."
 
 ship "Arion Headhunter Block IIIA"
+	"never disabled"
 	sprite "ship/headhunter"
 	thumbnail "thumbnail/headhunter"
 	attributes
@@ -76,7 +78,7 @@ ship "Arion Headhunter Block IIIA"
 		"heat dissipation" 0.9
 		"fuel capacity" 400
 		"cargo space" 50
-		"outfit space" 700
+		"outfit space" 275
 		"weapon capacity" 60
 		"engine capacity" 100
 		"gun ports" 4
@@ -90,9 +92,10 @@ ship "Arion Headhunter Block IIIA"
 		"burn resistance" 5
 	outfits
 		"Arion A.E.W.S"
-		"Arion Scram Drive Core"
+		"Hyperdrive"
+		"Arion P.C.S"
 		"Arion Missile Pod" 2
-		"Arion Gau-8 Avenger" 2
+		"Arion G.A.A.C" 2
 		"Arion Phalanx C.I.W.S"
 		"Arion Antimatter Reactor Small" 2
 		"Arion M.L.W Atomic Engines"
@@ -100,7 +103,7 @@ ship "Arion Headhunter Block IIIA"
 		"Arion L.C.D"
 		"Arion Riot Soldier"
 		"Arion Heavy CQB"
-		"Fuel Processor"
+		"Arion Multirole Fuel System"
 	engine -16 47
 	engine 16 47
 	gun -17.5 -17
@@ -113,7 +116,7 @@ ship "Arion Headhunter Block IIIA"
 	explode "tiny explosion" 20
 	explode "small explosion" 25
 	explode "medium explosion" 15
-	"final explode" "final explosion small"
+	"final explode" "arion teleport"
 	description "(Note, if you are reading this then you are either cheating, stole the ship or looking at the game files. These equipment are not meant for player use) The Block IIIA Headhunter is made to scout dangerous territory safely."
 
 Government outfits
