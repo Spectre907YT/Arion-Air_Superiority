@@ -4,10 +4,10 @@ ship "Arion Destroyer Block I"
 		category "Heavy Warship"
 		licenses
 			Arion
-		"cost" 12500000
-		"shields" 25000
-		"hull" 10000
-		"required crew" 1
+		"cost" 9000000
+		"shields" 15000
+		"hull" 6000
+		"required crew" 20
 		"bunks" 50
 		"mass" 410
 		"drag" 5.0
@@ -58,10 +58,10 @@ ship "Arion Corvette Block I"
 		category "Medium Warship"
 		licenses
 			Arion
-		"cost" 1000000
+		"cost" 8500000
 		"shields" 15000
-		"hull" 5000
-		"required crew" 1
+		"hull" 3750
+		"required crew" 15
 		"bunks" 55
 		"mass" 345
 		"drag" 5.0
@@ -73,6 +73,9 @@ ship "Arion Corvette Block I"
 		"engine capacity" 150
 		"gun ports" 6
 		"turret ports" 1
+		"cloak" 1.5
+		"cloaking energy" 15
+		"cloaking heat" 7.5
 	outfits
 		"Arion B.E.W.S"
 		"Arion Small Fusion Reactor" 3
@@ -104,7 +107,7 @@ ship "Arion Corvette Block I"
 	explode "medium explosion" 24
 	explode "large explosion" 8
 	"final explode" "final explosion medium"
-	description "Unlike the original ship, the Arion Corvette lacks the cloak to act more like an average escort. Weirdly enough however, unlike in our naval fleets, its a Frigate, but stronger. However, it trades 2 turret mounts for 2 gun ports so keep that in mind."
+	description "The navy corvette is an advanced ship equipped with a built in cloak. Weirdly enough however, unlike in our naval fleets, its a Frigate, but stronger. However, it trades 2 turret mounts for 2 gun ports so keep that in mind."
 
 
 government only

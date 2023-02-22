@@ -70,6 +70,26 @@ outfit "Arion B.T Laser"
 		"firing energy" 0.1
 	description "A laser used for targeting on bombers."
 
+outfit "Arion OTOMATIC CIWS"
+	category "Turrets"
+	cost 1500000
+	thumbnail "outfit/heavy anti-missile"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/heavy anti-missile"
+		"hardpoint offset" 5.
+		"hit effect" "large anti-missile"
+		"anti-missile" 60
+		"velocity" 650
+		"lifetime" 2
+		"reload" 15
+		"firing energy" 150
+		"firing heat" 75
+	description "A 76mm naval gun that has added radars to shoot down missiles, it now acts as a Heavy CIWS system, designed to shoot down larger missiles from longer ranges."
+
 outfit "Arion Goalkeeper C.I.W.S"
 	category "Turrets"
 	licenses
@@ -290,12 +310,12 @@ outfit "Arion Disabler Laser"
 	"weapon capacity" -25
 	"gun ports" -1
 	weapon
-		sprite "projectile/arionlaser"
+		sprite "projectile/arionmediumlaser"
 			"frame rate" 1
 		sound "skylance"
 		"hit effect" "beam laser impact"
 		"inaccuracy" 0
-		"velocity" 1000
+		"velocity" 800
 		"lifetime" 1
 		"reload" 1
 		"firing energy" 7
@@ -317,7 +337,7 @@ outfit "Arion Disabler Laser Turret"
 	"weapon capacity" -40
 	"turret mounts" -1
 	weapon
-		sprite "projectile/arionlaser"
+		sprite "projectile/arionmediumlaser"
 			"frame rate" 1
 		"hardpoint sprite" "hardpoint/bombardment turret"
 		"hardpoint offset" 10
@@ -325,7 +345,7 @@ outfit "Arion Disabler Laser Turret"
 		"hit effect" "beam laser impact"
 		"turret turn" 4
 		"inaccuracy" 0
-		"velocity" 1000
+		"velocity" 800
 		"lifetime" 1
 		"reload" 1
 		"firing energy" 7
@@ -347,12 +367,12 @@ outfit "Arion Stunner Laser"
 	"weapon capacity" -20
 	"gun ports" -1
 	weapon
-		sprite "projectile/arionlaser"
+		sprite "projectile/arionshortlaser"
 			"frame rate" 1
 		sound "skylance"
 		"hit effect" "beam laser impact"
 		"inaccuracy" 0
-		"velocity" 1000
+		"velocity" 600
 		"lifetime" 1
 		"reload" 1
 		"firing energy" 1.2
@@ -374,7 +394,7 @@ outfit "Arion Stunner Laser Turret"
 	"weapon capacity" -30
 	"turret mounts" -1
 	weapon
-		sprite "projectile/arionlaser"
+		sprite "projectile/arionshortlaser"
 			"frame rate" 1
 		"hardpoint sprite" "hardpoint/bombardment turret"
 		"hardpoint offset" 10
@@ -382,7 +402,7 @@ outfit "Arion Stunner Laser Turret"
 		"hit effect" "beam laser impact"
 		"turret turn" 3
 		"inaccuracy" 0
-		"velocity" 1000
+		"velocity" 600
 		"lifetime" 1
 		"reload" 1
 		"firing energy" 1.2
@@ -582,7 +602,7 @@ outfit "Arion Dragonsbreath Railgun"
 	category "Secondary Weapons"
 	licenses
 			"Arion"
-	cost 100000000
+	cost 210000000
 	thumbnail "outfit/dragonflame"
 	"mass" 200
 	"outfit space" -200
@@ -604,7 +624,7 @@ outfit "Arion Dragonsbreath Railgun"
 		"firing energy" 125000
 		"firing heat" 100000
 		"firing force" 1000
-		"hit force" 1000
+		"hit force" 2500
 		"shield damage" 80000
 		"hull damage" 160000
 		"heat damage" 60000
@@ -615,6 +635,44 @@ outfit "Arion Dragonsbreath Railgun"
 		"stream"
 		"phasing"
 	description "This is a super weapon adapted from our usual ships to be fitted on ships in this universe. Altho, like our usual ships, it requires a special mount to be fitted on, so only certain ships can be fitted with these. Anything that isn't destroyed should be disabled after a shot, but the energy, heat and reload time should encourage you to only shoot at high priority targets."
+
+outfit "Arion Dragonfire Railgun"
+	category "Secondary Weapons"
+	licenses
+			"Arion"
+	cost 150000000
+	thumbnail "outfit/dragonflame"
+	"mass" 180
+	"outfit space" -180
+	"weapon capacity" -180
+	"gun ports" -1
+	"spinal mount" -1
+	weapon
+		sound "dragonflame" 
+		icon "icon/dragonflame"
+		sprite "projectile/arionemlsluglarge"
+			"frame rate" 30
+		"fire effect" "rail sparks"
+		"hit effect" "bright hit"
+		"hit effect" "dragonflame plasma" 30
+		"hit effect" "dragonflame debris" 50
+		"velocity" 800
+		"lifetime" 10
+		"reload" 240
+		"firing energy" 12500
+		"firing heat" 9000
+		"firing force" 100
+		"hit force" 250
+		"shield damage" 10000
+		"hull damage" 15000
+		"heat damage" 8000
+		"ion damage" 800
+		"piercing" 0.92
+		"disruption damage" 0.25
+		"discharge damage" 0.25
+		"stream"
+		"phasing"
+	description "A new design, this railgun features a revolver like system which allows the railgun to have significantly faster reloads. Like the dragons breath, it requires a special mount."
 
 outfit "Arion E.M.L Turret Compact"
 	category "Secondary Weapons"
@@ -1232,7 +1290,7 @@ outfit "Arion L.R.A.S.M Pod"
 		"acceleration" 1.2
 		"drag" 0.1
 		"turn" 2.5
-		"homing" 4
+		"homing" 3.5
 		"tracking" 0.75
 		"shield damage" 1500
 		"hull damage" 1750
@@ -1266,7 +1324,7 @@ outfit "Arion G.P.B Pod"
 		"acceleration" 0.6
 		"drag" 0.1
 		"turn" 1.5
-		"homing" 4
+		"homing" 3
 		"tracking" 0.5
 		"shield damage" 1250
 		"hull damage" 2100
@@ -1274,6 +1332,104 @@ outfit "Arion G.P.B Pod"
 		"piercing" 0.25
 		"stream"
 	description "Single launch Guided Penetration Bomb for fighter aircraft. Useful for helping destroy Capital ships."
+
+outfit "Arion Unguided Torpedo Pod"
+	category "Secondary Weapons"
+	cost 1250000
+	thumbnail "outfit/typhoonpod"
+	"mass" 9
+	"outfit space" -9
+	"weapon capacity" -9
+	"gun ports" -1
+	weapon
+		sprite "projectile/ariontorpedo"
+			"frame rate" 4
+			"random start frame"
+		sound "typhoon"
+		icon "icon/typhoon"
+		"fire effect" "typhoon fire"
+		"hit effect" "torpedo hit"
+		"die effect" "tiny explosion"
+		"inaccuracy" 1.5
+		"velocity" 15
+		"lifetime" 300
+		"reload" 360
+		"firing energy" 2000
+		"firing heat" 1250
+		"acceleration" 1.5
+		"drag" 0.1
+		"shield damage" 1600
+		"hull damage" 2400
+		"heat damage" 50
+		"ion damage" 25
+		"piercing" 0.25
+		"stream"
+	description "Heavy unguided torpedo made to destroy or disable large warships. This the pod variant."
+
+outfit "Arion Guided Torpedo Pod"
+	category "Secondary Weapons"
+	cost 1500000
+	thumbnail "outfit/typhoonpod"
+	"mass" 10
+	"outfit space" -10
+	"weapon capacity" -10
+	"gun ports" -1
+	weapon
+		sprite "projectile/ariontorpedo"
+			"frame rate" 4
+			"random start frame"
+		sound "typhoon"
+		icon "icon/typhoon"
+		"fire effect" "typhoon fire"
+		"hit effect" "torpedo hit"
+		"die effect" "tiny explosion"
+		"inaccuracy" 1.5
+		"velocity" 14
+		"lifetime" 325
+		"reload" 360
+		"firing energy" 2000
+		"firing heat" 1250
+		"acceleration" 1.5
+		"drag" 0.1
+		"turn" 2.5
+		"homing" 3.5
+		"tracking" 0.75
+		"shield damage" 1500
+		"hull damage" 2250
+		"heat damage" 50
+		"ion damage" 25
+		"piercing" 0.2
+		"stream"
+	description "Heavy guided torpedo made to destroy or disable large warships. This the pod variant."
+
+outfit "Arion Millenium Autocannon Turret"
+	category "Turrets"
+	cost 500000
+	thumbnail "outfit/heavy anti-missile"
+	"mass" 15
+	"outfit space" -15
+	"weapon capacity" -15
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/heavy anti-missile"
+		"hardpoint offset" 5.
+		sprite "projectile/bullet"
+			"delay" 5
+			"random start frame"
+			"frame rate" 0
+		sound "gatling"
+		"turret turn" 8
+		"velocity" 80
+		"lifetime" 8
+		"shield damage" 18
+		"hull damage" 35
+		"hit force" 5
+		"inaccuracy" 0.6
+		"reload" 4
+		"firing energy" 15
+		"firing heat" 15
+		"hit effect" "bullet impact"
+	description "Light autocannon used to discourage attacks from smaller ships or fill up unused turret space."
 
 outfit "Arion 76mm Oto Melara Turret"
 	category "Turrets"

@@ -4,7 +4,7 @@ ship "Arion Carabao H.A.T Block I"
 	thumbnail "thumbnail/carabao-thumb"
 	attributes
 		category "Heavy Warship"
-		cost 40000000
+		cost 22500000
 		mass 940
 		bunks 245
 		"cargo space" 600
@@ -13,10 +13,10 @@ ship "Arion Carabao H.A.T Block I"
 		"fuel capacity" 700
 		"gun ports" 4
 		"heat dissipation" 0.9
-		hull 20000
+		"hull" 15000
+		"shields" 30000
 		"outfit space" 1000
-		"required crew" 1
-		shields 55000
+		"required crew" 10
 		"turret mounts" 6
 		"turret ports" 6
 		"weapon capacity" 500
@@ -84,7 +84,7 @@ ship "Arion Carabao H.A.T Block I"
 	explode "medium explosion" 35
 	explode "small explosion" 25
 	"final explode" "final explosion large" 1
-	description "An alternative to the Bactrian, the Carabao carries drones instead of fighters. Unlike the original ship however, Arion's version does not randomly electrocute its passengers."
+	description "An alternative to the Bactrian, the Carabao carries drones instead of fighters and has more advanced AI, allowing it to have less crew required. Unlike the original ship however, Arion's version does not randomly electrocute its passengers."
 
 ship "Arion Hipparion H.A.T Block I"
 	sprite "ship/hipparion"
@@ -92,9 +92,9 @@ ship "Arion Hipparion H.A.T Block I"
 	attributes
 		category "Medium Warship"
 		"cost" 7500000
-		"shields" 15000
-		"hull" 7500
-		"required crew" 1
+		"shields" 13500
+		"hull" 10500
+		"required crew" 15
 		"bunks" 85
 		"mass" 510
 		"drag" 6.0

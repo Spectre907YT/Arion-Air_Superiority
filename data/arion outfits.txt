@@ -4,6 +4,34 @@ outfit "Arion License"
 	thumbnail "outfit/license"
 	description "A special license for captains affiliated with Arion."
 
+outfit "Arion Basic Aircraft Engines"
+	category "Engines"
+	licenses
+			"Arion"
+	cost 300000
+	thumbnail "outfit/fissiondrive"
+	"mass" 15
+	"outfit space" -15
+	"engine capacity" -15
+	"thrust" 10
+	"thrusting energy" 0.5
+	"thrusting heat" 0.25
+	"turn" 275
+	"turning energy" 0.3
+	"turning heat" 0.15
+	"reverse thrust" 5
+	"reverse thrusting energy" 0.25
+	"reverse thrusting heat" 0.125
+	"flare sprite" "effect/fissionflare"
+		"frame rate" 30
+		"rewind"
+	"flare sound" "atomic small"
+	"steering flare sprite" "effect/fissionflare"
+		"frame rate" 30
+		"rewind"
+	"steering flare sound" "atomic tiny"
+	description "This is a basic and cheap engine for cheap planes."
+
 outfit "Arion A.A Engines"
 	category "Engines"
 	licenses
@@ -684,6 +712,18 @@ outfit "Arion Mini Overcharge Core"
 	"heat generation" 15
 	"energy capacity" 6000
 	description "For smaller more energy hungry ships, the Arion Mini Overcharge Core might just solve your problems!"
+
+outfit "Arion Basic Generator"
+	category "Power"
+	cost 400000
+	thumbnail "outfit/hai pebble core"
+	"mass" 20
+	"outfit space" -20
+	"energy generation" 2
+	"heat generation" 6
+	"unplunderable" 1
+	"energy capacity" 2000
+	description "A basic and cheap generator that doubles as batteries"
 
 outfit "Arion Multirole Fuel System"
 	category "Systems"

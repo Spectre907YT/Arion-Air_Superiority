@@ -7,31 +7,31 @@ ship "Arion Bactrian H.A.T Block I"
 		category "Heavy Warship"
 		licenses
 			"Arion"
-		cost 40000000
+		cost 20000000
 		mass 900
 		bunks 250
 		"cargo space" 600
 		drag 15
-		"engine capacity" 210
+		"engine capacity" 180
 		"fuel capacity" 700
 		"gun ports" 4
-		"heat dissipation" 1
-		hull 20000
-		"outfit space" 1000
-		"required crew" 1
-		shields 40000
+		"heat dissipation" 0.9
+		hull 13500
+		"outfit space" 800
+		"required crew" 45
+		shields 27000
 		"turret mounts" 6
 		"turret ports" 6
-		"weapon capacity" 500
+		"weapon capacity" 360
 	outfits
 		"Arion A.E.W.S"
-		"Arion Dragonfire C.I.W.S" 3
-		"Arion Fusion Reactor" 2
+		"Arion Goalkeeper C.I.W.S" 3
+		"Arion Fusion Reactor"
 		"Hyperdrive"
 		"Arion L.B.R.S"
-		"Arion L.C.D" 3
-		"Arion L.H.W Atomic Engines"
-		"Arion S.I Equipment" 250
+		"Arion L.C.D"
+		"Arion M.H.W Atomic Engines"
+		"Arion S.I Equipment" 50
 		"Arion Stunner Laser" 4
 		"Arion Stunner Laser Turret" 3
 		"Arion Multirole Fuel System"
@@ -85,18 +85,18 @@ ship "Arion Mule H.A.T Block I"
 	attributes
 		category "Medium Warship"
 		"cost" 5000000
-		"shields" 12500
-		"hull" 7500
-		"required crew" 1
+		"shields" 9000
+		"hull" 7000
+		"required crew" 8
 		"bunks" 50
-		"mass" 320
+		"mass" 300
 		"drag" 5.0
 		"heat dissipation" 0.9
 		"fuel capacity" 600
 		"cargo space" 180
-		"outfit space" 450
+		"outfit space" 480
 		"weapon capacity" 200
-		"engine capacity" 110
+		"engine capacity" 120
 	outfits
 		"Arion B.E.W.S"
 		"Arion Fusion Reactor"
@@ -135,18 +135,18 @@ ship "Arion Kestrel Block I"
 		category "Heavy Warship"
 		licenses
 			"Arion"
-		cost 25000000
-		mass 750
-		bunks 125
+		cost 21000000
+		mass 725
+		bunks 130
 		"cargo space" 120
 		drag 10
 		"engine capacity" 210
 		"fuel capacity" 500
 		"gun ports" 12
 		"heat dissipation" 0.9
-		hull 20000
-		"outfit space" 900
-		"required crew" 1
+		hull 13500
+		"outfit space" 850
+		"required crew" 40
 		shields 35000
 		"turret mounts" 4
 		"weapon capacity" 450
@@ -204,8 +204,8 @@ ship "Arion Cruiser Block I"
 		category "Heavy Warship"
 		licenses
 			"Arion"
-		cost 20000000
-		mass 700
+		"cost" 13500000
+		mass 670
 		bunks 140
 		"cargo space" 80
 		drag 10
@@ -213,12 +213,12 @@ ship "Arion Cruiser Block I"
 		"fuel capacity" 600
 		"gun ports" 6
 		"heat dissipation" 0.9
-		hull 15000
+		hull 10500
 		"outfit space" 800
-		"required crew" 1
-		shields 35000
+		"required crew" 55
+		shields 30000
 		"turret mounts" 4
-		"weapon capacity" 400
+		"weapon capacity" 360
 	outfits
 		"Arion A.E.W.S"
 		"Arion Fusion Reactor"
@@ -276,19 +276,19 @@ ship "Arion Carrier Block I"
 		category "Heavy Warship"
 		licenses
 			"Arion"
-		cost 30000000
-		mass 910
-		bunks 200
+		"cost" 18000000
+		mass 900
+		bunks 190
 		"cargo space" 100
 		drag 17.0
 		"engine capacity" 210
 		"fuel capacity" 700
 		"gun ports" 8
 		"heat dissipation" 0.9
-		hull 20000
+		hull 13000
 		"outfit space" 900
-		"required crew" 1
-		shields 35000
+		"required crew" 80
+		shields 33000
 		"turret mounts" 4
 		"weapon capacity" 400
 	outfits
@@ -359,16 +359,16 @@ ship "Arion Auxiliary Block I"
 		licenses
 			"Arion"
 		"cost" 15000000
-		"shields" 30000
-		"hull" 15000
-		"required crew" 1
+		"shields" 26500
+		"hull" 9000
+		"required crew" 50
 		"bunks" 250
-		"mass" 820
+		"mass" 800
 		"drag" 13.0
 		"heat dissipation" 0.9
 		"fuel capacity" 900
 		"cargo space" 250
-		"outfit space" 750
+		"outfit space" 800
 		"weapon capacity" 200
 		"engine capacity" 210
 		"gun ports" 2
@@ -406,7 +406,7 @@ ship "Arion Auxiliary Block I"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Navy's Auxillary, a real useful ship for this expedition. It'll help store crew members and supplies for this trip. Not only that but it can also carry 4 fighters, so that'll be handy. Remember, guns wins battles but logistics wins wars.""
+	description "The Navy's Auxillary is a real useful ship for this expedition. It'll help store crew members and supplies for this trip. It has advanced technologies that reduce crew requirements and increase hull and shield strength. Not only that but it can also carry 4 fighters, so that'll be handy. Remember, guns wins battles but logistics wins wars."
 
 ship "Arion Frigate Block I"
 	sprite "ship/frigate"
@@ -415,16 +415,16 @@ ship "Arion Frigate Block I"
 		category "Medium Warship"
 		licenses
 			Arion
-		"cost" 9000000
-		"shields" 15000
-		"hull" 5000
-		"required crew" 1
+		"cost" 7000000
+		"shields" 12750
+		"hull" 4500
+		"required crew" 12
 		"bunks" 45
-		"mass" 310
+		"mass" 300
 		"drag" 5.0
 		"heat dissipation" 0.9
 		"fuel capacity" 500
-		"cargo space" 45
+		"cargo space" 40
 		"outfit space" 450
 		"weapon capacity" 200
 		"engine capacity" 100
@@ -468,8 +468,8 @@ ship "Arion Dreadnought Block I"
 		category "Heavy Warship"
 		licenses
 			"Arion"
-		cost 15000000
-		mass 630
+		"cost" 14000000
+		mass 625
 		bunks 150
 		"cargo space" 100
 		drag 10.0
@@ -477,10 +477,10 @@ ship "Arion Dreadnought Block I"
 		"fuel capacity" 600
 		"gun ports" 4
 		"heat dissipation" 0.9
-		hull 15000
-		"outfit space" 800
-		"required crew" 1
-		shields 30000
+		hull 11250
+		"outfit space" 825
+		"required crew" 55
+		shields 28500
 		"turret mounts" 5
 		"weapon capacity" 400
 	outfits
@@ -533,17 +533,17 @@ ship "Arion Headhunter Block I"
 		licenses
 			"Arion"
 		"cost" 2500000
-		"shields" 4000
-		"hull" 1000
-		"required crew" 1
-		"bunks" 5
-		"mass" 100
+		"shields" 5000
+		"hull" 1125
+		"required crew" 2
+		"bunks" 4
+		"mass" 110
 		"drag" 2.0
 		"heat dissipation" 0.9
 		"fuel capacity" 400
 		"cargo space" 50
 		"outfit space" 300
-		"weapon capacity" 60
+		"weapon capacity" 75
 		"engine capacity" 100
 		"gun ports" 4
 		"turret mounts" 1
@@ -586,16 +586,16 @@ ship "Arion Marauder Leviathan Block I"
 		bunks 70
 		"cargo space" 60
 		drag 7.5
-		"engine capacity" 160
+		"engine capacity" 150
 		"fuel capacity" 500
 		"gun ports" 4
 		"heat dissipation" 0.9
-		hull 7500
+		hull 9000
 		"outfit space" 750
-		"required crew" 1
-		shields 20000
+		"required crew" 35
+		shields 25000
 		"turret mounts" 4
-		"weapon capacity" 275
+		"weapon capacity" 300
 	outfits
 		"Arion B.E.W.S"
 		"Arion Fusion Reactor"
@@ -639,7 +639,7 @@ ship "Arion Marauder Falcon Block I"
 		licenses
 			"Arion"
 		cost 15000000
-		mass 560
+		mass 550
 		bunks 80
 		"cargo space" 60
 		drag 6.5
@@ -647,10 +647,10 @@ ship "Arion Marauder Falcon Block I"
 		"fuel capacity" 600
 		"gun ports" 6
 		"heat dissipation" 0.9
-		hull 5000
-		"outfit space" 700
-		"required crew" 1
-		shields 17500
+		hull 6750
+		"outfit space" 650
+		"required crew" 40
+		shields 22500
 		"turret mounts" 4
 		"weapon capacity" 300
 	outfits
@@ -691,40 +691,6 @@ ship "Arion Marauder Falcon Block I"
 	"final explode" "final explosion large" 1
 	description "While our earlier expeditions were exploring, they found a group of pirates with upgraded ships. After they defeated them, they captured 2 heavy warships, the Marauder Falcon and Marauder Leviathan. High command took interest with these ships and now they are available for purchase to Arion's captains."
 
-ship "Arion Lance Block I"
-	sprite "ship/lance"
-		"scale" 0.9
-	thumbnail "thumbnail/lance"
-	attributes
-		category "Drone"
-		licenses
-			"Arion"
-		"cost" 200000
-		"shields" 900
-		"hull" 600
-		"automaton" 1
-		"mass" 25
-		"drag" 0.6
-		"fuel capacity" 100
-		"heat dissipation" 0.9
-		"outfit space" 75
-		"weapon capacity" 20
-		"engine capacity" 25
-	outfits
-		"Arion M61 Vulcan"
-		"Arion Missile Pod"
-		"Arion F.A Engines"
-		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Small Fusion Reactor"
-	engine -14.5 30.5 0.5
-	engine 14.5 30.5 0.5
-	gun -13.5 -6.5 
-	gun 13.5 -6.5 
-	explode "tiny explosion" 15
-	explode "small explosion" 5
-	description "(Outdated) After being shrunken down and removed the pilot to fit in the drone bay, the Lance can now be used to help remove enemy shields. It still has fuel on board to help if retreating is needed."
-
 ship "Arion Argosy Block I"
 	sprite "ship/argosy"
 	thumbnail "thumbnail/argosy"
@@ -733,9 +699,9 @@ ship "Arion Argosy Block I"
 		licenses
 			"Arion"
 		"cost" 2500000
-		"shields" 7500
-		"hull" 5000
-		"required crew" 1
+		"shields" 6750
+		"hull" 4500
+		"required crew" 3
 		"bunks" 15
 		"mass" 330
 		"drag" 5.0
@@ -781,9 +747,9 @@ ship "Arion Star Queen Block I"
 	attributes
 		category "Space Liner"
 		"cost" 6000000
-		"shields" 10000
-		"hull" 5000
-		"required crew" 1
+		"shields" 6750
+		"hull" 3750
+		"required crew" 15
 		"bunks" 120
 		"mass" 225
 		"drag" 4.0
@@ -833,8 +799,8 @@ ship "Arion Shield Beetle Block I"
 		category "Heavy Warship"
 		licenses
 			"Arion"
-		cost 35000000
-		mass 650
+		"cost" 20000000
+		mass 640
 		bunks 100
 		"cargo space" 150
 		drag 8.5
@@ -843,8 +809,8 @@ ship "Arion Shield Beetle Block I"
 		"gun ports" 8
 		"heat dissipation" 0.9
 		hull 15000
-		"outfit space" 800
-		"required crew" 1
+		"outfit space" 825
+		"required crew" 25
 		shields 50000
 		"turret mounts" 4
 		"weapon capacity" 350
@@ -898,29 +864,29 @@ ship "Arion Pelican Block I"
 		category "Heavy Freighter"
 		licenses
 			"Arion"
-		cost 12000000
-		mass 320
+		cost 11000000
+		mass 300
 		bunks 35
-		"cargo space" 320
+		"cargo space" 325
 		drag 7
 		"engine capacity" 150
 		"fuel capacity" 600
 		"gun ports" 2
 		"heat dissipation" 0.9
-		hull 15000
+		hull 9000
 		"hull energy" 0.75
 		"hull repair rate" 1
 		"outfit scan power" 12
 		"outfit scan speed" 1
 		"outfit space" 500
 		ramscoop 2
-		"required crew" 1
+		"required crew" 8
 		"shield energy" 1.8
 		"shield generation" 2.7
-		shields 30000
+		shields 18000
 		"tactical scan power" 26
 		"turret mounts" 3
-		"weapon capacity" 200
+		"weapon capacity" 180
 	outfits
 		"Arion A.E.W.S"
 		"Arion Phalanx C.I.W.S"
@@ -971,10 +937,10 @@ ship "Arion Albatross Block I"
 		category "Heavy Warship"
 		licenses
 			"Arion"
-		cost 25000000
-		mass 610
+		cost 22500000
+		mass 600
 		bunks 75
-		"cargo space" 125
+		"cargo space" 135
 		drag 8
 		"engine capacity" 150
 		"fuel capacity" 600
@@ -987,13 +953,13 @@ ship "Arion Albatross Block I"
 		"outfit scan speed" 1
 		"outfit space" 700
 		ramscoop 2
-		"required crew" 1
+		"required crew" 20
 		"shield energy" 4.6
 		"shield generation" 5.2
-		shields 50000
+		shields 52500
 		"tactical scan power" 39
 		"turret mounts" 5
-		"weapon capacity" 300
+		"weapon capacity" 275
 	outfits
 		"Arion A.E.W.S"
 		"Arion Myriad C.I.W.S" 2
@@ -1236,7 +1202,7 @@ ship "Arion X-47 Block I"
 	turret 0 14.5
 	explode "tiny explosion" 15
 	explode "small explosion" 5
-	description "Experimental Drone originally made by Northrop Grumman, it has been modernized extensively and now also has the ability for space flight. It has built in stealth technology."
+	description "The X-47 was originally a prototype drone that was made by Northrop Grumman. The blueprints for the drone was then purchased by Arion after experimentation has stopped. It now serves as one of the main drones for the Arion Air Force, Arion Foreign Legion, SFF and other allies to Arion under the designation 'D-101'. These drones can be operated as loyal wingman and as a defense system for the 'Arsenal Bird'. Although, this is an earlier version that still has the X-47 designation and is being sold as surplus."
 
 ship "Arion F-15XS Eagle Block I"
 	sprite "ship/arionf15"
@@ -1938,7 +1904,7 @@ ship "Arion A-4XS Skyhawk Block I"
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	"final explode" "final explosion small"
-	description "This was an Attacker aircraft used by the US and some of its allies. It has been modified and upgrade extensively not only to survive modern combat but also to fly in space. It is used mainly by the Arion Marine Corps and the Arion Army Air Corps as an attacker and a light fighter. While it isn't the best for A2A roles, its cheapness, ruggedness, maneuverability and ability to take off from almost any road has made it very useful. It is also used in the Arion Air Force, Arion Navy and Arion Foreign Legion mainly as Trainers."
+	description "This was an Attacker aircraft used by the US and some of its allies. It has been modified and upgrade extensively not only to survive modern combat but also to fly in space. It is used mainly by the Arion Marine Corps and the Arion Army Air Corps as an attacker and a light fighter. While it isn't the best for A2A roles, its cheapness, ruggedness, maneuverability and ability to take off from almost any road has made it very useful. It is also used in the Arion Air Force, Arion Navy and Arion Foreign Legion mainly as Trainers. It is also very popular with civilians and mercenaries due to its low cost."
 
 ship "Arion X-02XS Wyvern Block I"
 	sprite "ship/arionx02"
@@ -2623,7 +2589,73 @@ ship "Arion XFA-33XS Fenrir Block I"
 	"final explode" "final explosion small"
 	description "This was a super fighter made by a 'Strangereal' nation called Leasath. It is equipped with a bunch of advanced technologies including the already built in cloaking device, The Long Range Shockwave Missile and High Powered Microwave. It has been modified and upgraded to suite Arion's needs. This aircraft is used by the SFF and is given to Ace pilots who have proven themselves worthy of a super fighter. Unlike the original fighter, it can operate in space, only has 1 auto cannon and only comes equipped with its L.S.W.M."
 
+ship "Super Fairey Swordfish"
+	sprite "ship/arionsuperswordfish"
+	thumbnail "ship/arionsuperswordfish"
+	attributes
+		category "Fighter"
+		licenses
+			"Arion"
+		"cost" 50000
+		"shields" 400
+		"hull" 200
+		"required crew" 1
+		"bunks" 1
+		"mass" 10
+		"drag" 1.75
+		"heat dissipation" 0.9
+		"fuel capacity" 20
+		"outfit space" 50
+		"weapon capacity" 10
+		"engine capacity" 15
+	outfits
+		"Arion S.C.D"
+		"Arion Basic Aircraft Engines"
+		"Arion Basic Generator"
+		"Arion Unguided Torpedo Pod"
+	engine 0 25.5
+	gun 0 -9
+	leak "leak" 60 50
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
+	description "This old torpedo bomber has somehow been modified and rebuilt to serve again in space. (Special thanks to 1010todd for making the sprite for the plane)"
+
 =================Outdated==================
+
+ship "Arion Lance Block I"
+	sprite "ship/lance"
+		"scale" 0.9
+	thumbnail "thumbnail/lance"
+	attributes
+		category "Drone"
+		licenses
+			"Arion"
+		"cost" 200000
+		"shields" 900
+		"hull" 600
+		"automaton" 1
+		"mass" 25
+		"drag" 0.6
+		"fuel capacity" 100
+		"heat dissipation" 0.9
+		"outfit space" 75
+		"weapon capacity" 20
+		"engine capacity" 25
+	outfits
+		"Arion M61 Vulcan"
+		"Arion Missile Pod"
+		"Arion F.A Engines"
+		"Arion S.C.D"
+		"Arion T.B.R.S"
+		"Arion Small Fusion Reactor"
+	engine -14.5 30.5 0.5
+	engine 14.5 30.5 0.5
+	gun -13.5 -6.5 
+	gun 13.5 -6.5 
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "(Outdated) After being shrunken down and removed the pilot to fit in the drone bay, the Lance can now be used to help remove enemy shields. It still has fuel on board to help if retreating is needed."
 
 ship "Arion Hawk Block I"
 	sprite "ship/hawk"

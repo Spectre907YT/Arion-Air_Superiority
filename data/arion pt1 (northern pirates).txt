@@ -239,7 +239,7 @@ mission "Arion:North Scout 5"
 			`When you are just about to approach their base, someone hails you.`
 			`"Head out to space, i will test you in 1 to 1 combat. Your 'friends' will also be tested. It's time to see how strong you really are."`
 			`"Well that doesn't sound good," Tom says to you. "Looks like they aren't happy with us taking out their leader. Its the 4 of us against god knows how many of em. Target the nemesis, that's their leaders ship. Well, wish us luck captain."`
-
+				accept
 	npc save accompany
 		government "Arion (SFF)"
 		personality escort disables
