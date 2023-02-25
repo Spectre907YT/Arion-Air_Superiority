@@ -1364,7 +1364,7 @@ outfit "Arion Unguided Torpedo Pod"
 		"ion damage" 25
 		"piercing" 0.25
 		"stream"
-	description "Heavy unguided torpedo made to destroy or disable large warships. This the pod variant."
+	description "Heavy unguided torpedo made to destroy or disable large warships."
 
 outfit "Arion Guided Torpedo Pod"
 	category "Secondary Weapons"
@@ -1400,7 +1400,45 @@ outfit "Arion Guided Torpedo Pod"
 		"ion damage" 25
 		"piercing" 0.2
 		"stream"
-	description "Heavy guided torpedo made to destroy or disable large warships. This the pod variant."
+	description "Heavy guided torpedo made to destroy or disable large warships. This is the pod variant."
+
+outfit "Arion Guided Torpedo Launcher"
+	category "Secondary Weapons"
+	cost 5000000
+	thumbnail "outfit/typhoon launcher"
+	"mass" 30
+	"outfit space" -30
+	"weapon capacity" -30
+	"gun ports" -1
+	weapon
+		sprite "projectile/ariontorpedo"
+			"frame rate" 4
+			"random start frame"
+		sound "typhoon"
+		icon "icon/typhoon"
+		"fire effect" "typhoon fire"
+		"hit effect" "torpedo hit"
+		"die effect" "tiny explosion"
+		"inaccuracy" 1.5
+		"velocity" 14
+		"lifetime" 325
+		"burst count" 3
+		"burst reload" 20
+		"reload" 300
+		"firing energy" 2000
+		"firing heat" 1250
+		"acceleration" 1.5
+		"drag" 0.1
+		"turn" 2.5
+		"homing" 3.5
+		"tracking" 0.75
+		"shield damage" 1500
+		"hull damage" 2250
+		"heat damage" 50
+		"ion damage" 25
+		"piercing" 0.2
+		"stream"
+	description "Heavy guided torpedo made to destroy or disable large warships. This version fires a salvo of 3 Torpedoes."
 
 outfit "Arion Millenium Autocannon Turret"
 	category "Turrets"

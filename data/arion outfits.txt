@@ -398,6 +398,24 @@ outfit "Arion H.H.W Atomic Engines"
 	unplunderable 1
 	description "The Arion Huge Heavy Warship Atomic Engine is an engine used for the largest heavy ships in this expedition."
 
+outfit "Arion I.E.W.S"
+	category "Systems"
+	licenses
+			"Arion"
+	cost 1000000
+	thumbnail "outfit/sheragi ews"
+	"mass" 0
+	"outfit space" -0
+	"radar jamming" 65
+	"outfit scan power" 175
+	"outfit scan power" 90
+	"cargo scan power" 100
+	"cargo scan efficiency" 50
+	"tactical scan power" 180
+	"scan interference" 180
+	"energy consumption" 1.5
+	description "Built in Electronic Warfare System in SFF Ships."
+
 outfit "Arion A.E.W.S"
 	category "Systems"
 	licenses
@@ -407,13 +425,13 @@ outfit "Arion A.E.W.S"
 	"mass" 10
 	"outfit space" -10
 	"radar jamming" 50
-	"outfit scan power" 100
-	"outfit scan speed" 1
-	"cargo scan power" 75
-	"cargo scan speed" 1
-	"tactical scan power" 75
-	"scan interference" 75
-	"energy consumption" 1
+	"outfit scan power" 175
+	"outfit scan power" 90
+	"cargo scan power" 100
+	"cargo scan efficiency" 50
+	"tactical scan power" 150
+	"scan interference" 150
+	"energy consumption" 2
 	description "The Arion Advanced Electronic Warfare System is a standard issue equipment on all Arion government owned ships. While some of its function might not be useful for some missions, its ability to interfeer with missile locks and ability to interfeer with scans makes it a valuable asset for any ship."
 
 outfit "Arion B.E.W.S"
@@ -425,12 +443,12 @@ outfit "Arion B.E.W.S"
 	"mass" 10
 	"outfit space" -10
 	"radar jamming" 5
-	"outfit scan power" 50
-	"outfit scan speed" 1
-	"cargo scan power" 20
-	"cargo scan speed" 1
-	"tactical scan power" 20
-	"scan interference" 20
+	"outfit scan power" 35
+	"outfit scan efficiency" 25
+	"cargo scan power" 15
+	"cargo scan efficiency" 10
+	"tactical scan power" 25
+	"scan interference" 25
 	"energy consumption" 1
 	description "This is the cheaper alternative to the A.E.W.S."
 

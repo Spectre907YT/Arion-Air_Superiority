@@ -1017,68 +1017,96 @@ ship "Arion Albatross Block I"
 	"final explode" "final explosion large" 1
 	description "The Albatros is the remnant's premier heavy warship. It looks organic. We weren't really able to get much information on how to build these so these ships on sale are just refitted ships that we bought from the 'remmies'."
 
-==================
-Block III
-ship "Arion Cruiser Block III"
-	sprite ship/cruiser
-	thumbnail thumbnail/cruiser
+=============================
+
+Korath Ships
+ship "Arion Ra'at Ik 621 Block II"
+	sprite "ship/world-ship e"
+	thumbnail "thumbnail/world-ship e"
 	attributes
 		category "Heavy Warship"
 		licenses
 			"Arion"
-		cost
-		mass 700
-		bunks 140
-		"cargo space" 80
-		drag 10
-		"engine capacity" 180
-		"fuel capacity" 600
-		"gun ports" 6
+		cost 52500000
+		shields 48000
+		hull 31400
+		"required crew" 250
+		"bunks" 1050
+		"mass" 1750
+		"drag" 27
 		"heat dissipation" 0.9
-		hull 60000
-		"outfit space" 800
-		"required crew" 1
-		shields 140000
-		"turret mounts" 4
-		"weapon capacity" 400
+		"fuel capacity" 1000
+		"cargo space" 250
+		"outfit space" 1100
+		"weapon capacity" 425
+		"engine capacity" 250
+		weapon
+			"blast radius" 400
+			"shield damage" 8000
+			"hull damage" 4000
+			"hit force" 12000
 	outfits
-
-	engine -29 156
-		zoom 1
-		angle 0
-		under
-	engine 29 156
-		zoom 1
-		angle 0
-		under
-	gun -31 -63
-	gun 31 -63
-	gun -41 -52 
-	gun 41 -52 
-	gun -20 -44 
-	gun 20 -44 
-	turret 0 -40 
-	turret -33 -19 
-	turret 33 -19 
-	turret 0 0
-	bay Drone -25 18
-		"launch effect" "basic launch"
-	bay Drone 25 18
-		"launch effect" "basic launch"
-	bay Drone -25 49
-		"launch effect" "basic launch"
-	bay Drone 25 49
-		"launch effect" "basic launch"
-	leak leak 30 50
-	leak flame 50 80
-	leak "big leak" 40 30
-	explode "huge explosion" 10
-	explode "large explosion" 40
-	explode "medium explosion" 50
+		"Grab-Strike Turret" 3
+		"Banisher Grav-Turret" 2
+		"Warder Anti-Missile" 2
+		"Fire-Lance" 3
+		
+		"Triple Plasma Core"
+		"Systems Core (Large)"
+		"Large Heat Shunt" 2
+		"Small Heat Shunt" 2
+		"Fuel Processor"
+		"Microbot Defense Station" 12
+		"Thermal Repeater Rifle" 799
+		
+		"Reverser (Lunar Class)"
+		"Thruster (Stellar Class)"
+		"Steering (Stellar Class)"
+		"Jump Drive"
+	
+	engine -42 343 .6
+	engine -22 343 .6
+	engine -22 343 .6
+	engine 22 343 .6
+	engine 22 343 .6
+	engine 42 343 .6
+	"reverse engine" -16 -336 0.9
+	"reverse engine" 16 -336 0.9
+	bay "Fighter" -100 -169
+		"launch effect" "korath internal"
+	bay "Fighter" 0 -169
+		"launch effect" "korath internal"
+	bay "Fighter" 100 -169
+		"launch effect" "korath internal"
+	bay "Fighter" -98 156 back
+		"launch effect" "korath internal"
+	bay "Fighter" 98 156 back
+		"launch effect" "korath internal"
+	bay "Fighter" -50 303 back
+		"launch effect" "korath internal"
+	bay "Fighter" -50 303 back
+		"launch effect" "korath internal"
+	bay "Fighter" 50 303 back
+		"launch effect" "korath internal"
+	bay "Fighter" 50 303 back
+		"launch effect" "korath internal"
+	gun -71 -209 "Fire-Lance"
+	gun 0 -209 "Fire-Lance"
+	gun 71 -209 "Fire-Lance"
+	turret -52 -295 "Grab-Strike Turret"
+	turret 52 -295 "Warder Anti-Missile"
+	turret -104 -13 "Banisher Grav-Turret"
+	turret 0 -13 "Grab-Strike Turret"
+	turret 104 -13 "Grab-Strike Turret"
+	turret -80.5 191.5 "Warder Anti-Missile"
+	turret 80.5 191.5 "Banisher Grav-Turret"
+	explode "tiny explosion" 30
 	explode "small explosion" 45
-	explode "tiny explosion" 20
-	"final explode" "final explosion large" 1
-	description "The Navy Cruiser, where to start. Well for starters, the Navy RnD department sure did a good job, its a real solid ship to say the least. It can hold its ground against most threats, especially after we made our own version."
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 50
+	"final explode" "final explosion large"
+	description "The largest of Korath production vessels are derived from a common and ancient chassis. This many-lobed ship has been adapted to carry fighters into large-scale raids, or mining craft into asteroid belts. Its radial arrangements of hangars allows fighters a maximum variety of safe approach patterns in combat."
 
 =======
 Arion Custom stuff
@@ -2620,6 +2648,322 @@ ship "Super Fairey Swordfish"
 	explode "small explosion" 5
 	"final explode" "final explosion small"
 	description "This old torpedo bomber has somehow been modified and rebuilt to serve again in space. (Special thanks to 1010todd for making the sprite for the plane)"
+
+=============================
+SFF Special
+
+ship "Arion A-4XS SFF Skyhawk Mk1"
+	sprite "ship/ariona4sff"
+	thumbnail "ship/ariona4sff"
+	attributes
+		category "Fighter"
+		licenses
+			"Arion"
+		"cost" 1500000
+		"shields" 2400
+		"hull" 800
+		"required crew" 1
+		"bunks" 1
+		"mass" 17
+		"drag" 1.6
+		"heat dissipation" 0.9
+		"fuel capacity" 100
+		"outfit space" 90
+		"weapon capacity" 30
+		"engine capacity" 20
+		"flares" 1
+	outfits
+		"Arion G.A.A.C"
+		"Arion G.A.G.G" 2
+		"Arion Chaff and Flares Tier 1"
+		"Arion A.A Engines"
+		"Arion S.C.D"
+		"Arion T.A.R.S"
+		"Arion Antimatter Reactor Small"
+	engine 0 29.5
+	gun -9 -9 "Arion G.A.G.G"
+	gun 9 -9 "Arion G.A.G.G"
+	gun 2 -17 "Arion G.A.A.C"
+	turret 0 2.5
+	leak "leak" 60 50
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
+	description "This is a more basic version of the A-4 Skyhawk used by the SFF, made available to purchased by you. It is used as a gun fighter but can be relatively easily turned back into a normal fighter."
+
+ship "Arion F-16XS SFF Super Falcon Mk1"
+	sprite "ship/arionf16sff"
+	thumbnail "ship/arionf16sff"
+	attributes
+		category "Fighter"
+		licenses
+			"Arion"
+		"cost" 2000000
+		"shields" 2200
+		"hull" 1100
+		"required crew" 1
+		"bunks" 1
+		"mass" 21
+		"drag" 1.1
+		"heat dissipation" 0.9
+		"fuel capacity" 200
+		"outfit space" 95
+		"weapon capacity" 30
+		"engine capacity" 20
+		"flares" 1
+	outfits
+		"Arion G.A.G.G"
+		"Arion Missile Pod" 2
+		"Arion G.P.B Pod"
+		"Arion Chaff and Flares Tier 1"
+		"Arion A.A Engines"
+		"Arion S.C.D"
+		"Arion T.A.R.S"
+		"Arion Antimatter Reactor Small"
+	engine 0 34.5
+	gun -3 -19.5 "Arion G.A.G.G"
+	gun 24.5 11.5 "Arion Missile Pod"
+	gun -24.5 11.5 "Arion Missile Pod"
+	gun 0 7 "Arion G.P.B Pod"
+	turret 0 17.5
+	leak "leak" 60 50
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
+	description "This is a more basic version of the F-16 Super Falcon used by the SFF. While the F-18 is more popular with the SFF, some pilots prefer the F-16 as a light fighter. It can be used both as an air superiority and strike fighter."
+
+ship "Arion F-18XS SFF Super Hornet Block I"
+	sprite "ship/arionf18sff"
+	thumbnail "ship/arionf18sff"
+	attributes
+		category "Fighter"
+		licenses
+			"Arion"
+		"cost" 2250000
+		"shields" 2400
+		"hull" 1200
+		"required crew" 1
+		"bunks" 1
+		"mass" 25
+		"drag" 1.175
+		"heat dissipation" 0.9
+		"fuel capacity" 150
+		"outfit space" 100
+		"weapon capacity" 35
+		"engine capacity" 25
+		"flares" 1
+	outfits
+		"Arion G.A.G.G"
+		"Arion Finisher Missile Pod" 2
+		"Arion Pursuer Missile Pod" 2
+		"Arion Chaff and Flares Tier 1"
+		"Arion F.A Engines"
+		"Arion S.C.D"
+		"Arion T.A.R.S"
+		"Arion Antimatter Reactor Small"
+	engine -2.5 38
+	engine 2.5 38
+	gun -3.5 -17 "Arion G.A.G.G"
+	gun 35 14.5 "Arion Finisher Missile Pod"
+	gun -35 14.5 "Arion Finisher Missile Pod"
+	gun -16.5 3 "Arion Pursuer Missile Pod"
+	gun 16.5 3 "Arion Pursuer Missile Pod"
+	turret 0 9
+	leak "leak" 60 50
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
+	description "This is a more basic version of the F-18 Super Hornet used by the SFF. While perfectly capable of being a multirole fighter, it is more frequently used to secure air superiority when heavier fighters are not available."
+
+ship "Arion Halberd Class Cruiser"
+	sprite "ship/arionhalberd"
+	thumbnail "thumbnail/arionhalberd"
+	attributes
+		category "Heavy Warship"
+		licenses
+			"Arion"
+		"cost" 7000000
+		"shields" 150000
+		"hull" 110000
+		"required crew" 80
+		"bunks" 180
+		"mass" 840
+		"drag" 9.5
+		"heat dissipation" .9
+		"fuel capacity" 900
+		"cargo space" 100
+		"outfit space" 880
+		"weapon capacity" 400
+		"engine capacity" 180
+	outfits
+		"Arion Guided Torpedo Launcher" 4
+		"Arion Phalanx C.I.W.S" 2
+		"Arion E.M.L Turret Compact" 2
+		"Arion Deadlock Laser Turret" 2
+		"Arion Multirole Fuel System"
+		"Arion Antimatter Reactor"
+		"Arion L.C.D" 2
+		"Arion L.A.R.S"
+		"Arion M.H.W Atomic Engines"
+		"Arion I.E.W.S"
+		"Jump Drive"
+		"Hyperdrive"
+	engine -45 187
+	engine 45 187
+	engine -15 187
+	engine 15 187
+	turret 0 -30 "Arion Phalanx C.I.W.S"
+	turret 0 10 "Arion Phalanx C.I.W.S"
+	turret 0 -78.5 "Arion E.M.L Turret Compact"
+	turret 0 -117 "Arion Deadlock Laser Turret"
+	turret 0 52.5 "Arion E.M.L Turret Compact"
+	turret 0 91.5 "Arion Deadlock Laser Turret"
+	gun -25 -119.5 "Arion Guided Torpedo Launcher"
+	gun -22 -149.5 "Arion Guided Torpedo Launcher"
+	gun 25 -119.5 "Arion Guided Torpedo Launcher"
+	gun 22 -149.5 "Arion Guided Torpedo Launcher"
+	bay "Fighter" -40.5 -62
+		"launch effect" "human internal"
+	bay "Fighter" -40.5 -0.5
+		"launch effect" "human internal"
+	bay "Fighter" 40.5 -62
+		"launch effect" "human internal"
+	bay "Fighter" 40.5 -0.5
+		"launch effect" "human internal"
+	bay "Drone" 0 80.5
+		"launch effect" "human internal"
+	bay "Drone" 0 29.5
+		"launch effect" "human internal"
+	bay "Drone" 0 -55.5
+		"launch effect" "human internal"
+	bay "Drone" 0 -106
+		"launch effect" "human internal"
+	leak "leak" 30 50
+	leak "flame" 50 80
+	leak "big leak" 40 30
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The Halberd Class Light Patrol Cruiser is originally used to help defend planets without having to bring in 'full sized' ships. It is very heavily armed for its size with 6 turrets, 4 torpedo launch tubes and 4 drone and fighter bays, allowing for a full squadron of fighters and drones to be stationed onboard."
+
+ship "Arion Scimitar Class Destroyer"
+	sprite "ship/arionscimitar"
+	thumbnail "thumbnail/arionscimitar"
+	attributes
+		category "Heavy Warship"
+		licenses
+			"Arion"
+		"cost" 5600000
+		"shields" 80000
+		"hull" 60000
+		"required crew" 60
+		"bunks" 150
+		"mass" 660
+		"drag" 8
+		"heat dissipation" .9
+		"fuel capacity" 900
+		"cargo space" 80
+		"outfit space" 700
+		"weapon capacity" 300
+		"engine capacity" 150
+	outfits
+		"Arion Guided Torpedo Launcher" 2
+		"Arion Phalanx C.I.W.S"
+		"Arion E.M.L Turret Compact" 2
+		"Arion Deadlock Laser Turret" 2
+		"Arion Multirole Fuel System"
+		"Arion Antimatter Reactor"
+		"Arion L.C.D" 2
+		"Arion M.A.R.S"
+		"Arion S.H.W Atomic Engines"
+		"Arion I.E.W.S"
+		"Jump Drive"
+		"Hyperdrive"
+	engine -30 162
+	engine 0 162
+	engine 30 162
+	turret 0 23.5 "Arion Phalanx C.I.W.S"
+	turret 0 67 "Arion E.M.L Turret Compact"
+	turret 0 -50.5 "Arion Deadlock Laser Turret"
+	turret 0 -21 "Arion E.M.L Turret Compact"
+	turret 0 -85 "Arion Deadlock Laser Turret"
+	gun -26.5 -68 "Arion Guided Torpedo Launcher"
+	gun 26.5 -68 "Arion Guided Torpedo Launcher"
+	bay "Fighter" -41.5 18.5
+		"launch effect" "human internal"
+	bay "Fighter" 41.5 18.5
+		"launch effect" "human internal"
+	bay "Drone" 0 -44
+		"launch effect" "human internal"
+	bay "Drone" 0 26
+		"launch effect" "human internal"
+	leak "leak" 30 50
+	leak "flame" 50 80
+	leak "big leak" 40 30
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The Scimitar Class Light Patrol Destroyer is originally used to help defend planets without having to bring in 'full sized' ships. It is very heavily armed for its size with 5 turrets, 2 torpedo launch tubes and 2 drone and fighter bays, allowing for a full combined squadron of fighters and drones to be stationed onboard."
+
+ship "Arion Kukri Class Frigate"
+	sprite "ship/arionkukri"
+	thumbnail "thumbnail/arionkukri"
+	attributes
+		category "Medium Warship"
+		licenses
+			"Arion"
+		"cost" 4000000
+		"shields" 60000
+		"hull" 40000
+		"required crew" 10
+		"bunks" 40
+		"mass" 450
+		"drag" 4.5
+		"heat dissipation" .9
+		"fuel capacity" 900
+		"cargo space" 40
+		"outfit space" 505
+		"weapon capacity" 200
+		"engine capacity" 150
+	outfits
+		"Arion E.M.L Compact"
+		"Arion M.L.M.P.L" 2
+		"Arion Phalanx C.I.W.S"
+		"Arion Deadlock Laser Turret"
+		"Arion Multirole Fuel System"
+		"Arion Antimatter Reactor Small" 4
+		"Arion P.C.S"
+		"Arion L.C.D"
+		"Arion S.A.R.S"
+		"Arion S.H.W Atomic Engines"
+		"Arion I.E.W.S"
+		"Jump Drive"
+		"Hyperdrive"
+	engine 0 97
+	engine -41 97
+	engine 41 97
+	turret 0 -12 "Arion Phalanx C.I.W.S"
+	turret 0 -3.5 "Arion Deadlock Laser Turret"
+		under
+	gun -12.5 -18 "Arion M.L.M.P.L"
+	gun 12.5 -18 "Arion M.L.M.P.L"
+	gun 0 -58.5 "Arion E.M.L Compact"
+	leak "leak" 30 50
+	leak "flame" 50 80
+	leak "big leak" 40 30
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The Scimitar Class Light Patrol Frigate is originally used to help scout dangerous without having to bring in larger ships. It can easily outrun a lot of enemies due to its large engines, although it isn't the most heavily armed and is quite weak."
 
 =================Outdated==================
 
