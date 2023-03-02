@@ -15,14 +15,14 @@ ship "Arion Carabao H.A.T Block I"
 		"heat dissipation" 0.9
 		"hull" 15000
 		"shields" 30000
-		"outfit space" 1000
+		"outfit space" 750
 		"required crew" 10
 		"turret mounts" 6
 		"turret ports" 6
 		"weapon capacity" 500
 	outfits
 		"Arion A.E.W.S"
-		"Arion Fusion Reactor" 2
+		"Arion Fusion Reactor"
 		"Arion L.C.D"
 		"Arion L.H.W Atomic Engines"
 		"Arion L.B.R.S"
@@ -139,6 +139,8 @@ ship "Arion Hipparion H.A.T Block I"
 	explode "medium explosion" 30
 	"final explode" "final explosion medium"
 	description "Based on an antique design, it is now used as an alternative to the mule for Arion's captains."
+
+=======Oudated========
 
 Government only
 ship "Arion Carabao H.A.T Block IIIA"

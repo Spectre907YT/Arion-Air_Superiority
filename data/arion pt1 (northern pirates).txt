@@ -8,7 +8,7 @@ mission "Arion:North Supply 1"
 		has "Arion:First Contact=done"
 	on offer 
 		conversation
-			`	After concluding the base tour, the Handler approaches you. "Well i guess it's time for your first mission. You will be escorting the 11th transport squadron and help deliver some needed supplies. You can accept this mission whenever you're ready, although i recommend that you use a Heavy Warship or something that can capture Heavy Warships, although its not really necessary, since that's only needed if you want some bonus rewards. After all we might not even need backup since our ships should be able to handle themselves."`
+			`	After concluding the base tour, the Handler approaches you. "Well i guess it's time for your first mission. You will be escorting the 11th transport squadron of the SFF and help deliver some needed supplies. You can accept this mission whenever you're ready, although i recommend that you use a Heavy Warship or something that can capture Heavy Warships, although its not really necessary, since that's only needed if you want some bonus rewards. After all we might not even need backup since our ships should be able to handle themselves."`
 			choice
 				`	Accept the mission`
 					accept

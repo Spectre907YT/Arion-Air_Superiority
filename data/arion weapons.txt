@@ -81,7 +81,8 @@ outfit "Arion OTOMATIC CIWS"
 	weapon
 		"hardpoint sprite" "hardpoint/heavy anti-missile"
 		"hardpoint offset" 5.
-		"hit effect" "large anti-missile"
+		"hit effect" "bullet impact"
+		sound "gatling"
 		"anti-missile" 60
 		"velocity" 650
 		"lifetime" 2
@@ -463,7 +464,7 @@ outfit "Arion 30mm Autocannon"
 		"lifetime" 8
 		"shield damage" 15
 		"hull damage" 30
-		"hit force" 5
+		"hit force" 3
 		"inaccuracy" 0.5
 		"reload" 5
 		"firing energy" 12
@@ -505,7 +506,7 @@ outfit "Arion Gau-12 Equalizer"
 		"lifetime" 6
 		"shield damage" 15
 		"hull damage" 25
-		"hit force" 3
+		"hit force" 2.5
 		"reload" 3
 		"burst count" 180
 		"burst reload" 1
@@ -619,7 +620,7 @@ outfit "Arion Dragonsbreath Railgun"
 		"hit effect" "dragonflame plasma" 30
 		"hit effect" "dragonflame debris" 50
 		"velocity" 1000
-		"lifetime" 10
+		"lifetime" 4
 		"reload" 900
 		"firing energy" 125000
 		"firing heat" 100000
@@ -657,7 +658,7 @@ outfit "Arion Dragonfire Railgun"
 		"hit effect" "dragonflame plasma" 30
 		"hit effect" "dragonflame debris" 50
 		"velocity" 800
-		"lifetime" 10
+		"lifetime" 4
 		"reload" 240
 		"firing energy" 12500
 		"firing heat" 9000
@@ -673,6 +674,42 @@ outfit "Arion Dragonfire Railgun"
 		"stream"
 		"phasing"
 	description "A new design, this railgun features a revolver like system which allows the railgun to have significantly faster reloads. Like the dragons breath, it requires a special mount."
+
+outfit "Arion Vaporizer T.L.S"
+	category "Secondary Weapons"
+	licenses
+			"Arion"
+	cost 100000000
+	thumbnail "outfit/dragonflame"
+	"mass" 120
+	"outfit space" -120
+	"weapon capacity" -120
+	"gun ports" -1
+	"spinal mount" -1
+	weapon
+		sprite "projectile/arionlonglaser"
+			"frame rate" 1
+		sound "skylance"
+		icon "icon/dragonflame"
+		"hit effect" "beam laser impact"
+		"velocity" 2500
+		"lifetime" 1
+		"reload" 240
+		"reload" 6
+		"burst count" 180
+		"burst reload" 1
+		"firing energy" 400
+		"firing heat" 400
+		"shield damage" 400
+		"hull damage" 400
+		"heat damage" 2
+		"ion damage" 1.5
+		"piercing" 0.5
+		"disruption damage" 0.01
+		"discharge damage" 0.01
+		"stream"
+		"phasing"
+	description "A laser that fires that fires in bursts of 3 seconds that can destroy a lot of ships."
 
 outfit "Arion E.M.L Turret Compact"
 	category "Secondary Weapons"
@@ -698,7 +735,7 @@ outfit "Arion E.M.L Turret Compact"
 		"inaccuracy" 0.25
 		"turret turn" 2
 		"velocity" 600
-		"lifetime" 5
+		"lifetime" 4
 		"reload" 240
 		"firing energy" 5000
 		"firing heat" 3500
@@ -733,7 +770,7 @@ outfit "Arion E.M.L Compact"
 		"hit effect" "dragonflame debris" 50
 		"inaccuracy" 0.1
 		"velocity" 600
-		"lifetime" 5
+		"lifetime" 4
 		"reload" 240
 		"firing energy" 5000
 		"firing heat" 3500
@@ -771,7 +808,7 @@ outfit "Arion E.M.L Turret"
 		"inaccuracy" 0.35
 		"turret turn" 1.25
 		"velocity" 700
-		"lifetime" 5
+		"lifetime" 4
 		"reload" 420
 		"firing energy" 7000
 		"firing heat" 14000
@@ -806,7 +843,7 @@ outfit "Arion E.M.L"
 		"hit effect" "dragonflame debris" 50
 		"inaccuracy" 0.15
 		"velocity" 700
-		"lifetime" 5
+		"lifetime" 4
 		"reload" 420
 		"firing energy" 7000
 		"firing heat" 14000
@@ -838,11 +875,12 @@ outfit "Arion G.A.A.C"
 		"hit effect" "bullet impact"
 		"inaccuracy" 0.15
 		"velocity" 250
-		"lifetime" 10
+		"lifetime" 8
 		"reload" 15
 		"firing energy" 75
 		"firing heat" 60
-		"firing force" 10
+		"firing force" 7.5
+		"hit force" 7.5
 		"shield damage" 60
 		"hull damage" 75
 		"piercing" 0.075
@@ -866,12 +904,13 @@ outfit "Arion G.A.G.G"
 		"fire effect" "rail sparks"
 		"hit effect" "bullet impact"
 		"inaccuracy" 0.45
-		"velocity" 156.25
-		"lifetime" 16
+		"velocity" 200
+		"lifetime" 10
 		"reload" 5
 		"firing energy" 25
 		"firing heat" 20
-		"firing force" 7.5
+		"firing force" 5
+		"hit force" 5
 		"shield damage" 20
 		"hull damage" 25
 		"piercing" 0.025
@@ -898,7 +937,7 @@ outfit "Arion Arclight E.M.L"
 		"hit effect" "bullet impact"
 		"inaccuracy" 0.25
 		"velocity" 500
-		"lifetime" 6
+		"lifetime" 5
 		"reload" 300
 		"firing energy" 1750
 		"firing heat" 900
@@ -929,7 +968,7 @@ outfit "Arion Purgatorio E.M.L"
 		"hit effect" "bullet impact"
 		"inaccuracy" 0.4
 		"velocity" 500
-		"lifetime" 5
+		"lifetime" 4
 		"reload" 300
 		"firing energy" 1100
 		"firing heat" 500
@@ -958,7 +997,7 @@ outfit "Arion Zoisite T.L.S"
 		icon "icon/dragonflame"
 		"hit effect" "beam laser impact"
 		"inaccuracy" 0
-		"velocity" 2500
+		"velocity" 2000
 		"lifetime" 1
 		"reload" 5
 		"burst count" 60
@@ -1073,7 +1112,7 @@ outfit "Arion M.L.M.S"
 		"burst count" 6
 		"burst reload" 30
 		"velocity" 35
-		"lifetime" 80
+		"lifetime" 60
 		"firing energy" 500
 		"firing heat" 300
 		"turn" 40
@@ -1113,7 +1152,7 @@ outfit "Arion M.L.M.P.L"
 		"burst count" 6
 		"burst reload" 60
 		"velocity" 35
-		"lifetime" 80
+		"lifetime" 60
 		"firing energy" 500
 		"firing heat" 300
 		"turn" 40
@@ -1151,7 +1190,7 @@ outfit "Arion Missile Pod"
 		"inaccuracy" 0.75
 		"reload" 120
 		"velocity" 35
-		"lifetime" 80
+		"lifetime" 60
 		"firing energy" 500
 		"firing heat" 300
 		"turn" 40
@@ -1225,7 +1264,7 @@ outfit "Arion Finisher Missile Pod"
 		"inaccuracy" 0.6
 		"reload" 120
 		"velocity" 40
-		"lifetime" 70
+		"lifetime" 55
 		"firing energy" 600
 		"firing heat" 350
 		"turn" 55
@@ -1256,7 +1295,7 @@ outfit "Arion Rocket Pod"
 		"burst count" 12
 		"burst reload" 5
 		"velocity" 25
-		"lifetime" 100
+		"lifetime" 80
 		"reload" 45
 		"firing energy" 175
 		"firing heat" 90
@@ -1317,7 +1356,7 @@ outfit "Arion G.P.B Pod"
 		"die effect" "tiny explosion"
 		"inaccuracy" 2.5
 		"velocity" 6
-		"lifetime" 420
+		"lifetime" 340
 		"reload" 300
 		"firing energy" 1250
 		"firing heat" 750
@@ -1352,7 +1391,7 @@ outfit "Arion Unguided Torpedo Pod"
 		"die effect" "tiny explosion"
 		"inaccuracy" 1.5
 		"velocity" 15
-		"lifetime" 300
+		"lifetime" 200
 		"reload" 360
 		"firing energy" 2000
 		"firing heat" 1250
@@ -1384,8 +1423,8 @@ outfit "Arion Guided Torpedo Pod"
 		"hit effect" "torpedo hit"
 		"die effect" "tiny explosion"
 		"inaccuracy" 1.5
-		"velocity" 14
-		"lifetime" 325
+		"velocity" 13
+		"lifetime" 200
 		"reload" 360
 		"firing energy" 2000
 		"firing heat" 1250
@@ -1420,8 +1459,8 @@ outfit "Arion Guided Torpedo Launcher"
 		"hit effect" "torpedo hit"
 		"die effect" "tiny explosion"
 		"inaccuracy" 1.5
-		"velocity" 14
-		"lifetime" 325
+		"velocity" 13
+		"lifetime" 200
 		"burst count" 3
 		"burst reload" 20
 		"reload" 300
@@ -1485,10 +1524,10 @@ outfit "Arion 76mm Oto Melara Turret"
 		"hit effect" "proton impact" 3
 		"inaccuracy" 0.3
 		"turret turn" 4
-		"velocity" 125
+		"velocity" 120
 		"lifetime" 10
-		"reload" 60
-		"burst count" 12
+		"reload" 75
+		"burst count" 6
 		"burst reload" 20
 		"firing energy" 600
 		"firing heat" 300
@@ -1496,7 +1535,7 @@ outfit "Arion 76mm Oto Melara Turret"
 		"hit force" 25
 		"shield damage" 400
 		"hull damage" 800
-	description "Usually used on our navy ships, it is also quite useful for our spaceships in this expedition. This cannon fires in 12 round bursts."
+	description "Usually used on our navy ships, it is also quite useful for our spaceships in this expedition. This cannon fires in 6 round bursts."
 
 outfit "Arion 127mm Mk 45 Turret"
 	category "Turrets"
@@ -1515,7 +1554,7 @@ outfit "Arion 127mm Mk 45 Turret"
 		"inaccuracy" 0.5
 		"turret turn" 2.0
 		"velocity" 100
-		"lifetime" 25
+		"lifetime" 15
 		"reload" 120
 		"firing energy" 975
 		"firing heat" 488
@@ -1544,7 +1583,7 @@ outfit "Arion B52 Bomb Bay Mk1"
 		"burst count" 8
 		"burst reload" 30
 		"velocity" 6
-		"lifetime" 420
+		"lifetime" 340
 		"reload" 180
 		"firing energy" 1250
 		"firing heat" 750
@@ -1579,7 +1618,7 @@ outfit "Arion B1 Bomb Bay Mk1"
 		"burst reload" 30
 		"inaccuracy" 1
 		"velocity" 6
-		"lifetime" 420
+		"lifetime" 340
 		"reload" 180
 		"firing energy" 1250
 		"firing heat" 750
@@ -1614,7 +1653,7 @@ outfit "Arion B2 Bomb Bay Mk1"
 		"burst reload" 30
 		"inaccuracy" 1
 		"velocity" 6
-		"lifetime" 420
+		"lifetime" 340
 		"reload" 180
 		"firing energy" 1250
 		"firing heat" 750
@@ -1649,7 +1688,7 @@ outfit "Arion Vulcan Bomb Bay Mk1"
 		"burst reload" 30
 		"inaccuracy" 1
 		"velocity" 6
-		"lifetime" 420
+		"lifetime" 340
 		"reload" 180
 		"firing energy" 1250
 		"firing heat" 750
@@ -1732,8 +1771,8 @@ outfit "Arion B52 Nuclear Bomb Bay Mk1"
 		"hit effect" "nuke residue slow" 10
 		"die effect" "missile death"
 		"inaccuracy" 1
-		"velocity" 10
-		"lifetime" 300
+		"velocity" 8
+		"lifetime" 250
 		"reload" 30
 		"firing energy" 10
 		"firing heat" 400
@@ -1766,8 +1805,8 @@ outfit "Arion B1 Nuclear Bomb Bay Mk1"
 		"hit effect" "nuke residue slow" 10
 		"die effect" "missile death"
 		"inaccuracy" 1
-		"velocity" 10
-		"lifetime" 300
+		"velocity" 8
+		"lifetime" 250
 		"reload" 30
 		"firing energy" 10
 		"firing heat" 400
@@ -1800,8 +1839,8 @@ outfit "Arion B2 Nuclear Bomb Bay Mk1"
 		"hit effect" "nuke residue slow" 10
 		"die effect" "missile death"
 		"inaccuracy" 1
-		"velocity" 10
-		"lifetime" 300
+		"velocity" 8
+		"lifetime" 250
 		"reload" 30
 		"firing energy" 10
 		"firing heat" 400
@@ -1834,8 +1873,8 @@ outfit "Arion Vulcan Nuclear Bomb Bay Mk1"
 		"hit effect" "nuke residue slow" 10
 		"die effect" "missile death"
 		"inaccuracy" 1
-		"velocity" 10
-		"lifetime" 300
+		"velocity" 8
+		"lifetime" 250
 		"reload" 30
 		"firing energy" 10
 		"firing heat" 400

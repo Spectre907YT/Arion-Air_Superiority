@@ -658,7 +658,7 @@ ship "Arion Marauder Falcon Block I"
 		"Arion Fusion Reactor"
 		"Arion Phalanx C.I.W.S" 2
 		"Hyperdrive"
-		"Arion L.B.R.S"
+		"Arion M.B.R.S"
 		"Arion L.C.D"
 		"Arion M.H.W Atomic Engines"
 		"Arion S.I Equipment" 10
@@ -1029,7 +1029,7 @@ ship "Arion Ra'at Ik 621 Block II"
 			"Arion"
 		cost 52500000
 		shields 48000
-		hull 31400
+		hull 32000
 		"required crew" 250
 		"bunks" 1050
 		"mass" 1750
@@ -1040,30 +1040,19 @@ ship "Arion Ra'at Ik 621 Block II"
 		"outfit space" 1100
 		"weapon capacity" 425
 		"engine capacity" 250
-		weapon
-			"blast radius" 400
-			"shield damage" 8000
-			"hull damage" 4000
-			"hit force" 12000
 	outfits
-		"Grab-Strike Turret" 3
-		"Banisher Grav-Turret" 2
-		"Warder Anti-Missile" 2
-		"Fire-Lance" 3
-		
-		"Triple Plasma Core"
-		"Systems Core (Large)"
-		"Large Heat Shunt" 2
-		"Small Heat Shunt" 2
-		"Fuel Processor"
-		"Microbot Defense Station" 12
-		"Thermal Repeater Rifle" 799
-		
-		"Reverser (Lunar Class)"
-		"Thruster (Stellar Class)"
-		"Steering (Stellar Class)"
+		"Arion M.L.M.P.L"
+		"Arion Guided Torpedo Launcher" 2
+		"Arion Disabler Laser Turret" 2
+		"Arion OTOMATIC CIWS"
+		"Arion Phalanx C.I.W.S" 4
+		"Arion Small Multirole Fuel System"
+		"Arion Overcharge Core"
+		"Arion L.C.D" 3
+		"Arion L.A.R.S"
+		"Arion H.H.W Atomic Engines"
 		"Jump Drive"
-	
+		"Hyperdrive"
 	engine -42 343 .6
 	engine -22 343 .6
 	engine -22 343 .6
@@ -1090,23 +1079,23 @@ ship "Arion Ra'at Ik 621 Block II"
 		"launch effect" "korath internal"
 	bay "Fighter" 50 303 back
 		"launch effect" "korath internal"
-	gun -71 -209 "Fire-Lance"
-	gun 0 -209 "Fire-Lance"
-	gun 71 -209 "Fire-Lance"
-	turret -52 -295 "Grab-Strike Turret"
-	turret 52 -295 "Warder Anti-Missile"
-	turret -104 -13 "Banisher Grav-Turret"
-	turret 0 -13 "Grab-Strike Turret"
-	turret 104 -13 "Grab-Strike Turret"
-	turret -80.5 191.5 "Warder Anti-Missile"
-	turret 80.5 191.5 "Banisher Grav-Turret"
+	gun -71 -209 "Arion Guided Torpedo Launcher"
+	gun 0 -209 "Arion M.L.M.P.L"
+	gun 71 -209 "Arion Guided Torpedo Launcher"
+	turret -52 -295 "Arion Phalanx C.I.W.S"
+	turret 52 -295 "Arion Phalanx C.I.W.S"
+	turret -104 -13 "Arion Disabler Laser Turret"
+	turret 0 -13 "Arion OTOMATIC CIWS"
+	turret 104 -13 "Arion Disabler Laser Turret"
+	turret -80.5 191.5 "Arion Phalanx C.I.W.S"
+	turret 80.5 191.5 "Arion Phalanx C.I.W.S"
 	explode "tiny explosion" 30
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	explode "huge explosion" 50
 	"final explode" "final explosion large"
-	description "The largest of Korath production vessels are derived from a common and ancient chassis. This many-lobed ship has been adapted to carry fighters into large-scale raids, or mining craft into asteroid belts. Its radial arrangements of hangars allows fighters a maximum variety of safe approach patterns in combat."
+	description "This is a very large and powerful carrier used by those 'Raiders.' With the ability to carry 9 fighters, a lot of firepower and boarding crew, it is a very good flagship for any Arion captain."
 
 =======
 Arion Custom stuff
@@ -2783,10 +2772,10 @@ ship "Arion Halberd Class Cruiser"
 		licenses
 			"Arion"
 		"cost" 7000000
-		"shields" 150000
-		"hull" 110000
+		"shields" 250000
+		"hull" 150000
 		"required crew" 80
-		"bunks" 180
+		"bunks" 120
 		"mass" 840
 		"drag" 9.5
 		"heat dissipation" .9
@@ -2857,12 +2846,12 @@ ship "Arion Scimitar Class Destroyer"
 		licenses
 			"Arion"
 		"cost" 5600000
-		"shields" 80000
-		"hull" 60000
+		"shields" 220000
+		"hull" 100000
 		"required crew" 60
-		"bunks" 150
+		"bunks" 90
 		"mass" 660
-		"drag" 8
+		"drag" 7.5
 		"heat dissipation" .9
 		"fuel capacity" 900
 		"cargo space" 80
@@ -2919,10 +2908,10 @@ ship "Arion Kukri Class Frigate"
 		licenses
 			"Arion"
 		"cost" 4000000
-		"shields" 60000
-		"hull" 40000
+		"shields" 120000
+		"hull" 100000
 		"required crew" 10
-		"bunks" 40
+		"bunks" 30
 		"mass" 450
 		"drag" 4.5
 		"heat dissipation" .9

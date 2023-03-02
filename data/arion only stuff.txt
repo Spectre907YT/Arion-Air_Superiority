@@ -8,8 +8,8 @@ ship "Arion Argosy Block IIIA"
 		licenses
 			"Arion Government"
 		"cost" 50000000
-		"shields" 33750
-		"hull" 22500
+		"shields" 90000
+		"hull" 60000
 		"required crew" 3
 		"bunks" 15
 		"mass" 325
@@ -30,6 +30,7 @@ ship "Arion Argosy Block IIIA"
 	outfits
 		"Arion A.E.W.S"
 		"Hyperdrive"
+		"Jump Drive"
 		"Arion Missile Pod" 4
 		"Arion Myriad C.I.W.S"
 		"Arion Deadlock Laser Turret"
@@ -53,12 +54,8 @@ ship "Arion Argosy Block IIIA"
 	turret 0 9.5 
 	leak "leak" 60 50
 	leak "flame" 60 80
-	explode "tiny explosion" 10
-	explode "small explosion" 25
-	explode "medium explosion" 25
-	explode "large explosion" 10
 	"final explode" "arion teleport"
-	description "(Note, if you are reading this then you are either cheating, stole the ship or looking at the game files. These equipment are not meant for player use) The Block IIIA Argosy is made to safely transport important goods through dangerous areas safely."
+	description "The Block IIIA Argosy is made to safely transport important goods through dangerous areas safely."
 
 ship "Arion Headhunter Block IIIA"
 	"never disabled"
@@ -69,8 +66,8 @@ ship "Arion Headhunter Block IIIA"
 		licenses
 			"Arion Government"
 		"cost" 40000000
-		"shields" 18000
-		"hull" 4500
+		"shields" 65000
+		"hull" 15000
 		"required crew" 2
 		"bunks" 5
 		"mass" 100
@@ -78,7 +75,7 @@ ship "Arion Headhunter Block IIIA"
 		"heat dissipation" 0.9
 		"fuel capacity" 400
 		"cargo space" 50
-		"outfit space" 275
+		"outfit space" 280
 		"weapon capacity" 60
 		"engine capacity" 100
 		"gun ports" 4
@@ -93,6 +90,7 @@ ship "Arion Headhunter Block IIIA"
 	outfits
 		"Arion A.E.W.S"
 		"Hyperdrive"
+		"Jump Drive"
 		"Arion P.C.S"
 		"Arion Missile Pod" 2
 		"Arion G.A.A.C" 2
@@ -113,10 +111,207 @@ ship "Arion Headhunter Block IIIA"
 	turret 0 9 
 	leak "leak" 60 50
 	leak "flame" 80 80
-	explode "tiny explosion" 20
-	explode "small explosion" 25
-	explode "medium explosion" 15
 	"final explode" "arion teleport"
-	description "(Note, if you are reading this then you are either cheating, stole the ship or looking at the game files. These equipment are not meant for player use) The Block IIIA Headhunter is made to scout dangerous territory safely."
+	description "The Block IIIA Headhunter is made to scout dangerous territory safely."
+
+ship "Arion Marauder Leviathan Block IIIA"
+	sprite ship/mleviathans
+	thumbnail thumbnail/mleviathans
+	attributes
+		category "Heavy Warship"
+		licenses
+			"Arion Government"
+		cost 12500000
+		mass 640
+		bunks 70
+		"cargo space" 60
+		drag 7.5
+		"engine capacity" 150
+		"fuel capacity" 500
+		"gun ports" 4
+		"heat dissipation" 0.9
+		hull 81000
+		shields 225000
+		"outfit space" 750
+		"required crew" 35
+		"turret mounts" 4
+		"weapon capacity" 300
+	outfits
+		"Arion A.E.W.S"
+		"Arion Antimatter Reactor"
+		"Arion Phalanx C.I.W.S" 2
+		"Hyperdrive"
+		"Jump Drive"
+		"Arion L.A.R.S"
+		"Arion M.A.R.S"
+		"Arion L.C.D"
+		"Arion S.H.W Atomic Engines"
+		"Arion S.I Equipment" 40
+		"Arion Guided Torpedo Launcher" 4
+		"Arion Deadlock Laser Turret" 2
+		"Arion Multirole Fuel System"
+	engine -23 126.5
+		zoom 1
+		angle 0
+		under
+	engine 23 126.5
+		zoom 1
+		angle 0
+		under
+	gun -39.5 -33 
+	gun 39.5 -33 
+	gun -51 -21 
+	gun 51 -21 
+	turret -14.5 -11.5 
+	turret 14.5 -11.5 
+	turret -26 11.5 
+	turret 26 11.5 
+	explode "large explosion" 8
+	explode "medium explosion" 24
+	explode "small explosion" 36
+	explode "tiny explosion" 18
+	"final explode" "final explosion large" 1
+	description "The Block IIIA Leviathan is one of the main warships used by the Arion Foreign Legion in this expedition."
+
+ship "Arion Marauder Falcon Block IIIA"
+	sprite ship/mfalconw
+	thumbnail thumbnail/mfalconw
+	attributes
+		category "Heavy Warship"
+		licenses
+			"Arion Government"
+		cost 15000000
+		mass 550
+		bunks 80
+		"cargo space" 60
+		drag 6.5
+		"engine capacity" 180
+		"fuel capacity" 600
+		"gun ports" 6
+		"heat dissipation" 0.9
+		hull 6750
+		"outfit space" 650
+		"required crew" 40
+		shields 22500
+		"turret mounts" 4
+		"weapon capacity" 300
+	outfits
+		"Arion A.E.W.S"
+		"Arion Antimatter Reactor"
+		"Arion Phalanx C.I.W.S" 2
+		"Hyperdrive"
+		"Arion M.A.R.S"
+		"Arion S.A.R.S"
+		"Arion L.C.D"
+		"Arion M.H.W Atomic Engines"
+		"Arion S.I Equipment" 50
+		"Arion Missile Pod" 4
+		"Arion M.L.M.P.L" 2
+		"Arion Deadlock Laser Turret" 2
+		"Arion Multirole Fuel System"
+	engine -16.5 143
+		zoom 1
+		angle 0
+		under
+	engine 16.5 143
+		zoom 1
+		angle 0
+		under
+	gun -16 -86.5 
+	gun 16 -86.5 
+	gun -19 -76.5 
+	gun 19 -76.5 
+	gun -24.5 -66.5 
+	gun 24.5 -66.5 
+	turret -16 -29 
+	turret 16 -29 
+	turret -50 39.5 
+	turret 50 39.5 
+	explode "large explosion" 40
+	explode "medium explosion" 60
+	explode "small explosion" 55
+	explode "tiny explosion" 40
+	"final explode" "final explosion large" 1
+	description "The Block IIIA Falcon is one of the main warships used by the Arion Foreign Legion in this expedition."
+
+ship "Arion Bactrian H.A.T Block IIIA"
+	sprite ship/bactrian
+	thumbnail thumbnail/bactrian
+	attributes
+		category "Heavy Warship"
+		licenses
+			"Arion Government"
+		cost 20000000
+		mass 900
+		bunks 250
+		"cargo space" 600
+		drag 14.5
+		"engine capacity" 180
+		"fuel capacity" 700
+		"gun ports" 4
+		"heat dissipation" 0.9
+		hull 120000
+		"outfit space" 820
+		"required crew" 45
+		shields 240000
+		"turret mounts" 6
+		"turret ports" 6
+		"weapon capacity" 400
+	outfits
+		"Arion A.E.W.S"
+		"Arion Goalkeeper C.I.W.S" 2
+		"Arion OTOMATIC CIWS"
+		"Arion Antimatter Reactor"
+		"Hyperdrive"
+		"Arion L.A.R.S"
+		"Arion L.C.D"
+		"Arion M.H.W Atomic Engines"
+		"Arion S.I Equipment" 50
+		"Arion Guided Torpedo Launcher" 4
+		"Arion Deadlock Laser Turret" 3
+		"Arion Multirole Fuel System"
+	engine -18 230
+		zoom 1
+		angle 0
+		under
+	engine 18 230
+		zoom 1
+		angle 0
+		under
+	gun -15 -226 "Arion Guided Torpedo Launcher"
+		under
+	gun 15 -226 "Arion Guided Torpedo Launcher"
+		under
+	gun -40 -133 "Arion Guided Torpedo Launcher"
+		under
+	gun -45 -128 "Arion Guided Torpedo Launcher"
+		under
+	turret -22 -148 "Arion OTOMATIC CIWS"
+		over
+	turret 26 -80 "Arion Deadlock Laser Turret"
+		over
+	turret -41 -20 "Arion Deadlock Laser Turret"
+		over
+	turret 32 -7 "Arion Dragonfire C.I.W.S"
+		over
+	turret 53 82 "Arion Dragonfire C.I.W.S"
+		over
+	turret -37 186 "Arion Deadlock Laser Turret"
+		over
+	bay Fighter -38 -26
+		"launch effect" "basic launch"
+	bay Fighter 35 36
+		"launch effect" "basic launch"
+	bay Fighter -47 97
+		"launch effect" "basic launch"
+	leak leak 30 50
+	leak flame 30 80
+	leak "big leak" 50 30
+	explode "huge explosion" 30
+	explode "large explosion" 45
+	explode "medium explosion" 35
+	explode "small explosion" 25
+	"final explode" "final explosion large" 1
+	description "The Block IIIA Bactrian is the most popular flagship used by all branches of the Arion Expeditionary Fleet."
 
 Government outfits

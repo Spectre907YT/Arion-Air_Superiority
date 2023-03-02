@@ -5,42 +5,41 @@ ship "Arion Prowler Mk1"
 		licenses
 			Arion
 		category "Medium Warship"
-		"cost" 12420000
+		"cost" 15000000
 		"shields" 23500
 		"hull" 4500
-		"required crew" 55
-		"bunks" 123
-		"mass" 469
-		"drag" 4.20
-		"heat dissipation" .69
+		"required crew" 30
+		"bunks" 125
+		"mass" 460
+		"drag" 4.25
+		"heat dissipation" 0.9
 		"fuel capacity" 1200
-		"cargo space" 80
+		"cargo space" 100
 		"outfit space" 650
-		"weapon capacity" 318
-		"engine capacity" 160
+		"weapon capacity" 300
+		"engine capacity" 150
 		"radar jamming" 500
-		"tactical scan power" 128
-		"asteroid scan power" 40
-		"outfit scan power" 50
-		"outfit scan speed" 2
-		"cargo scan power" 18
-		"cargo scan speed" 2
+		"outfit scan power" 175
+		"outfit scan power" 90
+		"cargo scan power" 100
+		"cargo scan efficiency" 50
+		"tactical scan power" 150
+		"scan interference" 150
 		"atmosphere scan" 100
-		"scan interference" 15
 		"gaslining" 1
+		"cloak" 0.1
+		"cloaking energy" 6
+		"cloaking heat" 3
 	outfits
-		"Scram Drive"
-		"Anti-Missile Turret"
-		"A525 Atomic Steering"
-		"A520 Atomic Thruster"
-		"Afterburner"
-		"Catalyctic Ramscoop" 2
-		"Breeder Reactor"
-		"Liquid Nitrogen Cooler"
-		"Typhoon Launcher" 8
-		"Typhoon Torpedo" 300
-		"Typhoon Storage Tube" 4
-		"AR120 Reverse Thruster"
+		"Arion Fusion Reactor"
+		"Arion Guided Torpedo Launcher" 8
+		"Arion L.C.D"
+		"Arion M.B.R.S"
+		"Arion Multirole Fuel System"
+		"Arion Phalanx C.I.W.S"
+		"Arion S.H.W Atomic Engines"
+		"Hyperdrive"
+		"Jump Drive"
 	turret 0 -91.5 
 	gun -21.5 -184 
 	gun 21.5 -184
@@ -86,18 +85,4 @@ ship "Arion Prowler Mk1"
 		angle -105
 		under
 		left
-	description "The navy made an interesting ship based on naval submarines, and we also took interest in it. So we made our own variant with some upgrades. Mainly it has an improved version of our prototype cloaking system. It is better than the outfit version due to this one being built in to the ship."
-	
-	
-#	other possible effects
-
-		"cloak" .02
-		"cloaking energy" 5
-		"cloaking fuel" .1
-		
-		
-		
-		"force protection" 1
-		"heat protection" 1.5
-		"ion resistance" 0.3
-		"slowing resistance" 3
+	description "The navy made an interesting ship based on naval submarines, and we also took interest in it. So we made our own variant with some upgrades. Mainly it has one of our prototype cloaking system. It is better than the outfit version due to this one being built in to the ship."

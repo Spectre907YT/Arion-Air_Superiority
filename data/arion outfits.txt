@@ -13,10 +13,10 @@ outfit "Arion Basic Aircraft Engines"
 	"mass" 15
 	"outfit space" -15
 	"engine capacity" -15
-	"thrust" 10
+	"thrust" 9
 	"thrusting energy" 0.5
 	"thrusting heat" 0.25
-	"turn" 275
+	"turn" 250
 	"turning energy" 0.3
 	"turning heat" 0.15
 	"reverse thrust" 5
@@ -41,15 +41,15 @@ outfit "Arion A.A Engines"
 	"mass" 20
 	"outfit space" -20
 	"engine capacity" -20
-	"thrust" 21.75
-	"thrusting energy" 2
-	"thrusting heat" 1
-	"turn" 325
-	"turning energy" 0.9
-	"turning heat" 0.45
-	"reverse thrust" 20
-	"reverse thrusting energy" 1
-	"reverse thrusting heat" 0.5
+	"thrust" 13
+	"thrusting energy" 1.11
+	"thrusting heat" 1.665
+	"turn" 330
+	"turning energy" 0.55
+	"turning heat" 0.825
+	"reverse thrust" 9.75
+	"reverse thrusting energy" 1.11
+	"reverse thrusting heat" 1.665
 	"flare sprite" "effect/fissionflare"
 		"frame rate" 30
 		"rewind"
@@ -69,15 +69,15 @@ outfit "Arion F.A Engines"
 	"mass" 25
 	"outfit space" -25
 	"engine capacity" -25
-	"thrust" 27.5
-	"thrusting energy" 2.5
-	"thrusting heat" 1.25
-	"turn" 480
-	"turning energy" 1
-	"turning heat" 0.5
-	"reverse thrust" 20
-	"reverse thrusting energy" 1
-	"reverse thrusting heat" 0.5
+	"thrust" 16.25
+	"thrusting energy" 1.3875
+	"thrusting heat" 2.08125
+	"turn" 412.5
+	"turning energy" 0.6875
+	"turning heat" 1.03125
+	"reverse thrust" 12.1875
+	"reverse thrusting energy" 1.3875
+	"reverse thrusting heat" 2.08125
 	"flare sprite" "effect/fissionflare"
 		"frame rate" 30
 		"rewind"
@@ -97,15 +97,15 @@ outfit "Arion I.A Engines"
 	"mass" 25
 	"outfit space" -25
 	"engine capacity" -25
-	"thrust" 32.5
-	"thrusting energy" 2.5
-	"thrusting heat" 1.25
-	"turn" 375
-	"turning energy" 1
-	"turning heat" 0.5
-	"reverse thrust" 20
-	"reverse thrusting energy" 1
-	"reverse thrusting heat" 0.5
+	"thrust" 20.3125
+	"thrusting energy" 1.735
+	"thrusting heat" 2.6015
+	"turn" 309.375
+	"turning energy" 0.515
+	"turning heat" 0.775
+	"reverse thrust" 12.1875
+	"reverse thrusting energy" 1.735
+	"reverse thrusting heat" 2.6015
 	"flare sprite" "effect/fissionflare"
 		"frame rate" 30
 		"rewind"
@@ -125,15 +125,15 @@ outfit "Arion B.A Engines"
 	"mass" 30
 	"outfit space" -30
 	"engine capacity" -30
-	"thrust" 32.5
-	"thrusting energy" 3
-	"thrusting heat" 1.5
-	"turn" 450
-	"turning energy" 1.25
-	"turning heat" 0.625
-	"reverse thrust" 20
-	"reverse thrusting energy" 1.25
-	"reverse thrusting heat" 0.625
+	"thrust" 19.5
+	"thrusting energy" 1.665
+	"thrusting heat" 2.4975
+	"turn" 495
+	"turning energy" 0.825
+	"turning heat" 1.2375
+	"reverse thrust" 14.625
+	"reverse thrusting energy" 1.665
+	"reverse thrusting heat" 2.4975
 	"flare sprite" "effect/fissionflare"
 		"frame rate" 30
 		"rewind"
@@ -153,15 +153,15 @@ outfit "Arion M.B.A Engines"
 	"mass" 50
 	"outfit space" -50
 	"engine capacity" -50
-	"thrust" 54.25
-	"thrusting energy" 5.4
-	"thrusting heat" 2.7
-	"turn" 750
-	"turning energy" 2
-	"turning heat" 1
-	"reverse thrust" 25
-	"reverse thrusting energy" 2
-	"reverse thrusting heat" 1
+	"thrust" 32.5
+	"thrusting energy" 2.775
+	"thrusting heat" 4.1625
+	"turn" 825
+	"turning energy" 1.375
+	"turning heat" 2.0625
+	"reverse thrust" 24.375
+	"reverse thrusting energy" 2.775
+	"reverse thrusting heat" 4.1625
 	"flare sprite" "effect/fissionflare"
 		"frame rate" 30
 		"rewind"
@@ -181,15 +181,15 @@ outfit "Arion H.B.A Engines"
 	"mass" 60
 	"outfit space" -60
 	"engine capacity" -60
-	"thrust" 65
-	"thrusting energy" 6
-	"thrusting heat" 3
-	"turn" 900
-	"turning energy" 2.5
-	"turning heat" 1.25
-	"reverse thrust" 30
-	"reverse thrusting energy" 2.5
-	"reverse thrusting heat" 1.25
+	"thrust" 39
+	"thrusting energy" 3.33
+	"thrusting heat" 4.995
+	"turn" 990
+	"turning energy" 1.65
+	"turning heat" 2.475
+	"reverse thrust" 29.25
+	"reverse thrusting energy" 3.33
+	"reverse thrusting heat" 4.995
 	"flare sprite" "effect/fissionflare"
 		"frame rate" 30
 		"rewind"
@@ -209,15 +209,15 @@ outfit "Arion M.L.W Atomic Engines"
 	"mass" 80
 	"outfit space" -80
 	"engine capacity" -80
-	"turn" 1200
-	"turning energy" 3.75
-	"turning heat" 1.375
-	"thrust" 87.5
-	"thrusting energy" 8
-	"thrusting heat" 4
-	"reverse thrust" 55
-	"reverse thrusting energy" 3.75
-	"reverse thrusting heat" 1.375
+	"turn" 1320
+	"turning energy" 2.2
+	"turning heat" 3.3
+	"thrust" 52
+	"thrusting energy" 4.44
+	"thrusting heat" 6.66
+	"reverse thrust" 39
+	"reverse thrusting energy" 4.44
+	"reverse thrusting heat" 6.66
 	"flare sprite" "effect/fusionflare"
 		"frame rate" 30
 		"rewind"
@@ -242,15 +242,15 @@ outfit "Arion L.L.W Atomic Engines"
 	"mass" 100
 	"outfit space" -100
 	"engine capacity" -100
-	"turn" 1500
-	"turning energy" 4.75
-	"turning heat" 2.375
-	"thrust" 107.5
-	"thrusting energy" 10
-	"thrusting heat" 5
-	"reverse thrust" 67.5
-	"reverse thrusting energy" 4.75
-	"reverse thrusting heat" 2.375
+	"turn" 1650
+	"turning energy" 2.75
+	"turning heat" 4.125
+	"thrust" 65
+	"thrusting energy" 5.55
+	"thrusting heat" 8.325
+	"reverse thrust" 48.75
+	"reverse thrusting energy" 5.55
+	"reverse thrusting heat" 8.325
 	"flare sprite" "effect/fusionflare"
 		"frame rate" 30
 		"rewind"
@@ -275,15 +275,15 @@ outfit "Arion S.H.W Atomic Engines"
 	"mass" 150
 	"outfit space" -150
 	"engine capacity" -150
-	"turn" 2250
-	"turning energy" 7
-	"turning heat" 3.5
-	"thrust" 160
-	"thrusting energy" 15
-	"thrusting heat" 7.5
-	"reverse thrust" 100
-	"reverse thrusting energy" 7
-	"reverse thrusting heat" 3.5
+	"turn" 2500
+	"turning energy" 4.17
+	"turning heat" 6.255
+	"thrust" 100
+	"thrusting energy" 8.3
+	"thrusting heat" 12.45
+	"reverse thrust" 75
+	"reverse thrusting energy" 8.3
+	"reverse thrusting heat" 12.45
 	"flare sprite" "effect/fusionflare"
 		"frame rate" 30
 		"rewind"
@@ -308,15 +308,15 @@ outfit "Arion M.H.W Atomic Engines"
 	"mass" 180
 	"outfit space" -180
 	"engine capacity" -180
-	"turn" 2700
-	"turning energy" 8
-	"turning heat" 4
-	"thrust" 190
-	"thrusting energy" 18
-	"thrusting heat" 9
-	"reverse thrust" 120
-	"reverse thrusting energy" 8
-	"reverse thrusting heat" 4
+	"turn" 3000
+	"turning energy" 5
+	"turning heat" 7.5
+	"thrust" 120
+	"thrusting energy" 10
+	"thrusting heat" 15
+	"reverse thrust" 90
+	"reverse thrusting energy" 10
+	"reverse thrusting heat" 15
 	"flare sprite" "effect/fusionflare"
 		"frame rate" 30
 		"rewind"
@@ -330,7 +330,7 @@ outfit "Arion M.H.W Atomic Engines"
 		"rewind"
 	"reverse flare sound" "atomic large"
 	unplunderable 1
-	description "The Arion Medium Heavy Warship Atomic Engine is an engine used for most heavy ships in this expedition."
+	description "The Arion Medium Heavy Warship Atomic Engine is an engine used for most heavy ships in this expedition. All Arion engines don't actually have reverse thruster, instead they redirect the direction of their thrust or use a system similar to reverse thruster on some commercial planes."
 
 outfit "Arion L.H.W Atomic Engines"
 	category "Engines"
@@ -341,15 +341,15 @@ outfit "Arion L.H.W Atomic Engines"
 	"mass" 210
 	"outfit space" -210
 	"engine capacity" -210
-	"turn" 3150
-	"turning energy" 9.5
-	"turning heat" 4.75
-	"thrust" 220
-	"thrusting energy" 21
-	"thrusting heat" 10.5
-	"reverse thrust" 140
-	"reverse thrusting energy" 9.5
-	"reverse thrusting heat" 4.75
+	"turn" 3500
+	"turning energy" 5.8
+	"turning heat" 8.7
+	"thrust" 140
+	"thrusting energy" 11.7
+	"thrusting heat" 17.55
+	"reverse thrust" 105
+	"reverse thrusting energy" 11.7
+	"reverse thrusting heat" 17.55
 	"flare sprite" "effect/fusionflare"
 		"frame rate" 30
 		"rewind"
@@ -543,10 +543,10 @@ outfit "Arion T.A.R.S"
 	"mass" 10
 	"outfit space" -10
 	"energy capacity" 3125
-	"shield generation" 0.9
-	"shield energy" 0.9
-	"hull repair rate" 0.5
-	"hull energy" 0.5
+	"shield generation" 0.7
+	"shield energy" 0.7
+	"hull repair rate" 0.4
+	"hull energy" 0.4
 	description "The Arion Tiny Advanced Repair System is similar to the korath's system core, however, it significantly more advanced due to the advanced 'fabrication' technology Arion has. This one is made for spacecraft." 
 
 outfit "Arion S.A.R.S"
@@ -558,10 +558,10 @@ outfit "Arion S.A.R.S"
 	"mass" 25
 	"outfit space" -25
 	"energy capacity" 6250
-	"shield generation" 2.25
-	"shield energy" 2.25
-	"hull repair rate" 1.25
-	"hull energy" 1.25
+	"shield generation" 1.75
+	"shield energy" 1.75
+	"hull repair rate" 1
+	"hull energy" 1
 	description "The Arion Small Advanced Repair System is similar to the korath's system core, however, it significantly more advanced due to the advanced 'fabrication' technology Arion has. This one is made for smaller ships." 
 
 outfit "Arion M.A.R.S"
@@ -573,10 +573,10 @@ outfit "Arion M.A.R.S"
 	"mass" 50
 	"outfit space" -50
 	"energy capacity" 12500
-	"shield generation" 4.5
-	"shield energy" 4.5
-	"hull repair rate" 2.5
-	"hull energy" 2.5
+	"shield generation" 3.5
+	"shield energy" 3.5
+	"hull repair rate" 2
+	"hull energy" 2
 	description "The Arion Medium Advanced Repair System is similar to the korath's system core, however, it significantly more advanced due to the advanced 'fabrication' technology Arion has. This one is made for medium ships." 
 
 outfit "Arion L.A.R.S"
@@ -588,10 +588,10 @@ outfit "Arion L.A.R.S"
 	"mass" 100
 	"outfit space" -100
 	"energy capacity" 25000
-	"shield generation" 9
-	"shield energy" 9
-	"hull repair rate" 5
-	"hull energy" 5
+	"shield generation" 7
+	"shield energy" 7
+	"hull repair rate" 4
+	"hull energy" 4
 	description "The Arion Large Advanced Repair System is similar to the korath's system core, however, it significantly more advanced due to the advanced 'fabrication' technology Arion has. This one is made for large ships." 
 
 outfit "Arion S.C.D"
@@ -614,7 +614,7 @@ outfit "Arion L.C.D"
 	thumbnail "outfit/large heat shunt"
 	"mass" 20
 	"outfit space" -20
-	"energy capacity" 2500
+	"energy capacity" 2000
 	"cooling" 50
 	description "The Arion Large Cooling Device is a large cooling device to make sure large spaceships don't get overheated. It also has some extra battery space."
 
@@ -738,7 +738,7 @@ outfit "Arion Basic Generator"
 	"mass" 20
 	"outfit space" -20
 	"energy generation" 2
-	"heat generation" 6
+	"heat generation" 5
 	"unplunderable" 1
 	"energy capacity" 2000
 	description "A basic and cheap generator that doubles as batteries"
