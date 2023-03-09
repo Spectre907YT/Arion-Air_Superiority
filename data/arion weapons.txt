@@ -433,8 +433,8 @@ outfit "Arion Gau-8 Avenger"
 		"inaccuracy" 1.25
 		"velocity" 70
 		"lifetime" 7
-		"shield damage" 15
-		"hull damage" 30
+		"shield damage" 7.5
+		"hull damage" 15
 		"hit force" 5
 		"reload" 4
 		"burst count" 240
@@ -462,8 +462,8 @@ outfit "Arion 30mm Autocannon"
 		sound "gatling"
 		"velocity" 70
 		"lifetime" 8
-		"shield damage" 15
-		"hull damage" 30
+		"shield damage" 7.5
+		"hull damage" 15
 		"hit force" 3
 		"inaccuracy" 0.5
 		"reload" 5
@@ -504,8 +504,8 @@ outfit "Arion Gau-12 Equalizer"
 		"inaccuracy" 1.1
 		"velocity" 80
 		"lifetime" 6
-		"shield damage" 15
-		"hull damage" 25
+		"shield damage" 6.25
+		"hull damage" 12.5
 		"hit force" 2.5
 		"reload" 3
 		"burst count" 180
@@ -547,8 +547,8 @@ outfit "Arion M61 Vulcan"
 		"inaccuracy" 1
 		"velocity" 100
 		"lifetime" 5
-		"shield damage" 10
-		"hull damage" 20
+		"shield damage" 5
+		"hull damage" 10
 		"hit force" 2
 		"reload" 2
 		"burst count" 300
@@ -577,8 +577,8 @@ outfit "Arion 20mm Autocannon"
 		"inaccuracy" 0.4
 		"velocity" 100
 		"lifetime" 6
-		"shield damage" 10
-		"hull damage" 20
+		"shield damage" 5
+		"hull damage" 10
 		"hit force" 2
 		"reload" 5
 		"firing energy" 8
@@ -1528,7 +1528,7 @@ outfit "Arion 76mm Oto Melara Turret"
 		"lifetime" 10
 		"reload" 75
 		"burst count" 6
-		"burst reload" 20
+		"burst reload" 12
 		"firing energy" 600
 		"firing heat" 300
 		"firing force" 25
@@ -1562,7 +1562,7 @@ outfit "Arion 127mm Mk 45 Turret"
 		"hit force" 50
 		"shield damage" 650
 		"hull damage" 1300
-	description "Usually used on our navy ships, it is also quite useful for our spaceships in this expedition. This cannon fires in a steady rate of 1 round per 2 second."
+	description "Usually used on our navy ships, it is also quite useful for our spaceships in this expedition. This cannon fires in a steady rate of 1 round per 1 and a half second."
 
 outfit "Arion B52 Bomb Bay Mk1"
 	category "Secondary Weapons"
@@ -1572,7 +1572,7 @@ outfit "Arion B52 Bomb Bay Mk1"
 	"outfit space" -50
 	"weapon capacity" -50
 	"gun ports" -1
-	"b52 bomb bay" -1
+	"bomb bay" -1
 	weapon
 		sprite "projectile/ariongpb"
 		sound "typhoon"
@@ -1606,7 +1606,7 @@ outfit "Arion B1 Bomb Bay Mk1"
 	"outfit space" -40
 	"weapon capacity" -40
 	"gun ports" -1
-	"b1 bomb bay" -1
+	"bomb bay" -1
 	weapon
 		sprite "projectile/ariongpb"
 		sound "typhoon"
@@ -1641,7 +1641,7 @@ outfit "Arion B2 Bomb Bay Mk1"
 	"outfit space" -35
 	"weapon capacity" -35
 	"gun ports" -1
-	"b2 bomb bay" -1
+	"bomb bay" -1
 	weapon
 		sprite "projectile/ariongpb"
 		sound "typhoon"
@@ -1676,7 +1676,7 @@ outfit "Arion Vulcan Bomb Bay Mk1"
 	"outfit space" -25
 	"weapon capacity" -25
 	"gun ports" -1
-	"vulcan bomb bay" -1
+	"bomb bay" -1
 	weapon
 		sprite "projectile/ariongpb"
 		sound "typhoon"
@@ -1760,7 +1760,7 @@ outfit "Arion B52 Nuclear Bomb Bay Mk1"
 	"weapon capacity" -50
 	"gun ports" -1
 	"a nuclear bomb capacity" 8
-	"b52 bomb bay" -1
+	"bomb bay" -1
 	weapon
 		sprite "projectile/ariontacticalnuclearbomb"
 		ammo "Arion Tactical Nuclear Bomb Mk1"
@@ -1771,8 +1771,8 @@ outfit "Arion B52 Nuclear Bomb Bay Mk1"
 		"hit effect" "nuke residue slow" 10
 		"die effect" "missile death"
 		"inaccuracy" 1
-		"velocity" 8
-		"lifetime" 250
+		"velocity" 6
+		"lifetime" 340
 		"reload" 30
 		"firing energy" 10
 		"firing heat" 400
@@ -1794,7 +1794,7 @@ outfit "Arion B1 Nuclear Bomb Bay Mk1"
 	"weapon capacity" -40
 	"gun ports" -1
 	"a nuclear bomb capacity" 6
-	"b1 bomb bay" -1
+	"bomb bay" -1
 	weapon
 		sprite "projectile/ariontacticalnuclearbomb"
 		ammo "Arion Tactical Nuclear Bomb Mk1"
@@ -1805,8 +1805,8 @@ outfit "Arion B1 Nuclear Bomb Bay Mk1"
 		"hit effect" "nuke residue slow" 10
 		"die effect" "missile death"
 		"inaccuracy" 1
-		"velocity" 8
-		"lifetime" 250
+		"velocity" 6
+		"lifetime" 340
 		"reload" 30
 		"firing energy" 10
 		"firing heat" 400
@@ -1828,7 +1828,7 @@ outfit "Arion B2 Nuclear Bomb Bay Mk1"
 	"weapon capacity" -35
 	"gun ports" -1
 	"a nuclear bomb capacity" 5
-	"b2 bomb bay" -1
+	"bomb bay" -1
 	weapon
 		sprite "projectile/ariontacticalnuclearbomb"
 		ammo "Arion Tactical Nuclear Bomb Mk1"
@@ -1839,8 +1839,8 @@ outfit "Arion B2 Nuclear Bomb Bay Mk1"
 		"hit effect" "nuke residue slow" 10
 		"die effect" "missile death"
 		"inaccuracy" 1
-		"velocity" 8
-		"lifetime" 250
+		"velocity" 6
+		"lifetime" 340
 		"reload" 30
 		"firing energy" 10
 		"firing heat" 400
@@ -1862,7 +1862,7 @@ outfit "Arion Vulcan Nuclear Bomb Bay Mk1"
 	"weapon capacity" -25
 	"gun ports" -1
 	"a nuclear bomb capacity" 4
-	"vulcan bomb bay" -1
+	"bomb bay" -1
 	weapon
 		sprite "projectile/ariontacticalnuclearbomb"
 		ammo "Arion Tactical Nuclear Bomb Mk1"
@@ -1873,8 +1873,8 @@ outfit "Arion Vulcan Nuclear Bomb Bay Mk1"
 		"hit effect" "nuke residue slow" 10
 		"die effect" "missile death"
 		"inaccuracy" 1
-		"velocity" 8
-		"lifetime" 250
+		"velocity" 6
+		"lifetime" 340
 		"reload" 30
 		"firing energy" 10
 		"firing heat" 400

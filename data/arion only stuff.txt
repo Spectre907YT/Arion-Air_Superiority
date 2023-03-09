@@ -7,7 +7,7 @@ ship "Arion Argosy Block IIIA"
 		category "Light Freighter"
 		licenses
 			"Arion Government"
-		"cost" 50000000
+		"cost" 35000000
 		"shields" 90000
 		"hull" 60000
 		"required crew" 3
@@ -31,6 +31,7 @@ ship "Arion Argosy Block IIIA"
 		"Arion A.E.W.S"
 		"Hyperdrive"
 		"Jump Drive"
+		"Quantum Keystone"
 		"Arion Missile Pod" 4
 		"Arion Myriad C.I.W.S"
 		"Arion Deadlock Laser Turret"
@@ -65,7 +66,7 @@ ship "Arion Headhunter Block IIIA"
 		category "Light Warship"
 		licenses
 			"Arion Government"
-		"cost" 40000000
+		"cost" 35000000
 		"shields" 65000
 		"hull" 15000
 		"required crew" 2
@@ -91,6 +92,7 @@ ship "Arion Headhunter Block IIIA"
 		"Arion A.E.W.S"
 		"Hyperdrive"
 		"Jump Drive"
+		"Quantum Keystone"
 		"Arion P.C.S"
 		"Arion Missile Pod" 2
 		"Arion G.A.A.C" 2
@@ -121,33 +123,41 @@ ship "Arion Marauder Leviathan Block IIIA"
 		category "Heavy Warship"
 		licenses
 			"Arion Government"
-		cost 12500000
-		mass 640
+		cost 120000000
+		mass 630
 		bunks 70
 		"cargo space" 60
-		drag 7.5
+		drag 7.25
 		"engine capacity" 150
 		"fuel capacity" 500
 		"gun ports" 4
 		"heat dissipation" 0.9
-		hull 81000
-		shields 225000
+		hull 90000
+		shields 250000
 		"outfit space" 750
-		"required crew" 35
+		"required crew" 10
 		"turret mounts" 4
 		"weapon capacity" 300
+		"ion resistance" 3
+		"ion protection" 1
+		"disruption protection" 1
+		"discharge protection" 1
+		"corrosion protection" 1
+		"leak resistance" 5
+		"burn resistance" 5
 	outfits
 		"Arion A.E.W.S"
 		"Arion Antimatter Reactor"
 		"Arion Phalanx C.I.W.S" 2
 		"Hyperdrive"
 		"Jump Drive"
+		"Quantum Keystone"
 		"Arion L.A.R.S"
 		"Arion M.A.R.S"
 		"Arion L.C.D"
 		"Arion S.H.W Atomic Engines"
 		"Arion S.I Equipment" 40
-		"Arion Guided Torpedo Launcher" 4
+		"Arion M.L.M.P.L" 4
 		"Arion Deadlock Laser Turret" 2
 		"Arion Multirole Fuel System"
 	engine -23 126.5
@@ -166,11 +176,7 @@ ship "Arion Marauder Leviathan Block IIIA"
 	turret 14.5 -11.5 
 	turret -26 11.5 
 	turret 26 11.5 
-	explode "large explosion" 8
-	explode "medium explosion" 24
-	explode "small explosion" 36
-	explode "tiny explosion" 18
-	"final explode" "final explosion large" 1
+	"final explode" "arion teleport"
 	description "The Block IIIA Leviathan is one of the main warships used by the Arion Foreign Legion in this expedition."
 
 ship "Arion Marauder Falcon Block IIIA"
@@ -180,28 +186,36 @@ ship "Arion Marauder Falcon Block IIIA"
 		category "Heavy Warship"
 		licenses
 			"Arion Government"
-		cost 15000000
-		mass 550
+		cost 1500000000
+		mass 540
 		bunks 80
 		"cargo space" 60
-		drag 6.5
+		drag 6.25
 		"engine capacity" 180
 		"fuel capacity" 600
 		"gun ports" 6
 		"heat dissipation" 0.9
-		hull 6750
+		hull 70000
 		"outfit space" 650
-		"required crew" 40
-		shields 22500
+		"required crew" 10
+		shields 220000
 		"turret mounts" 4
 		"weapon capacity" 300
+		"ion resistance" 3
+		"ion protection" 1
+		"disruption protection" 1
+		"discharge protection" 1
+		"corrosion protection" 1
+		"leak resistance" 5
+		"burn resistance" 5
 	outfits
 		"Arion A.E.W.S"
 		"Arion Antimatter Reactor"
 		"Arion Phalanx C.I.W.S" 2
 		"Hyperdrive"
+		"Jump Drive"
+		"Quantum Keystone"
 		"Arion M.A.R.S"
-		"Arion S.A.R.S"
 		"Arion L.C.D"
 		"Arion M.H.W Atomic Engines"
 		"Arion S.I Equipment" 50
@@ -227,11 +241,7 @@ ship "Arion Marauder Falcon Block IIIA"
 	turret 16 -29 
 	turret -50 39.5 
 	turret 50 39.5 
-	explode "large explosion" 40
-	explode "medium explosion" 60
-	explode "small explosion" 55
-	explode "tiny explosion" 40
-	"final explode" "final explosion large" 1
+	"final explode" "arion teleport"
 	description "The Block IIIA Falcon is one of the main warships used by the Arion Foreign Legion in this expedition."
 
 ship "Arion Bactrian H.A.T Block IIIA"
@@ -241,7 +251,7 @@ ship "Arion Bactrian H.A.T Block IIIA"
 		category "Heavy Warship"
 		licenses
 			"Arion Government"
-		cost 20000000
+		cost 180000000
 		mass 900
 		bunks 250
 		"cargo space" 600
@@ -250,19 +260,28 @@ ship "Arion Bactrian H.A.T Block IIIA"
 		"fuel capacity" 700
 		"gun ports" 4
 		"heat dissipation" 0.9
-		hull 120000
 		"outfit space" 820
-		"required crew" 45
-		shields 240000
+		"required crew" 20
+		shields 270000
+		hull 140000
 		"turret mounts" 6
 		"turret ports" 6
 		"weapon capacity" 400
+		"ion resistance" 3
+		"ion protection" 1
+		"disruption protection" 1
+		"discharge protection" 1
+		"corrosion protection" 1
+		"leak resistance" 5
+		"burn resistance" 5
 	outfits
 		"Arion A.E.W.S"
-		"Arion Goalkeeper C.I.W.S" 2
+		"Arion Phalanx C.I.W.S" 2
 		"Arion OTOMATIC CIWS"
 		"Arion Antimatter Reactor"
 		"Hyperdrive"
+		"Jump Drive"
+		"Quantum Keystone"
 		"Arion L.A.R.S"
 		"Arion L.C.D"
 		"Arion M.H.W Atomic Engines"
@@ -292,9 +311,9 @@ ship "Arion Bactrian H.A.T Block IIIA"
 		over
 	turret -41 -20 "Arion Deadlock Laser Turret"
 		over
-	turret 32 -7 "Arion Dragonfire C.I.W.S"
+	turret 32 -7 
 		over
-	turret 53 82 "Arion Dragonfire C.I.W.S"
+	turret 53 82 
 		over
 	turret -37 186 "Arion Deadlock Laser Turret"
 		over
@@ -307,11 +326,267 @@ ship "Arion Bactrian H.A.T Block IIIA"
 	leak leak 30 50
 	leak flame 30 80
 	leak "big leak" 50 30
-	explode "huge explosion" 30
-	explode "large explosion" 45
-	explode "medium explosion" 35
-	explode "small explosion" 25
-	"final explode" "final explosion large" 1
+	"final explode" "arion teleport"
 	description "The Block IIIA Bactrian is the most popular flagship used by all branches of the Arion Expeditionary Fleet."
+
+ship "Arion Auxiliary Block IIIA"
+	"never disabled"
+	sprite "ship/auxiliaryh"
+	thumbnail "thumbnail/auxiliaryh"
+	attributes
+		category "Utility"
+		licenses
+			"Arion Government"
+		"cost" 1500000000
+		"shields" 270000
+		"hull" 90000
+		"required crew" 15
+		"bunks" 250
+		"mass" 800
+		"drag" 13.0
+		"heat dissipation" 0.9
+		"fuel capacity" 900
+		"cargo space" 250
+		"outfit space" 840
+		"weapon capacity" 200
+		"engine capacity" 210
+		"gun ports" 2
+		"turret ports" 4
+		"ion resistance" 3
+		"ion protection" 1
+		"disruption protection" 1
+		"discharge protection" 1
+		"corrosion protection" 1
+		"leak resistance" 5
+		"burn resistance" 5
+	outfits
+		"Arion A.E.W.S"
+		"Arion Antimatter Reactor" 2
+		"Arion Phalanx C.I.W.S" 2
+		"Hyperdrive"
+		"Jump Drive"
+		"Quantum Keystone"
+		"Arion L.A.R.S"
+		"Arion S.A.R.S"
+		"Arion L.C.D"
+		"Arion L.H.W Atomic Engines"
+		"Arion S.I Equipment" 10
+		"Arion Guided Torpedo Launcher" 2
+		"Arion Deadlock Laser Turret" 2
+		"Arion Multirole Fuel System"
+	engine -41 181
+	engine 41 181
+	gun -12 -180
+	gun 12 -180
+	turret 0 -75 
+	turret 0 -18
+	turret 0 22.5
+	turret 0 73.5 
+	bay "Fighter" 0 -75
+	bay "Fighter" 0 -18
+	bay "Fighter" 0 22.5
+	bay "Fighter" 0 73.5
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 30 30
+	"final explode" "arion teleport"
+	description "The Block IIIA Auxiliary is a ship used to support operations by bringing in supplies and supporting fighters."
+
+ship "Arion Cruiser Block IIIA"
+	sprite ship/cruiser
+	thumbnail thumbnail/cruiser
+	attributes
+		category "Heavy Warship"
+		licenses
+			"Arion Government"
+		"cost" 13500000
+		mass 670
+		bunks 140
+		"cargo space" 80
+		drag 10
+		"engine capacity" 180
+		"fuel capacity" 600
+		"gun ports" 6
+		"heat dissipation" 0.9
+		hull 110000
+		"outfit space" 800
+		"required crew" 12
+		shields 300000
+		"turret mounts" 4
+		"weapon capacity" 360
+		"ion resistance" 3
+		"ion protection" 1
+		"disruption protection" 1
+		"discharge protection" 1
+		"corrosion protection" 1
+		"leak resistance" 5
+		"burn resistance" 5
+	outfits
+		"Arion A.E.W.S"
+		"Arion Antimatter Reactor"
+		"Arion Phalanx C.I.W.S" 2
+		"Hyperdrive"
+		"Jump Drive"
+		"Quantum Keystone"
+		"Arion L.A.R.S"
+		"Arion L.C.D"
+		"Arion M.H.W Atomic Engines"
+		"Arion S.I Equipment" 10
+		"Arion M.L.M.P.L" 6
+		"Arion Deadlock Laser Turret" 2
+		"Arion Multirole Fuel System"
+	engine -29 156
+		zoom 1
+		angle 0
+		under
+	engine 29 156
+		zoom 1
+		angle 0
+		under
+	gun -31 -63
+	gun 31 -63
+	gun -41 -52 
+	gun 41 -52 
+	gun -20 -44 
+	gun 20 -44 
+	turret 0 -40 
+	turret -33 -19 
+	turret 33 -19 
+	turret 0 0
+	bay Drone -25 18
+		"launch effect" "basic launch"
+	bay Drone 25 18
+		"launch effect" "basic launch"
+	bay Drone -25 49
+		"launch effect" "basic launch"
+	bay Drone 25 49
+		"launch effect" "basic launch"
+	leak leak 30 50
+	leak flame 50 80
+	leak "big leak" 40 30
+	"final explode" "arion teleport"
+	description "The Block IIIA Cruiser is the main warship used by the AMFS."
+
+ship "Arion Carrier Block IIIA"
+	sprite ship/carrier
+	thumbnail thumbnail/carrier
+	attributes
+		category "Heavy Warship"
+		licenses
+			"Arion Government"
+		"cost" 18000000
+		mass 900
+		bunks 190
+		"cargo space" 100
+		drag 17.0
+		"engine capacity" 210
+		"fuel capacity" 700
+		"gun ports" 8
+		"heat dissipation" 0.9
+		hull 130000
+		"outfit space" 900
+		"required crew" 25
+		shields 330000
+		"turret mounts" 4
+		"weapon capacity" 400
+		"ion resistance" 3
+		"ion protection" 1
+		"disruption protection" 1
+		"discharge protection" 1
+		"corrosion protection" 1
+		"leak resistance" 5
+		"burn resistance" 5
+	outfits
+		"Arion A.E.W.S"
+		"Arion Antimatter Reactor"
+		"Arion Phalanx C.I.W.S" 2
+		"Hyperdrive"
+		"Jump Drive"
+		"Quantum Keystone"
+		"Arion L.A.R.S"
+		"Arion L.C.D"
+		"Arion L.H.W Atomic Engines"
+		"Arion S.I Equipment" 10
+		"Arion Guided Torpedo Launcher" 8
+		"Arion Deadlock Laser Turret" 2
+		"Arion Multirole Fuel System"
+	engine -35 200
+		zoom 1
+		angle 0
+		under
+	engine 35 200
+		zoom 1
+		angle 0
+		under
+	gun -16 -176 
+	gun 16 -176 
+	gun -16 -176 
+	gun 16 -176 
+	gun -25 -166 
+	gun 25 -166 
+	gun -25 -166
+	gun 25 -166
+	turret 0 -114
+	turret 0 15 
+	turret 0 103 
+	turret 0 157 
+	bay Fighter -37 -65
+		"launch effect" "basic launch"
+	bay Fighter 37 -65
+		"launch effect" "basic launch"
+	bay Fighter -46 40
+		"launch effect" "basic launch"
+	bay Fighter 46 40
+		"launch effect" "basic launch"
+	bay Drone -72 -46
+		"launch effect" "basic launch"
+	bay Drone 72 -46
+		"launch effect" "basic launch"
+	bay Drone -101 57
+		"launch effect" "basic launch"
+	bay Drone 101 57
+		"launch effect" "basic launch"
+	bay Drone -74 57
+		"launch effect" "basic launch"
+	bay Drone 74 57
+		"launch effect" "basic launch"
+	"final explode" "arion teleport"
+	description "The Block IIIA Carrier is used to support Fleets by providing fighter and drone support."
+
+ship "Arion FQ/S-101x Block IIIA"
+	sprite "ship/arionx47"
+	thumbnail "ship/arionx47"
+	attributes
+		category "Drone"
+		licenses
+			"Arion Government"
+		"cost" 3000000
+		"shields" 9250
+		"hull" 4800
+		"automaton" 1
+		"mass" 18
+		"drag" 0.64
+		"fuel capacity" 100
+		"heat dissipation" 0.9
+		"outfit space" 75
+		"weapon capacity" 10
+		"engine capacity" 20
+		"cloak" 0.2
+		"cloaking energy" 10
+		"cloaking heat" 5
+		"flares" 1
+	outfits
+		"Arion Missile Pod"
+		"Arion A.A Engines"
+		"Arion Chaff and Flares Tier 1"
+		"Arion S.C.D"
+		"Arion T.A.R.S"
+		"Arion Antimatter Reactor Small"
+	engine 0 28
+	gun 0 3.5
+	turret 0 14.5
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "A small drone used to defend the fleet from incoming threats."
 
 Government outfits

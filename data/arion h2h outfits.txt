@@ -45,10 +45,10 @@ outfit "Arion Riot Soldier"
 
 outfit "Arion M16A3 W/M203"
 	category "Hand to Hand"
-	cost 100000
+	cost 120000
 	thumbnail "outfit/m16 m203"
-	"capture attack" 4.7
-	"capture defense" 4
+	"capture attack" 5
+	"capture defense" 4.5
 	"unplunderable" 1
 	description "In addition to the standard armour, this soldier is equipped with a M16A3 with an under barrel grenade launcher. While the M16 isn't the best in close quarters, the under barrel grenade launcher more than make up for it."
 
@@ -77,7 +77,7 @@ outfit "Arion M82 Barrett"
 	"capture attack" 6.5
 	"capture defense" 3.75
 	"unplunderable" 1
-	description "Besides the standard armor, this soldier has an M82 Barrett 50 cal Anti Material Rifle, allowing them to annihilate any enemy they encounter. However, due to its unwieldiness and scope, its only suited for attacking."
+	description "Besides the standard armor, this soldier has an M82 Barrett 50 cal Anti Material Rifle, allowing them to annihilate any enemy they encounter. However, due to its unwieldiness and scope, its only suited for attacking. To help defend the sniper, they are either issued a sidearm or allowed to bring their own. Usually they are issued a suppressed Glock 18."
 
 outfit "Arion M95 Barrett"
 	category "Hand to Hand"
@@ -86,7 +86,7 @@ outfit "Arion M95 Barrett"
 	"capture attack" 6.3
 	"capture defense" 3.75
 	"unplunderable" 1
-	description "Besides the standard armor, this soldier has an M82 Barrett 50 cal Anti Material Rifle, allowing them to annihilate any enemy they encounter. However, due to its unwieldiness and scope, its only suited for attacking. Also due to its bullpup configuration it is better at defending but its bolt action nature does kind of nullify that advantage."
+	description "Besides the standard armor, this soldier has an M82 Barrett 50 cal Anti Material Rifle, allowing them to annihilate any enemy they encounter. However, due to its unwieldiness and scope, its only suited for attacking. Also due to its bullpup configuration it is better at defending but its bolt action nature does kind of nullify that advantage. To help defend the sniper, they are either issued a sidearm or allowed to bring their own. Usually they are issued a suppressed Glock 18."
 
 outfit "Arion GM6 Lynx"
 	category "Hand to Hand"
@@ -95,10 +95,10 @@ outfit "Arion GM6 Lynx"
 	"capture attack" 6.7
 	"capture defense" 3.75
 	"unplunderable" 1
-	description "Besides the standard armor, this soldier has an M82 Barrett 50 cal Anti Material Rifle, allowing them to annihilate any enemy they encounter. However, due to its unwieldiness and scope, its only suited for attacking. Because its a semi automatic bullpup however, its slightly better."
+	description "Besides the standard armor, this soldier has an M82 Barrett 50 cal Anti Material Rifle, allowing them to annihilate any enemy they encounter. However, due to its unwieldiness and scope, its only suited for attacking. Because its a semi automatic bullpup however, its slightly better. To help defend the sniper, they are either issued a sidearm or allowed to bring their own. Usually they are issued a suppressed Glock 18."
 
 outfit "Arion AK 50 V1"
-	category "Special"
+	category "Hand to Hand"
 	cost 250000
 	thumbnail "outfit/ak50v1"
 	"capture attack" 6.2

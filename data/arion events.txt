@@ -1,13 +1,7 @@
 event "Luna FOB access"
 		planet Luna
 			shipyard "Arion Ships"
-			shipyard "Arion Heavy Ships"
-			shipyard "Arion Midnight Ships"
-			shipyard "Arion Czartrak Ships"
-			shipyard "Arion Mega Freight Ships"
 			outfitter "Arion Basic Outfits"
-			outfitter "Arion Advanced Outfits"
-			outfitter "Arion Mega Freight Outfits"
 			outfitter "Arion Hand to hand Outfits"
 			outfitter "Surplus Guns"
 
@@ -23,5 +17,19 @@ event "Arion leaves"
 			remove outfitter "Arion Mega Freight Outfits"
 			remove outfitter "Arion Hand to hand Outfits"
 			remove outfitter "Surplus Guns"
+		planet FOB-Bravo
+			remove shipyard "Arion Ships"
+			remove shipyard "Arion Heavy Ships"
+			remove shipyard "Arion Midnight Ships"
+			remove shipyard "Arion Czartrak Ships"
+			remove shipyard "Arion Mega Freight Ships"
+			remove outfitter "Arion Basic Outfits"
+			remove outfitter "Arion Advanced Outfits"
+			remove outfitter "Arion Mega Freight Outfits"
+			remove outfitter "Arion Hand to hand Outfits"
+			remove outfitter "Surplus Guns"
 
+event "reveal FOB Bravo"
+	system "FOB Bravo"
+		remove hidden
 ==========================

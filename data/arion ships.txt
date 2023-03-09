@@ -294,7 +294,7 @@ ship "Arion Carrier Block I"
 	outfits
 		"Arion A.E.W.S"
 		"Arion Fusion Reactor"
-		"Arion Dragonfire C.I.W.S" 2
+		"Arion Goalkeeper C.I.W.S" 2
 		"Hyperdrive"
 		"Arion L.B.R.S"
 		"Arion L.C.D"
@@ -488,7 +488,7 @@ ship "Arion Dreadnought Block I"
 		"Arion Fusion Reactor"
 		"Arion Disabler Laser" 4
 		"Arion Disabler Laser Turret" 3
-		"Arion Dragonfire C.I.W.S" 2
+		"Arion Goalkeeper C.I.W.S" 2
 		"Hyperdrive"
 		"Arion L.B.R.S"
 		"Arion L.C.D"
@@ -874,6 +874,7 @@ ship "Arion Pelican Block I"
 		"gun ports" 2
 		"heat dissipation" 0.9
 		hull 9000
+		shields 18000
 		"hull energy" 0.75
 		"hull repair rate" 1
 		"outfit scan power" 12
@@ -883,7 +884,6 @@ ship "Arion Pelican Block I"
 		"required crew" 8
 		"shield energy" 1.8
 		"shield generation" 2.7
-		shields 18000
 		"tactical scan power" 26
 		"turret mounts" 3
 		"weapon capacity" 180
@@ -947,6 +947,7 @@ ship "Arion Albatross Block I"
 		"gun ports" 7
 		"heat dissipation" 0.9
 		hull 20000
+		shields 52500
 		"hull energy" 1.2
 		"hull repair rate" 1.5
 		"outfit scan power" 18
@@ -956,10 +957,9 @@ ship "Arion Albatross Block I"
 		"required crew" 20
 		"shield energy" 4.6
 		"shield generation" 5.2
-		shields 52500
 		"tactical scan power" 39
 		"turret mounts" 5
-		"weapon capacity" 275
+		"weapon capacity" 280
 	outfits
 		"Arion A.E.W.S"
 		"Arion Myriad C.I.W.S" 2
@@ -1202,14 +1202,14 @@ ship "Arion X-47 Block I"
 		"heat dissipation" 0.9
 		"outfit space" 70
 		"weapon capacity" 10
-		"engine capacity" 25
+		"engine capacity" 20
 		"cloak" 1.5
 		"cloaking energy" 10
 		"cloaking heat" 5
 		"flares" 1
 	outfits
 		"Arion Missile Pod"
-		"Arion F.A Engines"
+		"Arion A.A Engines"
 		"Arion Chaff and Flares Tier 1"
 		"Arion S.C.D"
 		"Arion T.B.R.S"
@@ -1219,7 +1219,7 @@ ship "Arion X-47 Block I"
 	turret 0 14.5
 	explode "tiny explosion" 15
 	explode "small explosion" 5
-	description "The X-47 was originally a prototype drone that was made by Northrop Grumman. The blueprints for the drone was then purchased by Arion after experimentation has stopped. It now serves as one of the main drones for the Arion Air Force, Arion Foreign Legion, SFF and other allies to Arion under the designation 'D-101'. These drones can be operated as loyal wingman and as a defense system for the 'Arsenal Bird'. Although, this is an earlier version that still has the X-47 designation and is being sold as surplus."
+	description "The X-47 was originally a prototype drone that was made by Northrop Grumman. The blueprints for the drone was then purchased by Arion after experimentation has stopped. It now serves as one of the main drones for the Arion Air Force, Arion Foreign Legion, SFF and other allies to Arion under the designation 'FQ-101'. These drones can be operated as loyal wingman and as a defense system for the 'Arsenal Bird'. Although, this is an earlier version that still has the X-47 designation and is being sold as surplus."
 
 ship "Arion F-15XS Eagle Block I"
 	sprite "ship/arionf15"
@@ -1715,7 +1715,7 @@ ship "Arion B-52XS Stratofortress Block I"
 		"engine capacity" 60
 		"gun ports" 2
 		"turret mounts" 1
-		"b52 bomb bay" 1
+		"bomb bay" 1
 		"heavy flares" 1
 	outfits
 		"Arion B52 Bomb Bay Mk1"
@@ -1764,7 +1764,7 @@ ship "Arion B-1XS Lancer Block I"
 		"engine capacity" 50
 		"gun ports" 2
 		"turret mounts" 1
-		"b1 bomb bay" 1
+		"bomb bay" 1
 		"heavy flares" 1
 	outfits
 		"Arion B1 Bomb Bay Mk1"
@@ -1813,7 +1813,7 @@ ship "Arion B-2XS Spirit Block I"
 		"cloak" 1
 		"cloaking energy" 8
 		"cloaking heat" 4
-		"b2 bomb bay" 1
+		"bomb bay" 1
 		"heavy flares" 1
 	outfits
 		"Arion B2 Bomb Bay Mk1"
@@ -1857,7 +1857,7 @@ ship "Arion Avro VulcanXS Block I"
 		"engine capacity" 50
 		"gun ports" 2
 		"turret mounts" 1
-		"vulcan bomb bay" 1
+		"bomb bay" 1
 		"heavy flares" 1
 	outfits
 		"Arion Vulcan Bomb Bay Mk1"
@@ -2661,6 +2661,13 @@ ship "Arion A-4XS SFF Skyhawk Mk1"
 		"weapon capacity" 30
 		"engine capacity" 20
 		"flares" 1
+		"ion resistance" 3
+		"ion protection" 1
+		"disruption protection" 1
+		"discharge protection" 1
+		"corrosion protection" 1
+		"leak resistance" 5
+		"burn resistance" 5
 	outfits
 		"Arion G.A.A.C"
 		"Arion G.A.G.G" 2
@@ -2700,6 +2707,13 @@ ship "Arion F-16XS SFF Super Falcon Mk1"
 		"weapon capacity" 30
 		"engine capacity" 20
 		"flares" 1
+		"ion resistance" 3
+		"ion protection" 1
+		"disruption protection" 1
+		"discharge protection" 1
+		"corrosion protection" 1
+		"leak resistance" 5
+		"burn resistance" 5
 	outfits
 		"Arion G.A.G.G"
 		"Arion Missile Pod" 2
@@ -2741,6 +2755,13 @@ ship "Arion F-18XS SFF Super Hornet Block I"
 		"weapon capacity" 35
 		"engine capacity" 25
 		"flares" 1
+		"ion resistance" 3
+		"ion protection" 1
+		"disruption protection" 1
+		"discharge protection" 1
+		"corrosion protection" 1
+		"leak resistance" 5
+		"burn resistance" 5
 	outfits
 		"Arion G.A.G.G"
 		"Arion Finisher Missile Pod" 2
@@ -2772,8 +2793,8 @@ ship "Arion Halberd Class Cruiser"
 		licenses
 			"Arion"
 		"cost" 7000000
-		"shields" 250000
-		"hull" 150000
+		"shields" 275000
+		"hull" 165000
 		"required crew" 80
 		"bunks" 120
 		"mass" 840
@@ -2784,6 +2805,13 @@ ship "Arion Halberd Class Cruiser"
 		"outfit space" 880
 		"weapon capacity" 400
 		"engine capacity" 180
+		"ion resistance" 3
+		"ion protection" 1
+		"disruption protection" 1
+		"discharge protection" 1
+		"corrosion protection" 1
+		"leak resistance" 5
+		"burn resistance" 5
 	outfits
 		"Arion Guided Torpedo Launcher" 4
 		"Arion Phalanx C.I.W.S" 2
@@ -2846,11 +2874,11 @@ ship "Arion Scimitar Class Destroyer"
 		licenses
 			"Arion"
 		"cost" 5600000
-		"shields" 220000
-		"hull" 100000
+		"shields" 225000
+		"hull" 150000
 		"required crew" 60
 		"bunks" 90
-		"mass" 660
+		"mass" 700
 		"drag" 7.5
 		"heat dissipation" .9
 		"fuel capacity" 900
@@ -2858,6 +2886,13 @@ ship "Arion Scimitar Class Destroyer"
 		"outfit space" 700
 		"weapon capacity" 300
 		"engine capacity" 150
+		"ion resistance" 3
+		"ion protection" 1
+		"disruption protection" 1
+		"discharge protection" 1
+		"corrosion protection" 1
+		"leak resistance" 5
+		"burn resistance" 5
 	outfits
 		"Arion Guided Torpedo Launcher" 2
 		"Arion Phalanx C.I.W.S"
@@ -2908,11 +2943,11 @@ ship "Arion Kukri Class Frigate"
 		licenses
 			"Arion"
 		"cost" 4000000
-		"shields" 120000
-		"hull" 100000
+		"shields" 150000
+		"hull" 120000
 		"required crew" 10
-		"bunks" 30
-		"mass" 450
+		"bunks" 20
+		"mass" 320
 		"drag" 4.5
 		"heat dissipation" .9
 		"fuel capacity" 900
@@ -2920,6 +2955,13 @@ ship "Arion Kukri Class Frigate"
 		"outfit space" 505
 		"weapon capacity" 200
 		"engine capacity" 150
+		"ion resistance" 3
+		"ion protection" 1
+		"disruption protection" 1
+		"discharge protection" 1
+		"corrosion protection" 1
+		"leak resistance" 5
+		"burn resistance" 5
 	outfits
 		"Arion E.M.L Compact"
 		"Arion M.L.M.P.L" 2

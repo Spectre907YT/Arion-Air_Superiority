@@ -26,10 +26,10 @@ mission "Arion=First Contact"
 		payment 5000000
 		log "People" "The Handler" "The Handler is the 'caretaker' sent by Arion to supervise you and help you with your mission."
 		log "Saw the secret base in Luna. Apparently, the base has cloaking devices and jamming devices allowing them to stay relatively hidden from the Republic, somehow."
-		log "Factions" "Arion" "Arion is a mysterious nation that is compromised of mainly humans. They have advanced technologies that are expensive but reliable and gets any job done. They have 3 reasons to be here, 1. Protect humanity, from internal and external threats. 2. Discover and research new technology. And 3. Make sure that Arion's enemies from 'outside' are not allowed to stay here."
+		log "Factions" "Arion" "Arion is a mysterious nation that is compromised of mainly humans. They have advanced technologies that are expensive but reliable and gets any job done. They have 3 reasons to be here. 1. Protect humanity, from internal and external threats. 2. Discover and research new technology. And 3. Make sure that Arion's enemies from 'outside' are not allowed to stay here."
 		conversation
 			`	You approach the coordinates. As you approach, a gate in a crater de-cloaks and opens. You enter the newly formed hole and see a railgun pointed at you, ready to fire if you were hostile. When you exit your ship, the 'Handler' approaches you.`
-			`	"Welcome to FOB Bravo-B Captain <first>. This place is the main base of operations where most of things we do here get done. It is equipped with advanced cloaking devices and jammers to hide this place from prying eyes."`
+			`	"Welcome to FOB Luna Captain <first>. This place is the main base of operations where most of things we do here get done. It is equipped with advanced cloaking devices and jammers to hide this place from prying eyes."`
 			`	You are then lead first to the base's shipyard and outfitter. It isn't really a shipyard per say but more of a holding area for ships. The 'shipyard' handler approaches you when she sees you.`
 			`	"Hello Captain," she greets you. "Welcome to the bases' 'shipyard' and outfitter. Here you can purchase some cool stuff that we own."`
 			choice
@@ -39,7 +39,7 @@ mission "Arion=First Contact"
 			`	"Welcome to the Armory Captain. This is the base's armory, where you can buy our handheld weapons. if you need any new H2H weapons, you can come to me and buy some."`
 			choice
 				`	"Do you have any recommendations for me?"`
-			`	"Well, it depends on what you're trying to do. The assault rifles in general are good in pretty much everything, you can swiftly attack enemy ships while still being sure that the enemy can't take over your ship if it goes wrong. Sniper rifles are good for attacking since they can pick of enemies to help attack. The riot shield can be used to defend your ship. Anyways I'm sure you have to go now, remember that if you need new 'H2H' outfits you can come to this base to purchase some of the best stuff you can get."`
+			`	"Well, it depends on what you're trying to do. The assault rifles in general are good in pretty much everything, you can swiftly attack enemy ships while still being sure that the enemy can't take over your ship if it goes wrong. Sniper rifles are good for attacking since they can pick off enemies. The riot shield can be used to defend your ship. You can always test out your skills in the base's firing range. If you don't have time however, you can always check the guidebook that comes with every purchase of one of our h2h outfits. Anyways I'm sure you have to go now, remember that if you need new 'H2H' outfits you can come to this base to purchase some of the best stuff you can get."`
 			`	"Well since i've pretty much shown what you are allowed to see, you can ask me some questions."`
 	label choices
 	choice
@@ -61,6 +61,7 @@ mission "Arion=First Contact"
 		
 	label end
 	`	"Well i guess that concludes the tour of the base. Have fun with the equipment that you can purchase here," the Handler says to you. "Hopefully, you will be able to help us with our missions and we will be able to help you too."`
+
 	on fail
 		event "Arion leaves"
 		dialog `You have failed/aborted an essential Arion mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`

@@ -24,7 +24,7 @@ government "Arion (SFF)"
 
 government "Arion (AMFS)"
 	"display name" "Arion"
-	swizzle 1
+	swizzle 5
 	"crew attack" 3
 	"crew defense" 3
 	"attitude toward"
@@ -48,7 +48,7 @@ government "Arion (AMFS)"
 	
 government "Arion (AFLS)"
 	"display name" "Arion"
-	swizzle 1
+	swizzle 6
 	"crew attack" 2.5
 	"crew defense" 2.5
 	"attitude toward"

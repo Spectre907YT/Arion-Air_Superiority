@@ -1,4 +1,4 @@
-ship "Arion Prowler Mk1"
+ship "Arion Prowler Block I"
 	sprite "ship/submarine"
 	thumbnail "thumbnail/submarine"
 	attributes
