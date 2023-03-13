@@ -2249,7 +2249,7 @@ ship "Arion F/S-16X Super Falcon Block I"
 	"final explode" "final explosion small"
 	description "Fighter originally used by the US and its allies, it has been modernized extensively and now also has the ability for space flight."
 
-ship "Arion F/S-18X Hornet Block I"
+ship "Arion F/S-18X Super Hornet Block I"
 	sprite "ship/arionf18"
 	thumbnail "ship/arionf18"
 	attributes
@@ -3144,6 +3144,51 @@ ship "Arion ADF/S-11X Raven MKI"
 	explode "small explosion" 5
 	"final explode" "final explosion small"
 	description "This was a super fighter made by a 'Strangereal' company called Grunder Industries, which is a belkan/south osean company. The Raven comes with a Zoisite Tactical Laser System. It has been modified and upgraded to suite Arion's needs. This aircraft is given to Ace pilots who have proven themselves worthy of a super fighter and to defend high value targets 24/7 due to it having a drone variant. Unlike the original fighter, it can operate in space. This is the drone variant."
+
+ship "Arion ADA/S-01X Falken MKI"
+	sprite "ship/arionada1"
+	thumbnail "ship/arionada1"
+	attributes
+		category "Fighter"
+		licenses
+			"Arion"
+		"cost" 6300000
+		"shields" 1900
+		"hull" 950
+		"automaton" 1
+		"mass" 54
+		"drag" 0.95
+		"heat dissipation" 0.9
+		"fuel capacity" 200
+		"outfit space" 140
+		"weapon capacity" 50
+		"engine capacity" 25
+		"cloak" 1.8
+		"cloaking energy" 12
+		"cloaking heat" 6
+		"flares" 1
+		"fenrir hardpoint" 1
+	outfits
+		"Arion G.A.A.C"
+		"Arion Missile Pod" 2
+		"Arion L.S.W.M"
+		"Arion Chaff and Flares Tier 1"
+		"Arion F.A Engines"
+		"Arion S.C.D"
+		"Arion T.B.R.S"
+		"Arion Mini Overcharge Core"
+	engine -10.5 42
+	engine 10.5 42
+	gun 0 -45.5 "Arion G.A.A.C"
+	gun 0 10 "Arion L.S.W.M"
+	gun -11 11
+	gun 11 11
+	turret 0 -3
+	leak "leak" 60 50
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
+	description "This was a super fighter made by a 'Strangereal' company called Grunder Industries, which is a belkan/south osean company. The Adler originally came with a SDBM however to standardize production it has been given the LWSM instead. It has been modified and upgraded to suite Arion's needs. This aircraft is given to Ace pilots who have proven themselves worthy of a super fighter and to defend high value targets 24/7 due to it having a drone variant. Unlike the original fighter, it can operate in space. This is the drone variant."
 
 =============================
 SFF Special

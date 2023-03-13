@@ -1006,7 +1006,7 @@ outfit "Arion Zoisite T.L.S"
 		"firing heat" 44
 		"shield damage" 40
 		"hull damage" 44
-	description "The Zoisite Tactical Laser System is a specifically built laser for the ADFX-01 Morgan and ASF-0 Morgan."
+	description "The Zoisite Tactical Laser System is a specifically built laser for the ADFX-01 Morgan, ADF-01 Falken, ADF-11 Raven and ASF-0 Morgan, ADF-01 Falken, ADF-02 Raven."
 
 outfit "Arion Joint Strike Missile"
 	category "Secondary Weapons"
