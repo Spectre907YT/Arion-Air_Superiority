@@ -222,15 +222,14 @@ ship "Arion Cruiser Block I"
 	outfits
 		"Arion A.E.W.S"
 		"Arion Fusion Reactor"
-		"Arion Myriad C.I.W.S" 2
+		"Arion Phalanx C.I.W.S" 2
 		"Hyperdrive"
 		"Arion L.B.R.S"
 		"Arion L.C.D"
 		"Arion M.H.W Atomic Engines"
 		"Arion S.I Equipment" 10
-		"Arion Stunner Laser" 6
-		"Arion Stunner Laser Turret" 2
-		"Arion Small Multirole Fuel System"
+		"Arion Guided Torpedo Pod" 6
+		"Arion 127mm Mk 45 Turret" 2
 		"Arion Multirole Fuel System"
 	engine -29 156
 		zoom 1
@@ -246,10 +245,10 @@ ship "Arion Cruiser Block I"
 	gun 41 -52 
 	gun -20 -44 
 	gun 20 -44 
-	turret 0 -40 
-	turret -33 -19 
-	turret 33 -19 
-	turret 0 0
+	turret 0 -40 "Arion 127mm Mk 45 Turret"
+	turret -33 -19 "Arion Phalanx C.I.W.S"
+	turret 33 -19 "Arion Phalanx C.I.W.S"
+	turret 0 0 "Arion 127mm Mk 45 Turret"
 	bay Drone -25 18
 		"launch effect" "basic launch"
 	bay Drone 25 18
@@ -433,14 +432,15 @@ ship "Arion Frigate Block I"
 	outfits
 		"Arion B.E.W.S"
 		"Arion Small Fusion Reactor" 3
-		"Arion Phalanx C.I.W.S"
+		"Arion 76mm Oto Melara Turret"
+		"Arion Phalanx C.I.W.S" 2
 		"Hyperdrive"
 		"Arion M.L.W Atomic Engines"
 		"Arion S.B.R.S"
 		"Arion L.C.D"
 		"Arion S.I Equipment" 5
 		"Arion Stunner Laser" 4
-		"Arion Stunner Laser Turret" 2
+		"Arion Stunner Laser Turret"
 		"Arion Multirole Fuel System" 2
 	engine -26 96.5
 	engine 26 96.5
@@ -448,9 +448,9 @@ ship "Arion Frigate Block I"
 	gun 11 -84.5 
 	gun -11 -84.5 
 	gun 11 -84.5 
-	turret 0 -37.5 
-	turret -15.5 -12.5 
-	turret 15.5 -12.5 
+	turret 0 -37.5 "Arion 76mm Oto Melara Turret"
+	turret -15.5 -12.5 "Arion Phalanx C.I.W.S"
+	turret 15.5 -12.5 "Arion Phalanx C.I.W.S"
 	leak "leak" 40 50
 	leak "flame" 50 80
 	leak "big leak" 90 30
@@ -1028,8 +1028,8 @@ ship "Arion Ra'at Ik 621 Block II"
 		licenses
 			"Arion"
 		cost 52500000
-		shields 48000
-		hull 32000
+		shields 65000
+		hull 43000
 		"required crew" 250
 		"bunks" 1050
 		"mass" 1750
@@ -1051,7 +1051,6 @@ ship "Arion Ra'at Ik 621 Block II"
 		"Arion L.C.D" 3
 		"Arion L.A.R.S"
 		"Arion H.H.W Atomic Engines"
-		"Jump Drive"
 		"Hyperdrive"
 	engine -42 343 .6
 	engine -22 343 .6
@@ -1097,9 +1096,174 @@ ship "Arion Ra'at Ik 621 Block II"
 	"final explode" "final explosion large"
 	description "This is a very large and powerful carrier used by those 'Raiders.' With the ability to carry 9 fighters, a lot of firepower and boarding crew, it is a very good flagship for any Arion captain."
 
-=======
-Arion Custom stuff
-ship "Arion F-111XS Aardvark Block I"
+========================
+
+Wanderer Ships
+ship "Arion Deep River Block II"
+	sprite "ship/deep river"
+	thumbnail "thumbnail/deep river"
+	attributes
+		category "Heavy Freighter"
+		licenses
+			Arion
+		"cost" 30000000
+		"shields" 24000
+		"hull" 65000
+		"required crew" 6
+		"bunks" 20
+		"mass" 725
+		"drag" 9.25
+		"heat dissipation" 0.9
+		"fuel capacity" 500
+		"cargo space" 1200
+		"outfit space" 400
+		"weapon capacity" 160
+		"engine capacity" 100
+	outfits
+		"Arion Phalanx C.I.W.S" 2
+		"Arion Millenium Autocannon Turret" 2
+		"Arion Overcharge Core"
+		"Arion M.A.R.S"
+		"Arion L.C.D"
+		"Arion Multirole Fuel System"
+		"Arion L.L.W Atomic Engines"
+		"Hyperdrive"
+		
+	engine 53 345 .7
+	engine 0 345
+	engine -53 345 .7
+	turret -36 -205 "Arion Phalanx C.I.W.S"
+	turret 36 -205 "Arion Millenium Autocannon Turret"
+	turret -36 330 "Arion Millenium Autocannon Turret"
+	turret 36 330 "Arion Phalanx C.I.W.S"
+	explode "small explosion" 80
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	explode "huge explosion" 20
+	"final explode" "final explosion large"
+	description "Made by the 'birds' this heavy freighter can carry a LOT of cargo. The original version was slow and only armed with guns so we fixed both of those issues."
+
+=====================
+
+Automaton Ships
+
+ship "Arion Kar Ik Vot 349 Block II"
+	sprite "ship/kar ik vot 349"
+	thumbnail "thumbnail/kar ik vot 349"
+	attributes
+		category "Heavy Warship"
+		"cost" 51000000
+		"shields" 77000
+		"hull" 88000
+		"automaton" 1
+		"crew equivalent" 150
+		"mass" 1350
+		"drag" 16.5
+		"heat dissipation" 0.9
+		"fuel capacity" 400
+		"cargo space" 85
+		"outfit space" 1080
+		"weapon capacity" 450
+		"engine capacity" 180
+		"ramscoop" 3
+		weapon
+			"blast radius" 450
+			"shield damage" 6400
+			"hull damage" 3200
+			"hit force" 9600
+	outfits
+		"Arion M.L.M.P.L" 2
+		"Arion Guided Torpedo Launcher" 2
+		"Arion Disabler Laser Turret" 4
+		"Arion Phalanx C.I.W.S" 4
+		"Arion Multirole Fuel System"
+		"Arion Overcharge Core"
+		"Arion L.C.D" 2
+		"Arion L.A.R.S" 2
+		"Arion M.H.W Atomic Engines"
+		"Hyperdrive"
+	
+	engine -24 237 
+	engine 24 237
+	gun -8 -212 "Arion M.L.M.P.L"
+	gun 8 -212 "Arion M.L.M.P.L"
+	gun -16 -158 "Arion Guided Torpedo Launcher"
+	gun 16 -158 "Arion Guided Torpedo Launcher"
+	turret -37 -150 "Arion Phalanx C.I.W.S"
+	turret 37 -150 "Arion Phalanx C.I.W.S"
+	turret -38 -132 "Arion Disabler Laser Turret"
+	turret 38 -132 "Arion Disabler Laser Turret"
+	turret -40 -111 "Arion Disabler Laser Turret"
+	turret 40 -111 "Arion Disabler Laser Turret"
+	turret -102 188 "Arion Phalanx C.I.W.S"
+	turret 102 188 "Arion Phalanx C.I.W.S"
+	explode "tiny explosion" 120
+	explode "small explosion" 60
+	explode "medium explosion" 70
+	explode "large explosion" 50
+	explode "huge explosion" 15
+	"final explode" "final explosion large"
+	description "When we discovered the 'automatons', capturing the 2 waring factions biggest warships was the main priority. These heavy warships were planned to be used if extra ships are needed to patrol areas."
+
+ship "Arion Model 512 Block II"
+	sprite "ship/model 512"
+	thumbnail "thumbnail/model 512"
+	attributes
+		category "Heavy Warship"
+		"cost" 50000000
+		"shields" 116000
+		"hull" 46000
+		"automaton" 1
+		"crew equivalent" 150
+		"mass" 1150
+		"drag" 17
+		"heat dissipation" 0.9
+		"fuel capacity" 400
+		"cargo space" 105
+		"outfit space" 1000
+		"weapon capacity" 440
+		"engine capacity" 165
+		"ramscoop" 3
+		weapon
+			"blast radius" 380
+			"shield damage" 5600
+			"hull damage" 2800
+			"hit force" 8400
+	outfits
+		"Arion Guided Torpedo Launcher" 2
+		"Arion Disabler Laser Turret" 3
+		"Arion Phalanx C.I.W.S" 4
+		"Arion Multirole Fuel System"
+		"Arion Overcharge Core"
+		"Arion L.C.D" 2
+		"Arion L.A.R.S" 2
+		"Arion S.H.W Atomic Engines"
+		"Arion Basic Aircraft Engines"
+		"Hyperdrive"
+
+	engine -145 97
+	engine 145 97
+	gun -22 -143 "Arion Guided Torpedo Launcher"
+	gun 22 -143 "Arion Guided Torpedo Launcher"
+	turret -23 -134 "Arion Phalanx C.I.W.S"
+	turret 91 -102 "Arion Phalanx C.I.W.S"
+	turret 124 -57 "Arion Disabler Laser Turret"
+	turret -130 -33 "Arion Disabler Laser Turret"
+	turret 138 20 "Arion Disabler Laser Turret"
+	turret -121 86 "Arion Phalanx C.I.W.S"
+	turret 54 138 "Arion Phalanx C.I.W.S"
+	explode "tiny explosion" 160
+	explode "small explosion" 115
+	explode "medium explosion" 80
+	explode "large explosion" 35
+	"final explode" "final explosion large"
+	description "When we discovered the 'automatons', capturing the 2 waring factions biggest warships was the main priority. These heavy warships were planned to be used if extra ships are needed to patrol areas."
+
+=====================
+
+Arion RL stuff
+
+ship "Arion F/S-111X Aardvark Block I"
 	sprite "ship/arionf111"
 	thumbnail "ship/arionf111"
 	attributes
@@ -1142,7 +1306,7 @@ ship "Arion F-111XS Aardvark Block I"
 	"final explode" "final explosion small"
 	description "Fighter bomber originally used by the US and other countries, it has been modernized extensively and now also has the ability for space flight."
 
-ship "Arion Su-34XS Fullback Block I"
+ship "Arion Su/S-34X Fullback Block I"
 	sprite "ship/arionsu34"
 	thumbnail "ship/arionsu34"
 	attributes
@@ -1185,7 +1349,7 @@ ship "Arion Su-34XS Fullback Block I"
 	"final explode" "final explosion small"
 	description "Fighter bomber originally used by Russia, it has been modernized extensively and now also has the ability for space flight."
 
-ship "Arion X-47 Block I"
+ship "Arion X/S-47 Block I"
 	sprite "ship/arionx47"
 	thumbnail "ship/arionx47"
 	attributes
@@ -1221,7 +1385,7 @@ ship "Arion X-47 Block I"
 	explode "small explosion" 5
 	description "The X-47 was originally a prototype drone that was made by Northrop Grumman. The blueprints for the drone was then purchased by Arion after experimentation has stopped. It now serves as one of the main drones for the Arion Air Force, Arion Foreign Legion, SFF and other allies to Arion under the designation 'FQ-101'. These drones can be operated as loyal wingman and as a defense system for the 'Arsenal Bird'. Although, this is an earlier version that still has the X-47 designation and is being sold as surplus."
 
-ship "Arion F-15XS Eagle Block I"
+ship "Arion F/S-15X Eagle Block I"
 	sprite "ship/arionf15"
 	thumbnail "ship/arionf15"
 	attributes
@@ -1263,7 +1427,7 @@ ship "Arion F-15XS Eagle Block I"
 	"final explode" "final explosion small"
 	description "Fighter originally used by the US and some of its allies, it has been modernized extensively and now also has the ability for space flight."
 
-ship "Arion Su-35XS Flanker Block I"
+ship "Arion Su/S-35X Flanker Block I"
 	sprite "ship/arionsu35"
 	thumbnail "ship/arionsu35"
 	attributes
@@ -1305,7 +1469,7 @@ ship "Arion Su-35XS Flanker Block I"
 	"final explode" "final explosion small"
 	description "Fighter originally used by Russia, it has been modernized extensively and now also has the ability for space flight."
 
-ship "Arion F-14XS Tomcat Block I"
+ship "Arion F/S-14X Tomcat Block I"
 	sprite "ship/arionf14"
 	thumbnail "ship/arionf14"
 	attributes
@@ -1347,7 +1511,7 @@ ship "Arion F-14XS Tomcat Block I"
 	"final explode" "final explosion small"
 	description "Interceptor originally used by the US and some of its allies, it has been modernized extensively and now also has the ability for space flight."
 
-ship "Arion Mig-31XS Foxhound Block I"
+ship "Arion Mig/S-31X Foxhound Block I"
 	sprite "ship/arionmig31"
 	thumbnail "ship/arionmig31"
 	attributes
@@ -1387,7 +1551,7 @@ ship "Arion Mig-31XS Foxhound Block I"
 	"final explode" "final explosion small"
 	description "Interceptor originally used by the Soviet Union, it has been modernized extensively and now also has the ability for space flight."
 
-ship "Arion A-10XS Warthog Block I"
+ship "Arion A/S-10X Warthog Block I"
 	sprite "ship/ariona10"
 	thumbnail "ship/ariona10"
 	attributes
@@ -1429,7 +1593,7 @@ ship "Arion A-10XS Warthog Block I"
 	"final explode" "final explosion small"
 	description "Attacker originally used by the US, it has been modernized extensively and now also has the ability for space flight."
 
-ship "Arion Su-25XS Frogfoot Block I"
+ship "Arion Su/S-25X Frogfoot Block I"
 	sprite "ship/arionsu25"
 	thumbnail "ship/arionsu25"
 	attributes
@@ -1471,7 +1635,7 @@ ship "Arion Su-25XS Frogfoot Block I"
 	"final explode" "final explosion small"
 	description "Attacker originally used by the Soviet Union, it has been modernized extensively and now also has the ability for space flight."
 
-ship "Arion F-22XS Raptor Block I"
+ship "Arion F/S-22X Raptor Block I"
 	sprite "ship/arionf22"
 	thumbnail "ship/arionf22"
 	attributes
@@ -1516,7 +1680,7 @@ ship "Arion F-22XS Raptor Block I"
 	"final explode" "final explosion small"
 	description "Stealth Fighter originally used by the US, it has been modernized extensively and now also has the ability for space flight. It has a built in cloak."
 
-ship "Arion Su-57XS Felon Block I"
+ship "Arion Su/S-57X Felon Block I"
 	sprite "ship/arionsu57"
 	thumbnail "ship/arionsu57"
 	attributes
@@ -1535,7 +1699,7 @@ ship "Arion Su-57XS Felon Block I"
 		"outfit space" 100
 		"weapon capacity" 30
 		"engine capacity" 25
-		"cloak" 2
+		"cloak" 2.25
 		"cloaking energy" 13
 		"cloaking heat" 6.5
 		"flares" 1
@@ -1561,7 +1725,7 @@ ship "Arion Su-57XS Felon Block I"
 	"final explode" "final explosion small"
 	description "Prototype Fighter originally made by Russia, it has been turned into a proper fighter, modernized extensively and now also has the ability for space flight. It has a built in cloak."
 
-ship "Arion F-23XS Black Widow Block I"
+ship "Arion F/S-23X Black Widow Block I"
 	sprite "ship/arionf23"
 	thumbnail "ship/arionf23"
 	attributes
@@ -1580,9 +1744,9 @@ ship "Arion F-23XS Black Widow Block I"
 		"outfit space" 95
 		"weapon capacity" 30
 		"engine capacity" 25
-		"cloak" 1.5
-		"cloaking energy" 10
-		"cloaking heat" 5
+		"cloak" 1.25
+		"cloaking energy" 9
+		"cloaking heat" 4.5
 		"flares" 1
 	outfits
 		"Arion M61 Vulcan"
@@ -1606,7 +1770,7 @@ ship "Arion F-23XS Black Widow Block I"
 	"final explode" "final explosion small"
 	description "Stealth Fighter/Interceptor prototype originally made by Northrop Grumman, it has been modernized extensively and now also has the ability for space flight. It has a built in cloak."
 
-ship "Arion F-35XS Lightning Block I"
+ship "Arion F/S-35X Lightning Block I"
 	sprite "ship/arionf35"
 	thumbnail "ship/arionf35"
 	attributes
@@ -1619,15 +1783,15 @@ ship "Arion F-35XS Lightning Block I"
 		"required crew" 1
 		"bunks" 1
 		"mass" 30
-		"drag" 1.3
+		"drag" 1.225
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 90
 		"weapon capacity" 25
 		"engine capacity" 25
 		"cloak" 1.75
-		"cloaking energy" 11
-		"cloaking heat" 5.5
+		"cloaking energy" 10
+		"cloaking heat" 5
 		"flares" 1
 	outfits
 		"Arion Gau-12 Equalizer"
@@ -1649,7 +1813,7 @@ ship "Arion F-35XS Lightning Block I"
 	"final explode" "final explosion small"
 	description "Stealth Fighter originally used by the US and its allies, it has been modernized extensively and now also has the ability for space flight. It has a built in cloak."
 
-ship "Arion Su-47XS Berkut Block I"
+ship "Arion Su/S-47X Berkut Block I"
 	sprite "ship/arionsu47"
 	thumbnail "ship/arionsu47"
 	attributes
@@ -1694,7 +1858,7 @@ ship "Arion Su-47XS Berkut Block I"
 	"final explode" "final explosion small"
 	description "Prototype Fighter originally made by Russia, it has been turned into a proper fighter, modernized extensively and now also has the ability for space flight. It has a built in cloak."
 
-ship "Arion B-52XS Stratofortress Block I"
+ship "Arion B/S-52X Stratofortress Block I"
 	sprite "ship/arionb52"
 	thumbnail "ship/arionb52"
 	attributes
@@ -1743,7 +1907,7 @@ ship "Arion B-52XS Stratofortress Block I"
 	"final explode" "final explosion small"
 	description "Bomber originally used by the US, it has unsurprisingly been modernized extensively and now also has the ability for space flight. It relies on its high hit points amount and unique rear gunner to survive."
 
-ship "Arion B-1XS Lancer Block I"
+ship "Arion B/S-1X Lancer Block I"
 	sprite "ship/arionb1"
 	thumbnail "ship/arionb1"
 	attributes
@@ -1789,7 +1953,7 @@ ship "Arion B-1XS Lancer Block I"
 	"final explode" "final explosion small"
 	description "Bomber originally used by the US, it has been modernized extensively and now also has the ability for space flight. It relies on speed to survive."
 
-ship "Arion B-2XS Spirit Block I"
+ship "Arion B/S-2X Spirit Block I"
 	sprite "ship/arionb2"
 	thumbnail "ship/arionb2"
 	attributes
@@ -1836,7 +2000,7 @@ ship "Arion B-2XS Spirit Block I"
 	"final explode" "final explosion small"
 	description "Stealth Bomber originally used by the US, it has been modernized extensively and now also has the ability for space flight. It relies on stealth to survive."
 
-ship "Arion Avro VulcanXS Block I"
+ship "Arion Avro Vulcan X/S Block I"
 	sprite "ship/arionvulcan"
 	thumbnail "ship/arionvulcan"
 	attributes
@@ -1882,7 +2046,7 @@ ship "Arion Avro VulcanXS Block I"
 	"final explode" "final explosion small"
 	description "Bomber originally used by the UK, it has been modernized extensively and now also has the ability for space flight. It relies on speed to survive."
 
-ship "Arion A-4XS Skyhawk Block I"
+ship "Arion A/S-4X Skyhawk Block I"
 	sprite "ship/ariona4"
 	thumbnail "ship/ariona4"
 	attributes
@@ -1895,7 +2059,7 @@ ship "Arion A-4XS Skyhawk Block I"
 		"required crew" 1
 		"bunks" 1
 		"mass" 16
-		"drag" 1.65
+		"drag" 1.575
 		"heat dissipation" 0.9
 		"fuel capacity" 100
 		"outfit space" 85
@@ -1923,99 +2087,7 @@ ship "Arion A-4XS Skyhawk Block I"
 	"final explode" "final explosion small"
 	description "This was an Attacker aircraft used by the US and some of its allies. It has been modified and upgrade extensively not only to survive modern combat but also to fly in space. It is used mainly by the Arion Marine Corps and the Arion Army Air Corps as an attacker and a light fighter. While it isn't the best for A2A roles, its cheapness, ruggedness, maneuverability and ability to take off from almost any road has made it very useful. It is also used in the Arion Air Force, Arion Navy and Arion Foreign Legion mainly as Trainers. It is also very popular with civilians and mercenaries due to its low cost."
 
-ship "Arion X-02XS Wyvern Block I"
-	sprite "ship/arionx02"
-	thumbnail "ship/arionx02"
-	attributes
-		category "Fighter"
-		licenses
-			"Arion"
-		"cost" 5000000
-		"shields" 1800
-		"hull" 900
-		"required crew" 1
-		"bunks" 1
-		"mass" 37
-		"drag" 0.9
-		"heat dissipation" 0.9
-		"fuel capacity" 200
-		"outfit space" 135
-		"weapon capacity" 50
-		"engine capacity" 25
-		"cloak" 2
-		"cloaking energy" 10
-		"cloaking heat" 5
-		"flares" 1
-		"arclight eml" 1
-	outfits
-		"Arion G.A.G.G"
-		"Arion Arclight E.M.L"
-		"Arion Missile Pod" 2
-		"Arion Chaff and Flares Tier 1"
-		"Arion I.A Engines"
-		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Mini Overcharge Core"
-	engine -4.5 48
-	engine 4.5 48
-	gun -4 -25 "Arion G.A.G.G"
-	gun 0 16.5 "Arion Arclight E.M.L"
-	gun -7 15
-	gun 7 15
-	turret 0 44.5
-	leak "leak" 60 50
-	explode "tiny explosion" 15
-	explode "small explosion" 5
-	"final explode" "final explosion small"
-	description "This was a super fighter made by a 'Strangereal' nation called Erusea. The Strike Wyvern of this aircraft came equipped with the advanced Arclight EML. It has been modified and upgraded to suite Arion's needs. This aircraft is used by the SFF and is given to Ace pilots who have proven themselves worthy of a super fighter. Unlike the original fighter, it can operate in space."
-
-ship "Arion CFA-44XS Nosferatu Block I"
-	sprite "ship/arioncfa44"
-	thumbnail "ship/arioncfa44"
-	attributes
-		category "Fighter"
-		licenses
-			"Arion"
-		"cost" 5000000
-		"shields" 1700
-		"hull" 850
-		"required crew" 1
-		"bunks" 1
-		"mass" 40
-		"drag" 0.95
-		"heat dissipation" 0.9
-		"fuel capacity" 200
-		"outfit space" 135
-		"weapon capacity" 45
-		"engine capacity" 25
-		"cloak" 2
-		"cloaking energy" 11
-		"cloaking heat" 5.5
-		"flares" 1
-		"purgatorio eml" 2
-	outfits
-		"Arion G.A.A.C"
-		"Arion Purgatorio E.M.L" 2
-		"Arion Missile Pod"
-		"Arion Chaff and Flares Tier 1"
-		"Arion F.A Engines"
-		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Mini Overcharge Core"
-	engine -6.5 48.5
-	engine 6.5 48.5
-	gun -5.5 -19 "Arion G.A.A.C"
-	gun 0 8.5
-	gun -9 5.5 "Arion Purgatorio E.M.L"
-	gun 9 5.5 "Arion Purgatorio E.M.L"
-	turret 0 49
-	leak "leak" 60 50
-	explode "tiny explosion" 15
-	explode "small explosion" 5
-	"final explode" "final explosion small"
-	description "This was a super fighter made by a 'Strangereal' nation called Estovakia. It is equipped with a bunch of advanced technologies including the All Direction Multi-purpose Missiles and Purgatorio EML. It has been modified and upgraded to suite Arion's needs. This aircraft is used by the SFF and is given to Ace pilots who have proven themselves worthy of a super fighter. Unlike the original fighter, it can operate in space, only has 1 auto cannon and only comes equipped with its purgatorio eml super weapon."
-
-ship "Arion Su-27XS Flanker Block I"
+ship "Arion Su/S-27X Flanker Block I"
 	sprite "ship/arionsu27"
 	thumbnail "ship/arionsu27"
 	attributes
@@ -2057,7 +2129,7 @@ ship "Arion Su-27XS Flanker Block I"
 	"final explode" "final explosion small"
 	description "Fighter originally used by the Soviet Union, Ukraine SSR and other Soviet satellite states, it has been modernized extensively and now also has the ability for space flight."
 
-ship "Arion Panavia TornadoXS Block I"
+ship "Arion Panavia Tornado X/S Block I"
 	sprite "ship/ariontornado"
 	thumbnail "ship/ariontornado"
 	attributes
@@ -2075,7 +2147,7 @@ ship "Arion Panavia TornadoXS Block I"
 		"fuel capacity" 200
 		"outfit space" 100
 		"weapon capacity" 40
-		"engine capacity" 30
+		"engine capacity" 25
 		"gun ports" 4
 		"flares" 1
 	outfits
@@ -2085,7 +2157,7 @@ ship "Arion Panavia TornadoXS Block I"
 		"Arion S.C.D"
 		"Arion T.B.R.S"
 		"Arion Small Fusion Reactor"
-		"Arion B.A Engines"
+		"Arion I.A Engines"
 	engine -2.5 29
 	engine 2.5 29
 	gun -5 -11.5 "Arion 30mm Autocannon"
@@ -2099,7 +2171,7 @@ ship "Arion Panavia TornadoXS Block I"
 	"final explode" "final explosion small"
 	description "Fighter bomber originally used by the UK, Germany and other countries, it has been modernized extensively and now also has the ability for space flight."
 
-ship "Arion F-104XS Starfighter Block I"
+ship "Arion F/S-104X Starfighter Block I"
 	sprite "ship/arionf104"
 	thumbnail "ship/arionf104"
 	attributes
@@ -2138,7 +2210,7 @@ ship "Arion F-104XS Starfighter Block I"
 	"final explode" "final explosion small"
 	description "Interceptor originally used by the US and its allies, it has been modernized extensively and now also has the ability for space flight."
 
-ship "Arion F-16XS Super Falcon Block I"
+ship "Arion F/S-16X Super Falcon Block I"
 	sprite "ship/arionf16cft"
 	thumbnail "ship/arionf16cft"
 	attributes
@@ -2177,7 +2249,7 @@ ship "Arion F-16XS Super Falcon Block I"
 	"final explode" "final explosion small"
 	description "Fighter originally used by the US and its allies, it has been modernized extensively and now also has the ability for space flight."
 
-ship "Arion F-18XS Hornet Block I"
+ship "Arion F/S-18X Hornet Block I"
 	sprite "ship/arionf18"
 	thumbnail "ship/arionf18"
 	attributes
@@ -2217,7 +2289,7 @@ ship "Arion F-18XS Hornet Block I"
 	"final explode" "final explosion small"
 	description "Fighter originally used by the US and its allies, it has been modernized extensively and now also has the ability for space flight."
 
-ship "Arion Mig-35XS Fulcrum Block I"
+ship "Arion Mig/S-35X Fulcrum Block I"
 	sprite "ship/arionmig35"
 	thumbnail "ship/arionmig35"
 	attributes
@@ -2257,7 +2329,7 @@ ship "Arion Mig-35XS Fulcrum Block I"
 	"final explode" "final explosion small"
 	description "Fighter originally used by the Russia, it has been modernized extensively and now also has the ability for space flight."
 
-ship "Arion JAS-39XS Gripen Block I"
+ship "Arion JAS/S-39XS Gripen Block I"
 	sprite "ship/ariongripen"
 	thumbnail "ship/ariongripen"
 	attributes
@@ -2296,7 +2368,7 @@ ship "Arion JAS-39XS Gripen Block I"
 	"final explode" "final explosion small"
 	description "Fighter originally used by Sweden, it has been modernized extensively and now also has the ability for space flight."
 
-ship "Arion Eurofighter TyphoonXS Block I"
+ship "Arion Eurofighter Typhoon X/S Block I"
 	sprite "ship/arioneurofighter"
 	thumbnail "ship/arioneurofighter"
 	attributes
@@ -2336,7 +2408,7 @@ ship "Arion Eurofighter TyphoonXS Block I"
 	"final explode" "final explosion small"
 	description "Fighter originally used by the European Union, it has been modernized extensively and now also has the ability for space flight."
 
-ship "Arion Dassault RafaleXS Block I"
+ship "Arion Dassault Rafale X/S Block I"
 	sprite "ship/arionrafale"
 	thumbnail "ship/arionrafale"
 	attributes
@@ -2376,7 +2448,7 @@ ship "Arion Dassault RafaleXS Block I"
 	"final explode" "final explosion small"
 	description "Fighter originally used by France, it has been modernized extensively and now also has the ability for space flight."
 
-ship "Arion FB-22XS Raptor Block I"
+ship "Arion FB/S-22X Raptor Block I"
 	sprite "ship/arionfb22"
 	thumbnail "ship/arionfb22"
 	attributes
@@ -2422,7 +2494,7 @@ ship "Arion FB-22XS Raptor Block I"
 	"final explode" "final explosion small"
 	description "Stealth fighter bomber concept, it has been modernized extensively and now also has the ability for space flight. It has a built in cloak."
 
-ship "Arion F-22NXS Raptor Block I"
+ship "Arion F/S-22NX Raptor Block I"
 	sprite "ship/arionf22n"
 	thumbnail "ship/arionf22n"
 	attributes
@@ -2467,7 +2539,382 @@ ship "Arion F-22NXS Raptor Block I"
 	"final explode" "final explosion small"
 	description "Stealth naval fighter interceptor concept, it has been modernized extensively and now also has the ability for space flight. It has a built in cloak."
 
-ship "Arion ADFX-02XS Morgan Block I"
+ship "Super Space Swordfish"
+	sprite "ship/arionsuperswordfish"
+	thumbnail "ship/arionsuperswordfish"
+	attributes
+		category "Fighter"
+		licenses
+			"Arion"
+		"cost" 50000
+		"shields" 400
+		"hull" 200
+		"required crew" 1
+		"bunks" 1
+		"mass" 10
+		"drag" 1.75
+		"heat dissipation" 0.9
+		"fuel capacity" 20
+		"outfit space" 50
+		"weapon capacity" 10
+		"engine capacity" 15
+	outfits
+		"Arion S.C.D"
+		"Arion Basic Aircraft Engines"
+		"Arion Basic Generator"
+		"Arion Unguided Torpedo Pod"
+	engine 0 25.5
+	gun 0 -9
+	leak "leak" 60 50
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
+	description "This old torpedo bomber has somehow been modified and rebuilt to serve again in space. (Special thanks to 1010todd for making the sprite for the plane)"
+
+ship "Arion F/S-4X Phantom II Block I"
+	sprite "ship/arionf4"
+	thumbnail "ship/arionf4"
+	attributes
+		category "Fighter"
+		licenses
+			"Arion"
+		"cost" 150000
+		"shields" 1200
+		"hull" 600
+		"required crew" 2
+		"bunks" 2
+		"mass" 28
+		"drag" 1.6
+		"heat dissipation" 0.9
+		"fuel capacity" 200
+		"outfit space" 100
+		"weapon capacity" 40
+		"engine capacity" 25
+		"flares" 1
+	outfits
+		"Arion M61 Vulcan"
+		"Arion G.P.B Pod"
+		"Arion Missile Pod" 2
+		"Arion Chaff and Flares Tier 1"
+		"Arion I.A Engines"
+		"Arion S.C.D"
+		"Arion T.B.R.S"
+		"Arion Small Fusion Reactor"
+	engine -4 27
+	engine 4 27
+	gun 5 -10.5 "Arion M61 Vulcan"
+	gun 0 2.5 "Arion G.P.B Pod"
+	gun -17 2
+	gun 17 2
+	turret 0 28.5
+	leak "leak" 60 50
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
+	description "An old fighter bomber that was used by the US and its allies that has been modernized extensively and was given the ability to fly in space."
+
+ship "Arion F/S-5X Tiger II Block I"
+	sprite "ship/arionf5"
+	thumbnail "ship/arionf5"
+	attributes
+		category "Fighter"
+		licenses
+			"Arion"
+		"cost" 100000
+		"shields" 800
+		"hull" 400
+		"required crew" 1
+		"bunks" 1
+		"mass" 12
+		"drag" 1.2
+		"heat dissipation" 0.9
+		"fuel capacity" 100
+		"outfit space" 85
+		"weapon capacity" 20
+		"engine capacity" 20
+		"flares" 1
+	outfits
+		"Arion 20mm Autocannon" 2
+		"Arion Missile Pod" 2
+		"Arion Chaff and Flares Tier 1"
+		"Arion A.A Engines"
+		"Arion S.C.D"
+		"Arion T.B.R.S"
+		"Arion Small Fusion Reactor"
+	engine -1.5 36
+	engine 1.5 36
+	gun -1.5 -19.5 "Arion 20mm Autocannon"
+	gun 1.5 -19.5 "Arion 20mm Autocannon"
+	gun -21 12.5
+	gun 21 12.5
+	turret 0 20
+	leak "leak" 60 50
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
+	description "An old fighter bomber that was used by the US and its allies that has been modernized extensively and was given the ability to fly in space."
+
+ship "Arion FA/S-50X Golden Eagle Block I"
+	sprite "ship/arionfa50"
+	thumbnail "ship/arionfa50"
+	attributes
+		category "Fighter"
+		licenses
+			"Arion"
+		"cost" 135000
+		"shields" 1050
+		"hull" 525
+		"required crew" 1
+		"bunks" 1
+		"mass" 12.5
+		"drag" 1.18
+		"heat dissipation" 0.9
+		"fuel capacity" 100
+		"outfit space" 90
+		"weapon capacity" 25
+		"engine capacity" 20
+		"flares" 1
+	outfits
+		"Arion M61 Vulcan"
+		"Arion Missile Pod" 2
+		"Arion Chaff and Flares Tier 1"
+		"Arion A.A Engines"
+		"Arion S.C.D"
+		"Arion T.B.R.S"
+		"Arion Small Fusion Reactor"
+	engine 0 31.5
+	gun 3.5 -5 "Arion M61 Vulcan"
+	gun -20 13
+	gun 20 13
+	turret 0 21
+	leak "leak" 60 50
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
+	description "A Trainer/Light Fighter/Light Combat Aircraft used by South Korea and other countries that has been modernized extensively and given the ability of spaceflight."
+
+ship "Arion F-CK/S-1X Block I"
+	sprite "ship/arionfck1"
+	thumbnail "ship/arionfck1"
+	attributes
+		category "Fighter"
+		licenses
+			"Arion"
+		"cost" 140000
+		"shields" 1020
+		"hull" 510
+		"required crew" 1
+		"bunks" 1
+		"mass" 12.25
+		"drag" 1.16
+		"heat dissipation" 0.9
+		"fuel capacity" 100
+		"outfit space" 90
+		"weapon capacity" 25
+		"engine capacity" 20
+		"flares" 1
+	outfits
+		"Arion M61 Vulcan"
+		"Arion Missile Pod" 2
+		"Arion Chaff and Flares Tier 1"
+		"Arion A.A Engines"
+		"Arion S.C.D"
+		"Arion T.B.R.S"
+		"Arion Small Fusion Reactor"
+	engine -2.5 34.5
+	engine 2.5 34.5
+	gun 3 -4.5 "Arion M61 Vulcan"
+	gun -14 7
+	gun 14 7
+	turret 0 19.5
+	leak "leak" 60 50
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
+	description "A Multirole Combat Aircraft used by the Republic of China that has been modernized extensively and given space flight capabilities."
+
+ship "Arion KF/S-21X Boramae Block I"
+	sprite "ship/arionkf21"
+	thumbnail "ship/arionkf21"
+	attributes
+		category "Fighter"
+		licenses
+			"Arion"
+		"cost" 3000000
+		"shields" 1200
+		"hull" 600
+		"required crew" 1
+		"bunks" 1
+		"mass" 25
+		"drag" 1.25
+		"heat dissipation" 0.9
+		"fuel capacity" 100
+		"outfit space" 90
+		"weapon capacity" 20
+		"engine capacity" 25
+		"cloak" 2.25
+		"cloaking energy" 12
+		"cloaking heat" 6
+		"flares" 1
+	outfits
+		"Arion M61 Vulcan"
+		"Arion Missile Pod" 2
+		"Arion Chaff and Flares Tier 1"
+		"Arion F.A Engines"
+		"Arion S.C.D"
+		"Arion T.B.R.S"
+		"Arion Small Fusion Reactor"
+	engine -2 36
+	engine 3.5 36
+	gun 5.5 -11.5 "Arion M61 Vulcan"
+	gun -4 4.5
+	gun 4 4.5
+	turret 0 27
+	leak "leak" 60 50
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
+	description "A Semi Stealthy Fighter that was developed mainly by South Korea, helped by Indonesia and used by both of them plus Poland, it has been modernized extensively and given the ability to fly in space."
+
+ship "Arion J/S-20X Block I"
+	sprite "ship/arionj20"
+	thumbnail "ship/arionj20"
+	attributes
+		category "Fighter"
+		licenses
+			"Arion"
+		"cost" 3600000
+		"shields" 1400
+		"hull" 700
+		"required crew" 1
+		"bunks" 1
+		"mass" 37
+		"drag" 1.25
+		"heat dissipation" 0.9
+		"fuel capacity" 200
+		"outfit space" 100
+		"weapon capacity" 30
+		"engine capacity" 25
+		"cloak" 2.2
+		"cloaking energy" 13
+		"cloaking heat" 6.5
+		"flares" 1
+	outfits
+		"Arion Pursuer Missile Pod"
+		"Arion Finisher Missile Pod" 2
+		"Arion Chaff and Flares Tier 1"
+		"Arion F.A Engines"
+		"Arion S.C.D"
+		"Arion T.B.R.S"
+		"Arion Small Fusion Reactor"
+	engine -4 45.5
+	engine 4 45.5
+	gun 0 17.5 "Arion Pursuer Missile Pod"
+	gun -6.5 17.5
+	gun 6.5 17.5
+	turret 0 23.5
+	leak "leak" 60 50
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
+	description "Fighter originally made by the PRC, it has been turned into a proper fighter, modernized extensively and now also has the ability for space flight. It has a built in cloak."
+
+=========================
+Ace Combat 
+
+ship "Arion X/S-02X Wyvern MKI"
+	sprite "ship/arionx02"
+	thumbnail "ship/arionx02"
+	attributes
+		category "Fighter"
+		licenses
+			"Arion"
+		"cost" 5000000
+		"shields" 1800
+		"hull" 900
+		"required crew" 1
+		"bunks" 1
+		"mass" 37
+		"drag" 0.9
+		"heat dissipation" 0.9
+		"fuel capacity" 200
+		"outfit space" 135
+		"weapon capacity" 50
+		"engine capacity" 25
+		"cloak" 2
+		"cloaking energy" 10
+		"cloaking heat" 5
+		"flares" 1
+		"arclight eml" 1
+	outfits
+		"Arion G.A.G.G"
+		"Arion Arclight E.M.L"
+		"Arion Missile Pod" 2
+		"Arion Chaff and Flares Tier 1"
+		"Arion I.A Engines"
+		"Arion S.C.D"
+		"Arion T.B.R.S"
+		"Arion Mini Overcharge Core"
+	engine -4.5 48
+	engine 4.5 48
+	gun -4 -25 "Arion G.A.G.G"
+	gun 0 16.5 "Arion Arclight E.M.L"
+	gun -7 15
+	gun 7 15
+	turret 0 44.5
+	leak "leak" 60 50
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
+	description "This was a super fighter made by a 'Strangereal' nation called Erusea. The Strike Wyvern of this aircraft came equipped with the advanced Arclight EML. It has been modified and upgraded to suite Arion's needs. This aircraft is given to Ace pilots who have proven themselves worthy of a super fighter. Unlike the original fighter, it can operate in space."
+
+ship "Arion CFA/S-44X Nosferatu MKI"
+	sprite "ship/arioncfa44"
+	thumbnail "ship/arioncfa44"
+	attributes
+		category "Fighter"
+		licenses
+			"Arion"
+		"cost" 5000000
+		"shields" 1700
+		"hull" 850
+		"required crew" 1
+		"bunks" 1
+		"mass" 40
+		"drag" 0.95
+		"heat dissipation" 0.9
+		"fuel capacity" 200
+		"outfit space" 135
+		"weapon capacity" 45
+		"engine capacity" 25
+		"cloak" 2
+		"cloaking energy" 11
+		"cloaking heat" 5.5
+		"flares" 1
+		"purgatorio eml" 2
+	outfits
+		"Arion G.A.A.C"
+		"Arion Purgatorio E.M.L" 2
+		"Arion Missile Pod"
+		"Arion Chaff and Flares Tier 1"
+		"Arion F.A Engines"
+		"Arion S.C.D"
+		"Arion T.B.R.S"
+		"Arion Mini Overcharge Core"
+	engine -6.5 48.5
+	engine 6.5 48.5
+	gun -5.5 -19 "Arion G.A.A.C"
+	gun 0 8.5
+	gun -9 5.5 "Arion Purgatorio E.M.L"
+	gun 9 5.5 "Arion Purgatorio E.M.L"
+	turret 0 49
+	leak "leak" 60 50
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
+	description "This was a super fighter made by a 'Strangereal' nation called Estovakia. It is equipped with a bunch of advanced technologies including the All Direction Multi-purpose Missiles and Purgatorio EML. It has been modified and upgraded to suite Arion's needs. This aircraft is given to Ace pilots who have proven themselves worthy of a super fighter. Unlike the original fighter, it can operate in space, only has 1 auto cannon and only comes equipped with its purgatorio eml super weapon."
+
+ship "Arion ADFX/S-02X Morgan MKI"
 	sprite "ship/arionadfx02"
 	thumbnail "ship/arionadfx02"
 	attributes
@@ -2511,9 +2958,9 @@ ship "Arion ADFX-02XS Morgan Block I"
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	"final explode" "final explosion small"
-	description "This was a super fighter made by a 'Strangereal' nation called Belka. The Morgan comes with either a Hypersthene Multi-Purpose Burst Missile or Zoisite Tactical Laser System. It has been modified and upgraded to suite Arion's needs. This aircraft is used by the SFF and is given to Ace pilots who have proven themselves worthy of a super fighter. Unlike the original fighter, it can operate in space."
+	description "This was a super fighter made by a 'Strangereal' nation called Belka. The Morgan comes with either a Hypersthene Multi-Purpose Burst Missile or Zoisite Tactical Laser System. It has been modified and upgraded to suite Arion's needs. This aircraft is given to Ace pilots who have proven themselves worthy of a super fighter. Unlike the original fighter, it can operate in space."
 
-ship "Arion XFA-27XS Block I"
+ship "Arion XFA/S-27X MKI"
 	sprite "ship/arionxfa27"
 	thumbnail "ship/arionxfa27"
 	attributes
@@ -2558,9 +3005,9 @@ ship "Arion XFA-27XS Block I"
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	"final explode" "final explosion small"
-	description "This was a super fighter made by a 'Strangereal' faction called the Usean Allied Forces. The XFA-27 comes with a the Joint. It has been modified and upgraded to suite Arion's needs. This aircraft is used by the SFF and is given to Ace pilots who have proven themselves worthy of a super fighter. Unlike the original fighter, it can operate in space."
+	description "This was a super fighter made by a 'Strangereal' faction called the Usean Allied Forces. The XFA-27 comes with a the Joint. It has been modified and upgraded to suite Arion's needs. This aircraft is given to Ace pilots who have proven themselves worthy of a super fighter. Unlike the original fighter, it can operate in space."
 
-ship "Arion XFA-33XS Fenrir Block I"
+ship "Arion XFA/S-33X Fenrir MKI"
 	sprite "ship/arionxfa33"
 	thumbnail "ship/arionxfa33"
 	attributes
@@ -2604,44 +3051,104 @@ ship "Arion XFA-33XS Fenrir Block I"
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	"final explode" "final explosion small"
-	description "This was a super fighter made by a 'Strangereal' nation called Leasath. It is equipped with a bunch of advanced technologies including the already built in cloaking device, The Long Range Shockwave Missile and High Powered Microwave. It has been modified and upgraded to suite Arion's needs. This aircraft is used by the SFF and is given to Ace pilots who have proven themselves worthy of a super fighter. Unlike the original fighter, it can operate in space, only has 1 auto cannon and only comes equipped with its L.S.W.M."
+	description "This was a super fighter made by a 'Strangereal' nation called Leasath. It is equipped with a bunch of advanced technologies including the already built in cloaking device, The Long Range Shockwave Missile and High Powered Microwave. It has been modified and upgraded to suite Arion's needs. This aircraft is given to Ace pilots who have proven themselves worthy of a super fighter. Unlike the original fighter, it can operate in space, only has 1 auto cannon and only comes equipped with its L.S.W.M."
 
-ship "Super Fairey Swordfish"
-	sprite "ship/arionsuperswordfish"
-	thumbnail "ship/arionsuperswordfish"
+ship "Arion ADF/S-01X Falken MKI"
+	sprite "ship/arionadf1"
+	thumbnail "ship/arionadf1"
 	attributes
 		category "Fighter"
 		licenses
 			"Arion"
-		"cost" 50000
-		"shields" 400
-		"hull" 200
-		"required crew" 1
-		"bunks" 1
-		"mass" 10
-		"drag" 1.75
+		"cost" 6000000
+		"shields" 1750
+		"hull" 875
+		"automaton" 1
+		"mass" 51
+		"drag" 0.925
 		"heat dissipation" 0.9
-		"fuel capacity" 20
-		"outfit space" 50
-		"weapon capacity" 10
-		"engine capacity" 15
+		"fuel capacity" 200
+		"outfit space" 140
+		"weapon capacity" 50
+		"engine capacity" 25
+		"cloak" 1.8
+		"cloaking energy" 12
+		"cloaking heat" 6
+		"flares" 1
+		"morgan hardpoint" 1
 	outfits
+		"Arion G.A.A.C"
+		"Arion Missile Pod" 2
+		"Arion Zoisite T.L.S"
+		"Arion Chaff and Flares Tier 1"
+		"Arion F.A Engines"
 		"Arion S.C.D"
-		"Arion Basic Aircraft Engines"
-		"Arion Basic Generator"
-		"Arion Unguided Torpedo Pod"
-	engine 0 25.5
-	gun 0 -9
+		"Arion T.B.R.S"
+		"Arion Mini Overcharge Core"
+	engine -12 52
+	engine 12 52
+	gun 0 -32.5 "Arion G.A.A.C"
+	gun 0 -15.5 "Arion Zoisite T.L.S"
+		under
+	gun -10 20
+	gun 10 20
+	turret 0 7
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	"final explode" "final explosion small"
-	description "This old torpedo bomber has somehow been modified and rebuilt to serve again in space. (Special thanks to 1010todd for making the sprite for the plane)"
+	description "This was a super fighter made by a 'Strangereal' company called Grunder Industries, which is a belkan/south osean company. The Falken comes with a Zoisite Tactical Laser System. It has been modified and upgraded to suite Arion's needs. This aircraft is given to Ace pilots who have proven themselves worthy of a super fighter and to defend high value targets 24/7 due to it having a drone variant. Unlike the original fighter, it can operate in space. This is the drone variant."
+
+ship "Arion ADF/S-11X Raven MKI"
+	sprite "ship/arionadf11"
+	thumbnail "ship/arionadf11"
+	attributes
+		category "Fighter"
+		licenses
+			"Arion"
+		"cost" 6400000
+		"shields" 2000
+		"hull" 1000
+		"automaton" 1
+		"mass" 54
+		"drag" 0.935
+		"heat dissipation" 0.9
+		"fuel capacity" 200
+		"outfit space" 140
+		"weapon capacity" 50
+		"engine capacity" 25
+		"cloak" 1.8
+		"cloaking energy" 12
+		"cloaking heat" 6
+		"flares" 1
+		"morgan hardpoint" 1
+	outfits
+		"Arion G.A.A.C"
+		"Arion Missile Pod" 2
+		"Arion Zoisite T.L.S"
+		"Arion Chaff and Flares Tier 1"
+		"Arion F.A Engines"
+		"Arion S.C.D"
+		"Arion T.B.R.S"
+		"Arion Mini Overcharge Core"
+	engine -10 58.5
+	engine 10 58.5
+	gun 0 -43 "Arion G.A.A.C"
+	gun 0 -25.5 "Arion Zoisite T.L.S"
+		under
+	gun -11 17.5
+	gun 11 17.5
+	turret 0 20.5
+	leak "leak" 60 50
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
+	description "This was a super fighter made by a 'Strangereal' company called Grunder Industries, which is a belkan/south osean company. The Raven comes with a Zoisite Tactical Laser System. It has been modified and upgraded to suite Arion's needs. This aircraft is given to Ace pilots who have proven themselves worthy of a super fighter and to defend high value targets 24/7 due to it having a drone variant. Unlike the original fighter, it can operate in space. This is the drone variant."
 
 =============================
 SFF Special
 
-ship "Arion A-4XS SFF Skyhawk Mk1"
+ship "Arion A/S-4X SFF Skyhawk Mk1"
 	sprite "ship/ariona4sff"
 	thumbnail "ship/ariona4sff"
 	attributes
@@ -2687,7 +3194,7 @@ ship "Arion A-4XS SFF Skyhawk Mk1"
 	"final explode" "final explosion small"
 	description "This is a more basic version of the A-4 Skyhawk used by the SFF, made available to purchased by you. It is used as a gun fighter but can be relatively easily turned back into a normal fighter."
 
-ship "Arion F-16XS SFF Super Falcon Mk1"
+ship "Arion F/S-16X SFF Super Falcon Mk1"
 	sprite "ship/arionf16sff"
 	thumbnail "ship/arionf16sff"
 	attributes
@@ -2735,7 +3242,7 @@ ship "Arion F-16XS SFF Super Falcon Mk1"
 	"final explode" "final explosion small"
 	description "This is a more basic version of the F-16 Super Falcon used by the SFF. While the F-18 is more popular with the SFF, some pilots prefer the F-16 as a light fighter. It can be used both as an air superiority and strike fighter."
 
-ship "Arion F-18XS SFF Super Hornet Block I"
+ship "Arion F/S-18X SFF Super Hornet Mk1"
 	sprite "ship/arionf18sff"
 	thumbnail "ship/arionf18sff"
 	attributes

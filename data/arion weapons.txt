@@ -991,7 +991,7 @@ outfit "Arion Zoisite T.L.S"
 	"gun ports" -1
 	"morgan hardpoint" -1
 	weapon
-		sprite "projectile/arionlonglaser"
+		sprite "projectile/ariontlslaser"
 			"frame rate" 1
 		sound "skylance"
 		icon "icon/dragonflame"
@@ -1364,7 +1364,7 @@ outfit "Arion G.P.B Pod"
 		"drag" 0.1
 		"turn" 1.5
 		"homing" 3
-		"tracking" 0.5
+		"optical tracking" 0.25
 		"shield damage" 1250
 		"hull damage" 2100
 		"missile strength" 100
@@ -1432,7 +1432,7 @@ outfit "Arion Guided Torpedo Pod"
 		"drag" 0.1
 		"turn" 2.5
 		"homing" 3.5
-		"tracking" 0.75
+		"optical tracking" 0.5
 		"shield damage" 1500
 		"hull damage" 2250
 		"heat damage" 50
@@ -1470,7 +1470,7 @@ outfit "Arion Guided Torpedo Launcher"
 		"drag" 0.1
 		"turn" 2.5
 		"homing" 3.5
-		"tracking" 0.75
+		"optical tracking" 0.5
 		"shield damage" 1500
 		"hull damage" 2250
 		"heat damage" 50
@@ -1591,7 +1591,7 @@ outfit "Arion B52 Bomb Bay Mk1"
 		"drag" 0.1
 		"turn" 1.5
 		"homing" 4
-		"tracking" 0.5
+		"optical tracking" 0.25
 		"shield damage" 1250
 		"hull damage" 2100
 		"missile strength" 100
@@ -1626,7 +1626,7 @@ outfit "Arion B1 Bomb Bay Mk1"
 		"drag" 0.1
 		"turn" 1.5
 		"homing" 4
-		"tracking" 0.5
+		"optical tracking" 0.25
 		"shield damage" 1250
 		"hull damage" 2100
 		"missile strength" 100
@@ -1661,7 +1661,7 @@ outfit "Arion B2 Bomb Bay Mk1"
 		"drag" 0.1
 		"turn" 1.5
 		"homing" 4
-		"tracking" 0.5
+		"optical tracking" 0.25
 		"shield damage" 1250
 		"hull damage" 2100
 		"missile strength" 100
@@ -1696,7 +1696,7 @@ outfit "Arion Vulcan Bomb Bay Mk1"
 		"drag" 0.1
 		"turn" 1.5
 		"homing" 4
-		"tracking" 0.5
+		"optical tracking" 0.25
 		"shield damage" 1250
 		"hull damage" 2100
 		"missile strength" 100

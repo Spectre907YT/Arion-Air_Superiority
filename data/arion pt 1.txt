@@ -622,6 +622,10 @@ mission "Arion:FOB Bravo Reveal"
 				`	AKs 74u`
 				`	AK 74`
 					goto ak74
+				`	M16A3`
+					goto m16a3
+				`	M4A1`
+					goto m4a1
 			action
 				outfit "AKs 74u"
 			scene "outfit/pirateak74"
@@ -632,6 +636,18 @@ mission "Arion:FOB Bravo Reveal"
 				outfit "AK 74"
 			scene "outfit/pirateak74"
 			`	"Alright here is your Ak 74, it is an assault rifle firing the 5.45 by 39mm ammunition. This one is an older model with a wooden grip and buttstock."`
+				goto gun
+			label m16a3
+			action
+				outfit "M16A3"
+			scene "outfit/m16a3"
+			`	"Alright here is your M16A3, it is an assault rifle firing the 5.56 by 45mm ammunition. This one comes with a suppressor."`
+				goto gun
+			label m4a1
+			action
+				outfit "M4A1"
+			scene "outfit/m4a1"
+			`	"Alright here is your M4A1, it is a carbine firing the 5.56 by 45mm ammunition. This one comes with a suppressor."`
 				goto gun
 			label gun
 			`	The Handler then gives you your new gun.`
