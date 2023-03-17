@@ -25,15 +25,16 @@ ship "Arion Bactrian H.A.T Block I"
 		"weapon capacity" 360
 	outfits
 		"Arion A.E.W.S"
-		"Arion Goalkeeper C.I.W.S" 3
-		"Arion Fusion Reactor"
+		"Arion Goalkeeper C.I.W.S"
+		"Arion OTOMATIC CIWS"
+		"Arion FR-100x"
 		"Hyperdrive"
-		"Arion L.B.R.S"
+		"Arion BRS-100x"
 		"Arion L.C.D"
-		"Arion M.H.W Atomic Engines"
+		"Arion ODE-MHW-180x"
 		"Arion S.I Equipment" 50
-		"Arion Stunner Laser" 4
-		"Arion Stunner Laser Turret" 3
+		"Arion GTU-1x Shark Pod" 4
+		"Arion SBL-01 Stunstrike Turret" 3
 		"Arion Multirole Fuel System"
 	engine -18 230
 		zoom 1
@@ -51,17 +52,17 @@ ship "Arion Bactrian H.A.T Block I"
 		under
 	gun -45 -128 "Arion Stunner Laser"
 		under
-	turret -22 -148 "Arion Dragonfire C.I.W.S"
+	turret -22 -148 "Arion Goalkeeper C.I.W.S"
 		over
-	turret 26 -80 "Arion Stunner Laser Turret"
+	turret 26 -80 "Arion SBL-01 Stunstrike Turret"
 		over
-	turret -41 -20 "Arion Stunner Laser Turret"
+	turret -41 -20 "Arion OTOMATIC CIWS"
 		over
-	turret 32 -7 "Arion Dragonfire C.I.W.S"
+	turret 32 -7 "Arion SBL-01 Stunstrike Turret"
 		over
-	turret 53 82 "Arion Dragonfire C.I.W.S"
+	turret 53 82 "Arion Goalkeeper C.I.W.S"
 		over
-	turret -37 186 "Arion Stunner Laser Turret"
+	turret -37 186 "Arion SBL-01 Stunstrike Turret"
 		over
 	bay Fighter -38 -26
 		"launch effect" "basic launch"
@@ -99,25 +100,24 @@ ship "Arion Mule H.A.T Block I"
 		"engine capacity" 120
 	outfits
 		"Arion B.E.W.S"
-		"Arion Fusion Reactor"
+		"Arion FR-100x"
 		"Arion Phalanx C.I.W.S" 2
 		"Hyperdrive"
-		"Arion M.B.R.S"
+		"Arion BRS-50x"
 		"Arion L.C.D"
-		"Arion M.L.W Atomic Engines"
+		"Arion ODE-MLW-80x"
 		"Arion S.I Equipment" 10
-		"Arion Stunner Laser" 2
-		"Arion Stunner Laser Turret" 2
+		"Arion GTU-1x Shark Pod" 2
+		"Arion SBL-01 Stunstrike Turret" 2
 		"Arion Multirole Fuel System"
-		"Arion Small Multirole Fuel System"
 	engine 11 128
 	engine -8 128
 	gun -11 -125 
 	gun 11 -125 
 	turret -22 -53.5 
-	turret 19.5 -39 
+	turret 19.5 -39 "Arion SBL-01 Stunstrike Turret"
 	turret 20 33 
-	turret -20.5 103.5 
+	turret -20.5 103.5 "Arion SBL-01 Stunstrike Turret"
 	bay "Fighter" -25 -25
 	leak "leak" 50 50
 	leak "flame" 80 80
@@ -152,16 +152,16 @@ ship "Arion Kestrel Block I"
 		"weapon capacity" 450
 	outfits
 		"Arion A.E.W.S"
-		"Arion Fusion Reactor"
+		"Arion FR-100x"
 		"Arion Myriad C.I.W.S" 2
 		"Hyperdrive"
-		"Arion L.B.R.S"
+		"Arion BRS-100x"
 		"Arion L.C.D"
-		"Arion L.H.W Atomic Engines"
+		"Arion ODE-LHW-210x"
 		"Arion S.I Equipment" 10
-		"Arion Stunner Laser" 12
-		"Arion Stunner Laser Turret" 2
-		"Arion Multirole Fuel System" 2
+		"Arion G.A.A.C" 12
+		"Arion SBL-02 Roadblock Turret" 2
+		"Arion Multirole Fuel System"
 	engine -14 177
 		zoom 1
 		angle 0
@@ -195,7 +195,7 @@ ship "Arion Kestrel Block I"
 	explode "medium explosion" 35
 	explode "small explosion" 25
 	"final explode" "final explosion large" 1
-	description "Ah the Kestrel, we were able to get access to the prototype and decided to make our own variant due to its multirole capabilities. It could function as a makeshift carrier cruiser hybrid and that's why we were so interested in it."
+	description "The Kestrel is probably one of if not the favorite ship of Arion Captains. With its ability to carry a small fighter complement and customizability, it can be the deadliest killing machine."
 
 ship "Arion Cruiser Block I"
 	sprite ship/cruiser
@@ -221,14 +221,14 @@ ship "Arion Cruiser Block I"
 		"weapon capacity" 360
 	outfits
 		"Arion A.E.W.S"
-		"Arion Fusion Reactor"
+		"Arion FR-100x"
 		"Arion Phalanx C.I.W.S" 2
 		"Hyperdrive"
-		"Arion L.B.R.S"
+		"Arion BRS-100x"
 		"Arion L.C.D"
-		"Arion M.H.W Atomic Engines"
+		"Arion ODE-MHW-180x"
 		"Arion S.I Equipment" 10
-		"Arion Guided Torpedo Pod" 6
+		"Arion AIM-2x AMRAAM Pod" 6
 		"Arion 127mm Mk 45 Turret" 2
 		"Arion Multirole Fuel System"
 	engine -29 156
@@ -292,15 +292,16 @@ ship "Arion Carrier Block I"
 		"weapon capacity" 400
 	outfits
 		"Arion A.E.W.S"
-		"Arion Fusion Reactor"
+		"Arion FR-100x"
 		"Arion Goalkeeper C.I.W.S" 2
 		"Hyperdrive"
-		"Arion L.B.R.S"
+		"Arion BRS-100x"
 		"Arion L.C.D"
-		"Arion L.H.W Atomic Engines"
+		"Arion ODE-LHW-210x"
 		"Arion S.I Equipment" 10
-		"Arion Stunner Laser" 8
-		"Arion Stunner Laser Turret" 2
+		"Arion GTU-1x Shark Pod" 8
+		"Arion 76mm OTO Melara Turret"
+		"Arion SeaRAMx"
 		"Arion Multirole Fuel System"
 	engine -35 200
 		zoom 1
@@ -318,10 +319,10 @@ ship "Arion Carrier Block I"
 	gun 25 -166 
 	gun -25 -166
 	gun 25 -166
-	turret 0 -114
+	turret 0 -114 "Arion 76mm OTO Melara Turret"
 	turret 0 15 
 	turret 0 103 
-	turret 0 157 
+	turret 0 157 "Arion SeaRAMx"
 	bay Fighter -37 -65
 		"launch effect" "basic launch"
 	bay Fighter 37 -65
@@ -374,24 +375,25 @@ ship "Arion Auxiliary Block I"
 		"turret ports" 4
 	outfits
 		"Arion B.E.W.S"
-		"Arion Fusion Reactor"
+		"Arion FR-100x"
 		"Arion Phalanx C.I.W.S" 2
 		"Hyperdrive"
-		"Arion L.B.R.S"
+		"Arion BRS-100x"
 		"Arion L.C.D"
-		"Arion L.H.W Atomic Engines"
+		"Arion ODE-LHW-210x"
 		"Arion S.I Equipment" 10
-		"Arion Stunner Laser" 2
-		"Arion Stunner Laser Turret" 2
+		"Arion GTU-1x Shark Pod" 2
+		"Arion 76mm OTO Melara Turret"
+		"Arion SeaRAMx"
 		"Arion Multirole Fuel System"
 	engine -41 181
 	engine 41 181
 	gun -12 -180
 	gun 12 -180
-	turret 0 -75 
-	turret 0 -18
-	turret 0 22.5
-	turret 0 73.5 
+	turret 0 -75 "Arion 76mm OTO Melara Turret"
+	turret 0 -18 "Arion Phalanx C.I.W.S"
+	turret 0 22.5 "Arion Phalanx C.I.W.S"
+	turret 0 73.5 "Arion SeaRAMx"
 	bay "Fighter" 0 -75
 	bay "Fighter" 0 -18
 	bay "Fighter" 0 22.5
@@ -431,17 +433,16 @@ ship "Arion Frigate Block I"
 		"turret ports" 3
 	outfits
 		"Arion B.E.W.S"
-		"Arion Small Fusion Reactor" 3
-		"Arion 76mm Oto Melara Turret"
+		"Arion FR-15x" 3
+		"Arion 76mm OTO Melara Turret"
 		"Arion Phalanx C.I.W.S" 2
 		"Hyperdrive"
-		"Arion M.L.W Atomic Engines"
-		"Arion S.B.R.S"
+		"Arion ODE-MLW-80x"
+		"Arion BRS-25x"
 		"Arion L.C.D"
 		"Arion S.I Equipment" 5
-		"Arion Stunner Laser" 4
-		"Arion Stunner Laser Turret"
-		"Arion Multirole Fuel System" 2
+		"Arion AIM-2x AMRAAM Pod" 4
+		"Arion Multirole Fuel System"
 	engine -26 96.5
 	engine 26 96.5
 	gun -11 -84.5 
@@ -485,18 +486,16 @@ ship "Arion Dreadnought Block I"
 		"weapon capacity" 400
 	outfits
 		"Arion A.E.W.S"
-		"Arion Fusion Reactor"
-		"Arion Disabler Laser" 4
-		"Arion Disabler Laser Turret" 3
+		"Arion FR-100x"
+		"Arion AIM-2x AMRAAM Pod" 4
+		"Arion SBL-01 Stunstrike Turret" 3
 		"Arion Goalkeeper C.I.W.S" 2
 		"Hyperdrive"
-		"Arion L.B.R.S"
+		"Arion BRS-100x"
 		"Arion L.C.D"
-		"Arion M.H.W Atomic Engines"
+		"Arion ODE-LHW-210x"
 		"Arion S.I Equipment" 10
-		"Arion Small Multirole Fuel System"
 		"Arion Multirole Fuel System"
-		"Quantum Keystone"
 	engine -25.5 173.5
 		zoom 1
 		angle 0
@@ -542,23 +541,22 @@ ship "Arion Headhunter Block I"
 		"heat dissipation" 0.9
 		"fuel capacity" 400
 		"cargo space" 50
-		"outfit space" 300
+		"outfit space" 270
 		"weapon capacity" 75
 		"engine capacity" 100
 		"gun ports" 4
 		"turret mounts" 1
 	outfits
 		"Arion B.E.W.S"
-		"Arion Small Fusion Reactor"
+		"Arion FR-15x"
 		"Arion Phalanx C.I.W.S"
 		"Arion Gau-8 Avenger" 4
 		"Hyperdrive"
-		"Arion M.L.W Atomic Engines"
-		"Arion S.B.R.S"
+		"Arion ODE-MLW-80x"
+		"Arion BRS-25x"
 		"Arion S.C.D"
 		"Arion S.I Equipment" 5
-		"Arion Small Multirole Fuel System"
-		"Arion Multirole Fuel System" 2
+		"Arion Multirole Fuel System"
 	engine -16 47
 	engine 16 47
 	gun -17.5 -17
@@ -598,16 +596,16 @@ ship "Arion Marauder Leviathan Block I"
 		"weapon capacity" 300
 	outfits
 		"Arion B.E.W.S"
-		"Arion Fusion Reactor"
+		"Arion FR-100x"
 		"Arion Phalanx C.I.W.S" 2
 		"Hyperdrive"
-		"Arion L.B.R.S"
+		"Arion BRS-100x"
 		"Arion L.C.D"
-		"Arion S.H.W Atomic Engines"
+		"Arion ODE-SHW-150x"
 		"Arion S.I Equipment" 10
-		"Arion Stunner Laser" 4
-		"Arion Stunner Laser Turret" 2
-		"Arion Multirole Fuel System" 2
+		"Arion GTU-1x Shark Pod" 4
+		"Arion 127mm Mk 45 Turret" 2
+		"Arion Multirole Fuel System"
 	engine -23 126.5
 		zoom 1
 		angle 0
@@ -622,8 +620,8 @@ ship "Arion Marauder Leviathan Block I"
 	gun 51 -21 
 	turret -14.5 -11.5 
 	turret 14.5 -11.5 
-	turret -26 11.5 
-	turret 26 11.5 
+	turret -26 11.5 "Arion 127mm Mk 45 Turret"
+	turret 26 11.5 "Arion 127mm Mk 45 Turret"
 	explode "large explosion" 8
 	explode "medium explosion" 24
 	explode "small explosion" 36
@@ -655,17 +653,16 @@ ship "Arion Marauder Falcon Block I"
 		"weapon capacity" 300
 	outfits
 		"Arion B.E.W.S"
-		"Arion Fusion Reactor"
+		"Arion FR-100x"
 		"Arion Phalanx C.I.W.S" 2
 		"Hyperdrive"
-		"Arion M.B.R.S"
+		"Arion BRS-50x"
 		"Arion L.C.D"
-		"Arion M.H.W Atomic Engines"
+		"Arion ODE-MHW-180x"
 		"Arion S.I Equipment" 10
-		"Arion Stunner Laser" 6
-		"Arion Stunner Laser Turret" 2
+		"Arion AIM-2x AMRAAM Pod" 6
+		"Arion 127mm Mk 45 Turret" 2
 		"Arion Multirole Fuel System"
-		"Arion Small Multirole Fuel System"
 	engine -16.5 143
 		zoom 1
 		angle 0
@@ -682,8 +679,8 @@ ship "Arion Marauder Falcon Block I"
 	gun 24.5 -66.5 
 	turret -16 -29 
 	turret 16 -29 
-	turret -50 39.5 
-	turret 50 39.5 
+	turret -50 39.5 "Arion 127mm Mk 45 Turret"
+	turret 50 39.5 "Arion 127mm Mk 45 Turret"
 	explode "large explosion" 40
 	explode "medium explosion" 60
 	explode "small explosion" 55
@@ -713,15 +710,15 @@ ship "Arion Argosy Block I"
 		"engine capacity" 80
 	outfits
 		"Arion B.E.W.S"
-		"Arion Small Fusion Reactor"
-		"Arion Stunner Laser Turret"
+		"Arion FR-15x"
+		"Arion SBL-01 Stunstrike Turret"
 		"Arion Phalanx C.I.W.S"
 		"Hyperdrive"
-		"Arion M.L.W Atomic Engines"
-		"Arion S.B.R.S"
+		"Arion ODE-MLW-80x"
+		"Arion BRS-25x"
 		"Arion S.C.D"
 		"Arion S.I Equipment" 5
-		"Arion Multirole Fuel System" 2
+		"Arion Multirole Fuel System"
 	engine -25 91 0.6
 	engine -14 91 0.8
 	engine 14 91 0.8
@@ -761,13 +758,13 @@ ship "Arion Star Queen Block I"
 		"engine capacity" 100
 	outfits
 		"Arion Myriad C.I.W.S" 2
-		"Arion Missile Pod" 2
-		"Arion L.L.W Atomic Engines"
-		"Arion Scram Drive Core"
+		"Arion AIM-2x AMRAAM Pod" 3
+		"Arion ODE-LLW-100x"
+		"Hyperdrive"
 		"Arion B.E.W.S"
-		"Arion M.B.R.S"
+		"Arion BRS-50x"
 		"Arion L.C.D"
-		"Arion Fusion Reactor"
+		"Arion FR-100x"
 		"Arion Multirole Fuel System"
 	engine -18.5 115
 	engine 18.5 115
@@ -775,9 +772,9 @@ ship "Arion Star Queen Block I"
 		over
 	"reverse engine" 19 51
 		over
-	gun 0 -113
-	gun -24 -76 "Arion Missile Pod"
-	gun 24 -76 "Arion Missile Pod"
+	gun 0 -113 "Arion AIM-2x AMRAAM Pod"
+	gun -24 -76 "Arion AIM-2x AMRAAM Pod"
+	gun 24 -76 "Arion AIM-2x AMRAAM Pod"
 	turret -21.5 2.5 
 	turret 21.5 2.5 
 	leak "leak" 50 50
@@ -787,7 +784,7 @@ ship "Arion Star Queen Block I"
 	explode "medium explosion" 25
 	explode "large explosion" 10
 	"final explode" "final explosion medium"
-	description "Don't be mistaken, while the Arion Star Queen may looks like a normal star queen, it is significantly better protected. With 2 Myriad C.I.W.S and 3 Arion Missile Pods protecting it, it can easily defend itself against most threats."
+	description "Don't be mistaken, while the Arion Star Queen may looks like a normal star queen, it is significantly better protected."
 
 ===============================
 
@@ -816,16 +813,16 @@ ship "Arion Shield Beetle Block I"
 		"weapon capacity" 350
 	outfits
 		"Arion A.E.W.S"
-		"Arion Fusion Reactor"
+		"Arion FR-100x"
 		"Arion Myriad C.I.W.S" 2
 		"Hyperdrive"
-		"Arion L.B.R.S"
+		"Arion BRS-100x"
 		"Arion L.C.D"
-		"Arion S.H.W Atomic Engines"
+		"Arion ODE-SHW-150x"
 		"Arion S.I Equipment" 10
-		"Arion Stunner Laser" 8
-		"Arion Stunner Laser Turret" 2
-		"Arion Multirole Fuel System" 2
+		"Arion AIM-2x AMRAAM Pod" 8
+		"Arion SBL-01 Stunstrike Turret" 2
+		"Arion Multirole Fuel System"
 	engine -44 133
 		zoom 1
 		angle 0
@@ -834,18 +831,18 @@ ship "Arion Shield Beetle Block I"
 		zoom 1
 		angle 0
 		under
-	gun -22 -102 "Arion Disabler Laser"
-	gun 22 -102 "Arion Disabler Laser"
-	gun -34 -68 "Arion Disabler Laser"
-	gun 34 -68 "Arion Disabler Laser"
-	gun -49 -38 "Arion Disabler Laser"
-	gun 49 -38 "Arion Disabler Laser"
-	gun -61 -14 "Arion Disabler Laser"
-	gun 61 -14 "Arion Disabler Laser"
-	turret -39 48 "Arion Dragonfire C.I.W.S"
-	turret 39 48 "Arion Dragonfire C.I.W.S"
-	turret -57 75 "Arion Disabler Laser Turret"
-	turret 57 75 "Arion Disabler Laser Turret"
+	gun -22 -102 
+	gun 22 -102 
+	gun -34 -68 
+	gun 34 -68 
+	gun -49 -38 
+	gun 49 -38 
+	gun -61 -14 
+	gun 61 -14 
+	turret -39 48 
+	turret 39 48 
+	turret -57 75 "Arion SBL-01 Stunstrike Turret"
+	turret 57 75 "Arion SBL-01 Stunstrike Turret"
 	explode "huge explosion" 20
 	explode "large explosion" 50
 	explode "medium explosion" 50
@@ -890,14 +887,13 @@ ship "Arion Pelican Block I"
 	outfits
 		"Arion A.E.W.S"
 		"Arion Phalanx C.I.W.S"
-		"Arion Fusion Reactor"
+		"Arion FR-100x"
 		"Hyperdrive"
 		"Arion L.C.D"
-		"Arion S.B.R.S"
-		"Arion S.H.W Atomic Engines"
-		"Arion Stunner Laser" 2
-		"Arion Stunner Laser Turret" 2
-		"Arion Small Multirole Fuel System"
+		"Arion BRS-25x"
+		"Arion ODE-SHW-150x"
+		"Arion AIM-2x AMRAAM Pod" 2
+		"Arion SBL-01 Stunstrike Turret" 2
 		"Arion Multirole Fuel System"
 	engine 22 92
 		zoom 0.7
@@ -911,15 +907,15 @@ ship "Arion Pelican Block I"
 		zoom 1.1
 		angle 0
 		under
-	gun 8 -135 "Arion Stunner Laser"
+	gun 8 -135 
 		under
-	gun -8 -135 "Arion Stunner Laser"
+	gun -8 -135 
 		under
-	turret 0 -67 "Arion Dragonfire C.I.W.S"
+	turret 0 -67 
 		over
-	turret 56 35 "Arion Stunner Laser Turret"
+	turret 56 35 "Arion SBL-01 Stunstrike Turret"
 		over
-	turret -56 35 "Arion Stunner Laser Turret"
+	turret -56 35 "Arion SBL-01 Stunstrike Turret"
 		over
 	leak "remnant leak" 20 8
 	leak "remnant leak sparkle" 30 12
@@ -963,15 +959,16 @@ ship "Arion Albatross Block I"
 	outfits
 		"Arion A.E.W.S"
 		"Arion Myriad C.I.W.S" 2
-		"Arion Fusion Reactor"
+		"Arion FR-100x"
 		"Hyperdrive"
 		"Arion L.C.D"
-		"Arion M.B.R.S"
-		"Arion S.H.W Atomic Engines"
-		"Arion Stunner Laser" 7
+		"Arion BRS-50x"
+		"Arion ODE-SHW-150x"
+		"Arion GTU-1x Shark Pod" 3
+		"Arion AIM-2x AMRAAM Pod" 4
 		"Arion Stunner Laser Turret" 3
-		"Arion Small Multirole Fuel System"
 		"Arion Multirole Fuel System"
+
 	engine -28 155
 		zoom 0.8
 		angle 0
@@ -984,29 +981,29 @@ ship "Arion Albatross Block I"
 		zoom 0.9
 		angle 0
 		under
-	gun 0 -190 "Arion Stunner Laser"
+	gun 0 -190 
 		under
-	gun -9 -177 "Arion Stunner Laser"
+	gun -9 -177 
 		under
-	gun 9 -177 "Arion Stunner Laser"
+	gun 9 -177 
 		under
-	gun -14 -162 "Arion Stunner Laser"
+	gun -14 -162 "Arion AIM-2x AMRAAM Pod"
 		under
-	gun 14 -162 "Arion Stunner Laser"
+	gun 14 -162 "Arion AIM-2x AMRAAM Pod"
 		under
-	gun -18 -144 "Arion Stunner Laser"
+	gun -18 -144 "Arion AIM-2x AMRAAM Pod"
 		under
-	gun 18 -144 "Arion Stunner Laser"
+	gun 18 -144 "Arion AIM-2x AMRAAM Pod"
 		under
-	turret -23 -34 "Arion Stunner Laser Turret"
+	turret -23 -34 "Arion SBL-01 Stunstrike Turret"
 		over
-	turret 23 -34 "Arion Stunner Laser Turret"
+	turret 23 -34 "Arion SBL-01 Stunstrike Turret"
 		over
-	turret -74 62 "Arion Dragonfire C.I.W.S"
+	turret -74 62 
 		over
-	turret 74 62 "Arion Dragonfire C.I.W.S"
+	turret 74 62 
 		over
-	turret 0 77 "Arion Stunner Laser Turret"
+	turret 0 77 "Arion SBL-01 Stunstrike Turret"
 		over
 	leak "remnant leak" 30 10
 	leak "remnant leak sparkle" 30 10
@@ -1041,17 +1038,18 @@ ship "Arion Ra'at Ik 621 Block II"
 		"weapon capacity" 425
 		"engine capacity" 250
 	outfits
-		"Arion M.L.M.P.L"
-		"Arion Guided Torpedo Launcher" 2
-		"Arion Disabler Laser Turret" 2
+		"Arion AIM-1x Sidewinder Launcher"
+		"Arion GTU-1x Shark Launcher" 2
+		"Arion SBL-01 Stunstrike Turret" 2
 		"Arion OTOMATIC CIWS"
 		"Arion Phalanx C.I.W.S" 4
 		"Arion Small Multirole Fuel System"
-		"Arion Overcharge Core"
+		"Arion OCR-100x"
 		"Arion L.C.D" 3
-		"Arion L.A.R.S"
-		"Arion H.H.W Atomic Engines"
+		"Arion ARS-100x"
+		"Arion ODE-HHW-250x"
 		"Hyperdrive"
+
 	engine -42 343 .6
 	engine -22 343 .6
 	engine -22 343 .6
@@ -1079,13 +1077,13 @@ ship "Arion Ra'at Ik 621 Block II"
 	bay "Fighter" 50 303 back
 		"launch effect" "korath internal"
 	gun -71 -209 "Arion Guided Torpedo Launcher"
-	gun 0 -209 "Arion M.L.M.P.L"
+	gun 0 -209 "Arion AIM-1x Sidewinder Launcher"
 	gun 71 -209 "Arion Guided Torpedo Launcher"
 	turret -52 -295 "Arion Phalanx C.I.W.S"
 	turret 52 -295 "Arion Phalanx C.I.W.S"
-	turret -104 -13 "Arion Disabler Laser Turret"
+	turret -104 -13 "Arion SBL-01 Stunstrike Turret"
 	turret 0 -13 "Arion OTOMATIC CIWS"
-	turret 104 -13 "Arion Disabler Laser Turret"
+	turret 104 -13 "Arion SBL-01 Stunstrike Turret"
 	turret -80.5 191.5 "Arion Phalanx C.I.W.S"
 	turret 80.5 191.5 "Arion Phalanx C.I.W.S"
 	explode "tiny explosion" 30
@@ -1121,14 +1119,13 @@ ship "Arion Deep River Block II"
 		"engine capacity" 100
 	outfits
 		"Arion Phalanx C.I.W.S" 2
-		"Arion Millenium Autocannon Turret" 2
-		"Arion Overcharge Core"
-		"Arion M.A.R.S"
+		"Arion FR-100x"
+		"Arion BRS-50x"
 		"Arion L.C.D"
 		"Arion Multirole Fuel System"
-		"Arion L.L.W Atomic Engines"
+		"Arion ODE-LLW-100x"
 		"Hyperdrive"
-		
+
 	engine 53 345 .7
 	engine 0 345
 	engine -53 345 .7
@@ -1172,23 +1169,23 @@ ship "Arion Kar Ik Vot 349 Block II"
 			"hull damage" 3200
 			"hit force" 9600
 	outfits
-		"Arion M.L.M.P.L" 2
-		"Arion Guided Torpedo Launcher" 2
-		"Arion Disabler Laser Turret" 4
+		"Arion AIM-1x Sidewinder Launcher" 2
+		"Arion GTU-1x Shark Launcher" 2
+		"Arion SBL-02 Roadblock Turret" 4
 		"Arion Phalanx C.I.W.S" 4
 		"Arion Multirole Fuel System"
-		"Arion Overcharge Core"
+		"Arion OCR-100x"
 		"Arion L.C.D" 2
-		"Arion L.A.R.S" 2
-		"Arion M.H.W Atomic Engines"
+		"Arion ARS-100x" 2
+		"Arion ODE-MHW-180x"
 		"Hyperdrive"
 	
 	engine -24 237 
 	engine 24 237
-	gun -8 -212 "Arion M.L.M.P.L"
-	gun 8 -212 "Arion M.L.M.P.L"
-	gun -16 -158 "Arion Guided Torpedo Launcher"
-	gun 16 -158 "Arion Guided Torpedo Launcher"
+	gun -8 -212 "Arion AIM-1x Sidewinder Launcher"
+	gun 8 -212 "Arion AIM-1x Sidewinder Launcher"
+	gun -16 -158 "Arion GTU-1x Shark Launcher"
+	gun 16 -158 "Arion GTU-1x Shark Launcher"
 	turret -37 -150 "Arion Phalanx C.I.W.S"
 	turret 37 -150 "Arion Phalanx C.I.W.S"
 	turret -38 -132 "Arion Disabler Laser Turret"
@@ -1230,14 +1227,14 @@ ship "Arion Model 512 Block II"
 			"hull damage" 2800
 			"hit force" 8400
 	outfits
-		"Arion Guided Torpedo Launcher" 2
-		"Arion Disabler Laser Turret" 3
+		"Arion GTU-1x Shark Launcher" 2
+		"Arion SBL-02 Roadblock Turret" 3
 		"Arion Phalanx C.I.W.S" 4
 		"Arion Multirole Fuel System"
-		"Arion Overcharge Core"
+		"Arion OCR-100x"
 		"Arion L.C.D" 2
-		"Arion L.A.R.S" 2
-		"Arion S.H.W Atomic Engines"
+		"Arion ARS-100x" 2
+		"Arion ODE-SHW-150x"
 		"Arion Basic Aircraft Engines"
 		"Hyperdrive"
 
@@ -1247,9 +1244,9 @@ ship "Arion Model 512 Block II"
 	gun 22 -143 "Arion Guided Torpedo Launcher"
 	turret -23 -134 "Arion Phalanx C.I.W.S"
 	turret 91 -102 "Arion Phalanx C.I.W.S"
-	turret 124 -57 "Arion Disabler Laser Turret"
-	turret -130 -33 "Arion Disabler Laser Turret"
-	turret 138 20 "Arion Disabler Laser Turret"
+	turret 124 -57 "Arion SBL-02 Roadblock Turret"
+	turret -130 -33 "Arion SBL-02 Roadblock Turret"
+	turret 138 20 "Arion SBL-02 Roadblock Turret"
 	turret -121 86 "Arion Phalanx C.I.W.S"
 	turret 54 138 "Arion Phalanx C.I.W.S"
 	explode "tiny explosion" 160
@@ -1279,19 +1276,19 @@ ship "Arion F/S-111X Aardvark Block I"
 		"drag" 1.45
 		"heat dissipation" 0.9
 		"fuel capacity" 200
-		"outfit space" 120
-		"weapon capacity" 50
+		"outfit space" 110
+		"weapon capacity" 35
 		"engine capacity" 30
 		"gun ports" 5
 		"flares" 1
 	outfits
 		"Arion M61 Vulcan"
-		"Arion G.P.B Pod" 2
+		"Arion GPB-1x Piercer Pod" 2
 		"Arion Chaff and Flares Tier 1"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Small Fusion Reactor"
-		"Arion B.A Engines"
+		"Arion BRS-10x"
+		"Arion FR-15x"
+		"Arion ODE-LBA-30x"
 	engine -5 48
 	engine 4 48
 	gun -5.5 -9.5 "Arion M61 Vulcan"
@@ -1322,19 +1319,19 @@ ship "Arion Su/S-34X Fullback Block I"
 		"drag" 1.55
 		"heat dissipation" 0.9
 		"fuel capacity" 200
-		"outfit space" 130
-		"weapon capacity" 50
+		"outfit space" 120
+		"weapon capacity" 35
 		"engine capacity" 30
 		"gun ports" 5
 		"flares" 1
 	outfits
 		"Arion 30mm Autocannon"
-		"Arion G.P.B Pod" 2
+		"Arion GPB-1x Piercer Pod" 2
 		"Arion Chaff and Flares Tier 1"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Small Fusion Reactor"
-		"Arion B.A Engines"
+		"Arion BRS-10x"
+		"Arion FR-15x"
+		"Arion ODE-LBA-30x"
 	engine -6 41.5
 	engine 6.5 41.5
 	gun 6.5 -11.5 "Arion 30mm Autocannon"
@@ -1364,20 +1361,20 @@ ship "Arion X/S-47 Block I"
 		"drag" 0.65
 		"fuel capacity" 100
 		"heat dissipation" 0.9
-		"outfit space" 70
-		"weapon capacity" 10
+		"outfit space" 60
+		"weapon capacity" 5
 		"engine capacity" 20
 		"cloak" 1.5
 		"cloaking energy" 10
 		"cloaking heat" 5
 		"flares" 1
 	outfits
-		"Arion Missile Pod"
-		"Arion A.A Engines"
+		"Arion AIM-1x Sidewinder Pod"
+		"Arion ODE-AA-20x"
 		"Arion Chaff and Flares Tier 1"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Small Fusion Reactor"
+		"Arion BRS-10x"
+		"Arion FR-15x"
 	engine 0 28
 	gun 0 3.5
 	turret 0 14.5
@@ -1401,25 +1398,25 @@ ship "Arion F/S-15X Eagle Block I"
 		"drag" 1
 		"heat dissipation" 0.9
 		"fuel capacity" 200
-		"outfit space" 105
-		"weapon capacity" 30
+		"outfit space" 100
+		"weapon capacity" 25
 		"engine capacity" 25
 		"flares" 1
 	outfits
 		"Arion M61 Vulcan"
-		"Arion Finisher Missile Pod" 2
-		"Arion Pursuer Missile Pod"
+		"Arion AIM-1x Sidewinder Pod" 2
+		"Arion AIM-2x AMRAAM Pod"
 		"Arion Chaff and Flares Tier 1"
-		"Arion F.A Engines"
+		"Arion ODE-FA-25x"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Small Fusion Reactor"
+		"Arion BRS-10x"
+		"Arion FR-15x"
 	engine -3.5 40
 	engine 3.5 40
 	gun -7 1 "Arion M61 Vulcan"
 	gun -18 10.5
 	gun 18 10.5
-	gun 0 13 "Arion Pursuer Missile Pod"
+	gun 0 13 "Arion AIM-2x AMRAAM Pod"
 	turret 0 27.5
 	leak "leak" 60 50
 	explode "tiny explosion" 15
@@ -1443,25 +1440,25 @@ ship "Arion Su/S-35X Flanker Block I"
 		"drag" 1.05
 		"heat dissipation" 0.9
 		"fuel capacity" 200
-		"outfit space" 105
-		"weapon capacity" 30
+		"outfit space" 100
+		"weapon capacity" 25
 		"engine capacity" 25
 		"flares" 1
 	outfits
 		"Arion 30mm Autocannon"
-		"Arion Finisher Missile Pod" 2
-		"Arion Pursuer Missile Pod"
+		"Arion AIM-1x Sidewinder Pod" 2
+		"Arion AIM-2x AMRAAM Pod"
 		"Arion Chaff and Flares Tier 1"
-		"Arion F.A Engines"
+		"Arion ODE-FA-25x"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Small Fusion Reactor"
+		"Arion BRS-10x"
+		"Arion FR-15x"
 	engine -6 43
 	engine 7 43
 	gun 6 -6.5 "Arion 30mm Autocannon"
 	gun -17 5
 	gun 17 5
-	gun 0 12.5 "Arion Pursuer Missile Pod"
+	gun 0 12.5 "Arion AIM-2x AMRAAM Pod"
 	turret 0 49
 	leak "leak" 60 50
 	explode "tiny explosion" 15
@@ -1485,19 +1482,19 @@ ship "Arion F/S-14X Tomcat Block I"
 		"drag" 0.85
 		"heat dissipation" 0.9
 		"fuel capacity" 200
-		"outfit space" 100
-		"weapon capacity" 30
+		"outfit space" 98
+		"weapon capacity" 22
 		"engine capacity" 25
 		"flares" 1
 	outfits
 		"Arion M61 Vulcan"
-		"Arion Finisher Missile Pod"
-		"Arion Pursuer Missile Pod" 2
+		"Arion AIM-1x Sidewinder Pod"
+		"Arion AIM-2x AMRAAM Pod" 2
 		"Arion Chaff and Flares Tier 1"
-		"Arion I.A Engines"
+		"Arion ODE-IA-25x"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Small Fusion Reactor"
+		"Arion BRS-10x"
+		"Arion FR-15x"
 	engine -7 43
 	engine 7 43
 	gun -7 -1 "Arion M61 Vulcan"
@@ -1527,18 +1524,18 @@ ship "Arion Mig/S-31X Foxhound Block I"
 		"drag" 0.55
 		"heat dissipation" 0.9
 		"fuel capacity" 200
-		"outfit space" 90
-		"weapon capacity" 30
+		"outfit space" 92
+		"weapon capacity" 20
 		"engine capacity" 25
 		"flares" 1
 	outfits
 		"Arion 30mm Autocannon"
-		"Arion Pursuer Missile Pod" 2
+		"Arion AIM-2x AMRAAM Pod" 2
 		"Arion Chaff and Flares Tier 1"
-		"Arion I.A Engines"
+		"Arion ODE-IA-25x"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Small Fusion Reactor"
+		"Arion BRS-10x"
+		"Arion FR-15x"
 	engine -4.5 55
 	engine 4.5 55
 	gun 4.5 -19.5 "Arion 30mm Autocannon"
@@ -1567,18 +1564,18 @@ ship "Arion A/S-10X Warthog Block I"
 		"drag" 2
 		"heat dissipation" 0.9
 		"fuel capacity" 100
-		"outfit space" 105
-		"weapon capacity" 35
+		"outfit space" 80
+		"weapon capacity" 30
 		"engine capacity" 20
 		"flares" 1
 	outfits
 		"Arion Gau-8 Avenger"
-		"Arion Rocket Pod" 2
+		"Arion Hydra 70x Pod" 2
 		"Arion Chaff and Flares Tier 1"
-		"Arion A.A Engines"
+		"Arion ODE-AA-20x"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Small Fusion Reactor"
+		"Arion BRS-10x"
+		"Arion FR-15x"
 	engine -7 24
 	engine 7 24
 	gun -0.5 -39 "Arion Gau-8 Avenger"
@@ -1609,18 +1606,18 @@ ship "Arion Su/S-25X Frogfoot Block I"
 		"drag" 1.75
 		"heat dissipation" 0.9
 		"fuel capacity" 100
-		"outfit space" 105
-		"weapon capacity" 35
+		"outfit space" 75
+		"weapon capacity" 25
 		"engine capacity" 20
 		"flares" 1
 	outfits
 		"Arion 30mm Autocannon"
-		"Arion Rocket Pod" 2
+		"Arion Hydra 70x Pod" 2
 		"Arion Chaff and Flares Tier 1"
-		"Arion A.A Engines"
+		"Arion ODE-AA-20x"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Small Fusion Reactor"
+		"Arion BRS-10x"
+		"Arion FR-15x"
 	engine -4 18.5
 	engine 4 18.5
 	gun 0 -33.5 "Arion 30mm Autocannon"
@@ -1652,7 +1649,7 @@ ship "Arion F/S-22X Raptor Block I"
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 100
-		"weapon capacity" 30
+		"weapon capacity" 25
 		"engine capacity" 25
 		"cloak" 1.5
 		"cloaking energy" 10
@@ -1660,13 +1657,13 @@ ship "Arion F/S-22X Raptor Block I"
 		"flares" 1
 	outfits
 		"Arion M61 Vulcan"
-		"Arion Pursuer Missile Pod"
-		"Arion Finisher Missile Pod" 2
+		"Arion AIM-2x AMRAAM Pod"
+		"Arion AIM-1x Sidewinder Pod" 2
 		"Arion Chaff and Flares Tier 1"
-		"Arion F.A Engines"
+		"Arion ODE-FA-25x"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Small Fusion Reactor"
+		"Arion BRS-10x"
+		"Arion FR-15x"
 	engine -3.5 34
 	engine 3.5 34
 	gun -7 -13 "Arion M61 Vulcan"
@@ -1696,8 +1693,8 @@ ship "Arion Su/S-57X Felon Block I"
 		"drag" 1.05
 		"heat dissipation" 0.9
 		"fuel capacity" 200
-		"outfit space" 100
-		"weapon capacity" 30
+		"outfit space" 98
+		"weapon capacity" 21
 		"engine capacity" 25
 		"cloak" 2.25
 		"cloaking energy" 13
@@ -1705,13 +1702,13 @@ ship "Arion Su/S-57X Felon Block I"
 		"flares" 1
 	outfits
 		"Arion 30mm Autocannon"
-		"Arion Pursuer Missile Pod"
-		"Arion Finisher Missile Pod" 2
+		"Arion AIM-2x AMRAAM Pod"
+		"Arion AIM-1x Sidewinder Pod" 2
 		"Arion Chaff and Flares Tier 1"
-		"Arion F.A Engines"
+		"Arion ODE-FA-25x"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Small Fusion Reactor"
+		"Arion BRS-10x"
+		"Arion FR-15x"
 	engine -7 39
 	engine 7 39
 	gun 6.5 -6.5 "Arion 30mm Autocannon"
@@ -1741,8 +1738,8 @@ ship "Arion F/S-23X Black Widow Block I"
 		"drag" 0.9
 		"heat dissipation" 0.9
 		"fuel capacity" 200
-		"outfit space" 95
-		"weapon capacity" 30
+		"outfit space" 97
+		"weapon capacity" 24
 		"engine capacity" 25
 		"cloak" 1.25
 		"cloaking energy" 9
@@ -1750,13 +1747,13 @@ ship "Arion F/S-23X Black Widow Block I"
 		"flares" 1
 	outfits
 		"Arion M61 Vulcan"
-		"Arion Finisher Missile Pod" 
-		"Arion Pursuer Missile Pod" 2
+		"Arion AIM-1x Sidewinder Pod"
+		"Arion AIM-2x AMRAAM Pod" 2
 		"Arion Chaff and Flares Tier 1"
-		"Arion I.A Engines"
+		"Arion ODE-IA-25x"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Small Fusion Reactor"
+		"Arion BRS-10x"
+		"Arion FR-15x"
 	engine -6 36.5
 	engine 6 36.5
 	gun -4.5 -15.5 "Arion M61 Vulcan"
@@ -1785,9 +1782,9 @@ ship "Arion F/S-35X Lightning Block I"
 		"mass" 30
 		"drag" 1.225
 		"heat dissipation" 0.9
-		"fuel capacity" 200
-		"outfit space" 90
-		"weapon capacity" 25
+		"fuel capacity" 100
+		"outfit space" 85
+		"weapon capacity" 20
 		"engine capacity" 25
 		"cloak" 1.75
 		"cloaking energy" 10
@@ -1795,13 +1792,13 @@ ship "Arion F/S-35X Lightning Block I"
 		"flares" 1
 	outfits
 		"Arion Gau-12 Equalizer"
-		"Arion Missile Pod"
+		"Arion AIM-1x Sidewinder Pod"
 		"Arion L.R.A.S.M Pod"
 		"Arion Chaff and Flares Tier 1"
-		"Arion F.A Engines"
+		"Arion ODE-FA-25x"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Small Fusion Reactor"
+		"Arion BRS-10x"
+		"Arion FR-15x"
 	engine 0 30
 	gun -6 -9 "Arion Gau-12 Equalizer"
 	gun -3.5 7.5
@@ -1829,8 +1826,8 @@ ship "Arion Su/S-47X Berkut Block I"
 		"drag" 1.075
 		"heat dissipation" 0.9
 		"fuel capacity" 200
-		"outfit space" 100
-		"weapon capacity" 30
+		"outfit space" 96
+		"weapon capacity" 21
 		"engine capacity" 25
 		"cloak" 2.5
 		"cloaking energy" 15
@@ -1838,13 +1835,13 @@ ship "Arion Su/S-47X Berkut Block I"
 		"flares" 1
 	outfits
 		"Arion 30mm Autocannon"
-		"Arion Finisher Missile Pod" 2
-		"Arion Pursuer Missile Pod"
+		"Arion AIM-1x Sidewinder Pod" 2
+		"Arion AIM-2x AMRAAM Pod"
 		"Arion Chaff and Flares Tier 1"
-		"Arion F.A Engines"
+		"Arion ODE-FA-25x"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Small Fusion Reactor"
+		"Arion BRS-10x"
+		"Arion FR-15x"
 	engine -2.5 50
 	engine 2.5 50
 	gun 7.5 -12.5 "Arion 30mm Autocannon"
@@ -1886,9 +1883,9 @@ ship "Arion B/S-52X Stratofortress Block I"
 		"Arion M61 Vulcan"
 		"Arion Heavy Chaff, Flares and ECM Tier 1"
 		"Arion L.C.D"
-		"Arion S.B.R.S"
-		"Arion Small Fusion Reactor" 3
-		"Arion H.B.A Engines"
+		"Arion BRS-10x"
+		"Arion FR-15x" 3
+		"Arion ODE-HBA-60x"
 		"Arion Multirole Fuel System"
 		"Hyperdrive"
 	engine -42.5 -29.5
@@ -1934,9 +1931,9 @@ ship "Arion B/S-1X Lancer Block I"
 		"Arion B1 Bomb Bay Mk1"
 		"Arion Heavy Chaff, Flares and ECM Tier 1"
 		"Arion L.C.D"
-		"Arion S.B.R.S"
-		"Arion Small Fusion Reactor" 3
-		"Arion M.B.A Engines"
+		"Arion BRS-10x"
+		"Arion FR-15x" 3
+		"Arion ODE-MBA-50x"
 		"Arion Multirole Fuel System"
 		"Hyperdrive"
 	engine -12 45
@@ -1983,9 +1980,9 @@ ship "Arion B/S-2X Spirit Block I"
 		"Arion B2 Bomb Bay Mk1"
 		"Arion Heavy Chaff, Flares and ECM Tier 1"
 		"Arion L.C.D"
-		"Arion S.B.R.S"
-		"Arion Small Fusion Reactor" 3
-		"Arion M.B.A Engines"
+		"Arion BRS-10x"
+		"Arion FR-15x" 3
+		"Arion ODE-MBA-50x"
 		"Arion Multirole Fuel System"
 		"Hyperdrive"
 	engine -16 19.5
@@ -2017,7 +2014,7 @@ ship "Arion Avro Vulcan X/S Block I"
 		"heat dissipation" 0.9
 		"fuel capacity" 400
 		"outfit space" 200
-		"weapon capacity" 40
+		"weapon capacity" 25
 		"engine capacity" 50
 		"gun ports" 2
 		"turret mounts" 1
@@ -2027,9 +2024,9 @@ ship "Arion Avro Vulcan X/S Block I"
 		"Arion Vulcan Bomb Bay Mk1"
 		"Arion Heavy Chaff, Flares and ECM Tier 1"
 		"Arion S.C.D" 2
-		"Arion S.B.R.S"
-		"Arion Small Fusion Reactor" 3
-		"Arion M.B.A Engines"
+		"Arion BRS-10x"
+		"Arion FR-15x" 3
+		"Arion ODE-MBA-50x"
 		"Arion Multirole Fuel System"
 		"Hyperdrive"
 	engine -12 45
@@ -2062,18 +2059,18 @@ ship "Arion A/S-4X Skyhawk Block I"
 		"drag" 1.575
 		"heat dissipation" 0.9
 		"fuel capacity" 100
-		"outfit space" 85
-		"weapon capacity" 20
+		"outfit space" 75
+		"weapon capacity" 15
 		"engine capacity" 20
 		"flares" 1
 	outfits
 		"Arion 20mm Autocannon" 2
-		"Arion Rocket Pod"
+		"Arion Hydra 70x Pod"
 		"Arion Chaff and Flares Tier 1"
-		"Arion A.A Engines"
+		"Arion ODE-AA-20x"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Small Fusion Reactor"
+		"Arion BRS-10x"
+		"Arion FR-15x"
 	engine 0 30
 	gun -2 -16.5 "Arion 20mm Autocannon"
 	gun 2 -16.5 "Arion 20mm Autocannon"
@@ -2103,19 +2100,19 @@ ship "Arion Su/S-27X Flanker Block I"
 		"drag" 1.075
 		"heat dissipation" 0.9
 		"fuel capacity" 200
-		"outfit space" 100
-		"weapon capacity" 30
+		"outfit space" 96
+		"weapon capacity" 22
 		"engine capacity" 25
 		"flares" 1
 	outfits
 		"Arion 30mm Autocannon"
-		"Arion Finisher Missile Pod" 2
-		"Arion Pursuer Missile Pod"
+		"Arion AIM-1x Sidewinder Pod" 2
+		"Arion AIM-2x AMRAAM Pod"
 		"Arion Chaff and Flares Tier 1"
-		"Arion F.A Engines"
+		"Arion ODE-FA-25x"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Small Fusion Reactor"
+		"Arion BRS-10x"
+		"Arion FR-15x"
 	engine -6 42
 	engine 6 42
 	gun 5 -12 "Arion 30mm Autocannon"
@@ -2145,24 +2142,24 @@ ship "Arion Panavia Tornado X/S Block I"
 		"drag" 1.475
 		"heat dissipation" 0.9
 		"fuel capacity" 200
-		"outfit space" 100
-		"weapon capacity" 40
+		"outfit space" 95
+		"weapon capacity" 25
 		"engine capacity" 25
 		"gun ports" 4
 		"flares" 1
 	outfits
 		"Arion 30mm Autocannon"
-		"Arion G.P.B Pod" 2
+		"Arion GPB-1x Piercer Pod" 2
 		"Arion Chaff and Flares Tier 1"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Small Fusion Reactor"
-		"Arion I.A Engines"
+		"Arion BRS-10x"
+		"Arion FR-15x"
+		"Arion ODE-IA-25x"
 	engine -2.5 29
 	engine 2.5 29
 	gun -5 -11.5 "Arion 30mm Autocannon"
-	gun -14 6 "Arion G.P.B Pod"
-	gun 14 6 "Arion G.P.B Pod"
+	gun -14 6 "Arion GPB-1x Piercer Pod"
+	gun 14 6 "Arion GPB-1x Piercer Pod"
 	gun 0 3
 	turret 0 45.5 "Arion Chaff and Flares Tier 1"
 	leak "leak" 60 50
@@ -2187,18 +2184,18 @@ ship "Arion F/S-104X Starfighter Block I"
 		"drag" 0.75
 		"heat dissipation" 0.9
 		"fuel capacity" 100
-		"outfit space" 85
-		"weapon capacity" 22
+		"outfit space" 72
+		"weapon capacity" 17
 		"engine capacity" 25
 		"flares" 1
 	outfits
 		"Arion M61 Vulcan"
-		"Arion Missile Pod" 2
+		"Arion AIM-2x AMRAAM Pod" 2
 		"Arion Chaff and Flares Tier 1"
-		"Arion I.A Engines"
+		"Arion ODE-IA-25x"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Small Fusion Reactor"
+		"Arion BRS-10x"
+		"Arion FR-15x"
 	engine 0 34
 	gun -2.5 -11 "Arion M61 Vulcan"
 	gun -9.5 4.5
@@ -2226,18 +2223,18 @@ ship "Arion F/S-16X Super Falcon Block I"
 		"drag" 1.175
 		"heat dissipation" 0.9
 		"fuel capacity" 150
-		"outfit space" 90
-		"weapon capacity" 25
+		"outfit space" 85
+		"weapon capacity" 18
 		"engine capacity" 20
 		"flares" 1
 	outfits
 		"Arion M61 Vulcan"
-		"Arion Missile Pod" 2
+		"Arion AIM-1x Sidewinder Pod" 2
 		"Arion Chaff and Flares Tier 1"
-		"Arion A.A Engines"
+		"Arion ODE-AA-20x"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Small Fusion Reactor"
+		"Arion BRS-10x"
+		"Arion FR-15x"
 	engine 0 35
 	gun -4 -10 "Arion M61 Vulcan"
 	gun 24 15
@@ -2265,18 +2262,18 @@ ship "Arion F/S-18X Super Hornet Block I"
 		"drag" 1.25
 		"heat dissipation" 0.9
 		"fuel capacity" 150
-		"outfit space" 95
-		"weapon capacity" 28
+		"outfit space" 90
+		"weapon capacity" 22
 		"engine capacity" 25
 		"flares" 1
 	outfits
 		"Arion M61 Vulcan"
-		"Arion Missile Pod" 2
+		"Arion AIM-1x Sidewinder Pod" 2
 		"Arion Chaff and Flares Tier 1"
-		"Arion F.A Engines"
+		"Arion ODE-FA-25x"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Small Fusion Reactor"
+		"Arion BRS-10x"
+		"Arion FR-15x"
 	engine -2.5 38
 	engine 2.5 38
 	gun -5 -5.5 "Arion M61 Vulcan"
@@ -2305,18 +2302,18 @@ ship "Arion Mig/S-35X Fulcrum Block I"
 		"drag" 1.275
 		"heat dissipation" 0.9
 		"fuel capacity" 100
-		"outfit space" 92
-		"weapon capacity" 27
+		"outfit space" 90
+		"weapon capacity" 18
 		"engine capacity" 25
 		"flares" 1
 	outfits
 		"Arion 30mm Autocannon"
-		"Arion Missile Pod" 2
+		"Arion AIM-1x Sidewinder Pod" 2
 		"Arion Chaff and Flares Tier 1"
-		"Arion F.A Engines"
+		"Arion ODE-FA-25x"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Small Fusion Reactor"
+		"Arion BRS-10x"
+		"Arion FR-15x"
 	engine -4.5 34
 	engine 5 34
 	gun 4 -4 "Arion 30mm Autocannon"
@@ -2329,7 +2326,7 @@ ship "Arion Mig/S-35X Fulcrum Block I"
 	"final explode" "final explosion small"
 	description "Fighter originally used by the Russia, it has been modernized extensively and now also has the ability for space flight."
 
-ship "Arion JAS/S-39XS Gripen Block I"
+ship "Arion JAS/S-39X Gripen Block I"
 	sprite "ship/ariongripen"
 	thumbnail "ship/ariongripen"
 	attributes
@@ -2344,19 +2341,19 @@ ship "Arion JAS/S-39XS Gripen Block I"
 		"mass" 17
 		"drag" 1.125
 		"heat dissipation" 0.9
-		"fuel capacity" 150
-		"outfit space" 90
-		"weapon capacity" 25
+		"fuel capacity" 100
+		"outfit space" 80
+		"weapon capacity" 16
 		"engine capacity" 20
 		"flares" 1
 	outfits
 		"Arion 30mm Autocannon"
-		"Arion Missile Pod" 2
+		"Arion AIM-1x Sidewinder Pod" 2
 		"Arion Chaff and Flares Tier 1"
-		"Arion A.A Engines"
+		"Arion ODE-AA-20x"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Small Fusion Reactor"
+		"Arion BRS-10x"
+		"Arion FR-15x"
 	engine 0 37.5
 	gun -3 -5.5 "Arion 30mm Autocannon"
 	gun 20.5 21
@@ -2384,18 +2381,18 @@ ship "Arion Eurofighter Typhoon X/S Block I"
 		"drag" 1.27
 		"heat dissipation" 0.9
 		"fuel capacity" 150
-		"outfit space" 95
-		"weapon capacity" 25
+		"outfit space" 90
+		"weapon capacity" 20
 		"engine capacity" 25
 		"flares" 1
 	outfits
 		"Arion 30mm Autocannon"
-		"Arion Missile Pod" 2
+		"Arion AIM-1x Sidewinder Pod" 2
 		"Arion Chaff and Flares Tier 1"
-		"Arion F.A Engines"
+		"Arion ODE-FA-25x"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Small Fusion Reactor"
+		"Arion BRS-10x"
+		"Arion FR-15x"
 	engine -3 30.5
 	engine 3 30.5
 	gun -3.5 -10 "Arion 30mm Autocannon"
@@ -2424,18 +2421,18 @@ ship "Arion Dassault Rafale X/S Block I"
 		"drag" 1.275
 		"heat dissipation" 0.9
 		"fuel capacity" 150
-		"outfit space" 95
-		"weapon capacity" 25
+		"outfit space" 90
+		"weapon capacity" 20
 		"engine capacity" 25
 		"flares" 1
 	outfits
 		"Arion 30mm Autocannon"
-		"Arion Missile Pod" 2
+		"Arion AIM-1x Sidewinder Pod" 2
 		"Arion Chaff and Flares Tier 1"
-		"Arion F.A Engines"
+		"Arion ODE-FA-25x"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Small Fusion Reactor"
+		"Arion BRS-10x"
+		"Arion FR-15x"
 	engine -3.5 31
 	engine 3.5 31
 	gun -6 -9 "Arion 30mm Autocannon"
@@ -2464,8 +2461,8 @@ ship "Arion FB/S-22X Raptor Block I"
 		"drag" 1.48
 		"heat dissipation" 0.9
 		"fuel capacity" 200
-		"outfit space" 115
-		"weapon capacity" 45
+		"outfit space" 110
+		"weapon capacity" 30
 		"engine capacity" 30
 		"cloak" 1.5
 		"cloaking energy" 10
@@ -2473,18 +2470,18 @@ ship "Arion FB/S-22X Raptor Block I"
 		"flares" 1
 	outfits
 		"Arion M61 Vulcan"
-		"Arion G.P.B Pod" 2
-		"Arion Missile Pod" 2
+		"Arion GPB-1x Piercer Pod" 2
+		"Arion AIM-1x Sidewinder Pod" 2
 		"Arion Chaff and Flares Tier 1"
-		"Arion B.A Engines"
+		"Arion ODE-LBA-30x"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Small Fusion Reactor"
+		"Arion BRS-10x"
+		"Arion FR-15x"
 	engine -3 48
 	engine 3 48
 	gun -6.5 -11.5 "Arion M61 Vulcan"
-	gun -2.5 10 "Arion G.P.B Pod"
-	gun 2.5 10 "Arion G.P.B Pod"
+	gun -2.5 10 "Arion GPB-1x Piercer Pod"
+	gun 2.5 10 "Arion GPB-1x Piercer Pod"
 	gun -9 10
 	gun 9 10
 	turret 0 35
@@ -2510,8 +2507,8 @@ ship "Arion F/S-22NX Raptor Block I"
 		"drag" 0.89
 		"heat dissipation" 0.9
 		"fuel capacity" 200
-		"outfit space" 95
-		"weapon capacity" 30
+		"outfit space" 97
+		"weapon capacity" 25
 		"engine capacity" 25
 		"cloak" 1.5
 		"cloaking energy" 10
@@ -2519,17 +2516,17 @@ ship "Arion F/S-22NX Raptor Block I"
 		"flares" 1
 	outfits
 		"Arion M61 Vulcan"
-		"Arion Finisher Missile Pod"
-		"Arion Pursuer Missile Pod" 2
+		"Arion AIM-1x Sidewinder Pod"
+		"Arion AIM-2x AMRAAM Pod" 2
 		"Arion Chaff and Flares Tier 1"
-		"Arion I.A Engines"
+		"Arion ODE-IA-25x"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Small Fusion Reactor"
+		"Arion BRS-10x"
+		"Arion FR-15x"
 	engine -5.5 40
 	engine 5.5 40
 	gun 6.5 -20 "Arion M61 Vulcan"
-	gun 0 7 "Arion Finisher Missile Pod"
+	gun 0 7 "Arion AIM-1x Sidewinder Pod"
 	gun -6 7
 	gun 6 7
 	turret 0 30.5
@@ -2562,7 +2559,7 @@ ship "Super Space Swordfish"
 		"Arion S.C.D"
 		"Arion Basic Aircraft Engines"
 		"Arion Basic Generator"
-		"Arion Unguided Torpedo Pod"
+		"Arion UGT-1x Pod"
 	engine 0 25.5
 	gun 0 -9
 	leak "leak" 60 50
@@ -2587,19 +2584,19 @@ ship "Arion F/S-4X Phantom II Block I"
 		"drag" 1.6
 		"heat dissipation" 0.9
 		"fuel capacity" 200
-		"outfit space" 100
-		"weapon capacity" 40
+		"outfit space" 95
+		"weapon capacity" 30
 		"engine capacity" 25
 		"flares" 1
 	outfits
 		"Arion M61 Vulcan"
-		"Arion G.P.B Pod"
-		"Arion Missile Pod" 2
+		"Arion GPB-1x Piercer Pod"
+		"Arion AIM-1x Sidewinder Pod" 2
 		"Arion Chaff and Flares Tier 1"
-		"Arion I.A Engines"
+		"Arion ODE-IA-25x"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Small Fusion Reactor"
+		"Arion BRS-10x"
+		"Arion FR-15x"
 	engine -4 27
 	engine 4 27
 	gun 5 -10.5 "Arion M61 Vulcan"
@@ -2629,18 +2626,18 @@ ship "Arion F/S-5X Tiger II Block I"
 		"drag" 1.2
 		"heat dissipation" 0.9
 		"fuel capacity" 100
-		"outfit space" 85
-		"weapon capacity" 20
+		"outfit space" 75
+		"weapon capacity" 14
 		"engine capacity" 20
 		"flares" 1
 	outfits
 		"Arion 20mm Autocannon" 2
-		"Arion Missile Pod" 2
+		"Arion AIM-1x Sidewinder Pod" 2
 		"Arion Chaff and Flares Tier 1"
-		"Arion A.A Engines"
+		"Arion ODE-AA-20x"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Small Fusion Reactor"
+		"Arion BRS-10x"
+		"Arion FR-15x"
 	engine -1.5 36
 	engine 1.5 36
 	gun -1.5 -19.5 "Arion 20mm Autocannon"
@@ -2670,18 +2667,18 @@ ship "Arion FA/S-50X Golden Eagle Block I"
 		"drag" 1.18
 		"heat dissipation" 0.9
 		"fuel capacity" 100
-		"outfit space" 90
-		"weapon capacity" 25
+		"outfit space" 80
+		"weapon capacity" 15
 		"engine capacity" 20
 		"flares" 1
 	outfits
 		"Arion M61 Vulcan"
-		"Arion Missile Pod" 2
+		"Arion AIM-1x Sidewinder Pod" 2
 		"Arion Chaff and Flares Tier 1"
-		"Arion A.A Engines"
+		"Arion ODE-AA-20x"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Small Fusion Reactor"
+		"Arion BRS-10x"
+		"Arion FR-15x"
 	engine 0 31.5
 	gun 3.5 -5 "Arion M61 Vulcan"
 	gun -20 13
@@ -2709,18 +2706,18 @@ ship "Arion F-CK/S-1X Block I"
 		"drag" 1.16
 		"heat dissipation" 0.9
 		"fuel capacity" 100
-		"outfit space" 90
-		"weapon capacity" 25
+		"outfit space" 80
+		"weapon capacity" 15
 		"engine capacity" 20
 		"flares" 1
 	outfits
 		"Arion M61 Vulcan"
-		"Arion Missile Pod" 2
+		"Arion AIM-1x Sidewinder Pod" 2
 		"Arion Chaff and Flares Tier 1"
-		"Arion A.A Engines"
+		"Arion ODE-AA-20x"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Small Fusion Reactor"
+		"Arion BRS-10x"
+		"Arion FR-15x"
 	engine -2.5 34.5
 	engine 2.5 34.5
 	gun 3 -4.5 "Arion M61 Vulcan"
@@ -2749,8 +2746,8 @@ ship "Arion KF/S-21X Boramae Block I"
 		"drag" 1.25
 		"heat dissipation" 0.9
 		"fuel capacity" 100
-		"outfit space" 90
-		"weapon capacity" 20
+		"outfit space" 85
+		"weapon capacity" 18
 		"engine capacity" 25
 		"cloak" 2.25
 		"cloaking energy" 12
@@ -2758,12 +2755,12 @@ ship "Arion KF/S-21X Boramae Block I"
 		"flares" 1
 	outfits
 		"Arion M61 Vulcan"
-		"Arion Missile Pod" 2
+		"Arion AIM-1x Sidewinder Pod" 2
 		"Arion Chaff and Flares Tier 1"
-		"Arion F.A Engines"
+		"Arion ODE-FA-25x"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Small Fusion Reactor"
+		"Arion BRS-10x"
+		"Arion FR-15x"
 	engine -2 36
 	engine 3.5 36
 	gun 5.5 -11.5 "Arion M61 Vulcan"
@@ -2792,26 +2789,26 @@ ship "Arion J/S-20X Block I"
 		"drag" 1.25
 		"heat dissipation" 0.9
 		"fuel capacity" 200
-		"outfit space" 100
-		"weapon capacity" 30
+		"outfit space" 95
+		"weapon capacity" 25
 		"engine capacity" 25
 		"cloak" 2.2
 		"cloaking energy" 13
 		"cloaking heat" 6.5
 		"flares" 1
 	outfits
-		"Arion Pursuer Missile Pod"
-		"Arion Finisher Missile Pod" 2
+		"Arion AIM-2x AMRAAM Pod"
+		"Arion AIM-1x Sidewinder Pod" 2
 		"Arion Chaff and Flares Tier 1"
-		"Arion F.A Engines"
+		"Arion ODE-FA-25x"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Small Fusion Reactor"
+		"Arion BRS-10x"
+		"Arion FR-15x"
 	engine -4 45.5
 	engine 4 45.5
-	gun 0 17.5 "Arion Pursuer Missile Pod"
-	gun -6.5 17.5
-	gun 6.5 17.5
+	gun 0 17.5 "Arion AIM-2x AMRAAM Pod"
+	gun -6.5 17.5 "Arion AIM-1x Sidewinder Pod"
+	gun 6.5 17.5 "Arion AIM-1x Sidewinder Pod"
 	turret 0 23.5
 	leak "leak" 60 50
 	explode "tiny explosion" 15
@@ -2835,10 +2832,10 @@ ship "Arion X/S-02X Wyvern MKI"
 		"required crew" 1
 		"bunks" 1
 		"mass" 37
-		"drag" 0.9
+		"drag" 0.85
 		"heat dissipation" 0.9
 		"fuel capacity" 200
-		"outfit space" 135
+		"outfit space" 125
 		"weapon capacity" 50
 		"engine capacity" 25
 		"cloak" 2
@@ -2849,12 +2846,12 @@ ship "Arion X/S-02X Wyvern MKI"
 	outfits
 		"Arion G.A.G.G"
 		"Arion Arclight E.M.L"
-		"Arion Missile Pod" 2
+		"Arion AIM-1x Sidewinder Pod" 2
 		"Arion Chaff and Flares Tier 1"
-		"Arion I.A Engines"
+		"Arion ODE-IA-25x"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Mini Overcharge Core"
+		"Arion ARS-10x"
+		"Arion OCR-15x"
 	engine -4.5 48
 	engine 4.5 48
 	gun -4 -25 "Arion G.A.G.G"
@@ -2884,7 +2881,7 @@ ship "Arion CFA/S-44X Nosferatu MKI"
 		"drag" 0.95
 		"heat dissipation" 0.9
 		"fuel capacity" 200
-		"outfit space" 135
+		"outfit space" 125
 		"weapon capacity" 45
 		"engine capacity" 25
 		"cloak" 2
@@ -2895,12 +2892,12 @@ ship "Arion CFA/S-44X Nosferatu MKI"
 	outfits
 		"Arion G.A.A.C"
 		"Arion Purgatorio E.M.L" 2
-		"Arion Missile Pod"
+		"Arion AIM-1x Sidewinder Pod"
 		"Arion Chaff and Flares Tier 1"
-		"Arion F.A Engines"
+		"Arion ODE-FA-25x"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Mini Overcharge Core"
+		"Arion ARS-10x"
+		"Arion OCR-15x"
 	engine -6.5 48.5
 	engine 6.5 48.5
 	gun -5.5 -19 "Arion G.A.A.C"
@@ -2930,7 +2927,7 @@ ship "Arion ADFX/S-02X Morgan MKI"
 		"drag" 1.0
 		"heat dissipation" 0.9
 		"fuel capacity" 200
-		"outfit space" 135
+		"outfit space" 125
 		"weapon capacity" 50
 		"engine capacity" 25
 		"cloak" 2
@@ -2940,13 +2937,13 @@ ship "Arion ADFX/S-02X Morgan MKI"
 		"morgan hardpoint" 1
 	outfits
 		"Arion G.A.G.G"
-		"Arion Missile Pod" 2
+		"Arion AIM-1x Sidewinder Pod" 2
 		"Arion Zoisite T.L.S"
 		"Arion Chaff and Flares Tier 1"
-		"Arion F.A Engines"
+		"Arion ODE-FA-25x"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Mini Overcharge Core"
+		"Arion ARS-10x"
+		"Arion OCR-15x"
 	engine -10 58
 	engine 10 58
 	gun -6.5 -11.5 "Arion G.A.G.G"
@@ -2976,8 +2973,8 @@ ship "Arion XFA/S-27X MKI"
 		"drag" 0.85
 		"heat dissipation" 0.9
 		"fuel capacity" 200
-		"outfit space" 135
-		"weapon capacity" 50
+		"outfit space" 125
+		"weapon capacity" 40
 		"engine capacity" 25
 		"cloak" 2
 		"cloaking energy" 13
@@ -2986,13 +2983,13 @@ ship "Arion XFA/S-27X MKI"
 		"xfa27 hardpoint" 2
 	outfits
 		"Arion G.A.G.G"
-		"Arion Missile Pod" 2
+		"Arion AIM-1x Sidewinder Pod" 2
 		"Arion Joint Strike Missile" 2
 		"Arion Chaff and Flares Tier 1"
-		"Arion F.A Engines"
+		"Arion ODE-FA-25x"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Mini Overcharge Core"
+		"Arion ARS-10x"
+		"Arion OCR-15x"
 	engine -9.5 44
 	engine 9.5 44
 	gun -4 -21.5 "Arion G.A.G.G"
@@ -3033,13 +3030,13 @@ ship "Arion XFA/S-33X Fenrir MKI"
 		"fenrir hardpoint" 1
 	outfits
 		"Arion G.A.A.C"
-		"Arion Missile Pod" 2
+		"Arion AIM-1x Sidewinder Pod" 2
 		"Arion L.S.W.M"
 		"Arion Chaff and Flares Tier 1"
-		"Arion B.A Engines"
+		"Arion ODE-LBA-30x"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Mini Overcharge Core"
+		"Arion ARS-10x"
+		"Arion OCR-15x"
 	engine -12.5 63
 	engine 12.5 63
 	gun 7.5 -22.5 "Arion G.A.A.C"
@@ -3068,8 +3065,8 @@ ship "Arion ADF/S-01X Falken MKI"
 		"drag" 0.925
 		"heat dissipation" 0.9
 		"fuel capacity" 200
-		"outfit space" 140
-		"weapon capacity" 50
+		"outfit space" 125
+		"weapon capacity" 45
 		"engine capacity" 25
 		"cloak" 1.8
 		"cloaking energy" 12
@@ -3078,13 +3075,13 @@ ship "Arion ADF/S-01X Falken MKI"
 		"morgan hardpoint" 1
 	outfits
 		"Arion G.A.A.C"
-		"Arion Missile Pod" 2
+		"Arion AIM-1x Sidewinder Pod" 2
 		"Arion Zoisite T.L.S"
 		"Arion Chaff and Flares Tier 1"
-		"Arion F.A Engines"
+		"Arion ODE-FA-25x"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Mini Overcharge Core"
+		"Arion ARS-10x"
+		"Arion OCR-15x"
 	engine -12 52
 	engine 12 52
 	gun 0 -32.5 "Arion G.A.A.C"
@@ -3107,15 +3104,15 @@ ship "Arion ADF/S-11X Raven MKI"
 		licenses
 			"Arion"
 		"cost" 6400000
-		"shields" 2000
-		"hull" 1000
+		"shields" 1850
+		"hull" 925
 		"automaton" 1
 		"mass" 54
 		"drag" 0.935
 		"heat dissipation" 0.9
 		"fuel capacity" 200
-		"outfit space" 140
-		"weapon capacity" 50
+		"outfit space" 125
+		"weapon capacity" 45
 		"engine capacity" 25
 		"cloak" 1.8
 		"cloaking energy" 12
@@ -3124,13 +3121,13 @@ ship "Arion ADF/S-11X Raven MKI"
 		"morgan hardpoint" 1
 	outfits
 		"Arion G.A.A.C"
-		"Arion Missile Pod" 2
+		"Arion AIM-1x Sidewinder Pod" 2
 		"Arion Zoisite T.L.S"
 		"Arion Chaff and Flares Tier 1"
-		"Arion F.A Engines"
+		"Arion ODE-FA-25x"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Mini Overcharge Core"
+		"Arion ARS-10x"
+		"Arion OCR-15x"
 	engine -10 58.5
 	engine 10 58.5
 	gun 0 -43 "Arion G.A.A.C"
@@ -3145,7 +3142,7 @@ ship "Arion ADF/S-11X Raven MKI"
 	"final explode" "final explosion small"
 	description "This was a super fighter made by a 'Strangereal' company called Grunder Industries, which is a belkan/south osean company. The Raven comes with a Zoisite Tactical Laser System. It has been modified and upgraded to suite Arion's needs. This aircraft is given to Ace pilots who have proven themselves worthy of a super fighter and to defend high value targets 24/7 due to it having a drone variant. Unlike the original fighter, it can operate in space. This is the drone variant."
 
-ship "Arion ADA/S-01X Falken MKI"
+ship "Arion ADA/S-01X Adler MKI"
 	sprite "ship/arionada1"
 	thumbnail "ship/arionada1"
 	attributes
@@ -3153,15 +3150,15 @@ ship "Arion ADA/S-01X Falken MKI"
 		licenses
 			"Arion"
 		"cost" 6300000
-		"shields" 1900
-		"hull" 950
+		"shields" 1800
+		"hull" 900
 		"automaton" 1
 		"mass" 54
 		"drag" 0.95
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 140
-		"weapon capacity" 50
+		"weapon capacity" 55
 		"engine capacity" 25
 		"cloak" 1.8
 		"cloaking energy" 12
@@ -3170,13 +3167,13 @@ ship "Arion ADA/S-01X Falken MKI"
 		"fenrir hardpoint" 1
 	outfits
 		"Arion G.A.A.C"
-		"Arion Missile Pod" 2
+		"Arion AIM-1x Sidewinder Pod" 2
 		"Arion L.S.W.M"
 		"Arion Chaff and Flares Tier 1"
-		"Arion F.A Engines"
+		"Arion ODE-FA-25x"
 		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Mini Overcharge Core"
+		"Arion ARS-10x"
+		"Arion OCR-15x"
 	engine -10.5 42
 	engine 10.5 42
 	gun 0 -45.5 "Arion G.A.A.C"
@@ -3191,6 +3188,177 @@ ship "Arion ADA/S-01X Falken MKI"
 	description "This was a super fighter made by a 'Strangereal' company called Grunder Industries, which is a belkan/south osean company. The Adler originally came with a SDBM however to standardize production it has been given the LWSM instead. It has been modified and upgraded to suite Arion's needs. This aircraft is given to Ace pilots who have proven themselves worthy of a super fighter and to defend high value targets 24/7 due to it having a drone variant. Unlike the original fighter, it can operate in space. This is the drone variant."
 
 =============================
+Xenonauts 
+
+ship "Arion X/S-37X Corsair MKI"
+	sprite "ship/arionx37"
+	thumbnail "ship/arionx37"
+	attributes
+		category "Fighter"
+		licenses
+			"Arion"
+		"cost" 4600000
+		"shields" 1800
+		"hull" 900
+		"required crew" 1
+		"bunks" 1
+		"mass" 34
+		"drag" 0.825
+		"heat dissipation" 0.9
+		"fuel capacity" 200
+		"outfit space" 90
+		"weapon capacity" 10
+		"engine capacity" 25
+		"cloak" 1.8
+		"cloaking energy" 11
+		"cloaking heat" 5.5
+		"flares" 1
+	outfits
+		"Arion G.A.G.G" 2
+		"Arion Chaff and Flares Tier 1"
+		"Arion ODE-IA-25x"
+		"Arion S.C.D"
+		"Arion ARS-10x"
+		"Arion OCR-15x"
+	engine -5.5 34
+	engine 5.5 34
+	gun 5.5 -13.5 "Arion G.A.G.G"
+	gun -5.5 -13.5 "Arion G.A.G.G"
+	turret 0 13.5
+	leak "leak" 60 50
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
+	description "A Fighter aircraft made by the Xenonauts, it will defend humanity once more. This time however, it can take the fight to outer space."
+
+ship "Arion X/S-44X Saracen MKI"
+	sprite "ship/arionx44"
+	thumbnail "ship/arionx44"
+	attributes
+		category "Fighter"
+		licenses
+			"Arion"
+		"cost" 4800000
+		"shields" 1900
+		"hull" 950
+		"required crew" 1
+		"bunks" 1
+		"mass" 36
+		"drag" 0.81
+		"heat dissipation" 0.9
+		"fuel capacity" 200
+		"outfit space" 95
+		"weapon capacity" 12
+		"engine capacity" 25
+		"cloak" 1.7
+		"cloaking energy" 10.5
+		"cloaking heat" 5.25
+		"flares" 1
+	outfits
+		"Arion G.A.G.G"
+		"Arion AIM-1x Sidewinder Pod"
+		"Arion Chaff and Flares Tier 1"
+		"Arion ODE-FA-25x"
+		"Arion S.C.D"
+		"Arion ARS-10x"
+		"Arion OCR-15x"
+	engine -4.5 36.5
+	engine 4.5 36.5
+	gun 5 -5.5 "Arion G.A.G.G"
+	gun 0 13 "Arion AIM-1x Sidewinder Pod"
+	turret 0 22
+	leak "leak" 60 50
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
+	description "A Fighter aircraft made by the Xenonauts, it will defend humanity once more. This time however, it can take the fight to outer space."
+
+ship "Arion X/S-59X Marauder MKI"
+	sprite "ship/arionx59"
+	thumbnail "ship/arionx59"
+	attributes
+		category "Fighter"
+		licenses
+			"Arion"
+		"cost" 5000000
+		"shields" 2000
+		"hull" 1000
+		"required crew" 1
+		"bunks" 1
+		"mass" 38
+		"drag" 0.8
+		"heat dissipation" 0.9
+		"fuel capacity" 200
+		"outfit space" 100
+		"weapon capacity" 18
+		"engine capacity" 25
+		"cloak" 1.6
+		"cloaking energy" 10
+		"cloaking heat" 5
+		"flares" 1
+	outfits
+		"Arion G.A.G.G"
+		"Arion AIM-1x Sidewinder Pod"
+		"Arion AIM-2x AMRAAM Pod"
+		"Arion Chaff and Flares Tier 1"
+		"Arion ODE-IA-25x"
+		"Arion S.C.D"
+		"Arion ARS-10x"
+		"Arion OCR-15x"
+	engine -8 36.5
+	engine 8 36.5
+	gun 5 -19.5 "Arion G.A.G.G"
+	gun -6 -2.5 "Arion AIM-1x Sidewinder Pod"
+	gun 6 -2.5 "Arion AIM-2x AMRAAM Pod"
+	turret 0 9
+	leak "leak" 60 50
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
+	description "A Fighter aircraft made by the Xenonauts, it will defend humanity once more. This time however, it can take the fight to outer space."
+
+ship "Arion X/S-120X Fury MKI"
+	sprite "ship/arionx120"
+	thumbnail "ship/arionx120"
+	attributes
+		category "Interceptor"
+		licenses
+			"Arion"
+		"cost" 6000000
+		"shields" 3000
+		"hull" 1500
+		"required crew" 1
+		"bunks" 1
+		"mass" 45
+		"drag" 0.5
+		"heat dissipation" 0.9
+		"fuel capacity" 500
+		"outfit space" 130
+		"weapon capacity" 30
+		"engine capacity" 30
+		"cloak" 1.4
+		"cloaking energy" 9
+		"cloaking heat" 4.5
+		"bomb bay" 1
+		"heavy flares" 1
+	outfits
+		"Arion Heavy Chaff, Flares and ECM Tier 1"
+		"Arion ODE-LBA-30x"
+		"Arion S.C.D"
+		"Arion ARS-10x"
+		"Arion OCR-15x"
+		"Hyperdrive"
+	engine -17 49.5
+	engine 17 49.5
+	gun 0 14
+	turret 0 25
+	leak "leak" 60 50
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
+	description "An Interceptor aircraft based on the SR-71 made by the Xenonauts, it will defend humanity once more. This time however, it can take the fight to them. It was originally supposed to use singularity missiles but since we don't have access to them here (plus it would be overkill anyways), we have decided to give a bomber hardpoint."
+
+=============================
 SFF Special
 
 ship "Arion A/S-4X SFF Skyhawk Mk1"
@@ -3201,8 +3369,8 @@ ship "Arion A/S-4X SFF Skyhawk Mk1"
 		licenses
 			"Arion"
 		"cost" 1500000
-		"shields" 2400
-		"hull" 800
+		"shields" 4300
+		"hull" 4000
 		"required crew" 1
 		"bunks" 1
 		"mass" 17
@@ -3224,10 +3392,10 @@ ship "Arion A/S-4X SFF Skyhawk Mk1"
 		"Arion G.A.A.C"
 		"Arion G.A.G.G" 2
 		"Arion Chaff and Flares Tier 1"
-		"Arion A.A Engines"
+		"Arion ODE-AA-20x"
 		"Arion S.C.D"
-		"Arion T.A.R.S"
-		"Arion Antimatter Reactor Small"
+		"Arion ARS-10x"
+		"Arion AR-15x"
 	engine 0 29.5
 	gun -9 -9 "Arion G.A.G.G"
 	gun 9 -9 "Arion G.A.G.G"
@@ -3247,8 +3415,8 @@ ship "Arion F/S-16X SFF Super Falcon Mk1"
 		licenses
 			"Arion"
 		"cost" 2000000
-		"shields" 2200
-		"hull" 1100
+		"shields" 5250
+		"hull" 5000
 		"required crew" 1
 		"bunks" 1
 		"mass" 21
@@ -3268,13 +3436,13 @@ ship "Arion F/S-16X SFF Super Falcon Mk1"
 		"burn resistance" 5
 	outfits
 		"Arion G.A.G.G"
-		"Arion Missile Pod" 2
-		"Arion G.P.B Pod"
+		"Arion AIM-1x Sidewinder Pod" 2
+		"Arion GPB-1x Piercer Pod"
 		"Arion Chaff and Flares Tier 1"
-		"Arion A.A Engines"
+		"Arion ODE-AA-20x"
 		"Arion S.C.D"
-		"Arion T.A.R.S"
-		"Arion Antimatter Reactor Small"
+		"Arion ARS-10x"
+		"Arion AR-15x"
 	engine 0 34.5
 	gun -3 -19.5 "Arion G.A.G.G"
 	gun 24.5 11.5 "Arion Missile Pod"
@@ -3295,15 +3463,15 @@ ship "Arion F/S-18X SFF Super Hornet Mk1"
 		licenses
 			"Arion"
 		"cost" 2250000
-		"shields" 2400
-		"hull" 1200
+		"shields" 6250
+		"hull" 6000
 		"required crew" 1
 		"bunks" 1
 		"mass" 25
 		"drag" 1.175
 		"heat dissipation" 0.9
 		"fuel capacity" 150
-		"outfit space" 100
+		"outfit space" 102
 		"weapon capacity" 35
 		"engine capacity" 25
 		"flares" 1
@@ -3316,13 +3484,13 @@ ship "Arion F/S-18X SFF Super Hornet Mk1"
 		"burn resistance" 5
 	outfits
 		"Arion G.A.G.G"
-		"Arion Finisher Missile Pod" 2
-		"Arion Pursuer Missile Pod" 2
+		"Arion AIM-1x Sidewinder Pod" 2
+		"Arion AIM-2x AMRAAM Pod" 2
 		"Arion Chaff and Flares Tier 1"
-		"Arion F.A Engines"
+		"Arion ODE-FA-25x"
 		"Arion S.C.D"
-		"Arion T.A.R.S"
-		"Arion Antimatter Reactor Small"
+		"Arion ARS-10x"
+		"Arion AR-15x"
 	engine -2.5 38
 	engine 2.5 38
 	gun -3.5 -17 "Arion G.A.G.G"
@@ -3365,15 +3533,15 @@ ship "Arion Halberd Class Cruiser"
 		"leak resistance" 5
 		"burn resistance" 5
 	outfits
-		"Arion Guided Torpedo Launcher" 4
+		"Arion AIM-1x Sidewinder Launcher" 4
 		"Arion Phalanx C.I.W.S" 2
 		"Arion E.M.L Turret Compact" 2
-		"Arion Deadlock Laser Turret" 2
+		"Arion SBL-03A Paralyzer Turret" 2
 		"Arion Multirole Fuel System"
-		"Arion Antimatter Reactor"
+		"Arion AR-100x"
 		"Arion L.C.D" 2
-		"Arion L.A.R.S"
-		"Arion M.H.W Atomic Engines"
+		"Arion ARS-100x"
+		"Arion ODE-MHW-180x"
 		"Arion I.E.W.S"
 		"Jump Drive"
 		"Hyperdrive"
@@ -3446,15 +3614,15 @@ ship "Arion Scimitar Class Destroyer"
 		"leak resistance" 5
 		"burn resistance" 5
 	outfits
-		"Arion Guided Torpedo Launcher" 2
+		"Arion AIM-1x Sidewinder Launcher" 2
 		"Arion Phalanx C.I.W.S"
 		"Arion E.M.L Turret Compact" 2
-		"Arion Deadlock Laser Turret" 2
+		"Arion SBL-03A Paralyzer Turret" 2
 		"Arion Multirole Fuel System"
-		"Arion Antimatter Reactor"
+		"Arion AR-100x"
 		"Arion L.C.D" 2
-		"Arion M.A.R.S"
-		"Arion S.H.W Atomic Engines"
+		"Arion ARS-50x"
+		"Arion ODE-SHW-150x"
 		"Arion I.E.W.S"
 		"Jump Drive"
 		"Hyperdrive"
@@ -3516,15 +3684,15 @@ ship "Arion Kukri Class Frigate"
 		"burn resistance" 5
 	outfits
 		"Arion E.M.L Compact"
-		"Arion M.L.M.P.L" 2
+		"Arion AIM-1x Sidewinder Launcher" 2
 		"Arion Phalanx C.I.W.S"
-		"Arion Deadlock Laser Turret"
+		"Arion SBL-03A Paralyzer Turret"
 		"Arion Multirole Fuel System"
-		"Arion Antimatter Reactor Small" 4
+		"Arion AR-15x" 4
 		"Arion P.C.S"
 		"Arion L.C.D"
-		"Arion S.A.R.S"
-		"Arion S.H.W Atomic Engines"
+		"Arion ARS-25x"
+		"Arion ODE-SHW-150x"
 		"Arion I.E.W.S"
 		"Jump Drive"
 		"Hyperdrive"
@@ -3546,147 +3714,4 @@ ship "Arion Kukri Class Frigate"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Scimitar Class Light Patrol Frigate is originally used to help scout dangerous without having to bring in larger ships. It can easily outrun a lot of enemies due to its large engines, although it isn't the most heavily armed and is quite weak."
-
-=================Outdated==================
-
-ship "Arion Lance Block I"
-	sprite "ship/lance"
-		"scale" 0.9
-	thumbnail "thumbnail/lance"
-	attributes
-		category "Drone"
-		licenses
-			"Arion"
-		"cost" 200000
-		"shields" 900
-		"hull" 600
-		"automaton" 1
-		"mass" 25
-		"drag" 0.6
-		"fuel capacity" 100
-		"heat dissipation" 0.9
-		"outfit space" 75
-		"weapon capacity" 20
-		"engine capacity" 25
-	outfits
-		"Arion M61 Vulcan"
-		"Arion Missile Pod"
-		"Arion F.A Engines"
-		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Small Fusion Reactor"
-	engine -14.5 30.5 0.5
-	engine 14.5 30.5 0.5
-	gun -13.5 -6.5 
-	gun 13.5 -6.5 
-	explode "tiny explosion" 15
-	explode "small explosion" 5
-	description "(Outdated) After being shrunken down and removed the pilot to fit in the drone bay, the Lance can now be used to help remove enemy shields. It still has fuel on board to help if retreating is needed."
-
-ship "Arion Hawk Block I"
-	sprite "ship/hawk"
-		"scale" 0.8
-	thumbnail "thumbnail/hawk"
-	attributes
-		category "Fighter"
-		licenses
-			"Arion"
-		"cost" 750000
-		"shields" 1000
-		"hull" 500
-		"required crew" 1
-		"bunks" 1
-		"mass" 45
-		"drag" 1.25
-		"heat dissipation" 0.9
-		"fuel capacity" 200
-		"outfit space" 115
-		"weapon capacity" 25
-		"engine capacity" 25
-	outfits
-		"Arion Gau-8 Avenger" 2
-		"Arion I.A Engines"
-		"Arion S.C.D"
-		"Arion T.B.R.S"
-		"Arion Small Fusion Reactor"
-	engine -23.5 41
-	engine 23.5 41
-	gun -8.5 -17.5
-	gun 8.5 -17.5
-	leak "leak" 60 50
-	explode "tiny explosion" 15
-	explode "small explosion" 5
-	"final explode" "final explosion small"
-	description "(Outdated) After somehow shrinking down the Hawk to fit in fighter bays, it has now been used as a gun fighter to exploit enemies with no shields. It still has fuel on board to help if retreating is needed."
-
-ship "Arion Bactrian Flagship"
-	sprite ship/bactrian
-	thumbnail thumbnail/bactrian
-	attributes
-		category "Heavy Warship"
-		cost 100000000
-		mass 900
-		bunks 250
-		"cargo space" 600
-		drag 15
-		"engine capacity" 210
-		"fuel capacity" 700
-		"gun ports" 4
-		"heat dissipation" 1
-		hull 25000
-		"outfit space" 1000
-		"required crew" 1
-		shields 50000
-		"turret mounts" 6
-		"turret ports" 6
-		"flagship" 1
-		"weapon capacity" 500
-	outfits
-		"Arion A.E.W.S"
-		"Arion AKs 74u" 150
-		"Arion Antimatter Reactor" 2
-		"Arion Dragonfire C.I.W.S" 3
-		"Arion Flagship Atomic Engines"
-		"Arion Jump Drive Core"
-		"Arion L.A.R.S"
-		"Arion L.C.D" 3
-		"Arion M16A3 W/M203" 150
-		"Arion P.C.S"
-		"Arion S.I Equipment" 250
-		"Arion Stunner Laser" 4
-		"Arion Stunner Laser Turret" 3
-		"Arion Multirole Fuel System"
-	engine -18 230
-		zoom 1
-		angle 0
-		under
-	engine 18 230
-		zoom 1
-		angle 0
-		under
-	gun -15 -226 
-	gun 15 -226 
-	gun -40 -133 
-	gun -45 -128 
-	turret -22 -148 
-	turret 26 -80 
-	turret -41 -20 
-	turret 32 -7 
-	turret 53 82 
-	turret -37 186 
-	bay Fighter -38 -26	
-		"launch effect" "basic launch"
-	bay Fighter 35 36
-		"launch effect" "basic launch"
-	bay Fighter -47 97
-		"launch effect" "basic launch"
-	leak leak 30 50
-	leak flame 30 80
-	leak "big leak" 50 30
-	explode "huge explosion" 30
-	explode "large explosion" 45
-	explode "medium explosion" 35
-	explode "small explosion" 25
-	"final explode" "final explosion large" 1
-	description "Due to the excellent characteristics of the Bactrian, it has been chosen as a choice for flagships."
+	description "The Kukri Class Light Patrol Frigate is originally used to help scout dangerous without having to bring in larger ships. It can easily outrun a lot of enemies due to its large engines, although it isn't the most heavily armed and is quite weak."

@@ -31,15 +31,14 @@ ship "Arion Prowler Block I"
 		"cloaking energy" 6
 		"cloaking heat" 3
 	outfits
-		"Arion Fusion Reactor"
-		"Arion Guided Torpedo Launcher" 8
+		"Arion FR-100x"
+		"Arion GTU-1x Shark Pod" 8
 		"Arion L.C.D"
-		"Arion M.B.R.S"
+		"Arion BRS-50x"
 		"Arion Multirole Fuel System"
 		"Arion Phalanx C.I.W.S"
-		"Arion S.H.W Atomic Engines"
+		"Arion ODE-SHW-150x"
 		"Hyperdrive"
-		"Jump Drive"
 	turret 0 -91.5 
 	gun -21.5 -184 
 	gun 21.5 -184

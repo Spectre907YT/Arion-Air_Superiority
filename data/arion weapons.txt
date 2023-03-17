@@ -11,16 +11,14 @@ outfit "Arion Chaff and Flares Tier 1"
 	"flares" -1
 	"unremovable" -1
 	weapon
-		"hit effect" "bullet impact"
-		sound "gatling"
-		"anti-missile" 15
+		"anti-missile" 8
 		"velocity" 150
 		"lifetime" 1
 		"reload" 60
 		"burst count" 6
 		"burst reload" 1
-		"firing energy" 15
-		"firing heat" 30
+		"firing energy" 8
+		"firing heat" 16
 	description "Chaff and flare to dodge enemy missiles."
 
 outfit "Arion Heavy Chaff, Flares and ECM Tier 1"
@@ -36,16 +34,14 @@ outfit "Arion Heavy Chaff, Flares and ECM Tier 1"
 	"heavy flares" -1
 	"unremovable" -1
 	weapon
-		"hit effect" "bullet impact"
-		sound "gatling"
-		"anti-missile" 25
+		"anti-missile" 12
 		"velocity" 250
 		"lifetime" 1
 		"reload" 90
-		"burst count" 12
+		"burst count" 10
 		"burst reload" 3
-		"firing energy" 25
-		"firing heat" 33
+		"firing energy" 10
+		"firing heat" 22
 	description "Chaff and flare to dodge enemy missiles."
 
 outfit "Arion B.T Laser"
@@ -73,20 +69,23 @@ outfit "Arion B.T Laser"
 outfit "Arion OTOMATIC CIWS"
 	category "Turrets"
 	cost 1500000
-	thumbnail "outfit/heavy anti-missile"
-	"mass" 40
-	"outfit space" -40
-	"weapon capacity" -40
+	thumbnail "outfit/choleric turret"
+	"mass" 35
+	"outfit space" -35
+	"weapon capacity" -35
 	"turret mounts" -1
 	weapon
-		"hardpoint sprite" "hardpoint/heavy anti-missile"
-		"hardpoint offset" 5.
-		"hit effect" "bullet impact"
-		sound "gatling"
+		sprite "projectile/irate"
+		"hardpoint sprite" "hardpoint/irate"
+		"hardpoint offset" -0.8 12
+		sound "irate"
+		"fire effect" "irate fire"
+		"live effect" "irate smoke" 12
+		"hit effect" "tiny explosion"
 		"anti-missile" 60
 		"velocity" 650
 		"lifetime" 2
-		"reload" 15
+		"reload" 20
 		"firing energy" 150
 		"firing heat" 75
 	description "A 76mm naval gun that has added radars to shoot down missiles, it now acts as a Heavy CIWS system, designed to shoot down larger missiles from longer ranges."
@@ -160,35 +159,79 @@ outfit "Arion Phalanx C.I.W.S"
 		"firing heat" 10
 	description "The Phalanx C.I.W.S has been adapted from our navy ships to be usable on spaceships. It has a M61 Vulcan 20mm gatling gun and advanced radar systems to help search and destroy incoming missiles."
 
-outfit "Arion L.R.A.M.S"
+outfit "Arion Oerlikon MilleniumX C.I.W.S"
+	category "Turrets"
+	cost 600000
+	thumbnail "outfit/heavy anti-missile"
+	"mass" 15
+	"outfit space" -15
+	"weapon capacity" -15
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/heavy anti-missile"
+		"hardpoint offset" 5.
+		sprite "projectile/bullet"
+			"delay" 5
+			"random start frame"
+			"frame rate" 0
+		sound "gatling"
+		"velocity" 320
+		"lifetime" 2
+		"anti-missile" 18
+		"reload" 4
+		"firing energy" 15
+		"firing heat" 15
+		"hit effect" "bullet impact"
+	description "35mm Land Based AA gun that has been converted into a C.I.W.S used to destroy incoming missiles."
+
+outfit "Arion SeaRAMx"
 	category "Turrets"
 	licenses
 			"Arion"
-	cost 1500000
+	cost 5000000
 	thumbnail "outfit/sheragiam"
-	"mass" 50
-	"outfit space" -50
-	"weapon capacity" -50
+	"mass" 35
+	"outfit space" -35
+	"weapon capacity" -35
 	"turret mounts" -1
 	weapon
+		sprite "projectile/sidewinder"
+			"no repeat"
+			"frame rate" .25
 		"hardpoint sprite" "hardpoint/sheragiam"
 		"hardpoint offset" 1.5
 		"hit effect" "sheragiam"
-		"anti-missile" 150
-		"velocity" 250
-		"lifetime" 5
-		"reload" 60
+		"anti-missile" 100
+		"velocity" 500
+		"lifetime" 4
+		"reload" 20
 		"burst count" 12
-		"burst reload" 15
+		"burst reload" 10
 		"firing energy" 500
 		"firing heat" 500
-		"turn" 4
-		"homing" 4
-		"tracking" 4
-		"acceleration" 10
-	description "The Long Range Anti Missile System is used to take out missiles from far away, way before it can threaten ships. It does this by firing a missile of its own much like some anti  missile systems found on our naval ships."
+	description "The SeaRAMx is a missile defense system used to take out missiles from long range without risking the warship. It is used by all branches of our military, whether it be the airforce and army as a ground based system or in the navy, marines and space force for mounting on warships."
 
-outfit "Arion Destroyer Laser"
+outfit "Arion AN/SEQ-3x LaWS"
+	category "Turrets"
+	cost 7500000
+	thumbnail "outfit/quarg anti missile"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"turret mounts" -1
+	weapon
+		"hit effect" "quarg anti-missile"
+		"hardpoint sprite" "hardpoint/quarg anti missile"
+		"hardpoint offset" 4
+		"anti-missile" 25
+		"velocity" 750
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 60
+		"firing heat" 60
+	description "The AN/SEQ-3x is a laser defense system that is used on all branches of Arion's military from the air force and army as a ground based system to the navy, marines and space force on their warships."
+
+outfit "Arion SBL-03B Shredder Laser"
 	category "Guns"
 	licenses
 			"Arion"
@@ -211,9 +254,9 @@ outfit "Arion Destroyer Laser"
 		"firing heat" 50
 		"shield damage" 45
 		"hull damage" 50
-	description "The final evolution of our lasers, this should be stronger than any other laser in this world."
+	description "One of the 2 standard issue lasers mounted on our ships. This laser is made to outright destroy any enemy it encounters."
 
-outfit "Arion Destroyer Laser Turret"
+outfit "Arion SBL-03B Shredder Turret"
 	category "Turrets"
 	licenses
 			"Arion"
@@ -239,9 +282,10 @@ outfit "Arion Destroyer Laser Turret"
 		"firing heat" 50
 		"shield damage" 45
 		"hull damage" 50
-	description "The final evolution of our lasers, this should be stronger than any other laser in this world."
+		"energy consumption" 1
+	description "One of the 2 standard issue lasers mounted on our ships. This laser is made to outright destroy any enemy it encounters. This one is mounted on a mk3 turret. This turret is automated so some power is required to keep them active at all times."
 
-outfit "Arion Deadlock Laser"
+outfit "Arion SBL-03A Paralyzer"
 	category "Guns"
 	licenses
 			"Arion"
@@ -267,9 +311,9 @@ outfit "Arion Deadlock Laser"
 		"ion damage" 1.0
 		"heat damage" 1.0
 		"slowing damage" 0.5
-	description "To complement the Destroyer laser, the Deadlock laser was made to stun the enemy while the destroyer laser do the heavy damage."
+	description "One of the 2 standard issue lasers mounted on our ships. This laser complements the shredder by reducing the combat capabilities of our enemies."
 
-outfit "Arion Deadlock Laser Turret"
+outfit "Arion SBL-03A Paralyzer Turret"
 	category "Turrets"
 	licenses
 			"Arion"
@@ -298,9 +342,10 @@ outfit "Arion Deadlock Laser Turret"
 		"ion damage" 1.0
 		"heat damage" 1.0
 		"slowing damage" 0.2
-	description "To complement the Destroyer laser, the Deadlock laser was made to stun the enemy while the destroyer laser do the heavy damage."
+		"energy consumption" 1
+	description "One of the 2 standard issue lasers mounted on our ships. This laser complements the shredder by reducing the combat capabilities of our enemies. This one is mounted on a mk3 turret. This turret is automated so some power is required to keep them active at all times."
 
-outfit "Arion Disabler Laser"
+outfit "Arion SBL-02 Roadblock"
 	category "Guns"
 	licenses
 			"Arion"
@@ -325,9 +370,9 @@ outfit "Arion Disabler Laser"
 		"hull damage" 7
 		"ion damage" 0.25
 		"heat damage" 2
-	description "This is what Arion uses when we want to capture, we were able to make a variant of our disabler to fit on your ships."
+	description "A tier 2-ish laser that is made to diminish enemy combat capabilities instead of outright destroying them."
 
-outfit "Arion Disabler Laser Turret"
+outfit "Arion SBL-02 Roadblock Turret"
 	category "Turrets"
 	licenses
 			"Arion"
@@ -355,9 +400,10 @@ outfit "Arion Disabler Laser Turret"
 		"hull damage" 7
 		"ion damage" 0.25
 		"heat damage" 2
-	description "This is what Arion uses when we want to capture, we were able to make a variant of our disabler to fit on your ships. This one is the turret variant."
+		"energy consumption" 0.5
+	description "A tier 2-ish laser that is made to diminish enemy combat capabilities instead of outright destroying them. This one is mounted on a mk2 turret. This turret is automated so some power is required to keep them active at all times."
 
-outfit "Arion Stunner Laser"
+outfit "Arion SBL-01 Stunstrike"
 	category "Guns"
 	licenses
 			"Arion"
@@ -382,9 +428,9 @@ outfit "Arion Stunner Laser"
 		"hull damage" 1.2
 		"ion damage" 0.1
 		"heat damage" 0.25
-	description "This is the laser that you will be starting with. It is significantly weaker so that you don't start of as a literal god."
+	description "A very basic laser system that is made to help diminish hostiles combat capabilities."
 
-outfit "Arion Stunner Laser Turret"
+outfit "Arion SBL-01 Stunstrike Turret"
 	category "Turrets"
 	licenses
 			"Arion"
@@ -412,7 +458,8 @@ outfit "Arion Stunner Laser Turret"
 		"hull damage" 1.2
 		"ion damage" 0.1
 		"heat damage" 0.25
-	description "This is the laser that you will be starting with. It is significantly weaker so that you don't start of as a literal god."
+		"energy consumption" 0.25
+	description "A very basic laser system that is made to help diminish hostiles combat capabilities. This one is mounted on a mk1 turret. This turret is automated so some power is required to keep them active at all times."
 
 outfit "Arion Gau-8 Avenger"
 	category "Guns"
@@ -442,7 +489,7 @@ outfit "Arion Gau-8 Avenger"
 		"firing energy" 15
 		"firing heat" 15
 		"hit effect" "bullet impact"
-	description "Unlike the Dragonfire CIWS, this gun port version fires in bursts due to the fear of overheating. This gun can also be found on our A-10 Warthogs. Due to our advanced fabrication systems, it uses energy instead of ammo.(Q to fire)"
+	description "Unlike the Dragonfire CIWS, this gun port version fires in bursts due to the fear of overheating. This gun can also be found on our A-10 Warthogs. Due to our advanced fabrication systems, it uses energy instead of ammo."
 
 outfit "Arion 30mm Autocannon"
 	category "Guns"
@@ -470,20 +517,7 @@ outfit "Arion 30mm Autocannon"
 		"firing energy" 12
 		"firing heat" 12
 		"hit effect" "bullet impact"
-	description "Firing the same cartridge as the GAU 8, it is more compact but has a slower firing rate. It does however benefit from having more accuracy and slightly higher range. (Q to fire) (Special thanks to 1010todd for letting me use the artwork from the 50 cal mod)"
-
-outfit "30mmbullet"
-	weapon
-		sprite "projectile/bullet"
-			"delay" 5
-			"random start frame"
-			"frame rate" 0
-		"velocity" 70
-		"lifetime" 5
-		"shield damage" 15
-		"hull damage" 30
-		"hit force" 5
-		"hit effect" "bullet impact"
+	description "Using the same cartridge as the GAU 8, it is more compact but has a slower firing rate. It does however benefit from having more accuracy and slightly higher range. (Special thanks to 1010todd for letting me use the artwork from the 50 cal mod)"
 
 outfit "Arion Gau-12 Equalizer"
 	category "Guns"
@@ -513,20 +547,7 @@ outfit "Arion Gau-12 Equalizer"
 		"firing energy" 10
 		"firing heat" 7.5
 		"hit effect" "bullet impact"
-	description "This is a gun originally used in our AV-8 Harriers and F-35 atmospheric fighters. It uses 25mm rounds. It is now available for you to put on your ships. Due to our advanced fabrication systems, it uses energy instead of ammo.(Q to fire)"
-
-outfit "25mmbullet"
-	weapon
-		sprite "projectile/bullet"
-			"delay" 5
-			"random start frame"
-			"frame rate" 0
-		"velocity" 80
-		"lifetime" 5
-		"shield damage" 15
-		"hull damage" 25
-		"hit force" 5
-		"hit effect" "bullet impact"
+	description "This is a gun originally used in our AV-8 Harriers and F-35 atmospheric fighters. It uses 25mm rounds. It is now available for you to put on your ships. Due to our advanced fabrication systems, it uses energy instead of ammo."
 
 outfit "Arion M61 Vulcan"
 	category "Guns"
@@ -556,7 +577,7 @@ outfit "Arion M61 Vulcan"
 		"firing energy" 8
 		"firing heat" 6
 		"hit effect" "bullet impact"
-	description "This is a gun originally used in a lot of our atmospheric fighters. It uses 20mm rounds. It is now available for you to put on your ships. Due to our advanced fabrication systems, it uses energy instead of ammo.(Q to fire)"
+	description "This is a gun originally used in a lot of our atmospheric fighters. It uses 20mm rounds. It is now available for you to put on your ships. Due to our advanced fabrication systems, it uses energy instead of ammo."
 
 outfit "Arion 20mm Autocannon"
 	category "Guns"
@@ -584,20 +605,129 @@ outfit "Arion 20mm Autocannon"
 		"firing energy" 8
 		"firing heat" 6
 		"hit effect" "bullet impact"
-	description "Firing the same cartridge as the M61, it is more compact but has a slower firing rate. It does however benefit from having more accuracy and slightly higher range. (Q to fire) (Special thanks to 1010todd for letting me use the artwork from the 50 cal mod)"
+	description "Using the same cartridge as the M61, it is more compact but has a slower firing rate. It does however benefit from having more accuracy and slightly higher range. (Special thanks to 1010todd for letting me use the artwork from the 50 cal mod)"
 
-outfit "20mmbullet"
+outfit "Arion G.A.A.C"
+	category "Guns"
+	licenses
+			"Arion"
+	cost 5000000
+	thumbnail "outfit/railgun"
+	"mass" 5
+	"outfit space" -5
+	"weapon capacity" -5
+	"gun ports" -1
 	weapon
-		sprite "projectile/bullet"
-			"delay" 5
-			"random start frame"
-			"frame rate" 0
-		"velocity" 100
-		"lifetime" 5
-		"shield damage" 10
-		"hull damage" 20
-		"hit force" 1
+		sprite "projectile/rail slug"
+			"frame rate" 30
+		sound "ion"
+		"fire effect" "rail sparks"
 		"hit effect" "bullet impact"
+		"inaccuracy" 0.15
+		"velocity" 250
+		"lifetime" 8
+		"reload" 15
+		"firing energy" 75
+		"firing heat" 60
+		"firing force" 7.5
+		"hit force" 7.5
+		"shield damage" 60
+		"hull damage" 75
+		"piercing" 0.075
+		"stream"
+	description "The Gauss Assisted Auto Cannon is made to help our fighters remain out of the enemies firing range while still maintaining an internal gun. It is inferior to our E.M.L but it is good enough as an internal auto cannon for fighters."
+
+outfit "Arion G.A.G.G"
+	category "Guns"
+	licenses
+			"Arion"
+	cost 5000000
+	thumbnail "outfit/railgun"
+	"mass" 5
+	"outfit space" -5
+	"weapon capacity" -5
+	"gun ports" -1
+	weapon
+		sprite "projectile/rail slug"
+			"frame rate" 30
+		sound "ion"
+		"fire effect" "rail sparks"
+		"hit effect" "bullet impact"
+		"inaccuracy" 0.45
+		"velocity" 200
+		"lifetime" 10
+		"reload" 5
+		"firing energy" 25
+		"firing heat" 20
+		"firing force" 5
+		"hit force" 5
+		"shield damage" 20
+		"hull damage" 25
+		"piercing" 0.025
+		"stream"
+	description "The Gauss Assisted Gatling Gun is made to help our fighters remain out of the enemies firing range while still maintaining an internal gun. It is inferior to our E.M.L but it is good enough as an internal gatling gun for fighters. Compared to the G.A.C.C, it has lower per damage shot and slower velocity but higher rate of fire."
+
+outfit "Arion 76mm OTO Melara Turret"
+	category "Turrets"
+	cost 2000000
+	thumbnail "outfit/choleric turret"
+	"mass" 35
+	"outfit space" -35
+	"weapon capacity" -35
+	"turret mounts" -1
+	weapon
+		sprite "projectile/irate"
+		"hardpoint sprite" "hardpoint/choleric"
+		"hardpoint offset" 15
+		sound "irate"
+		"fire effect" "irate fire"
+		"live effect" "irate smoke" 12
+		"hit effect" "tiny explosion"
+		"inaccuracy" 0.3
+		"turret turn" 4
+		"velocity" 120
+		"lifetime" 10
+		"reload" 60
+		"burst count" 5
+		"burst reload" 12
+		"firing energy" 280
+		"firing heat" 250
+		"firing force" 25
+		"hit force" 25
+		"shield damage" 160
+		"hull damage" 320
+		"energy consumption" 0.35
+	description "Usually used on our navy ships, it is also quite useful for our spaceships in this expedition. This cannon fires in 6 round bursts. This turret is automated so some power is required to keep them active at all times."
+
+outfit "Arion 127mm Mk 45 Turret"
+	category "Turrets"
+	cost 3000000
+	thumbnail "outfit/choleric turret"
+	"mass" 50
+	"outfit space" -50
+	"weapon capacity" -50
+	"turret mounts" -1
+	weapon
+		sprite "projectile/choleric"
+		sound "choleric"
+		"hardpoint sprite" "hardpoint/choleric"
+		"hardpoint offset" 15
+		"fire effect" "choleric fire"
+		"live effect" "choleric smoke" 24
+		"hit effect" "small explosion"
+		"inaccuracy" 0.5
+		"turret turn" 2.0
+		"velocity" 100
+		"lifetime" 15
+		"reload" 120
+		"firing energy" 560
+		"firing heat" 500
+		"firing force" 50
+		"hit force" 50
+		"shield damage" 318
+		"hull damage" 635
+		"energy consumption" 0.5
+	description "Usually used on our navy ships, it is also quite useful for our spaceships in this expedition. This cannon fires in a steady rate of 1 round per 1 and a half second. This turret is automated so some power is required to keep them active at all times."
 
 outfit "Arion Dragonsbreath Railgun"
 	category "Secondary Weapons"
@@ -621,7 +751,7 @@ outfit "Arion Dragonsbreath Railgun"
 		"hit effect" "dragonflame debris" 50
 		"velocity" 1000
 		"lifetime" 4
-		"reload" 900
+		"reload" 1080
 		"firing energy" 125000
 		"firing heat" 100000
 		"firing force" 1000
@@ -659,7 +789,7 @@ outfit "Arion Dragonfire Railgun"
 		"hit effect" "dragonflame debris" 50
 		"velocity" 800
 		"lifetime" 4
-		"reload" 240
+		"reload" 300
 		"firing energy" 12500
 		"firing heat" 9000
 		"firing force" 100
@@ -736,7 +866,7 @@ outfit "Arion E.M.L Turret Compact"
 		"turret turn" 2
 		"velocity" 600
 		"lifetime" 4
-		"reload" 240
+		"reload" 300
 		"firing energy" 5000
 		"firing heat" 3500
 		"shield damage" 3500
@@ -744,10 +874,9 @@ outfit "Arion E.M.L Turret Compact"
 		"firing force" 250
 		"hit force" 250
 		"piercing" 0.85
-		"ion damage" 25
 		"stream"
-		"phasing"
-	description "Ah, the Electromagnetic Launcher Compact, its basically a more compact railgun that you can fit in a ship without needing special mounts, making it more flexible."
+		"energy consumption" 1
+	description "Ah, the Electromagnetic Launcher Compact, its basically a more compact railgun that you can fit in a ship without needing special mounts, making it more flexible. This turret is automated so some power is required to keep them active at all times."
 
 outfit "Arion E.M.L Compact"
 	category "Secondary Weapons"
@@ -771,7 +900,7 @@ outfit "Arion E.M.L Compact"
 		"inaccuracy" 0.1
 		"velocity" 600
 		"lifetime" 4
-		"reload" 240
+		"reload" 300
 		"firing energy" 5000
 		"firing heat" 3500
 		"shield damage" 3500
@@ -779,9 +908,7 @@ outfit "Arion E.M.L Compact"
 		"hit force" 250
 		"firing force" 250
 		"piercing" 0.85
-		"ion damage" 25
 		"stream"
-		"phasing"
 	description "Ah, the Electromagnetic Launcher Compact, its basically a more compact railgun that you can fit in a ship without needing special mounts, making it more flexible."
 
 outfit "Arion E.M.L Turret"
@@ -809,7 +936,7 @@ outfit "Arion E.M.L Turret"
 		"turret turn" 1.25
 		"velocity" 700
 		"lifetime" 4
-		"reload" 420
+		"reload" 480
 		"firing energy" 7000
 		"firing heat" 14000
 		"shield damage" 8000
@@ -817,10 +944,9 @@ outfit "Arion E.M.L Turret"
 		"hit force" 500
 		"firing force" 500
 		"piercing" 0.9
-		"ion damage" 50
 		"stream"
-		"phasing"
-	description "Ah, the Electromagnetic Launcher, its the full sized E.M.L that most of our ships in the 'outside' uses."
+		"energy consumption" 1.5
+	description "Ah, the Electromagnetic Launcher, its the full sized E.M.L that most of our ships in the 'outside' uses. This turret is automated so some power is required to keep them active at all times."
 
 outfit "Arion E.M.L"
 	category "Secondary Weapons"
@@ -844,7 +970,7 @@ outfit "Arion E.M.L"
 		"inaccuracy" 0.15
 		"velocity" 700
 		"lifetime" 4
-		"reload" 420
+		"reload" 480
 		"firing energy" 7000
 		"firing heat" 14000
 		"shield damage" 8000
@@ -852,240 +978,35 @@ outfit "Arion E.M.L"
 		"hit force" 500
 		"firing force" 500
 		"piercing" 0.9
-		"ion damage" 50
 		"stream"
-		"phasing"
 	description "Ah, the Electromagnetic Launcher, its the full sized E.M.L that most of our ships in the 'outside' uses."
 
-outfit "Arion G.A.A.C"
+outfit "Arion MARAUDER Railgun"
 	category "Guns"
-	licenses
-			"Arion"
-	cost 2000000
-	thumbnail "outfit/railgun"
-	"mass" 10
-	"outfit space" -10
-	"weapon capacity" -10
+	cost 15000000
+	thumbnail "outfit/particle cannon"
+	"mass" 35
+	"outfit space" -35
+	"weapon capacity" -35
 	"gun ports" -1
 	weapon
-		sprite "projectile/rail slug"
-			"frame rate" 30
-		sound "ion"
-		"fire effect" "rail sparks"
-		"hit effect" "bullet impact"
-		"inaccuracy" 0.15
-		"velocity" 250
-		"lifetime" 8
-		"reload" 15
-		"firing energy" 75
-		"firing heat" 60
-		"firing force" 7.5
-		"hit force" 7.5
-		"shield damage" 60
-		"hull damage" 75
-		"piercing" 0.075
-		"stream"
-	description "The Gauss Assisted Auto Cannon is made to help our fighters remain out of the enemies firing range while still maintaining an internal gun. It is inferior to our E.M.L but it is good enough as an internal auto cannon for fighters."
-
-outfit "Arion G.A.G.G"
-	category "Guns"
-	licenses
-			"Arion"
-	cost 2000000
-	thumbnail "outfit/railgun"
-	"mass" 10
-	"outfit space" -10
-	"weapon capacity" -10
-	"gun ports" -1
-	weapon
-		sprite "projectile/rail slug"
-			"frame rate" 30
-		sound "ion"
-		"fire effect" "rail sparks"
-		"hit effect" "bullet impact"
-		"inaccuracy" 0.45
-		"velocity" 200
-		"lifetime" 10
-		"reload" 5
-		"firing energy" 25
-		"firing heat" 20
-		"firing force" 5
-		"hit force" 5
-		"shield damage" 20
-		"hull damage" 25
-		"piercing" 0.025
-		"stream"
-	description "The Gauss Assisted Gatling Gun is made to help our fighters remain out of the enemies firing range while still maintaining an internal gun. It is inferior to our E.M.L but it is good enough as an internal gatling gun for fighters. Compared to the G.A.C.C, it has lower per damage shot and slower velocity but higher rate of fire."
-
-outfit "Arion Arclight E.M.L"
-	category "Secondary Weapons"
-	licenses
-			"Arion"
-	cost 8000000
-	thumbnail "outfit/railgun"
-	"mass" 25
-	"outfit space" -25
-	"weapon capacity" -25
-	"gun ports" -1
-	"arclight eml" -1
-	weapon
-		sprite "projectile/rail slug"
-			"frame rate" 30
-		sound "ion"
-		icon "icon/rail gun"
-		"fire effect" "rail sparks"
-		"hit effect" "bullet impact"
+		sprite "projectile/particle beam"
+		sound "particle"
+		"hit effect" "particle impact"
 		"inaccuracy" 0.25
 		"velocity" 500
-		"lifetime" 5
-		"reload" 300
-		"firing energy" 1750
-		"firing heat" 900
-		"firing force" 80
-		"shield damage" 900
-		"hull damage" 2000
-		"piercing" 0.8
-		"stream"
-	description "The Archlight E.M.L is a specially built railgun for the X-02x Wyvern and ASF-01 Wyvern."
-
-outfit "Arion Purgatorio E.M.L"
-	category "Secondary Weapons"
-	licenses
-			"Arion"
-	cost 4000000
-	thumbnail "outfit/railgun"
-	"mass" 15
-	"outfit space" -15
-	"weapon capacity" -15
-	"gun ports" -1
-	"purgatorio eml" -1
-	weapon
-		sprite "projectile/rail slug"
-			"frame rate" 30
-		sound "ion"
-		icon "icon/rail gun"
-		"fire effect" "rail sparks"
-		"hit effect" "bullet impact"
-		"inaccuracy" 0.4
-		"velocity" 500
 		"lifetime" 4
-		"reload" 300
-		"firing energy" 1100
-		"firing heat" 500
-		"firing force" 60
-		"shield damage" 500
-		"hull damage" 1200
-		"piercing" 0.7
+		"reload" 30
+		"firing energy" 1200
+		"firing force" 150
+		"firing heat" 1000
+		"hit force" 80
+		"shield damage" 1400
+		"hull damage" 1000
 		"stream"
-	description "The Purgatorio E.M.L is a specially built railgun for the CFA-44x Nosferatu and ASF-02 Nosferatu."
+	description "Based on a US project to make a plasma railgun, this railgun is back to destroy enemy shields."
 
-outfit "Arion Zoisite T.L.S"
-	category "Secondary Weapons"
-	licenses
-			"Arion"
-	cost 8000000
-	thumbnail "outfit/bombardment cannon"
-	"mass" 25
-	"outfit space" -25
-	"weapon capacity" -25
-	"gun ports" -1
-	"morgan hardpoint" -1
-	weapon
-		sprite "projectile/ariontlslaser"
-			"frame rate" 1
-		sound "skylance"
-		icon "icon/dragonflame"
-		"hit effect" "beam laser impact"
-		"inaccuracy" 0
-		"velocity" 2000
-		"lifetime" 1
-		"reload" 5
-		"burst count" 60
-		"burst reload" 1
-		"firing energy" 44
-		"firing heat" 44
-		"shield damage" 40
-		"hull damage" 44
-	description "The Zoisite Tactical Laser System is a specifically built laser for the ADFX-01 Morgan, ADF-01 Falken, ADF-11 Raven and ASF-0 Morgan, ADF-01 Falken, ADF-02 Raven."
-
-outfit "Arion Joint Strike Missile"
-	category "Secondary Weapons"
-	licenses
-			"Arion"
-	cost 3500000
-	thumbnail "outfit/thunderhead launcher"
-	"mass" 10
-	"outfit space" -10
-	"weapon capacity" -10
-	"gun ports" -1
-	"xfa27 hardpoint" -2
-	weapon
-		sprite "projectile/thunderhead"
-			"no repeat"
-			"frame rate" .1
-		sound "thunderhead"
-		icon "icon/thunderhead"
-		"fire effect" "meteor fire"
-		"die effect" "missile death"
-		"hit effect" "medium explosion"
-		"inaccuracy" 0.6
-		"reload" 120
-		"velocity" 45
-		"lifetime" 70
-		"firing energy" 1050
-		"firing heat" 750
-		"turn" 75
-		"homing" 4
-		"tracking" 1
-		"shield damage" 1250
-		"hull damage" 1100
-		"missile strength" 40
-		"ion damage" 25
-		"acceleration" 4.5
-		"drag" 0.1
-		"phasing"
-	description "The Joint Strike Missile is specifically built for the XFA-27 and the ASF-03 Scarface."
-
-outfit "Arion L.S.W.M"
-	category "Secondary Weapons"
-	cost 8500000
-	thumbnail "outfit/rocket pod"
-	"mass" 40
-	"outfit space" -40
-	"weapon capacity" -40
-	"gun ports" -1
-	"fenrir hardpoint" -1
-	weapon
-		sprite "projectile/missile"
-			"no repeat"
-			"frame rate" .25
-		"hardpoint sprite" "hardpoint/nuke"
-		sound "nuke"
-		icon "icon/nuke"
-		"hit effect" "nuke explosion"
-		"hit effect" "nuke residue fast" 10
-		"hit effect" "nuke residue slow" 10
-		"die effect" "missile death"
-		"inaccuracy" 0.5
-		"velocity" 15
-		"lifetime" 250
-		"reload" 360
-		"firing energy" 4000
-		"firing heat" 3500
-		"acceleration" 1.5
-		"drag" 0.1
-		"turn" 15
-		"homing" 4
-		"tracking" 1
-		"blast radius" 50
-		"shield damage" 4000
-		"hull damage" 4500
-		"hit force" 500
-		"missile strength" 80
-		"phasing"
-	description "The Long Range Shockwave Missile is specifically built for the XFA-33 Fenrir and the ASF-04 Fenrir."
-
-outfit "Arion M.L.M.S"
+outfit "Arion AIM-1x Sidewinder M.L.M.S"
 	category "Secondary Weapons"
 	licenses
 			"Arion"
@@ -1121,22 +1042,22 @@ outfit "Arion M.L.M.S"
 		"shield damage" 600
 		"hull damage" 350
 		"missile strength" 25
-		"ion damage" 20
+		"ion damage" 15
 		"heat damage" 150
-		"slowing damage" 1
 		"acceleration" 3.5
 		"drag" 0.1
 		"phasing"
 		"stream"
-	description "The Multiple Launch Missile System, we made this system to help destroy incoming threats from a slightly longer distance than the lasers. Due to our advanced fabrication systems, it uses energy instead of ammo. The missiles are made to destroy shields and stun enemies."
+		"energy consumption" 0.75
+	description "While technically its is a missile instead of a rocket, it is functionally similar to an MLRS launcher. This launcher fires the AIM-1x."
 
-outfit "Arion M.L.M.P.L"
+outfit "Arion AIM-1x Sidewinder Launcher"
 	category "Secondary Weapons"
-	cost 7500000
+	cost 7000000
 	thumbnail "outfit/sidewinder launcher"
-	"mass" 35
-	"outfit space" -35
-	"weapon capacity" -35
+	"mass" 30
+	"outfit space" -30
+	"weapon capacity" -30
 	"gun ports" -1
 	weapon
 		sprite "projectile/sidewinder"
@@ -1161,16 +1082,14 @@ outfit "Arion M.L.M.P.L"
 		"shield damage" 600
 		"hull damage" 350
 		"missile strength" 25
-		"ion damage" 20
+		"ion damage" 15
 		"heat damage" 150
-		"slowing damage" 1
 		"acceleration" 3.5
 		"drag" 0.1
 		"phasing"
-		"stream"
-	description "The Multiple Launch Missile Pod Large is a larger version of the missile launchers found on our fighters, bombers and such. Due to our advanced fabrication system it uses energy instead of ammo. The missiles are made to destroy shields and stun enemies."
+	description "The Sidewinder Launcher is a missile system that uses a revolver system to move missiles into the firing position. It fires the AIM-1x Super Sidewinder."
 
-outfit "Arion Missile Pod"
+outfit "Arion AIM-1x Sidewinder Pod"
 	category "Secondary Weapons"
 	cost 1000000
 	thumbnail "outfit/sidewinder pod"
@@ -1191,25 +1110,24 @@ outfit "Arion Missile Pod"
 		"reload" 120
 		"velocity" 35
 		"lifetime" 60
-		"firing energy" 500
-		"firing heat" 300
+		"firing energy" 450
+		"firing heat" 350
 		"turn" 40
 		"homing" 4
 		"tracking" 1
-		"shield damage" 600
-		"hull damage" 350
+		"shield damage" 500
+		"hull damage" 400
 		"missile strength" 25
-		"ion damage" 20
+		"ion damage" 15
 		"heat damage" 150
-		"slowing damage" 1
 		"acceleration" 3.5
 		"drag" 0.1
 		"phasing"
-	description "The standard Arion missile is a general purpose missile that can be used both to stun and finish of enemies, although it is not as effective as doing either of those things."
+	description "The AIM-1x Super Sidewinder is a general purpose missile that can be used to attack all types of enemies, including ground, naval and air. It is also very useful on spacecraft due to it being a credible threat to both Capital Ships and Fighters. This version uses fabricators instead of the' pocket dimension' to prepare missiles to be fired."
 
-outfit "Arion Pursuer Missile Pod"
+outfit "Arion AIM-2x AMRAAM Pod"
 	category "Secondary Weapons"
-	cost 1000000
+	cost 1250000
 	thumbnail "outfit/meteor pod"
 	"mass" 6
 	"outfit space" -6
@@ -1228,57 +1146,23 @@ outfit "Arion Pursuer Missile Pod"
 		"velocity" 50
 		"lifetime" 70
 		"reload" 180
-		"firing energy" 1000
+		"firing energy" 700
 		"firing heat" 600
 		"acceleration" 10
 		"drag" 0.2
 		"turn" 50
 		"homing" 4
 		"tracking" 1
-		"shield damage" 1250
-		"hull damage" 250
-		"missile strength" 35
+		"shield damage" 800
+		"hull damage" 700
+		"missile strength" 40
 		"ion damage" 35
 		"heat damage" 250
 		"slowing damage" 2.5
 		"phasing"
-	description "The Pursuer missile is used to stun and allow attacks on the enemy."
+	description "The AIM-2x Super AMRAAM (sometimes also nicknamed the SLAMRAAM) is a medium range anti air missile. Much like the sidewinder, this missile can also be found on all of the branches of our military, wether it be a SAM battery or mounted on a ship."
 
-outfit "Arion Finisher Missile Pod"
-	category "Secondary Weapons"
-	cost 1000000
-	thumbnail "outfit/sidewinder pod"
-	"mass" 5
-	"outfit space" -5
-	"weapon capacity" -5
-	"gun ports" -1
-	weapon
-		sprite "projectile/sidewinder"
-			"no repeat"
-			"frame rate" .25
-		sound "sidewinder"
-		icon "icon/sidewinder"
-		"fire effect" "sidewinder fire"
-		"die effect" "missile death"
-		"hit effect" "missile hit"
-		"inaccuracy" 0.6
-		"reload" 120
-		"velocity" 40
-		"lifetime" 55
-		"firing energy" 600
-		"firing heat" 350
-		"turn" 55
-		"homing" 4
-		"tracking" 1
-		"shield damage" 500
-		"hull damage" 750
-		"missile strength" 30
-		"acceleration" 4
-		"drag" 0.1
-		"phasing"
-	description "The Finisher missile is used to finish off enemies that has been stunned or weakened."
-
-outfit "Arion Rocket Pod"
+outfit "Arion Hydra 70x Pod"
 	category "Secondary Weapons"
 	cost 750000
 	thumbnail "outfit/javelin pod"
@@ -1298,12 +1182,12 @@ outfit "Arion Rocket Pod"
 		"lifetime" 80
 		"reload" 45
 		"firing energy" 175
-		"firing heat" 90
-		"shield damage" 200
-		"hull damage" 300
+		"firing heat" 125
+		"shield damage" 180
+		"hull damage" 240
 		"missile strength" 50
 		"ion damage" 5
-	description "The rocket pod is used by attack aircraft to launch multiple rockets at the enemy."
+	description "The rocket pod is used by attack aircraft and attack helicopters to launch multiple rockets at the enemy. In space, it is mainly used against larger warships but a skilled pilot can use it to hit other fighters."
 
 outfit "Arion L.R.A.S.M Pod"
 	category "Secondary Weapons"
@@ -1339,7 +1223,7 @@ outfit "Arion L.R.A.S.M Pod"
 		"stream"
 	description "Single launch L.R.A.S.M for fighter aircraft. Useful for helping weaken Capital ships."
 
-outfit "Arion G.P.B Pod"
+outfit "Arion GPB-1x Piercer Pod"
 	category "Secondary Weapons"
 	cost 1250000
 	thumbnail "outfit/torpedopod"
@@ -1370,9 +1254,9 @@ outfit "Arion G.P.B Pod"
 		"missile strength" 100
 		"piercing" 0.25
 		"stream"
-	description "Single launch Guided Penetration Bomb for fighter aircraft. Useful for helping destroy Capital ships."
+	description "The Guided Penetration Bomb-1x Piercer is a guided bomb used to strike bunkers. It has been revamped to also strike Capital ships"
 
-outfit "Arion Unguided Torpedo Pod"
+outfit "Arion UGT-1x Pod"
 	category "Secondary Weapons"
 	cost 1250000
 	thumbnail "outfit/typhoonpod"
@@ -1401,11 +1285,11 @@ outfit "Arion Unguided Torpedo Pod"
 		"hull damage" 2400
 		"heat damage" 50
 		"ion damage" 25
-		"piercing" 0.25
+		"piercing" 0.2
 		"stream"
-	description "Heavy unguided torpedo made to destroy or disable large warships."
+	description "The UnGuided Torpedo-1x is a heavy unguided torpedo used to devastate large Capital ships."
 
-outfit "Arion Guided Torpedo Pod"
+outfit "Arion GTU-1x Shark Pod"
 	category "Secondary Weapons"
 	cost 1500000
 	thumbnail "outfit/typhoonpod"
@@ -1426,8 +1310,8 @@ outfit "Arion Guided Torpedo Pod"
 		"velocity" 13
 		"lifetime" 200
 		"reload" 360
-		"firing energy" 2000
-		"firing heat" 1250
+		"firing energy" 2100
+		"firing heat" 1500
 		"acceleration" 1.5
 		"drag" 0.1
 		"turn" 2.5
@@ -1437,11 +1321,11 @@ outfit "Arion Guided Torpedo Pod"
 		"hull damage" 2250
 		"heat damage" 50
 		"ion damage" 25
-		"piercing" 0.2
+		"piercing" 0.15
 		"stream"
-	description "Heavy guided torpedo made to destroy or disable large warships. This is the pod variant."
+	description "The Guided Torpedo Unit-1x Shark is a heavy guided torpedo used to devastate large Capital ships."
 
-outfit "Arion Guided Torpedo Launcher"
+outfit "Arion GTU-1x Shark Launcher"
 	category "Secondary Weapons"
 	cost 5000000
 	thumbnail "outfit/typhoon launcher"
@@ -1464,8 +1348,8 @@ outfit "Arion Guided Torpedo Launcher"
 		"burst count" 3
 		"burst reload" 20
 		"reload" 300
-		"firing energy" 2000
-		"firing heat" 1250
+		"firing energy" 2100
+		"firing heat" 1500
 		"acceleration" 1.5
 		"drag" 0.1
 		"turn" 2.5
@@ -1475,94 +1359,9 @@ outfit "Arion Guided Torpedo Launcher"
 		"hull damage" 2250
 		"heat damage" 50
 		"ion damage" 25
-		"piercing" 0.2
+		"piercing" 0.15
 		"stream"
-	description "Heavy guided torpedo made to destroy or disable large warships. This version fires a salvo of 3 Torpedoes."
-
-outfit "Arion Millenium Autocannon Turret"
-	category "Turrets"
-	cost 500000
-	thumbnail "outfit/heavy anti-missile"
-	"mass" 15
-	"outfit space" -15
-	"weapon capacity" -15
-	"turret mounts" -1
-	weapon
-		"hardpoint sprite" "hardpoint/heavy anti-missile"
-		"hardpoint offset" 5.
-		sprite "projectile/bullet"
-			"delay" 5
-			"random start frame"
-			"frame rate" 0
-		sound "gatling"
-		"turret turn" 8
-		"velocity" 80
-		"lifetime" 8
-		"shield damage" 18
-		"hull damage" 35
-		"hit force" 5
-		"inaccuracy" 0.6
-		"reload" 4
-		"firing energy" 15
-		"firing heat" 15
-		"hit effect" "bullet impact"
-	description "Light autocannon used to discourage attacks from smaller ships or fill up unused turret space."
-
-outfit "Arion 76mm Oto Melara Turret"
-	category "Turrets"
-	cost 2000000
-	thumbnail "outfit/proton turret"
-	"mass" 35
-	"outfit space" -35
-	"weapon capacity" -35
-	"turret mounts" -1
-	weapon
-		sprite "projectile/proton"
-		"hardpoint sprite" "hardpoint/proton turret"
-		"hardpoint offset" 14.
-		sound "proton"
-		"hit effect" "proton impact" 3
-		"inaccuracy" 0.3
-		"turret turn" 4
-		"velocity" 120
-		"lifetime" 10
-		"reload" 75
-		"burst count" 6
-		"burst reload" 12
-		"firing energy" 600
-		"firing heat" 300
-		"firing force" 25
-		"hit force" 25
-		"shield damage" 400
-		"hull damage" 800
-	description "Usually used on our navy ships, it is also quite useful for our spaceships in this expedition. This cannon fires in 6 round bursts."
-
-outfit "Arion 127mm Mk 45 Turret"
-	category "Turrets"
-	cost 3000000
-	thumbnail "outfit/proton turret"
-	"mass" 50
-	"outfit space" -50
-	"weapon capacity" -50
-	"turret mounts" -1
-	weapon
-		sprite "projectile/proton"
-		"hardpoint sprite" "hardpoint/proton turret"
-		"hardpoint offset" 14.
-		sound "proton"
-		"hit effect" "proton impact" 3
-		"inaccuracy" 0.5
-		"turret turn" 2.0
-		"velocity" 100
-		"lifetime" 15
-		"reload" 120
-		"firing energy" 975
-		"firing heat" 488
-		"firing force" 50
-		"hit force" 50
-		"shield damage" 650
-		"hull damage" 1300
-	description "Usually used on our navy ships, it is also quite useful for our spaceships in this expedition. This cannon fires in a steady rate of 1 round per 1 and a half second."
+	description "This is a revolving launcher system that fires the GTU-1x Shark Torpedo."
 
 outfit "Arion B52 Bomb Bay Mk1"
 	category "Secondary Weapons"
@@ -1732,14 +1531,13 @@ outfit "Arion Vengeance ICBM"
 		"acceleration" 25
 		"turn" 4
 		"homing" 4
-		"radar tracking" 4
-		"optical tracking" 4
+		"optical tracking" 0.5
 		"trigger radius" 50
 		"blast radius" 250
 		"shield damage" 100000
 		"hull damage" 75000
 		"hit force" 5000
-		"missile strength" 250
+		"missile strength" 450
 		"stream"
 	description "Revenge at all costs."
 
@@ -1887,62 +1685,172 @@ outfit "Arion Vulcan Nuclear Bomb Bay Mk1"
 		"heat damage" 2500
 	description "The bomb bay on the Vulcan used for storing nuclear bombs until needed."
 
-=========================Outdated==========
-outfit "Arion Dragonfire C.I.W.S"
-	category "Turrets"
-	licenses
-			"Arion"
-	cost 5000000
-	thumbnail "outfit/warder"
-	"mass" 50
-	"outfit space" -50
-	"weapon capacity" -50
-	"turret mounts" -1
-	weapon
-		"hardpoint sprite" "hardpoint/warder"
-		"hardpoint offset" 3.
-		"hit effect" "bullet impact"
-		sound "gatling"
-		"anti-missile" 60
-		"velocity" 160
-		"lifetime" 2
-		"reload" 1
-		"firing energy" 120
-		"firing heat" 75
-	description "Ah, the Dragonfire C.I.W.S, a standard issue equipment not only our space ships, but also our largest naval warships. It is armed with 3 Gau-8 30mm miniguns and radar equipment to quickly track and destroy any threat to the ship. This thing is usually also a menace to fighter aircraft besides missiles, but sadly that's not how it works here."
-
-outfit "Arion E.M.L Compact (Disabler)"
+outfit "Arion Arclight E.M.L"
 	category "Secondary Weapons"
 	licenses
 			"Arion"
-	cost 25000000
-	thumbnail "outfit/dragonflame"
-	"mass" 45
-	"outfit space" -45
-	"weapon capacity" -45
+	cost 8000000
+	thumbnail "outfit/railgun"
+	"mass" 25
+	"outfit space" -25
+	"weapon capacity" -25
 	"gun ports" -1
+	"arclight eml" -1
 	weapon
-		sound "dragonflame" 
-		icon "icon/dragonflame"
 		sprite "projectile/rail slug"
 			"frame rate" 30
+		sound "ion"
+		icon "icon/rail gun"
 		"fire effect" "rail sparks"
-		"hit effect" "bright hit"
-		"hit effect" "dragonflame plasma" 30
-		"hit effect" "dragonflame debris" 50
-		"inaccuracy" 0.05
+		"hit effect" "bullet impact"
+		"inaccuracy" 0.25
 		"velocity" 500
-		"lifetime" 6
+		"lifetime" 5
 		"reload" 300
-		"firing energy" 3500
-		"firing heat" 3500
-		"shield damage" 1250
-		"hull damage" 3750
-		"hit force" 150
-		"firing force" 200
-		"ion damage" 100
-		"heat damage" 10000
-		"slowing damage" 10
+		"firing energy" 1750
+		"firing heat" 900
+		"firing force" 80
+		"shield damage" 900
+		"hull damage" 2000
+		"piercing" 0.8
 		"stream"
+	description "The Archlight E.M.L is a specially built railgun for the X-02x Wyvern and ASF-01 Wyvern."
+
+outfit "Arion Purgatorio E.M.L"
+	category "Secondary Weapons"
+	licenses
+			"Arion"
+	cost 4000000
+	thumbnail "outfit/railgun"
+	"mass" 15
+	"outfit space" -15
+	"weapon capacity" -15
+	"gun ports" -1
+	"purgatorio eml" -1
+	weapon
+		sprite "projectile/rail slug"
+			"frame rate" 30
+		sound "ion"
+		icon "icon/rail gun"
+		"fire effect" "rail sparks"
+		"hit effect" "bullet impact"
+		"inaccuracy" 0.4
+		"velocity" 500
+		"lifetime" 4
+		"reload" 300
+		"firing energy" 1100
+		"firing heat" 500
+		"firing force" 60
+		"shield damage" 500
+		"hull damage" 1200
+		"piercing" 0.7
+		"stream"
+	description "The Purgatorio E.M.L is a specially built railgun for the CFA-44x Nosferatu and ASF-02 Nosferatu."
+
+outfit "Arion Zoisite T.L.S"
+	category "Secondary Weapons"
+	licenses
+			"Arion"
+	cost 8000000
+	thumbnail "outfit/bombardment cannon"
+	"mass" 25
+	"outfit space" -25
+	"weapon capacity" -25
+	"gun ports" -1
+	"morgan hardpoint" -1
+	weapon
+		sprite "projectile/ariontlslaser"
+			"frame rate" 1
+		sound "skylance"
+		icon "icon/dragonflame"
+		"hit effect" "beam laser impact"
+		"inaccuracy" 0
+		"velocity" 2000
+		"lifetime" 1
+		"reload" 5
+		"burst count" 60
+		"burst reload" 1
+		"firing energy" 44
+		"firing heat" 44
+		"shield damage" 40
+		"hull damage" 44
+	description "The Zoisite Tactical Laser System is a specifically built laser for the ADFX-01 Morgan, ADF-01 Falken, ADF-11 Raven and ASF-0 Morgan, ADF-01 Falken, ADF-02 Raven."
+
+outfit "Arion Joint Strike Missile"
+	category "Secondary Weapons"
+	licenses
+			"Arion"
+	cost 3500000
+	thumbnail "outfit/thunderhead launcher"
+	"mass" 10
+	"outfit space" -10
+	"weapon capacity" -10
+	"gun ports" -1
+	"xfa27 hardpoint" -2
+	weapon
+		sprite "projectile/thunderhead"
+			"no repeat"
+			"frame rate" .1
+		sound "thunderhead"
+		icon "icon/thunderhead"
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"hit effect" "medium explosion"
+		"inaccuracy" 0.6
+		"burst count" 2
+		"burst reload" 5
+		"reload" 120
+		"velocity" 45
+		"lifetime" 70
+		"firing energy" 1050
+		"firing heat" 750
+		"turn" 75
+		"homing" 4
+		"tracking" 1
+		"shield damage" 1250
+		"hull damage" 1100
+		"missile strength" 40
+		"ion damage" 25
+		"acceleration" 4.5
+		"drag" 0.1
 		"phasing"
-	description "We've noticed there were problems with the E.M.L being overkill, so we made this version to stun enemies instead of destroying them."
+	description "The Joint Strike Missile is specifically built for the XFA-27 and the ASF-03 Scarface."
+
+outfit "Arion L.S.W.M"
+	category "Secondary Weapons"
+	cost 8500000
+	thumbnail "outfit/rocket pod"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"gun ports" -1
+	"fenrir hardpoint" -1
+	weapon
+		sprite "projectile/missile"
+			"no repeat"
+			"frame rate" .25
+		"hardpoint sprite" "hardpoint/nuke"
+		sound "nuke"
+		icon "icon/nuke"
+		"hit effect" "nuke explosion"
+		"hit effect" "nuke residue fast" 10
+		"hit effect" "nuke residue slow" 10
+		"die effect" "missile death"
+		"inaccuracy" 0.5
+		"velocity" 15
+		"lifetime" 250
+		"reload" 360
+		"firing energy" 4000
+		"firing heat" 3500
+		"acceleration" 1.5
+		"drag" 0.1
+		"turn" 15
+		"homing" 4
+		"tracking" 1
+		"blast radius" 50
+		"shield damage" 4000
+		"hull damage" 4500
+		"hit force" 500
+		"missile strength" 80
+		"phasing"
+	description "The Long Range Shockwave Missile is specifically built for the XFA-33 Fenrir and the ASF-04 Fenrir."
