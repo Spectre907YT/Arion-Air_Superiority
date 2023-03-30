@@ -32,12 +32,11 @@ ship "Arion Argosy Block IIIA"
 		"Hyperdrive"
 		"Jump Drive"
 		"Quantum Keystone"
-		"Arion AIM-2x AMRAAM Pod" 4
 		"Arion Myriad C.I.W.S"
 		"Arion SBL-03A Paralyzer Turret"
 		"Arion AR-15x" 3
 		"Arion ODE-MLW-80x"
-		"Arion ARS-25x"
+		"Arion ARS-50x"
 		"Arion L.C.D"
 		"Arion Multirole Fuel System"
 		"Arion S.I Equipment" 10
@@ -193,7 +192,7 @@ ship "Arion Marauder Falcon Block IIIA"
 		"gun ports" 6
 		"heat dissipation" 0.9
 		hull 70000
-		"outfit space" 650
+		"outfit space" 675
 		"required crew" 10
 		shields 220000
 		"turret mounts" 4

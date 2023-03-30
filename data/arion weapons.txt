@@ -86,8 +86,8 @@ outfit "Arion OTOMATIC CIWS"
 		"velocity" 650
 		"lifetime" 2
 		"reload" 20
-		"firing energy" 150
-		"firing heat" 75
+		"firing energy" 75
+		"firing heat" 150
 	description "A 76mm naval gun that has added radars to shoot down missiles, it now acts as a Heavy CIWS system, designed to shoot down larger missiles from longer ranges."
 
 outfit "Arion Goalkeeper C.I.W.S"
@@ -109,8 +109,8 @@ outfit "Arion Goalkeeper C.I.W.S"
 		"velocity" 150
 		"lifetime" 2
 		"reload" 1
-		"firing energy" 30
-		"firing heat" 15
+		"firing energy" 15
+		"firing heat" 30
 	description "The Goalkeeper C.I.W.S has been adapted from our navy ships to be usable on spaceships. It has a GAU-8 avenger 30mm gatling gun and advanced radar systems to help search and destroy incoming missiles."
 
 outfit "Arion Myriad C.I.W.S"
@@ -132,8 +132,8 @@ outfit "Arion Myriad C.I.W.S"
 		"velocity" 175
 		"lifetime" 2
 		"reload" 1
-		"firing energy" 25
-		"firing heat" 12.5
+		"firing energy" 12.5
+		"firing heat" 25
 	description "The Myriad C.I.W.S has been adapted from our navy ships to be usable on spaceships. It has a GAU-12 equalizer 25mm gatling gun and advanced radar systems to help search and destroy incoming missiles."
 
 outfit "Arion Phalanx C.I.W.S"
@@ -155,8 +155,8 @@ outfit "Arion Phalanx C.I.W.S"
 		"velocity" 200
 		"lifetime" 2
 		"reload" 1
-		"firing energy" 20
-		"firing heat" 10
+		"firing energy" 10
+		"firing heat" 20
 	description "The Phalanx C.I.W.S has been adapted from our navy ships to be usable on spaceships. It has a M61 Vulcan 20mm gatling gun and advanced radar systems to help search and destroy incoming missiles."
 
 outfit "Arion Oerlikon MilleniumX C.I.W.S"
@@ -180,7 +180,7 @@ outfit "Arion Oerlikon MilleniumX C.I.W.S"
 		"anti-missile" 18
 		"reload" 4
 		"firing energy" 15
-		"firing heat" 15
+		"firing heat" 30
 		"hit effect" "bullet impact"
 	description "35mm Land Based AA gun that has been converted into a C.I.W.S used to destroy incoming missiles."
 
@@ -207,7 +207,7 @@ outfit "Arion SeaRAMx"
 		"reload" 20
 		"burst count" 12
 		"burst reload" 10
-		"firing energy" 500
+		"firing energy" 375.5
 		"firing heat" 500
 	description "The SeaRAMx is a missile defense system used to take out missiles from long range without risking the warship. It is used by all branches of our military, whether it be the airforce and army as a ground based system or in the navy, marines and space force for mounting on warships."
 
@@ -487,7 +487,7 @@ outfit "Arion Gau-8 Avenger"
 		"burst count" 240
 		"burst reload" 1
 		"firing energy" 15
-		"firing heat" 15
+		"firing heat" 30
 		"hit effect" "bullet impact"
 	description "Unlike the Dragonfire CIWS, this gun port version fires in bursts due to the fear of overheating. This gun can also be found on our A-10 Warthogs. Due to our advanced fabrication systems, it uses energy instead of ammo."
 
@@ -515,7 +515,7 @@ outfit "Arion 30mm Autocannon"
 		"inaccuracy" 0.5
 		"reload" 5
 		"firing energy" 12
-		"firing heat" 12
+		"firing heat" 24
 		"hit effect" "bullet impact"
 	description "Using the same cartridge as the GAU 8, it is more compact but has a slower firing rate. It does however benefit from having more accuracy and slightly higher range. (Special thanks to 1010todd for letting me use the artwork from the 50 cal mod)"
 
@@ -544,8 +544,8 @@ outfit "Arion Gau-12 Equalizer"
 		"reload" 3
 		"burst count" 180
 		"burst reload" 1
-		"firing energy" 10
-		"firing heat" 7.5
+		"firing energy" 11
+		"firing heat" 22
 		"hit effect" "bullet impact"
 	description "This is a gun originally used in our AV-8 Harriers and F-35 atmospheric fighters. It uses 25mm rounds. It is now available for you to put on your ships. Due to our advanced fabrication systems, it uses energy instead of ammo."
 
@@ -574,8 +574,8 @@ outfit "Arion M61 Vulcan"
 		"reload" 2
 		"burst count" 300
 		"burst reload" 1
-		"firing energy" 8
-		"firing heat" 6
+		"firing energy" 9
+		"firing heat" 18
 		"hit effect" "bullet impact"
 	description "This is a gun originally used in a lot of our atmospheric fighters. It uses 20mm rounds. It is now available for you to put on your ships. Due to our advanced fabrication systems, it uses energy instead of ammo."
 
@@ -602,8 +602,8 @@ outfit "Arion 20mm Autocannon"
 		"hull damage" 10
 		"hit force" 2
 		"reload" 5
-		"firing energy" 8
-		"firing heat" 6
+		"firing energy" 7.5
+		"firing heat" 15
 		"hit effect" "bullet impact"
 	description "Using the same cartridge as the M61, it is more compact but has a slower firing rate. It does however benefit from having more accuracy and slightly higher range. (Special thanks to 1010todd for letting me use the artwork from the 50 cal mod)"
 
@@ -613,9 +613,9 @@ outfit "Arion G.A.A.C"
 			"Arion"
 	cost 5000000
 	thumbnail "outfit/railgun"
-	"mass" 5
-	"outfit space" -5
-	"weapon capacity" -5
+	"mass" 7
+	"outfit space" -7
+	"weapon capacity" -7
 	"gun ports" -1
 	weapon
 		sprite "projectile/rail slug"
@@ -643,9 +643,9 @@ outfit "Arion G.A.G.G"
 			"Arion"
 	cost 5000000
 	thumbnail "outfit/railgun"
-	"mass" 5
-	"outfit space" -5
-	"weapon capacity" -5
+	"mass" 7
+	"outfit space" -7
+	"weapon capacity" -7
 	"gun ports" -1
 	weapon
 		sprite "projectile/rail slug"
@@ -683,25 +683,25 @@ outfit "Arion 76mm OTO Melara Turret"
 		"fire effect" "irate fire"
 		"live effect" "irate smoke" 12
 		"hit effect" "tiny explosion"
-		"inaccuracy" 0.3
+		"inaccuracy" 0.6
 		"turret turn" 4
-		"velocity" 120
-		"lifetime" 10
+		"velocity" 60
+		"lifetime" 20
 		"reload" 60
-		"burst count" 5
-		"burst reload" 12
-		"firing energy" 280
-		"firing heat" 250
+		"burst count" 6
+		"burst reload" 10
+		"firing energy" 375
+		"firing heat" 750
 		"firing force" 25
 		"hit force" 25
-		"shield damage" 160
-		"hull damage" 320
+		"shield damage" 380
+		"hull damage" 760
 		"energy consumption" 0.35
 	description "Usually used on our navy ships, it is also quite useful for our spaceships in this expedition. This cannon fires in 6 round bursts. This turret is automated so some power is required to keep them active at all times."
 
 outfit "Arion 127mm Mk 45 Turret"
 	category "Turrets"
-	cost 3000000
+	cost 2500000
 	thumbnail "outfit/choleric turret"
 	"mass" 50
 	"outfit space" -50
@@ -715,17 +715,17 @@ outfit "Arion 127mm Mk 45 Turret"
 		"fire effect" "choleric fire"
 		"live effect" "choleric smoke" 24
 		"hit effect" "small explosion"
-		"inaccuracy" 0.5
-		"turret turn" 2.0
-		"velocity" 100
-		"lifetime" 15
+		"inaccuracy" 0.75
+		"turret turn" 2
+		"velocity" 50
+		"lifetime" 30
 		"reload" 120
-		"firing energy" 560
-		"firing heat" 500
+		"firing energy" 600
+		"firing heat" 1200
 		"firing force" 50
 		"hit force" 50
-		"shield damage" 318
-		"hull damage" 635
+		"shield damage" 625
+		"hull damage" 1250
 		"energy consumption" 0.5
 	description "Usually used on our navy ships, it is also quite useful for our spaceships in this expedition. This cannon fires in a steady rate of 1 round per 1 and a half second. This turret is automated so some power is required to keep them active at all times."
 
@@ -997,9 +997,9 @@ outfit "Arion MARAUDER Railgun"
 		"velocity" 500
 		"lifetime" 4
 		"reload" 30
-		"firing energy" 1200
-		"firing force" 150
-		"firing heat" 1000
+		"firing energy" 1300
+		"firing heat" 950
+		"firing force" 75
 		"hit force" 80
 		"shield damage" 1400
 		"hull damage" 1000
@@ -1032,19 +1032,19 @@ outfit "Arion AIM-1x Sidewinder M.L.M.S"
 		"reload" 120
 		"burst count" 6
 		"burst reload" 30
-		"velocity" 35
-		"lifetime" 60
-		"firing energy" 500
-		"firing heat" 300
+		"velocity" 25
+		"lifetime" 80
+		"firing energy" 350
+		"firing heat" 500
 		"turn" 40
 		"homing" 4
 		"tracking" 1
-		"shield damage" 600
-		"hull damage" 350
-		"missile strength" 25
+		"shield damage" 400
+		"hull damage" 500
+		"missile strength" 24
 		"ion damage" 15
 		"heat damage" 150
-		"acceleration" 3.5
+		"acceleration" 2.5
 		"drag" 0.1
 		"phasing"
 		"stream"
@@ -1072,21 +1072,22 @@ outfit "Arion AIM-1x Sidewinder Launcher"
 		"reload" 120
 		"burst count" 6
 		"burst reload" 60
-		"velocity" 35
-		"lifetime" 60
-		"firing energy" 500
-		"firing heat" 300
+		"velocity" 25
+		"lifetime" 80
+		"firing energy" 350
+		"firing heat" 500
 		"turn" 40
 		"homing" 4
 		"tracking" 1
-		"shield damage" 600
-		"hull damage" 350
-		"missile strength" 25
+		"shield damage" 400
+		"hull damage" 500
+		"missile strength" 24
 		"ion damage" 15
 		"heat damage" 150
-		"acceleration" 3.5
+		"acceleration" 2.5
 		"drag" 0.1
 		"phasing"
+		"stream"
 	description "The Sidewinder Launcher is a missile system that uses a revolver system to move missiles into the firing position. It fires the AIM-1x Super Sidewinder."
 
 outfit "Arion AIM-1x Sidewinder Pod"
@@ -1108,30 +1109,117 @@ outfit "Arion AIM-1x Sidewinder Pod"
 		"hit effect" "missile hit"
 		"inaccuracy" 0.75
 		"reload" 120
-		"velocity" 35
-		"lifetime" 60
-		"firing energy" 450
-		"firing heat" 350
+		"velocity" 25
+		"lifetime" 80
+		"firing energy" 350
+		"firing heat" 500
 		"turn" 40
 		"homing" 4
 		"tracking" 1
-		"shield damage" 500
-		"hull damage" 400
-		"missile strength" 25
+		"shield damage" 400
+		"hull damage" 500
+		"missile strength" 24
 		"ion damage" 15
 		"heat damage" 150
-		"acceleration" 3.5
+		"acceleration" 2.5
 		"drag" 0.1
 		"phasing"
-	description "The AIM-1x Super Sidewinder is a general purpose missile that can be used to attack all types of enemies, including ground, naval and air. It is also very useful on spacecraft due to it being a credible threat to both Capital Ships and Fighters. This version uses fabricators instead of the' pocket dimension' to prepare missiles to be fired."
+	description "The AIM-1x Super Sidewinder is a general purpose missile that can be used to attack all types of enemies, including ground, naval and air. It is also very useful on spacecraft due to it being a credible threat to both Capital Ships and Fighters. This version uses fabricators instead of the 'pocket dimension' to prepare missiles to be fired."
+
+outfit "Arion AIM-2x AMRAAM M.L.M.S"
+	category "Secondary Weapons"
+	licenses
+			"Arion"
+	cost 12000000
+	thumbnail "outfit/sheragiam"
+	"mass" 50
+	"outfit space" -50
+	"weapon capacity" -50
+	"turret mounts" -1
+	weapon
+		sprite "projectile/sidewinder"
+			"no repeat"
+			"frame rate" .25
+		sound "sidewinder"
+		icon "icon/sidewinder"
+		"hardpoint sprite" "hardpoint/sheragiam"
+		"hardpoint offset" 1.5
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 2
+		"turret turn" 2.25
+		"burst count" 5
+		"burst reload" 36
+		"velocity" 40
+		"lifetime" 100
+		"reload" 180
+		"firing energy" 650
+		"firing heat" 750
+		"acceleration" 10
+		"drag" 0.4
+		"turn" 50
+		"homing" 4
+		"tracking" 1
+		"shield damage" 800
+		"hull damage" 700
+		"missile strength" 40
+		"ion damage" 35
+		"heat damage" 250
+		"slowing damage" 2.5
+		"phasing"
+		"stream"
+		"energy consumption" 0.8
+	description "While technically its is a missile instead of a rocket, it is functionally similar to an MLRS launcher. This launcher fires the AIM-2x."
+
+outfit "Arion AIM-2x AMRAAM Launcher"
+	category "Secondary Weapons"
+	cost 7500000
+	thumbnail "outfit/meteor launcher"
+	"mass" 35
+	"outfit space" -35
+	"weapon capacity" -35
+	"gun ports" -1
+	weapon
+		sprite "projectile/sidewinder"
+			"no repeat"
+			"frame rate" .25
+		sound "sidewinder"
+		icon "icon/sidewinder"
+		"fire effect" "sidewinder fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 1
+		"reload" 120
+		"burst count" 6
+		"burst reload" 72
+		"velocity" 40
+		"lifetime" 100
+		"reload" 180
+		"firing energy" 650
+		"firing heat" 750
+		"acceleration" 10
+		"drag" 0.4
+		"turn" 50
+		"homing" 4
+		"tracking" 1
+		"shield damage" 800
+		"hull damage" 700
+		"missile strength" 40
+		"ion damage" 35
+		"heat damage" 250
+		"slowing damage" 2.5
+		"phasing"
+		"stream"
+	description "The AMRAAM Launcher is a missile system that uses a revolver system to move missiles into the firing position. It fires the AIM-2x."
 
 outfit "Arion AIM-2x AMRAAM Pod"
 	category "Secondary Weapons"
 	cost 1250000
 	thumbnail "outfit/meteor pod"
-	"mass" 6
-	"outfit space" -6
-	"weapon capacity" -6
+	"mass" 7
+	"outfit space" -7
+	"weapon capacity" -7
 	"gun ports" -1
 	weapon
 		sprite "projectile/meteor"
@@ -1143,13 +1231,13 @@ outfit "Arion AIM-2x AMRAAM Pod"
 		"die effect" "missile death"
 		"hit effect" "missile hit"
 		"inaccuracy" 0.6
-		"velocity" 50
-		"lifetime" 70
+		"velocity" 40
+		"lifetime" 100
 		"reload" 180
-		"firing energy" 700
-		"firing heat" 600
+		"firing energy" 650
+		"firing heat" 750
 		"acceleration" 10
-		"drag" 0.2
+		"drag" 0.4
 		"turn" 50
 		"homing" 4
 		"tracking" 1
@@ -1160,7 +1248,7 @@ outfit "Arion AIM-2x AMRAAM Pod"
 		"heat damage" 250
 		"slowing damage" 2.5
 		"phasing"
-	description "The AIM-2x Super AMRAAM (sometimes also nicknamed the SLAMRAAM) is a medium range anti air missile. Much like the sidewinder, this missile can also be found on all of the branches of our military, wether it be a SAM battery or mounted on a ship."
+	description "The AIM-2x Super AMRAAM (sometimes also nicknamed the SLAMRAAM) is a medium range multipurpose missile, although unlike the sidewinder it is much more suited for air targets. Much like the sidewinder, this missile can also be found on all of the branches of our military, wether it be a SAM battery or mounted on a ship."
 
 outfit "Arion Hydra 70x Pod"
 	category "Secondary Weapons"
@@ -1178,13 +1266,13 @@ outfit "Arion Hydra 70x Pod"
 		"inaccuracy" 4
 		"burst count" 12
 		"burst reload" 5
-		"velocity" 25
-		"lifetime" 80
+		"velocity" 20
+		"lifetime" 50
 		"reload" 45
-		"firing energy" 175
-		"firing heat" 125
-		"shield damage" 180
-		"hull damage" 240
+		"firing energy" 120
+		"firing heat" 180
+		"shield damage" 150
+		"hull damage" 200
 		"missile strength" 50
 		"ion damage" 5
 	description "The rocket pod is used by attack aircraft and attack helicopters to launch multiple rockets at the enemy. In space, it is mainly used against larger warships but a skilled pilot can use it to hit other fighters."
@@ -1208,13 +1296,13 @@ outfit "Arion L.R.A.S.M Pod"
 		"velocity" 12
 		"lifetime" 300
 		"reload" 300
-		"firing energy" 1250
-		"firing heat" 750
+		"firing energy" 1200
+		"firing heat" 1650
 		"acceleration" 1.2
 		"drag" 0.1
 		"turn" 2.5
 		"homing" 3.5
-		"tracking" 0.75
+		"optical tracking" 0.5
 		"shield damage" 1500
 		"hull damage" 1750
 		"missile strength" 40
@@ -1239,18 +1327,18 @@ outfit "Arion GPB-1x Piercer Pod"
 		"hit effect" "torpedo hit"
 		"die effect" "tiny explosion"
 		"inaccuracy" 2.5
-		"velocity" 6
-		"lifetime" 340
+		"velocity" 5
+		"lifetime" 300
 		"reload" 300
-		"firing energy" 1250
-		"firing heat" 750
-		"acceleration" 0.6
+		"firing energy" 1000
+		"firing heat" 1900
+		"acceleration" 0.5
 		"drag" 0.1
 		"turn" 1.5
 		"homing" 3
 		"optical tracking" 0.25
-		"shield damage" 1250
-		"hull damage" 2100
+		"shield damage" 1200
+		"hull damage" 2000
 		"missile strength" 100
 		"piercing" 0.25
 		"stream"
@@ -1274,12 +1362,12 @@ outfit "Arion UGT-1x Pod"
 		"hit effect" "torpedo hit"
 		"die effect" "tiny explosion"
 		"inaccuracy" 1.5
-		"velocity" 15
+		"velocity" 10
 		"lifetime" 200
 		"reload" 360
-		"firing energy" 2000
-		"firing heat" 1250
-		"acceleration" 1.5
+		"firing energy" 1150
+		"firing heat" 2300
+		"acceleration" 1
 		"drag" 0.1
 		"shield damage" 1600
 		"hull damage" 2400
@@ -1307,16 +1395,16 @@ outfit "Arion GTU-1x Shark Pod"
 		"hit effect" "torpedo hit"
 		"die effect" "tiny explosion"
 		"inaccuracy" 1.5
-		"velocity" 13
-		"lifetime" 200
+		"velocity" 8
+		"lifetime" 250
 		"reload" 360
-		"firing energy" 2100
-		"firing heat" 1500
-		"acceleration" 1.5
+		"firing energy" 1400
+		"firing heat" 2100
+		"acceleration" 0.9
 		"drag" 0.1
 		"turn" 2.5
 		"homing" 3.5
-		"optical tracking" 0.5
+		"optical tracking" 0.35
 		"shield damage" 1500
 		"hull damage" 2250
 		"heat damage" 50
@@ -1343,18 +1431,18 @@ outfit "Arion GTU-1x Shark Launcher"
 		"hit effect" "torpedo hit"
 		"die effect" "tiny explosion"
 		"inaccuracy" 1.5
-		"velocity" 13
-		"lifetime" 200
+		"velocity" 8
+		"lifetime" 250
 		"burst count" 3
 		"burst reload" 20
-		"reload" 300
-		"firing energy" 2100
-		"firing heat" 1500
-		"acceleration" 1.5
+		"reload" 360
+		"firing energy" 1400
+		"firing heat" 2100
+		"acceleration" 0.9
 		"drag" 0.1
 		"turn" 2.5
 		"homing" 3.5
-		"optical tracking" 0.5
+		"optical tracking" 0.35
 		"shield damage" 1500
 		"hull damage" 2250
 		"heat damage" 50
@@ -1381,20 +1469,21 @@ outfit "Arion B52 Bomb Bay Mk1"
 		"die effect" "tiny explosion"
 		"burst count" 8
 		"burst reload" 30
-		"velocity" 6
-		"lifetime" 340
-		"reload" 180
-		"firing energy" 1250
-		"firing heat" 750
-		"acceleration" 0.6
+		"velocity" 5
+		"lifetime" 300
+		"reload" 300
+		"firing energy" 1000
+		"firing heat" 1900
+		"acceleration" 0.5
 		"drag" 0.1
 		"turn" 1.5
-		"homing" 4
+		"homing" 3
 		"optical tracking" 0.25
-		"shield damage" 1250
-		"hull damage" 2100
+		"shield damage" 1200
+		"hull damage" 2000
 		"missile strength" 100
 		"piercing" 0.25
+		"stream"
 	description "The bomb bay on the B-52 used for storing guided penetration bombs until needed."
 
 outfit "Arion B1 Bomb Bay Mk1"
@@ -1416,20 +1505,21 @@ outfit "Arion B1 Bomb Bay Mk1"
 		"burst count" 6
 		"burst reload" 30
 		"inaccuracy" 1
-		"velocity" 6
-		"lifetime" 340
-		"reload" 180
-		"firing energy" 1250
-		"firing heat" 750
-		"acceleration" 0.6
+		"velocity" 5
+		"lifetime" 300
+		"reload" 300
+		"firing energy" 1000
+		"firing heat" 1900
+		"acceleration" 0.5
 		"drag" 0.1
 		"turn" 1.5
-		"homing" 4
+		"homing" 3
 		"optical tracking" 0.25
-		"shield damage" 1250
-		"hull damage" 2100
+		"shield damage" 1200
+		"hull damage" 2000
 		"missile strength" 100
 		"piercing" 0.25
+		"stream"
 	description "The bomb bay on the B-1 used for storing guided penetration bombs until needed."
 
 outfit "Arion B2 Bomb Bay Mk1"
@@ -1451,20 +1541,21 @@ outfit "Arion B2 Bomb Bay Mk1"
 		"burst count" 5
 		"burst reload" 30
 		"inaccuracy" 1
-		"velocity" 6
-		"lifetime" 340
-		"reload" 180
-		"firing energy" 1250
-		"firing heat" 750
-		"acceleration" 0.6
+		"velocity" 5
+		"lifetime" 300
+		"reload" 300
+		"firing energy" 1000
+		"firing heat" 1900
+		"acceleration" 0.5
 		"drag" 0.1
 		"turn" 1.5
-		"homing" 4
+		"homing" 3
 		"optical tracking" 0.25
-		"shield damage" 1250
-		"hull damage" 2100
+		"shield damage" 1200
+		"hull damage" 2000
 		"missile strength" 100
 		"piercing" 0.25
+		"stream"
 	description "The bomb bay on the B-2 used for storing guided penetration bombs until needed."
 
 outfit "Arion Vulcan Bomb Bay Mk1"
@@ -1486,20 +1577,21 @@ outfit "Arion Vulcan Bomb Bay Mk1"
 		"burst count" 4
 		"burst reload" 30
 		"inaccuracy" 1
-		"velocity" 6
-		"lifetime" 340
-		"reload" 180
-		"firing energy" 1250
-		"firing heat" 750
-		"acceleration" 0.6
+		"velocity" 5
+		"lifetime" 300
+		"reload" 300
+		"firing energy" 1000
+		"firing heat" 1900
+		"acceleration" 0.5
 		"drag" 0.1
 		"turn" 1.5
-		"homing" 4
+		"homing" 3
 		"optical tracking" 0.25
-		"shield damage" 1250
-		"hull damage" 2100
+		"shield damage" 1200
+		"hull damage" 2000
 		"missile strength" 100
 		"piercing" 0.25
+		"stream"
 	description "The bomb bay on the Vulcan used for storing guided penetration bombs until needed."
 
 outfit "Arion Vengeance ICBM"

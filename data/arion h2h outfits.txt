@@ -77,7 +77,7 @@ outfit "Glock 17 Suppressed"
 	"capture attack" 0.225
 	"capture defense" 0.2
 	"unplunderable" 1
-	description "A suppressed semi automatic pistol that is reliable. It fires 9 by 19."
+	description "A suppressed semi automatic pistol that is reliable. It fires 9 by 19 parabellum."
 
 outfit "1911 Tactical"
 	category "Hand to Hand"
@@ -86,7 +86,7 @@ outfit "1911 Tactical"
 	"capture attack" 0.215
 	"capture defense" 0.21
 	"unplunderable" 1
-	description "A semi automatic pistol that has been through a lot. It fires 45 caliber."
+	description "A semi automatic pistol that has been through a lot. It fires 45 acp."
 
 outfit "Beretta 93R"
 	category "Hand to Hand"
@@ -95,7 +95,7 @@ outfit "Beretta 93R"
 	"capture attack" 0.23
 	"capture defense" 0.23
 	"unplunderable" 1
-	description "A unique machine pistol that fires in 3 round bursts. It fires 9 by 19."
+	description "A unique machine pistol that fires in 3 round bursts. It fires 9 by 19 parabellum."
 
 outfit "Makarov PB"
 	category "Hand to Hand"
@@ -104,7 +104,7 @@ outfit "Makarov PB"
 	"capture attack" 0.23
 	"capture defense" 0.18
 	"unplunderable" 1
-	description "An integrally suppressed pistol that has been modified to fire 9 by 19."
+	description "An integrally suppressed pistol that has been modified to fire 9 by 19 parabellum."
 
 outfit "44 Magnum Revolver"
 	category "Hand to Hand"

@@ -589,7 +589,7 @@ ship "Arion Marauder Leviathan Block I"
 		"gun ports" 4
 		"heat dissipation" 0.9
 		hull 9000
-		"outfit space" 750
+		"outfit space" 725
 		"required crew" 35
 		shields 25000
 		"turret mounts" 4
@@ -646,7 +646,7 @@ ship "Arion Marauder Falcon Block I"
 		"gun ports" 6
 		"heat dissipation" 0.9
 		hull 6750
-		"outfit space" 650
+		"outfit space" 670
 		"required crew" 40
 		shields 22500
 		"turret mounts" 4
@@ -1482,8 +1482,8 @@ ship "Arion F/S-14X Tomcat Block I"
 		"drag" 0.85
 		"heat dissipation" 0.9
 		"fuel capacity" 200
-		"outfit space" 98
-		"weapon capacity" 22
+		"outfit space" 99
+		"weapon capacity" 24
 		"engine capacity" 25
 		"flares" 1
 	outfits
@@ -1694,7 +1694,7 @@ ship "Arion Su/S-57X Felon Block I"
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 98
-		"weapon capacity" 21
+		"weapon capacity" 22
 		"engine capacity" 25
 		"cloak" 2.25
 		"cloaking energy" 13
@@ -1738,7 +1738,7 @@ ship "Arion F/S-23X Black Widow Block I"
 		"drag" 0.9
 		"heat dissipation" 0.9
 		"fuel capacity" 200
-		"outfit space" 97
+		"outfit space" 100
 		"weapon capacity" 24
 		"engine capacity" 25
 		"cloak" 1.25
@@ -1826,8 +1826,8 @@ ship "Arion Su/S-47X Berkut Block I"
 		"drag" 1.075
 		"heat dissipation" 0.9
 		"fuel capacity" 200
-		"outfit space" 96
-		"weapon capacity" 21
+		"outfit space" 97
+		"weapon capacity" 22
 		"engine capacity" 25
 		"cloak" 2.5
 		"cloaking energy" 15
@@ -2100,7 +2100,7 @@ ship "Arion Su/S-27X Flanker Block I"
 		"drag" 1.075
 		"heat dissipation" 0.9
 		"fuel capacity" 200
-		"outfit space" 96
+		"outfit space" 97
 		"weapon capacity" 22
 		"engine capacity" 25
 		"flares" 1
@@ -2184,8 +2184,8 @@ ship "Arion F/S-104X Starfighter Block I"
 		"drag" 0.75
 		"heat dissipation" 0.9
 		"fuel capacity" 100
-		"outfit space" 72
-		"weapon capacity" 17
+		"outfit space" 75
+		"weapon capacity" 19
 		"engine capacity" 25
 		"flares" 1
 	outfits
@@ -2507,7 +2507,7 @@ ship "Arion F/S-22NX Raptor Block I"
 		"drag" 0.89
 		"heat dissipation" 0.9
 		"fuel capacity" 200
-		"outfit space" 97
+		"outfit space" 99
 		"weapon capacity" 25
 		"engine capacity" 25
 		"cloak" 1.5
@@ -2584,7 +2584,7 @@ ship "Arion F/S-4X Phantom II Block I"
 		"drag" 1.6
 		"heat dissipation" 0.9
 		"fuel capacity" 200
-		"outfit space" 95
+		"outfit space" 97
 		"weapon capacity" 30
 		"engine capacity" 25
 		"flares" 1
@@ -3158,7 +3158,7 @@ ship "Arion ADA/S-01X Adler MKI"
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 140
-		"weapon capacity" 55
+		"weapon capacity" 57
 		"engine capacity" 25
 		"cloak" 1.8
 		"cloaking energy" 12
@@ -3207,7 +3207,7 @@ ship "Arion X/S-37X Corsair MKI"
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 90
-		"weapon capacity" 10
+		"weapon capacity" 14
 		"engine capacity" 25
 		"cloak" 1.8
 		"cloaking energy" 11
@@ -3248,7 +3248,7 @@ ship "Arion X/S-44X Saracen MKI"
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 95
-		"weapon capacity" 12
+		"weapon capacity" 16
 		"engine capacity" 25
 		"cloak" 1.7
 		"cloaking energy" 10.5
@@ -3290,7 +3290,7 @@ ship "Arion X/S-59X Marauder MKI"
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 100
-		"weapon capacity" 18
+		"weapon capacity" 19
 		"engine capacity" 25
 		"cloak" 1.6
 		"cloaking energy" 10
@@ -3378,7 +3378,7 @@ ship "Arion A/S-4X SFF Skyhawk Mk1"
 		"heat dissipation" 0.9
 		"fuel capacity" 100
 		"outfit space" 90
-		"weapon capacity" 30
+		"weapon capacity" 25
 		"engine capacity" 20
 		"flares" 1
 		"ion resistance" 3
@@ -3471,7 +3471,7 @@ ship "Arion F/S-18X SFF Super Hornet Mk1"
 		"drag" 1.175
 		"heat dissipation" 0.9
 		"fuel capacity" 150
-		"outfit space" 102
+		"outfit space" 106
 		"weapon capacity" 35
 		"engine capacity" 25
 		"flares" 1
@@ -3521,7 +3521,7 @@ ship "Arion Halberd Class Cruiser"
 		"drag" 9.5
 		"heat dissipation" .9
 		"fuel capacity" 900
-		"cargo space" 100
+		"cargo space" 80
 		"outfit space" 880
 		"weapon capacity" 400
 		"engine capacity" 180
@@ -3602,7 +3602,7 @@ ship "Arion Scimitar Class Destroyer"
 		"drag" 7.5
 		"heat dissipation" .9
 		"fuel capacity" 900
-		"cargo space" 80
+		"cargo space" 50
 		"outfit space" 700
 		"weapon capacity" 300
 		"engine capacity" 150
@@ -3671,9 +3671,9 @@ ship "Arion Kukri Class Frigate"
 		"drag" 4.5
 		"heat dissipation" .9
 		"fuel capacity" 900
-		"cargo space" 40
-		"outfit space" 505
-		"weapon capacity" 200
+		"cargo space" 20
+		"outfit space" 450
+		"weapon capacity" 150
 		"engine capacity" 150
 		"ion resistance" 3
 		"ion protection" 1
@@ -3684,7 +3684,7 @@ ship "Arion Kukri Class Frigate"
 		"burn resistance" 5
 	outfits
 		"Arion E.M.L Compact"
-		"Arion AIM-1x Sidewinder Launcher" 2
+		"Arion AIM-2x AMRAAM Pod" 2
 		"Arion Phalanx C.I.W.S"
 		"Arion SBL-03A Paralyzer Turret"
 		"Arion Multirole Fuel System"

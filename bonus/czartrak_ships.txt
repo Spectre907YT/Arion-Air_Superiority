@@ -15,7 +15,7 @@ ship "Arion Destroyer Block I"
 		"fuel capacity" 500
 		"cargo space" 20
 		"outfit space" 600
-		"weapon capacity" 400
+		"weapon capacity" 325
 		"engine capacity" 125
 		"gun ports" 4
 		"turret ports" 5
@@ -30,14 +30,14 @@ ship "Arion Destroyer Block I"
 		"Arion ODE-IA-25x"
 		"Arion S.I Equipment" 10
 		"Arion AIM-1x Sidewinder Launcher" 4
-		"Arion 76mm OTO Melara Turret"
+		"Arion 127mm Mk 45 Turret"
 		"Arion Multirole Fuel System"
 	gun 24.5 -53.5
 	gun 29 -49
 	gun -25.5 -53
 	gun -30 -49
 	turret -0 -30 "Arion OTOMATIC CIWS"
-	turret 0 -47 "Arion 76mm OTO Melara Turret"
+	turret 0 -47 "Arion 127mm Mk 45 Turret"
 	turret -0 -6.5 "Arion SeaRAMx"
 	turret -28 47 "Arion Phalanx C.I.W.S"
 	turret 28 47 "Arion Phalanx C.I.W.S"

@@ -85,7 +85,7 @@ ship "Marauder Leviathan" "Marauder Leviathan (Northern Pirate Arion)"
 
 ship "Marauder Raven" "Marauder Raven (Northern Pirate Arion)"
 	add attributes"
-		"self destruct" -.25
+		"self destruct" -0.25
 	outfits
 		"Electron Beam" 4
 		"Chameleon Anti-Missile"
@@ -103,7 +103,7 @@ ship "Marauder Raven" "Marauder Raven (Northern Pirate Arion)"
 
 ship "Marauder Splinter" "Marauder Splinter (Northern Pirate Arion)"
 	add attributes"
-		"self destruct" -.25
+		"self destruct" -0.25
 	outfits
 		"Fire-Lance" 2
 		"Blaze-Pike Turret" 2

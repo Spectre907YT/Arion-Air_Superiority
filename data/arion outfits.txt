@@ -1,6 +1,5 @@
 outfit "Arion License"
 	category "Licenses"
-	cost 10000000
 	thumbnail "outfit/license"
 	description "A special license for captains affiliated with Arion."
 
@@ -652,7 +651,7 @@ outfit "Arion S.C.D"
 	thumbnail "outfit/small heat shunt"
 	"mass" 5
 	"outfit space" -5
-	"energy capacity" 500
+	"energy capacity" 250
 	"cooling" 12.5
 	description "The Arion Small Cooling Device is a small cooling device used for mostly fighter sized spacecraft. It also has some extra battery space"
 
@@ -664,7 +663,7 @@ outfit "Arion L.C.D"
 	thumbnail "outfit/large heat shunt"
 	"mass" 20
 	"outfit space" -20
-	"energy capacity" 2000
+	"energy capacity" 1000
 	"cooling" 50
 	description "The Arion Large Cooling Device is a large cooling device to make sure large spaceships don't get overheated. It also has some extra battery space."
 
@@ -674,10 +673,11 @@ outfit "Arion E.C.D"
 		"Arion"
 	cost 250000
 	thumbnail "outfit/cooling module"
-	"mass" 5
-	"outfit space" -5
-	"active cooling" 22.5
+	"mass" 4
+	"outfit space" -4
+	"active cooling" 18
 	"cooling energy" 1.25
+	"energy capacity" 100
 	description "The Emergency Cooling Device is used to prevent ships from overheating quickly. Due to its emergency nature however, it will only be triggered on the most desperate moments."
 
 outfit "Arion Automation Upgrade"
