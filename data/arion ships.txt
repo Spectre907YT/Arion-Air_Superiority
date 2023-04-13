@@ -1289,14 +1289,14 @@ ship "Arion F/S-111X Aardvark Block I"
 		"Arion BRS-10x"
 		"Arion FR-15x"
 		"Arion ODE-LBA-30x"
-	engine -5 48
-	engine 4 48
+	engine -3 29
+	engine 3 29
 	gun -5.5 -9.5 "Arion M61 Vulcan"
 	gun 0 1 "Arion G.P.B Pod"
-	gun 0 13.5 "Arion G.P.B Pod"
-	gun -6 10
-	gun 5.5 10
-	turret 0 45.5 "Arion Chaff and Flares Tier 1"
+	gun 0 8.5 "Arion G.P.B Pod"
+	gun -5 5
+	gun 5 5
+	turret 0 11.5 "Arion Chaff and Flares Tier 1"
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -1332,14 +1332,14 @@ ship "Arion Su/S-34X Fullback Block I"
 		"Arion BRS-10x"
 		"Arion FR-15x"
 		"Arion ODE-LBA-30x"
-	engine -6 41.5
-	engine 6.5 41.5
-	gun 6.5 -11.5 "Arion 30mm Autocannon"
-	gun -37 24.5
-	gun 37.5 24.5
-	gun -7 9.5 "Arion G.P.B Pod"
-	gun 6.5 9.5 "Arion G.P.B Pod"
-	turret 0 51.5 "Arion Chaff and Flares Tier 1"
+	engine -4 24.5
+	engine 4 24.5
+	gun 4 -7.5 "Arion 30mm Autocannon"
+	gun -21.5 13.5
+	gun 21.5 13.5
+	gun -4 6.5 "Arion G.P.B Pod"
+	gun 4 6.5 "Arion G.P.B Pod"
+	turret 0 30 "Arion Chaff and Flares Tier 1"
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -1375,9 +1375,9 @@ ship "Arion X/S-47 Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine 0 28
-	gun 0 3.5
-	turret 0 14.5
+	engine 0 14.5
+	gun 0 0.5
+	turret 0 4.5
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	description "The X-47 was originally a prototype drone that was made by Northrop Grumman. The blueprints for the drone was then purchased by Arion after experimentation has stopped. It now serves as one of the main drones for the Arion Air Force, Arion Foreign Legion, SFF and other allies to Arion under the designation 'FQ-101'. These drones can be operated as loyal wingman and as a defense system for the 'Arsenal Bird'. Although, this is an earlier version that still has the X-47 designation and is being sold as surplus."
@@ -1411,13 +1411,13 @@ ship "Arion F/S-15X Eagle Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine -3.5 40
-	engine 3.5 40
-	gun -7 1 "Arion M61 Vulcan"
-	gun -18 10.5
-	gun 18 10.5
-	gun 0 13 "Arion AIM-2x AMRAAM Pod"
-	turret 0 27.5
+	engine -2 23.5
+	engine 2 23.5
+	gun -5 -5.5 "Arion M61 Vulcan"
+	gun -9 6
+	gun 9 6
+	gun 0 6 "Arion AIM-2x AMRAAM Pod"
+	turret 0 11
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -1453,13 +1453,13 @@ ship "Arion Su/S-35X Flanker Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine -6 43
-	engine 7 43
-	gun 6 -6.5 "Arion 30mm Autocannon"
-	gun -17 5
-	gun 17 5
-	gun 0 12.5 "Arion AIM-2x AMRAAM Pod"
-	turret 0 49
+	engine -3.5 26
+	engine 3.5 26
+	gun -4.5 -4 "Arion 30mm Autocannon"
+	gun -22.5 14
+	gun 22.5 14
+	gun 0 6.5 "Arion AIM-2x AMRAAM Pod"
+	turret 0 14.5
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -1495,13 +1495,15 @@ ship "Arion F/S-14X Tomcat Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine -7 43
-	engine 7 43
-	gun -7 -1 "Arion M61 Vulcan"
-	gun 0 -1.5 "Arion Finisher Missile Pod"
-	gun -17.5 8
-	gun 17.5 8
-	turret 0 42
+	engine -5.5 24
+		under
+	engine 5.5 24
+		under
+	gun -3 -13.5 "Arion M61 Vulcan"
+	gun 0 -0.5 "Arion AIM-2x AMRAAM Pod"
+	gun -7.5 -0.5
+	gun 7.5 -0.5
+	turret 0 6
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -1536,12 +1538,12 @@ ship "Arion Mig/S-31X Foxhound Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine -4.5 55
-	engine 4.5 55
-	gun 4.5 -19.5 "Arion 30mm Autocannon"
-	gun -17 11.5
-	gun 17 11.5
-	turret 0 47.5
+	engine -3.5 32
+	engine 3.5 32
+	gun 3 -14 "Arion 30mm Autocannon"
+	gun -4 8.5
+	gun 4 8.5
+	turret 0 17
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -1576,19 +1578,21 @@ ship "Arion A/S-10X Warthog Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine -7 24
-	engine 7 24
-	gun -0.5 -39 "Arion Gau-8 Avenger"
-	gun -8.5 -3.5 "Arion Rocket Pod"
-	gun 8.5 -3.5 "Arion Rocket Pod"
-	gun -29 -3
-	gun 29 -3
-	turret 0 4
+	engine -4 13.5
+		under
+	engine 4 13.5
+		under
+	gun -0.5 -24 "Arion Gau-8 Avenger"
+	gun -11.5 0 "Arion Rocket Pod"
+	gun 11.5 0 "Arion Rocket Pod"
+	gun -19 0
+	gun 19 0
+	turret 0 2
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	"final explode" "final explosion small"
-	description "Attacker originally used by the US, it has been modernized extensively and now also has the ability for space flight."
+	description "Attacker originally used by the US, it has been modernized extensively and now also has the ability for space flight. Just make sure there aren't any British people around."
 
 ship "Arion Su/S-25X Frogfoot Block I"
 	sprite "ship/arionsu25"
@@ -1664,13 +1668,13 @@ ship "Arion F/S-22X Raptor Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine -3.5 34
-	engine 3.5 34
-	gun -7 -13 "Arion M61 Vulcan"
-	gun 0 4 "Arion Pursuer Missile Pod"
-	gun -8 4
-	gun 8 4
-	turret 0 38
+	engine -2 20.5
+	engine 2 20.5
+	gun -5.5 -5.5 "Arion M61 Vulcan"
+	gun 0 3.5 "Arion AIM-2x AMRAAM Pod"
+	gun -5.5 3.5
+	gun 5.5 3.5
+	turret 0 9
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -1709,13 +1713,13 @@ ship "Arion Su/S-57X Felon Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine -7 39
-	engine 7 39
-	gun 6.5 -6.5 "Arion 30mm Autocannon"
-	gun 0 10 "Arion Pursuer Missile Pod"
-	gun -5.5 10
-	gun 5.5 10
-	turret 0 44.5
+	engine -3.5 24
+	engine 3.5 24
+	gun 4.5 -4.5 "Arion 30mm Autocannon"
+	gun 0 4 "Arion AIM-2x AMRAAM Pod"
+	gun -6 4
+	gun 6 4
+	turret 0 8
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -1754,13 +1758,13 @@ ship "Arion F/S-23X Black Widow Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine -6 36.5
-	engine 6 36.5
-	gun -4.5 -15.5 "Arion M61 Vulcan"
-	gun 0 4 "Arion Finisher Missile Pod" 
-	gun -7
-	gun 7 4
-	turret 0 43.5
+	engine -3.5 22.5
+	engine 3.5 22.5
+	gun -2.5 -10.5 "Arion M61 Vulcan"
+	gun 0 1.5 "Arion AIM-1x Sidewinder Pod"
+	gun -4.5 1.5
+	gun 4.5 1.5
+	turret 0 14.5
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -1799,11 +1803,11 @@ ship "Arion F/S-35X Lightning Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine 0 30
-	gun -6 -9 "Arion Gau-12 Equalizer"
-	gun -3.5 7.5
-	gun 3.5 7.5
-	turret 0 22
+	engine 0 18
+	gun -3 -4.5 "Arion Gau-12 Equalizer"
+	gun -3 2.5
+	gun 3 2.5
+	turret 0 9
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -1842,13 +1846,13 @@ ship "Arion Su/S-47X Berkut Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine -2.5 50
-	engine 2.5 50
-	gun 7.5 -12.5 "Arion 30mm Autocannon"
-	gun 0 20 "Arion Pursuer Missile Pod"
-	gun -8 20
-	gun 8 20
-	turret 0 40
+	engine -1.5 29.5
+	engine 1.5 29.5
+	gun 4 -5.5 "Arion 30mm Autocannon"
+	gun 0 12 "Arion AIM-2x AMRAAM Pod"
+	gun -5 12
+	gun 5 12
+	turret 0 18.5
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -1888,14 +1892,18 @@ ship "Arion B/S-52X Stratofortress Block I"
 		"Arion ODE-HBA-60x"
 		"Arion Multirole Fuel System"
 		"Hyperdrive"
-	engine -42.5 -29.5
-	engine -74.5 -4.5
-	engine 42.5 -27.5
-	engine 73.5 -4
-	gun -0.5 -31.5 "Arion B52 Bomb Bay Mk1"
-	gun 0.5 94.5 "Arion M61 Vulcan"
+	engine 55 -5.5
+		under
+	engine -55 -5.5
+		under
+	engine 31 -23
+		under
+	engine -31 -23
+		under
+	gun -0 -21 "Arion B52 Bomb Bay Mk1"
+	gun 0 69.5 "Arion M61 Vulcan"
 		angle 180
-	turret -0.5 73.5 "Arion Heavy Chaff, Flares and ECM Tier 1"
+	turret 0 2 "Arion Heavy Chaff, Flares and ECM Tier 1"
 	leak "leak" 60 50
 	leak "flame" 80 80
 	explode "tiny explosion" 20
@@ -1936,12 +1944,16 @@ ship "Arion B/S-1X Lancer Block I"
 		"Arion ODE-MBA-50x"
 		"Arion Multirole Fuel System"
 		"Hyperdrive"
-	engine -12 45
-	engine -18 45
-	engine 12 45
-	engine 18 45
-	gun 0 9.5 "Arion B1 Bomb Bay Mk1"
-	turret 0 53 "Arion Heavy Chaff, Flares and ECM Tier 1"
+	engine -8.5 33.5
+		under
+	engine 8.5 33.5
+		under
+	engine -13.5 33.5
+		under
+	engine 13.5 33.5
+		under
+	gun 0 1.5 "Arion B1 Bomb Bay Mk1"
+	turret 0 23.5 "Arion Heavy Chaff, Flares and ECM Tier 1"
 	leak "leak" 60 50
 	leak "flame" 80 80
 	explode "tiny explosion" 20
@@ -1985,10 +1997,10 @@ ship "Arion B/S-2X Spirit Block I"
 		"Arion ODE-MBA-50x"
 		"Arion Multirole Fuel System"
 		"Hyperdrive"
-	engine -16 19.5
-	engine 16 19.5
-	gun 0 -5.5 "Arion B2 Bomb Bay Mk1"
-	turret 0 32.5 "Arion Heavy Chaff, Flares and ECM Tier 1"
+	engine -12 15.5
+	engine 12 15.5
+	gun 0 -8 "Arion B2 Bomb Bay Mk1"
+	turret 0 10 "Arion Heavy Chaff, Flares and ECM Tier 1"
 	leak "leak" 60 50
 	leak "flame" 80 80
 	explode "tiny explosion" 20
@@ -2029,12 +2041,12 @@ ship "Arion Avro Vulcan X/S Block I"
 		"Arion ODE-MBA-50x"
 		"Arion Multirole Fuel System"
 		"Hyperdrive"
-	engine -12 45
-	engine -18 45
-	engine 12 45
-	engine 18 45
-	gun 0 9.5 "Arion Vulcan Bomb Bay Mk1"
-	turret 0 53 "Arion Heavy Chaff, Flares and ECM Tier 1"
+	engine -6 32.5
+	engine 6 32.5
+	engine 10 32.5
+	engine 10 32.5
+	gun 0 4.5 "Arion Vulcan Bomb Bay Mk1"
+	turret 0 21.5 "Arion Heavy Chaff, Flares and ECM Tier 1"
 	leak "leak" 60 50
 	leak "flame" 80 80
 	explode "tiny explosion" 20
@@ -2071,13 +2083,13 @@ ship "Arion A/S-4X Skyhawk Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine 0 30
-	gun -2 -16.5 "Arion 20mm Autocannon"
-	gun 2 -16.5 "Arion 20mm Autocannon"
+	engine 0 17
+	gun -1 -8.5 "Arion 20mm Autocannon"
+	gun 1 -8.5 "Arion 20mm Autocannon"
 	gun 0 0.5 "Arion Rocket Pod"
-	gun -8.5 2
-	gun 8.5 1
-	turret 0 19.5
+	gun -6.5 3.5
+	gun 6.5 3.5
+	turret 0 7
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -2087,6 +2099,7 @@ ship "Arion A/S-4X Skyhawk Block I"
 ship "Arion Su/S-27X Flanker Block I"
 	sprite "ship/arionsu27"
 	thumbnail "ship/arionsu27"
+	swizzle 0
 	attributes
 		category "Fighter"
 		licenses
@@ -2113,13 +2126,13 @@ ship "Arion Su/S-27X Flanker Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine -6 42
-	engine 6 42
-	gun 5 -12 "Arion 30mm Autocannon"
-	gun -36.5 23
-	gun 36.5 23
-	gun 0 10 "Arion Pursuer Missile Pod"
-	turret 0 47.5
+	engine -3.5 25
+	engine 3.5 25
+	gun -3.5 -3.5 "Arion 30mm Autocannon"
+	gun -21.5 15
+	gun 21.5 15
+	gun 0 4.5 "Arion AIM-2x AMRAAM Pod"
+	turret 0 12.5
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -2155,13 +2168,13 @@ ship "Arion Panavia Tornado X/S Block I"
 		"Arion BRS-10x"
 		"Arion FR-15x"
 		"Arion ODE-IA-25x"
-	engine -2.5 29
-	engine 2.5 29
-	gun -5 -11.5 "Arion 30mm Autocannon"
-	gun -14 6 "Arion GPB-1x Piercer Pod"
-	gun 14 6 "Arion GPB-1x Piercer Pod"
-	gun 0 3
-	turret 0 45.5 "Arion Chaff and Flares Tier 1"
+	engine -2 17.5
+	engine 2 17.5
+	gun -2 -8 "Arion 30mm Autocannon"
+	gun 0 2.5
+	gun -4 2.5 "Arion GPB-1x Piercer Pod"
+	gun 4 2.5 "Arion GPB-1x Piercer Pod"
+	turret 0 6.5 "Arion Chaff and Flares Tier 1"
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -2196,11 +2209,12 @@ ship "Arion F/S-104X Starfighter Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine 0 34
-	gun -2.5 -11 "Arion M61 Vulcan"
-	gun -9.5 4.5
-	gun 9 4.5
-	turret 0 33.5
+	engine 0 22
+		under
+	gun -1.5 -3.5 "Arion M61 Vulcan"
+	gun -9.5 7.5
+	gun 9.5 7.5
+	turret 0 13
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -2235,11 +2249,11 @@ ship "Arion F/S-16X Super Falcon Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine 0 35
-	gun -4 -10 "Arion M61 Vulcan"
-	gun 24 15
-	gun -24 15
-	turret 0 22.5
+	engine 0 20.5
+	gun -2 -6 "Arion M61 Vulcan"
+	gun 14.5 8.5
+	gun -14.5 8.5
+	turret 0 9
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -2274,12 +2288,12 @@ ship "Arion F/S-18X Super Hornet Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine -2.5 38
-	engine 2.5 38
-	gun -5 -5.5 "Arion M61 Vulcan"
-	gun 31 15
-	gun -31 15
-	turret 0 28.5
+	engine -1 23.5
+	engine 1 23.5
+	gun -2 -7 "Arion M61 Vulcan"
+	gun 20 9
+	gun -20 9
+	turret 0 11.5
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -2314,12 +2328,12 @@ ship "Arion Mig/S-35X Fulcrum Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine -4.5 34
-	engine 5 34
-	gun 4 -4 "Arion 30mm Autocannon"
-	gun -15 14
-	gun 15 14
-	turret 0 32
+	engine -3 20.5
+	engine 3 20.5
+	gun 2.5 -3 "Arion 30mm Autocannon"
+	gun -4.5 6
+	gun 4.5 6
+	turret 0 11.5
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -2354,11 +2368,11 @@ ship "Arion JAS/S-39X Gripen Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine 0 37.5
-	gun -3 -5.5 "Arion 30mm Autocannon"
-	gun 20.5 21
-	gun -20.5 21
-	turret 0 26
+	engine 0 20
+	gun -2 -5 "Arion 30mm Autocannon"
+	gun 12.5 12.5
+	gun -12.5 12.5
+	turret 0 7.5
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -2393,12 +2407,12 @@ ship "Arion Eurofighter Typhoon X/S Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine -3 30.5
-	engine 3 30.5
-	gun -3.5 -10 "Arion 30mm Autocannon"
-	gun 27 22
-	gun -27 22
-	turret 0 26
+	engine -1.5 18
+	engine 1.5 18
+	gun -2.5 -5 "Arion 30mm Autocannon"
+	gun 16 13
+	gun -16 13
+	turret 0 9
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -2433,12 +2447,12 @@ ship "Arion Dassault Rafale X/S Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine -3.5 31
-	engine 3.5 31
-	gun -6 -9 "Arion 30mm Autocannon"
-	gun 26.5 20
-	gun -26.5 20
-	turret 0 24
+	engine -2 17.5
+	engine 2 17.5
+	gun -2.5 -5 "Arion 30mm Autocannon"
+	gun 16 11.5
+	gun -16 11.5
+	turret 0 7
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -2477,14 +2491,14 @@ ship "Arion FB/S-22X Raptor Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine -3 48
-	engine 3 48
-	gun -6.5 -11.5 "Arion M61 Vulcan"
-	gun -2.5 10 "Arion GPB-1x Piercer Pod"
-	gun 2.5 10 "Arion GPB-1x Piercer Pod"
-	gun -9 10
-	gun 9 10
-	turret 0 35
+	engine -1.5 28.5
+	engine 1.5 28.5
+	gun -4 -9.5 "Arion M61 Vulcan"
+	gun -2 5 "Arion GPB-1x Piercer Pod"
+	gun 2 5 "Arion GPB-1x Piercer Pod"
+	gun -5.5 5
+	gun 5.5 5
+	turret 0 9.5
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -2523,13 +2537,13 @@ ship "Arion F/S-22NX Raptor Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine -5.5 40
-	engine 5.5 40
-	gun 6.5 -20 "Arion M61 Vulcan"
-	gun 0 7 "Arion AIM-1x Sidewinder Pod"
-	gun -6 7
-	gun 6 7
-	turret 0 30.5
+	engine -3.5 22.5
+	engine 3.5 22.5
+	gun -3.5 -8.5 "Arion M61 Vulcan"
+	gun 0 3.5 "Arion AIM-1x Sidewinder Pod"
+	gun -4 3.5
+	gun 4 3.5
+	turret 0 13.5
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -2560,8 +2574,8 @@ ship "Super Space Swordfish"
 		"Arion Basic Aircraft Engines"
 		"Arion Basic Generator"
 		"Arion UGT-1x Pod"
-	engine 0 25.5
-	gun 0 -9
+	engine 0 14.5
+	gun 0 -6
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -2597,13 +2611,15 @@ ship "Arion F/S-4X Phantom II Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine -4 27
-	engine 4 27
-	gun 5 -10.5 "Arion M61 Vulcan"
-	gun 0 2.5 "Arion G.P.B Pod"
-	gun -17 2
-	gun 17 2
-	turret 0 28.5
+	engine -2 14.5
+		under
+	engine 2 14.5
+		under
+	gun -1.5 -11 "Arion M61 Vulcan"
+	gun 0 0.5 "Arion G.P.B Pod"
+	gun -7 -2.5
+	gun 7 -2.5
+	turret 0 8
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -2638,13 +2654,13 @@ ship "Arion F/S-5X Tiger II Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine -1.5 36
-	engine 1.5 36
-	gun -1.5 -19.5 "Arion 20mm Autocannon"
-	gun 1.5 -19.5 "Arion 20mm Autocannon"
-	gun -21 12.5
-	gun 21 12.5
-	turret 0 20
+	engine -1.5 20.5
+	engine 1.5 20.5
+	gun -1.5 -4 "Arion 20mm Autocannon"
+	gun 1.5 4 "Arion 20mm Autocannon"
+	gun -12 7.5
+	gun 12 7.5
+	turret 0 8.5
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -2679,11 +2695,11 @@ ship "Arion FA/S-50X Golden Eagle Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine 0 31.5
-	gun 3.5 -5 "Arion M61 Vulcan"
-	gun -20 13
-	gun 20 13
-	turret 0 21
+	engine 0 18.5
+	gun -2 -2.5 "Arion M61 Vulcan"
+	gun -13.5 7.5
+	gun 13.5 7.5
+	turret 0 11
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -2718,12 +2734,12 @@ ship "Arion F-CK/S-1X Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine -2.5 34.5
-	engine 2.5 34.5
-	gun 3 -4.5 "Arion M61 Vulcan"
-	gun -14 7
-	gun 14 7
-	turret 0 19.5
+	engine -1 20
+	engine 1 20
+	gun -2 -2.5 "Arion M61 Vulcan"
+	gun -13 7.5
+	gun 13 7.5
+	turret 0 9.5
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -2761,12 +2777,12 @@ ship "Arion KF/S-21X Boramae Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine -2 36
-	engine 3.5 36
-	gun 5.5 -11.5 "Arion M61 Vulcan"
-	gun -4 4.5
-	gun 4 4.5
-	turret 0 27
+	engine -1.5 21
+	engine 1.5 21
+	gun -3 -8.5 "Arion M61 Vulcan"
+	gun -3.5 5
+	gun 3.5 5
+	turret 0 10.5
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -2804,12 +2820,12 @@ ship "Arion J/S-20X Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine -4 45.5
-	engine 4 45.5
-	gun 0 17.5 "Arion AIM-2x AMRAAM Pod"
-	gun -6.5 17.5 "Arion AIM-1x Sidewinder Pod"
-	gun 6.5 17.5 "Arion AIM-1x Sidewinder Pod"
-	turret 0 23.5
+	engine -1.5 28
+	engine 1.5 28
+	gun 0 10.5 "Arion AIM-2x AMRAAM Pod"
+	gun -4.5 10.5 "Arion AIM-1x Sidewinder Pod"
+	gun 4.5 10.5 "Arion AIM-1x Sidewinder Pod"
+	turret 0 16.5
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -2827,8 +2843,8 @@ ship "Arion X/S-02X Wyvern MKI"
 		licenses
 			"Arion"
 		"cost" 5000000
-		"shields" 1800
-		"hull" 900
+		"shields" 2250
+		"hull" 1125
 		"required crew" 1
 		"bunks" 1
 		"mass" 37
@@ -2852,13 +2868,13 @@ ship "Arion X/S-02X Wyvern MKI"
 		"Arion S.C.D"
 		"Arion ARS-10x"
 		"Arion OCR-15x"
-	engine -4.5 48
-	engine 4.5 48
-	gun -4 -25 "Arion G.A.G.G"
-	gun 0 16.5 "Arion Arclight E.M.L"
-	gun -7 15
-	gun 7 15
-	turret 0 44.5
+	engine -2.5 29
+	engine 2.5 29
+	gun -3 -8.5 "Arion G.A.G.G"
+	gun 0 4.5 "Arion Arclight E.M.L"
+	gun -5 8.5
+	gun 5 8.5
+	turret 0 16
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -2868,13 +2884,14 @@ ship "Arion X/S-02X Wyvern MKI"
 ship "Arion CFA/S-44X Nosferatu MKI"
 	sprite "ship/arioncfa44"
 	thumbnail "ship/arioncfa44"
+	swizzle 0
 	attributes
 		category "Fighter"
 		licenses
 			"Arion"
 		"cost" 5000000
-		"shields" 1700
-		"hull" 850
+		"shields" 2125
+		"hull" 1075
 		"required crew" 1
 		"bunks" 1
 		"mass" 40
@@ -2898,13 +2915,13 @@ ship "Arion CFA/S-44X Nosferatu MKI"
 		"Arion S.C.D"
 		"Arion ARS-10x"
 		"Arion OCR-15x"
-	engine -6.5 48.5
-	engine 6.5 48.5
-	gun -5.5 -19 "Arion G.A.A.C"
-	gun 0 8.5
-	gun -9 5.5 "Arion Purgatorio E.M.L"
-	gun 9 5.5 "Arion Purgatorio E.M.L"
-	turret 0 49
+	engine -3.5 29
+	engine 3.5 29
+	gun -4 -9.5 "Arion G.A.A.C"
+	gun 0 8
+	gun -4.5 5 "Arion Purgatorio E.M.L"
+	gun 4.5 5 "Arion Purgatorio E.M.L"
+	turret 0 10
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -2919,8 +2936,8 @@ ship "Arion ADFX/S-02X Morgan MKI"
 		licenses
 			"Arion"
 		"cost" 5000000
-		"shields" 1550
-		"hull" 775
+		"shields" 1950
+		"hull" 970
 		"required crew" 1
 		"bunks" 1
 		"mass" 43
@@ -2930,9 +2947,6 @@ ship "Arion ADFX/S-02X Morgan MKI"
 		"outfit space" 125
 		"weapon capacity" 50
 		"engine capacity" 25
-		"cloak" 2
-		"cloaking energy" 13
-		"cloaking heat" 6.5
 		"flares" 1
 		"morgan hardpoint" 1
 	outfits
@@ -2944,13 +2958,13 @@ ship "Arion ADFX/S-02X Morgan MKI"
 		"Arion S.C.D"
 		"Arion ARS-10x"
 		"Arion OCR-15x"
-	engine -10 58
-	engine 10 58
-	gun -6.5 -11.5 "Arion G.A.G.G"
-	gun 0 17.5 "Arion Zoisite T.L.S"
-	gun -10.5 21
-	gun 10.5 21
-	turret 0 33
+	engine -5.5 34.5
+	engine 5.5 34.5
+	gun -2 -13.5 "Arion G.A.G.G"
+	gun 0 6 "Arion Zoisite T.L.S"
+	gun -6.5 12.5
+	gun 6.5 12.5
+	turret 0 12.5
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -2965,8 +2979,8 @@ ship "Arion XFA/S-27X MKI"
 		licenses
 			"Arion"
 		"cost" 5000000
-		"shields" 1600
-		"hull" 800
+		"shields" 2000
+		"hull" 1000
 		"required crew" 1
 		"bunks" 1
 		"mass" 36
@@ -2990,14 +3004,14 @@ ship "Arion XFA/S-27X MKI"
 		"Arion S.C.D"
 		"Arion ARS-10x"
 		"Arion OCR-15x"
-	engine -9.5 44
-	engine 9.5 44
-	gun -4 -21.5 "Arion G.A.G.G"
-	gun 14 4.5 "Arion Missile Pod"
-	gun -14 4.5 "Arion Missile Pod"
-	gun -16.5 4.5
-	gun 16.5 4.5
-	turret 0 50
+	engine -6.5 27
+	engine 6.5 27
+	gun -1.5 -21.5 "Arion G.A.G.G"
+	gun 5 6 "Arion AIM-1x Sidewinder Pod"
+	gun -5 6 "Arion AIM-1x Sidewinder Pod"
+	gun -9 6
+	gun 9 6
+	turret 0 12
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -3012,8 +3026,8 @@ ship "Arion XFA/S-33X Fenrir MKI"
 		licenses
 			"Arion"
 		"cost" 5600000
-		"shields" 2100
-		"hull" 1050
+		"shields" 2625
+		"hull" 1315
 		"required crew" 1
 		"bunks" 1
 		"mass" 55
@@ -3037,13 +3051,13 @@ ship "Arion XFA/S-33X Fenrir MKI"
 		"Arion S.C.D"
 		"Arion ARS-10x"
 		"Arion OCR-15x"
-	engine -12.5 63
-	engine 12.5 63
-	gun 7.5 -22.5 "Arion G.A.A.C"
-	gun 0 12
-	gun -12 12 "Arion Missile Pod"
-	gun 12 12 "Arion Missile Pod"
-	turret 0 51.5
+	engine -7 40.5
+	engine 7 40.5
+	gun -4 -18.5 "Arion G.A.A.C"
+	gun 0 7.5
+	gun -8.5 7.5 "Arion Missile Pod"
+	gun 8.5 7.5 "Arion Missile Pod"
+	turret 0 15.5
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -3058,8 +3072,8 @@ ship "Arion ADF/S-01X Falken MKI"
 		licenses
 			"Arion"
 		"cost" 6000000
-		"shields" 1750
-		"hull" 875
+		"shields" 2190
+		"hull" 1095
 		"automaton" 1
 		"mass" 51
 		"drag" 0.925
@@ -3082,14 +3096,14 @@ ship "Arion ADF/S-01X Falken MKI"
 		"Arion S.C.D"
 		"Arion ARS-10x"
 		"Arion OCR-15x"
-	engine -12 52
-	engine 12 52
-	gun 0 -32.5 "Arion G.A.A.C"
-	gun 0 -15.5 "Arion Zoisite T.L.S"
+	engine -6.5 31
+	engine 6.5 31
+	gun 0 -23 "Arion G.A.A.C"
+	gun 0 -13.5 "Arion Zoisite T.L.S"
 		under
-	gun -10 20
-	gun 10 20
-	turret 0 7
+	gun -6.5 10
+	gun 6.5 10
+	turret 0 5
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -3104,8 +3118,8 @@ ship "Arion ADF/S-11X Raven MKI"
 		licenses
 			"Arion"
 		"cost" 6400000
-		"shields" 1850
-		"hull" 925
+		"shields" 2315
+		"hull" 1150
 		"automaton" 1
 		"mass" 54
 		"drag" 0.935
@@ -3128,14 +3142,14 @@ ship "Arion ADF/S-11X Raven MKI"
 		"Arion S.C.D"
 		"Arion ARS-10x"
 		"Arion OCR-15x"
-	engine -10 58.5
-	engine 10 58.5
-	gun 0 -43 "Arion G.A.A.C"
-	gun 0 -25.5 "Arion Zoisite T.L.S"
+	engine -6.5 37.5
+	engine 6.5 37.5
+	gun 0 -26 "Arion G.A.A.C"
+	gun 0 -20.5 "Arion Zoisite T.L.S"
 		under
-	gun -11 17.5
-	gun 11 17.5
-	turret 0 20.5
+	gun -6 9
+	gun 6 9
+	turret 0 15.5
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -3150,8 +3164,8 @@ ship "Arion ADA/S-01X Adler MKI"
 		licenses
 			"Arion"
 		"cost" 6300000
-		"shields" 1800
-		"hull" 900
+		"shields" 2250
+		"hull" 1125
 		"automaton" 1
 		"mass" 54
 		"drag" 0.95
@@ -3174,18 +3188,110 @@ ship "Arion ADA/S-01X Adler MKI"
 		"Arion S.C.D"
 		"Arion ARS-10x"
 		"Arion OCR-15x"
-	engine -10.5 42
-	engine 10.5 42
-	gun 0 -45.5 "Arion G.A.A.C"
-	gun 0 10 "Arion L.S.W.M"
-	gun -11 11
-	gun 11 11
-	turret 0 -3
+	engine -6 28.5 
+	engine 6 28.5
+	gun 0 -28 "Arion G.A.A.C"
+	gun 0 4.5 "Arion L.S.W.M"
+	gun -7 4.5
+	gun 7 4.5
+	turret 0 -2
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	"final explode" "final explosion small"
 	description "This was a super fighter made by a 'Strangereal' company called Grunder Industries, which is a belkan/south osean company. The Adler originally came with a SDBM however to standardize production it has been given the LWSM instead. It has been modified and upgraded to suite Arion's needs. This aircraft is given to Ace pilots who have proven themselves worthy of a super fighter and to defend high value targets 24/7 due to it having a drone variant. Unlike the original fighter, it can operate in space. This is the drone variant."
+
+ship "Arion R/S-103X Delphinus MKI"
+	sprite "ship/arionr103"
+	thumbnail "ship/arionr103"
+	attributes
+		category "Fighter"
+		licenses
+			"Arion"
+		"cost" 6000000
+		"shields" 3000
+		"hull" 1500
+		"required crew" 1
+		"bunks" 1
+		"mass" 12
+		"drag" 0.7
+		"heat dissipation" 0.9
+		"fuel capacity" 200
+		"outfit space" 125
+		"weapon capacity" 35
+		"engine capacity" 25
+		"cloak" 1.5
+		"cloaking energy" 9
+		"cloaking heat" 4.5
+		"flares" 1
+	outfits
+		"Arion G.A.G.G"
+		"Arion AIM-1x Sidewinder Pod" 2
+		"Arion AIM-2x AMRAAM Pod" 2
+		"Arion Chaff and Flares Tier 1"
+		"Arion ODE-FA-25x"
+		"Arion S.C.D"
+		"Arion ARS-10x"
+		"Arion OCR-15x"
+	engine 0 22
+		under
+	gun 0 -14.5 "Arion G.A.G.G"
+	gun -4 12.5 "Arion AIM-1x Sidewinder Pod"
+	gun 4 12.5 "Arion AIM-1x Sidewinder Pod"
+	gun -1.5 12.5
+	gun 1.5 12.5
+	turret 0 16.5
+	leak "leak" 60 50
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
+	description "A futuristic super fighter from the 'Strangereal' universe. This is one of the rarest planes in Arion service and is only produced in limited quantities. Although, limited quantity is subjective, as around 10 units are produced each year. This fighter however, still requires some modification to be able to fly in space."
+
+ship "Arion R-352X Sepia MKI"
+	sprite "ship/arionr352"
+	thumbnail "ship/arionr352"
+	attributes
+		category "Fighter"
+		licenses
+			"Arion"
+		"cost" 7000000
+		"shields" 4000
+		"hull" 2000
+		"required crew" 1
+		"bunks" 1
+		"mass" 60
+		"drag" 0.5
+		"heat dissipation" 0.9
+		"fuel capacity" 200
+		"outfit space" 150
+		"weapon capacity" 40
+		"engine capacity" 25
+		"cloak" 1
+		"cloaking energy" 6
+		"cloaking heat" 3
+		"flares" 1
+	outfits
+		"Arion G.A.G.G"
+		"Arion AIM-1x Sidewinder Pod" 2
+		"Arion AIM-2x AMRAAM Pod" 2
+		"Arion Chaff and Flares Tier 1"
+		"Arion ODE-FA-25x"
+		"Arion S.C.D"
+		"Arion ARS-10x"
+		"Arion OCR-15x"
+	engine -5 34
+	engine 5 34
+	gun 0 -18 "Arion G.A.G.G"
+	gun 5 6 "Arion AIM-1x Sidewinder Pod"
+	gun -5 6 "Arion AIM-1x Sidewinder Pod"
+	gun -9 6
+	gun 9 6
+	turret 0 12
+	leak "leak" 60 50
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
+	description "One of the best super fighters available to Arion forces for quite some time, even the stock version is capable of space flight. This futuristic super fighter comes from 'Strangereal', and is available both to Arion Air Force and Space Force aces due to its built in space flight capabilities."
 
 =============================
 Xenonauts 
@@ -3198,8 +3304,8 @@ ship "Arion X/S-37X Corsair MKI"
 		licenses
 			"Arion"
 		"cost" 4600000
-		"shields" 1800
-		"hull" 900
+		"shields" 2700
+		"hull" 1350
 		"required crew" 1
 		"bunks" 1
 		"mass" 34
@@ -3220,11 +3326,11 @@ ship "Arion X/S-37X Corsair MKI"
 		"Arion S.C.D"
 		"Arion ARS-10x"
 		"Arion OCR-15x"
-	engine -5.5 34
-	engine 5.5 34
-	gun 5.5 -13.5 "Arion G.A.G.G"
-	gun -5.5 -13.5 "Arion G.A.G.G"
-	turret 0 13.5
+	engine -3.5 21
+	engine 3.5 21
+	gun 3.5 -10 "Arion G.A.G.G"
+	gun 3.5 -10 "Arion G.A.G.G"
+	turret 0 6
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -3239,8 +3345,8 @@ ship "Arion X/S-44X Saracen MKI"
 		licenses
 			"Arion"
 		"cost" 4800000
-		"shields" 1900
-		"hull" 950
+		"shields" 2850
+		"hull" 1425
 		"required crew" 1
 		"bunks" 1
 		"mass" 36
@@ -3262,11 +3368,11 @@ ship "Arion X/S-44X Saracen MKI"
 		"Arion S.C.D"
 		"Arion ARS-10x"
 		"Arion OCR-15x"
-	engine -4.5 36.5
-	engine 4.5 36.5
-	gun 5 -5.5 "Arion G.A.G.G"
-	gun 0 13 "Arion AIM-1x Sidewinder Pod"
-	turret 0 22
+	engine -2.5 21.5
+	engine 2.5 21.5
+	gun -2.5 -10.5 "Arion G.A.G.G"
+	gun 0 6.5 "Arion AIM-1x Sidewinder Pod"
+	turret 0 9.5
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -3281,8 +3387,8 @@ ship "Arion X/S-59X Marauder MKI"
 		licenses
 			"Arion"
 		"cost" 5000000
-		"shields" 2000
-		"hull" 1000
+		"shields" 3000
+		"hull" 1500
 		"required crew" 1
 		"bunks" 1
 		"mass" 38
@@ -3305,12 +3411,12 @@ ship "Arion X/S-59X Marauder MKI"
 		"Arion S.C.D"
 		"Arion ARS-10x"
 		"Arion OCR-15x"
-	engine -8 36.5
-	engine 8 36.5
-	gun 5 -19.5 "Arion G.A.G.G"
-	gun -6 -2.5 "Arion AIM-1x Sidewinder Pod"
-	gun 6 -2.5 "Arion AIM-2x AMRAAM Pod"
-	turret 0 9
+	engine -4 21.5
+	engine 4 21.5
+	gun -4 -14 "Arion G.A.G.G"
+	gun -4.5 2.5 "Arion AIM-1x Sidewinder Pod"
+	gun 4.5 2.5 "Arion AIM-2x AMRAAM Pod"
+	turret 0 6
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -3325,8 +3431,8 @@ ship "Arion X/S-120X Fury MKI"
 		licenses
 			"Arion"
 		"cost" 6000000
-		"shields" 3000
-		"hull" 1500
+		"shields" 4500
+		"hull" 2250
 		"required crew" 1
 		"bunks" 1
 		"mass" 45
@@ -3348,10 +3454,10 @@ ship "Arion X/S-120X Fury MKI"
 		"Arion ARS-10x"
 		"Arion OCR-15x"
 		"Hyperdrive"
-	engine -17 49.5
-	engine 17 49.5
-	gun 0 14
-	turret 0 25
+	engine -10 29
+	engine 10 29
+	gun 0 9.5
+	turret 0 17
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -3369,8 +3475,8 @@ ship "Arion A/S-4X SFF Skyhawk Mk1"
 		licenses
 			"Arion"
 		"cost" 1500000
-		"shields" 4300
-		"hull" 4000
+		"shields" 4000
+		"hull" 4800
 		"required crew" 1
 		"bunks" 1
 		"mass" 17
@@ -3396,11 +3502,11 @@ ship "Arion A/S-4X SFF Skyhawk Mk1"
 		"Arion S.C.D"
 		"Arion ARS-10x"
 		"Arion AR-15x"
-	engine 0 29.5
-	gun -9 -9 "Arion G.A.G.G"
-	gun 9 -9 "Arion G.A.G.G"
-	gun 2 -17 "Arion G.A.A.C"
-	turret 0 2.5
+	engine 0 16.5
+	gun -5.5 -4 "Arion G.A.G.G"
+	gun 5.5 -4 "Arion G.A.G.G"
+	gun -1 -12 "Arion G.A.A.C"
+	turret 0 3
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -3415,8 +3521,8 @@ ship "Arion F/S-16X SFF Super Falcon Mk1"
 		licenses
 			"Arion"
 		"cost" 2000000
-		"shields" 5250
-		"hull" 5000
+		"shields" 5000
+		"hull" 5750
 		"required crew" 1
 		"bunks" 1
 		"mass" 21
@@ -3443,12 +3549,12 @@ ship "Arion F/S-16X SFF Super Falcon Mk1"
 		"Arion S.C.D"
 		"Arion ARS-10x"
 		"Arion AR-15x"
-	engine 0 34.5
-	gun -3 -19.5 "Arion G.A.G.G"
-	gun 24.5 11.5 "Arion Missile Pod"
-	gun -24.5 11.5 "Arion Missile Pod"
-	gun 0 7 "Arion G.P.B Pod"
-	turret 0 17.5
+	engine 0 20.5
+	gun -2 -8 "Arion G.A.G.G"
+	gun 14.5 7 "Arion Missile Pod"
+	gun -14.5 7 "Arion Missile Pod"
+	gun 0 3.5 "Arion G.P.B Pod"
+	turret 0 8.5
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -3463,8 +3569,8 @@ ship "Arion F/S-18X SFF Super Hornet Mk1"
 		licenses
 			"Arion"
 		"cost" 2250000
-		"shields" 6250
-		"hull" 6000
+		"shields" 6000
+		"hull" 6750
 		"required crew" 1
 		"bunks" 1
 		"mass" 25
@@ -3491,13 +3597,13 @@ ship "Arion F/S-18X SFF Super Hornet Mk1"
 		"Arion S.C.D"
 		"Arion ARS-10x"
 		"Arion AR-15x"
-	engine -2.5 38
-	engine 2.5 38
-	gun -3.5 -17 "Arion G.A.G.G"
-	gun 35 14.5 "Arion Finisher Missile Pod"
-	gun -35 14.5 "Arion Finisher Missile Pod"
-	gun -16.5 3 "Arion Pursuer Missile Pod"
-	gun 16.5 3 "Arion Pursuer Missile Pod"
+	engine -2 24
+	engine 2 24
+	gun -3.5 -6.5 "Arion G.A.G.G"
+	gun 20.5 8.5 "Arion AIM-1x Sidewinder Pod"
+	gun -20.5 8.5 "Arion AIM-1x Sidewinder Pod"
+	gun -10 2 "Arion AIM-2x AMRAAM Pod"
+	gun 10 2 "Arion AIM-2x AMRAAM Pod"
 	turret 0 9
 	leak "leak" 60 50
 	explode "tiny explosion" 15

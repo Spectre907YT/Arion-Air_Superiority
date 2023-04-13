@@ -84,7 +84,7 @@ outfit "Arion OTOMATIC CIWS"
 		"hit effect" "tiny explosion"
 		"anti-missile" 60
 		"velocity" 650
-		"lifetime" 2
+		"lifetime" 1
 		"reload" 20
 		"firing energy" 75
 		"firing heat" 150
@@ -107,7 +107,7 @@ outfit "Arion Goalkeeper C.I.W.S"
 		sound "gatling"
 		"anti-missile" 15
 		"velocity" 150
-		"lifetime" 2
+		"lifetime" 1
 		"reload" 1
 		"firing energy" 15
 		"firing heat" 30
@@ -130,7 +130,7 @@ outfit "Arion Myriad C.I.W.S"
 		sound "gatling"
 		"anti-missile" 13
 		"velocity" 175
-		"lifetime" 2
+		"lifetime" 1
 		"reload" 1
 		"firing energy" 12.5
 		"firing heat" 25
@@ -153,7 +153,7 @@ outfit "Arion Phalanx C.I.W.S"
 		sound "gatling"
 		"anti-missile" 10
 		"velocity" 200
-		"lifetime" 2
+		"lifetime" 1
 		"reload" 1
 		"firing energy" 10
 		"firing heat" 20
@@ -176,7 +176,7 @@ outfit "Arion Oerlikon MilleniumX C.I.W.S"
 			"frame rate" 0
 		sound "gatling"
 		"velocity" 320
-		"lifetime" 2
+		"lifetime" 1
 		"anti-missile" 18
 		"reload" 4
 		"firing energy" 15
@@ -202,8 +202,8 @@ outfit "Arion SeaRAMx"
 		"hardpoint offset" 1.5
 		"hit effect" "sheragiam"
 		"anti-missile" 100
-		"velocity" 500
-		"lifetime" 4
+		"velocity" 1500
+		"lifetime" 1
 		"reload" 20
 		"burst count" 12
 		"burst reload" 10
@@ -525,9 +525,9 @@ outfit "Arion Gau-12 Equalizer"
 			"Arion"
 	cost 200000
 	thumbnail "outfit/gat"
-	"mass" 7
-	"outfit space" -7
-	"weapon capacity" -7
+	"mass" 5
+	"outfit space" -5
+	"weapon capacity" -5
 	"gun ports" -1
 	weapon
 		sprite "projectile/bullet"
@@ -1252,7 +1252,7 @@ outfit "Arion AIM-2x AMRAAM Pod"
 
 outfit "Arion Hydra 70x Pod"
 	category "Secondary Weapons"
-	cost 750000
+	cost 600000
 	thumbnail "outfit/javelin pod"
 	"mass" 4
 	"outfit space" -4
@@ -1313,7 +1313,7 @@ outfit "Arion L.R.A.S.M Pod"
 
 outfit "Arion GPB-1x Piercer Pod"
 	category "Secondary Weapons"
-	cost 1250000
+	cost 1000000
 	thumbnail "outfit/torpedopod"
 	"mass" 7
 	"outfit space" -7
@@ -1346,7 +1346,7 @@ outfit "Arion GPB-1x Piercer Pod"
 
 outfit "Arion UGT-1x Pod"
 	category "Secondary Weapons"
-	cost 1250000
+	cost 1100000
 	thumbnail "outfit/typhoonpod"
 	"mass" 9
 	"outfit space" -9
