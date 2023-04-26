@@ -273,7 +273,7 @@ outfit "Arion SBL-03B Shredder Turret"
 		"hardpoint offset" 10
 		sound "skylance"
 		"hit effect" "beam laser impact"
-		"turret turn" 5
+		"turret turn" 2.5
 		"inaccuracy" 0
 		"velocity" 1000
 		"lifetime" 1
@@ -330,7 +330,7 @@ outfit "Arion SBL-03A Paralyzer Turret"
 		"hardpoint offset" 10
 		sound "skylance"
 		"hit effect" "beam laser impact"
-		"turret turn" 5
+		"turret turn" 2.5
 		"inaccuracy" 0
 		"velocity" 1000
 		"lifetime" 1
@@ -389,7 +389,7 @@ outfit "Arion SBL-02 Roadblock Turret"
 		"hardpoint offset" 10
 		sound "skylance"
 		"hit effect" "beam laser impact"
-		"turret turn" 4
+		"turret turn" 2
 		"inaccuracy" 0
 		"velocity" 800
 		"lifetime" 1
@@ -447,7 +447,7 @@ outfit "Arion SBL-01 Stunstrike Turret"
 		"hardpoint offset" 10
 		sound "skylance"
 		"hit effect" "beam laser impact"
-		"turret turn" 3
+		"turret turn" 1.5
 		"inaccuracy" 0
 		"velocity" 600
 		"lifetime" 1
@@ -684,7 +684,7 @@ outfit "Arion 76mm OTO Melara Turret"
 		"live effect" "irate smoke" 12
 		"hit effect" "tiny explosion"
 		"inaccuracy" 0.6
-		"turret turn" 4
+		"turret turn" 2.5
 		"velocity" 60
 		"lifetime" 20
 		"reload" 60
@@ -703,9 +703,9 @@ outfit "Arion 127mm Mk 45 Turret"
 	category "Turrets"
 	cost 2500000
 	thumbnail "outfit/choleric turret"
-	"mass" 50
-	"outfit space" -50
-	"weapon capacity" -50
+	"mass" 45
+	"outfit space" -45
+	"weapon capacity" -45
 	"turret mounts" -1
 	weapon
 		sprite "projectile/choleric"
@@ -716,7 +716,7 @@ outfit "Arion 127mm Mk 45 Turret"
 		"live effect" "choleric smoke" 24
 		"hit effect" "small explosion"
 		"inaccuracy" 0.75
-		"turret turn" 2
+		"turret turn" 1.5
 		"velocity" 50
 		"lifetime" 30
 		"reload" 120
@@ -728,6 +728,37 @@ outfit "Arion 127mm Mk 45 Turret"
 		"hull damage" 1250
 		"energy consumption" 0.5
 	description "Usually used on our navy ships, it is also quite useful for our spaceships in this expedition. This cannon fires in a steady rate of 1 round per 1 and a half second. This turret is automated so some power is required to keep them active at all times."
+
+outfit "Arion Autopulse Laser Turret"
+	category "Turrets"
+	cost 30000000
+	thumbnail "outfit/hai ionic turret"
+	"mass" 55
+	"outfit space" -55
+	"weapon capacity" -55
+	"turret mounts" -1
+	weapon
+		sprite "projectile/ion bolt"
+			"frame rate" 5
+		"hardpoint sprite" "hardpoint/hai ionic turret"
+		"hardpoint offset" 16.
+		sound "ion"
+		"hit effect" "ion impact" 5
+		"inaccuracy" 5
+		"turret turn" 2
+		"velocity" 75
+		"lifetime" 14
+		"reload" 12
+		"burst count" 40
+		"burst reload" 6
+		"firing energy" 330
+		"firing force" 20
+		"firing heat" 210
+		"hit force" 40
+		"shield damage" 400
+		"hull damage" 250
+		"energy consumption" 1
+	description "A large automatic laser gun that can shred any enemy it encounters."
 
 outfit "Arion Dragonsbreath Railgun"
 	category "Secondary Weapons"
@@ -841,6 +872,44 @@ outfit "Arion Vaporizer T.L.S"
 		"phasing"
 	description "A laser that fires that fires in bursts of 3 seconds that can destroy a lot of ships."
 
+outfit "Arion Heavenpiercer Railgun"
+	category "Secondary Weapons"
+	licenses
+			"Arion"
+	cost 800000000
+	thumbnail "outfit/dragonflame"
+	"mass" 480
+	"outfit space" -480
+	"weapon capacity" -480
+	"gun ports" -1
+	"spinal mount" -1
+	weapon
+		sound "dragonflame" 
+		icon "icon/dragonflame"
+		sprite "projectile/arionemlsluglarge"
+			"frame rate" 30
+		"fire effect" "rail sparks"
+		"hit effect" "bright hit"
+		"hit effect" "dragonflame plasma" 30
+		"hit effect" "dragonflame debris" 50
+		"velocity" 2000
+		"lifetime" 6
+		"reload" 3000
+		"firing energy" 350000
+		"firing heat" 250000
+		"firing force" 3000
+		"hit force" 6000
+		"shield damage" 100000
+		"hull damage" 400000
+		"heat damage" 100000
+		"ion damage" 10000
+		"piercing" 0.99
+		"disruption damage" 5
+		"discharge damage" 5
+		"stream"
+		"phasing"
+	description "Basically the largest railgun that you will have access to. It can kill basically anything, and if it can't kill it in one shot it'll kill it with the next."
+
 outfit "Arion E.M.L Turret Compact"
 	category "Secondary Weapons"
 	licenses
@@ -863,7 +932,7 @@ outfit "Arion E.M.L Turret Compact"
 		"hit effect" "dragonflame plasma" 30
 		"hit effect" "dragonflame debris" 50
 		"inaccuracy" 0.25
-		"turret turn" 2
+		"turret turn" 1.2
 		"velocity" 600
 		"lifetime" 4
 		"reload" 300
@@ -933,7 +1002,7 @@ outfit "Arion E.M.L Turret"
 		"hit effect" "dragonflame plasma" 30
 		"hit effect" "dragonflame debris" 50
 		"inaccuracy" 0.35
-		"turret turn" 1.25
+		"turret turn" 0.8
 		"velocity" 700
 		"lifetime" 4
 		"reload" 480
@@ -993,16 +1062,17 @@ outfit "Arion MARAUDER Railgun"
 		sprite "projectile/particle beam"
 		sound "particle"
 		"hit effect" "particle impact"
-		"inaccuracy" 0.25
+		"inaccuracy" 1.8
 		"velocity" 500
-		"lifetime" 4
+		"lifetime" 5
 		"reload" 30
-		"firing energy" 1300
-		"firing heat" 950
-		"firing force" 75
-		"hit force" 80
+		"firing energy" 1200
+		"firing heat" 800
+		"firing force" 50
+		"hit force" 75
 		"shield damage" 1400
 		"hull damage" 1000
+		"heat damage" 700
 		"stream"
 	description "Based on a US project to make a plasma railgun, this railgun is back to destroy enemy shields."
 
@@ -1028,7 +1098,7 @@ outfit "Arion AIM-1x Sidewinder M.L.M.S"
 		"die effect" "missile death"
 		"hit effect" "missile hit"
 		"inaccuracy" 2
-		"turret turn" 2.5
+		"turret turn" 1.2
 		"reload" 120
 		"burst count" 6
 		"burst reload" 30
@@ -1126,6 +1196,47 @@ outfit "Arion AIM-1x Sidewinder Pod"
 		"phasing"
 	description "The AIM-1x Super Sidewinder is a general purpose missile that can be used to attack all types of enemies, including ground, naval and air. It is also very useful on spacecraft due to it being a credible threat to both Capital Ships and Fighters. This version uses fabricators instead of the 'pocket dimension' to prepare missiles to be fired."
 
+outfit "Arion AIM-2x AMRAAM VLS"
+	category "Secondary Weapons"
+	cost 11000000
+	thumbnail "outfit/rocket storage"
+	"mass" 56
+	"outfit space" -56
+	"weapon capacity" -56
+	"turret mounts" -1
+	"vertical launching support" -1
+	weapon
+		sprite "projectile/meteor"
+			"no repeat"
+			"frame rate" .25
+		sound "meteor"
+		icon "icon/meteor"
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"hit effect" "missile hit"
+		"inaccuracy" 2
+		"turret turn" 10
+		"burst count" 8
+		"burst reload" 15
+		"velocity" 40
+		"lifetime" 100
+		"reload" 180
+		"firing energy" 650
+		"firing heat" 750
+		"acceleration" 10
+		"drag" 0.4
+		"turn" 50
+		"homing" 4
+		"tracking" 1
+		"shield damage" 800
+		"hull damage" 700
+		"missile strength" 40
+		"ion damage" 35
+		"heat damage" 250
+		"slowing damage" 2.5
+		"phasing"
+	description "A Vertical Launching variant that fires the AIM-2x."
+ 
 outfit "Arion AIM-2x AMRAAM M.L.M.S"
 	category "Secondary Weapons"
 	licenses
@@ -1137,18 +1248,18 @@ outfit "Arion AIM-2x AMRAAM M.L.M.S"
 	"weapon capacity" -50
 	"turret mounts" -1
 	weapon
-		sprite "projectile/sidewinder"
+		sprite "projectile/meteor"
 			"no repeat"
 			"frame rate" .25
-		sound "sidewinder"
-		icon "icon/sidewinder"
-		"hardpoint sprite" "hardpoint/sheragiam"
-		"hardpoint offset" 1.5
-		"fire effect" "sidewinder fire"
+		sound "meteor"
+		icon "icon/meteor"
+		"fire effect" "meteor fire"
 		"die effect" "missile death"
 		"hit effect" "missile hit"
+		"hardpoint sprite" "hardpoint/sheragiam"
+		"hardpoint offset" 1.5
 		"inaccuracy" 2
-		"turret turn" 2.25
+		"turret turn" 1
 		"burst count" 5
 		"burst reload" 36
 		"velocity" 40
@@ -1181,12 +1292,12 @@ outfit "Arion AIM-2x AMRAAM Launcher"
 	"weapon capacity" -35
 	"gun ports" -1
 	weapon
-		sprite "projectile/sidewinder"
+		sprite "projectile/meteor"
 			"no repeat"
 			"frame rate" .25
-		sound "sidewinder"
-		icon "icon/sidewinder"
-		"fire effect" "sidewinder fire"
+		sound "meteor"
+		icon "icon/meteor"
+		"fire effect" "meteor fire"
 		"die effect" "missile death"
 		"hit effect" "missile hit"
 		"inaccuracy" 1
@@ -1274,7 +1385,7 @@ outfit "Arion Hydra 70x Pod"
 		"shield damage" 150
 		"hull damage" 200
 		"missile strength" 50
-		"ion damage" 5
+		"heat damage" 50
 	description "The rocket pod is used by attack aircraft and attack helicopters to launch multiple rockets at the enemy. In space, it is mainly used against larger warships but a skilled pilot can use it to hit other fighters."
 
 outfit "Arion L.R.A.S.M Pod"
@@ -1371,7 +1482,7 @@ outfit "Arion UGT-1x Pod"
 		"drag" 0.1
 		"shield damage" 1600
 		"hull damage" 2400
-		"heat damage" 50
+		"heat damage" 2500
 		"ion damage" 25
 		"piercing" 0.2
 		"stream"
@@ -1407,7 +1518,7 @@ outfit "Arion GTU-1x Shark Pod"
 		"optical tracking" 0.35
 		"shield damage" 1500
 		"hull damage" 2250
-		"heat damage" 50
+		"heat damage" 2000
 		"ion damage" 25
 		"piercing" 0.15
 		"stream"
@@ -1450,6 +1561,63 @@ outfit "Arion GTU-1x Shark Launcher"
 		"piercing" 0.15
 		"stream"
 	description "This is a revolving launcher system that fires the GTU-1x Shark Torpedo."
+
+outfit "Arion Hurricane MIRV Turret"
+	category "Secondary Weapons"
+	cost 16000000
+	thumbnail "outfit/firestorm battery"
+	"mass" 60
+	"outfit space" -60
+	"weapon capacity" -60
+	"turret mounts" -1
+	weapon
+		sprite "projectile/thunderhead"
+			"no repeat"
+			"frame rate" .1
+		"hardpoint sprite" "hardpoint/firestorm battery"
+		sound "thunderhead"
+		icon "icon/thunderhead"
+		"submunition" "Hurricane Frag" 10
+		"split range" 500
+		"fire effect" "meteor fire"
+		"die effect" "missile death"
+		"hit effect" "medium explosion"
+		"turret turn" 1
+		"inaccuracy" 3
+		"velocity" 10
+		"lifetime" 200
+		"reload" 360
+		"acceleration" 1
+		"drag" 0.1
+		"turn" 25
+		"homing" 3.5
+		"tracking" 0.8
+		"firing energy" 1400
+		"firing heat" 2100
+		"missile strength" 200
+		"energy consumption" 1
+	description "A MIRV that spreads into 10 smaller fragments."
+
+outfit "Hurricane Frag"
+	weapon
+		sprite "projectile/thunderhead fragment"
+			"no repeat"
+			"frame rate" .1
+		"die effect" "missile death"
+		"hit effect" "small explosion"
+		"inaccuracy" 45
+		"velocity" 20
+		"lifetime" 100
+		"acceleration" 2
+		"drag" 0.1
+		"turn" 50
+		"homing" 4
+		"tracking" 1
+		"shield damage" 300
+		"hull damage" 400
+		"heat damage" 25
+		"hit force" 50
+		"missile strength" 10
 
 outfit "Arion B52 Bomb Bay Mk1"
 	category "Secondary Weapons"

@@ -2571,7 +2571,7 @@ ship "Super Space Swordfish"
 		"engine capacity" 15
 	outfits
 		"Arion S.C.D"
-		"Arion Basic Aircraft Engines"
+		"Arion ODE-SA-15x"
 		"Arion Basic Generator"
 		"Arion UGT-1x Pod"
 	engine 0 14.5
@@ -3220,9 +3220,9 @@ ship "Arion R/S-103X Delphinus MKI"
 		"outfit space" 125
 		"weapon capacity" 35
 		"engine capacity" 25
-		"cloak" 1.5
-		"cloaking energy" 9
-		"cloaking heat" 4.5
+		"cloak" 2
+		"cloaking energy" 10
+		"cloaking heat" 5
 		"flares" 1
 	outfits
 		"Arion G.A.G.G"
@@ -3266,9 +3266,9 @@ ship "Arion R-352X Sepia MKI"
 		"outfit space" 150
 		"weapon capacity" 40
 		"engine capacity" 25
-		"cloak" 1
-		"cloaking energy" 6
-		"cloaking heat" 3
+		"cloak" 1.8
+		"cloaking energy" 8
+		"cloaking heat" 4
 		"flares" 1
 	outfits
 		"Arion G.A.G.G"
@@ -3292,6 +3292,96 @@ ship "Arion R-352X Sepia MKI"
 	explode "small explosion" 5
 	"final explode" "final explosion small"
 	description "One of the best super fighters available to Arion forces for quite some time, even the stock version is capable of space flight. This futuristic super fighter comes from 'Strangereal', and is available both to Arion Air Force and Space Force aces due to its built in space flight capabilities."
+
+ship "Arion XFA/S-36X Game MKI"
+	sprite "ship/arionxfa36a"
+	thumbnail "ship/arionxfa36a"
+	attributes
+		category "Fighter"
+		licenses
+			"Arion"
+		"cost" 5800000
+		"shields" 2800
+		"hull" 1400
+		"required crew" 1
+		"bunks" 1
+		"mass" 35
+		"drag" 0.72
+		"heat dissipation" 0.9
+		"fuel capacity" 200
+		"outfit space" 125
+		"weapon capacity" 35
+		"engine capacity" 25
+		"cloak" 1.5
+		"cloaking energy" 8
+		"cloaking heat" 4
+		"flares" 1
+	outfits
+		"Arion G.A.G.G"
+		"Arion AIM-1x Sidewinder Pod" 2
+		"Arion AIM-2x AMRAAM Pod" 2
+		"Arion Chaff and Flares Tier 1"
+		"Arion ODE-FA-25x"
+		"Arion S.C.D"
+		"Arion ARS-10x"
+		"Arion OCR-15x"
+		engine -4 26 
+	engine 4 26 
+	gun -3.5 -10 
+	gun -4.5 8.5 
+	gun 4.5 8.5 
+	gun -3.5 8.5 
+	gun 3.5 8.5 
+	turret 0 13 
+	leak "leak" 60 50
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
+	description "A futuristic super fighter from the 'Strangereal' universe. This fighter however, still requires some modification to be able to fly in space."
+
+ship "Arion X/S-49X Night Raven MKI"
+	sprite "ship/arionx49"
+	thumbnail "ship/arionx49"
+	attributes
+		category "Fighter"
+		licenses
+			"Arion"
+		"cost" 6300000
+		"shields" 3400
+		"hull" 1700
+		"required crew" 1
+		"bunks" 1
+		"mass" 43
+		"drag" 0.65
+		"heat dissipation" 0.9
+		"fuel capacity" 200
+		"outfit space" 125
+		"weapon capacity" 35
+		"engine capacity" 25
+		"flares" 1
+		"cloak" 1.9
+		"cloaking energy" 9
+		"cloaking heat" 4.5
+		"morgan hardpoint" 1
+	outfits
+		"Arion Zoisite T.L.S"
+		"Arion AIM-1x Sidewinder Pod" 2
+		"Arion Chaff and Flares Tier 1"
+		"Arion ODE-FA-25x"
+		"Arion S.C.D"
+		"Arion ARS-10x"
+		"Arion OCR-15x"
+		engine -3.5 -5.5 
+	engine 3.5 -5.5 
+	gun 0 -23.5 
+	gun -9 -12.5 
+	gun 9 -12.5 
+	turret 0 -12.5
+	leak "leak" 60 50
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	"final explode" "final explosion small"
+	description "A futuristic super fighter from the 'Strangereal' universe. This is one of the rarest planes in Arion service and is only produced in limited quantities. Although, limited quantity is subjective, as around 10 units are produced each year. This fighter however, still requires some modification to be able to fly in space."
 
 =============================
 Xenonauts 
@@ -3621,7 +3711,7 @@ ship "Arion Halberd Class Cruiser"
 		"cost" 7000000
 		"shields" 275000
 		"hull" 165000
-		"required crew" 80
+		"required crew" 60
 		"bunks" 120
 		"mass" 840
 		"drag" 9.5
@@ -3702,7 +3792,7 @@ ship "Arion Scimitar Class Destroyer"
 		"cost" 5600000
 		"shields" 225000
 		"hull" 150000
-		"required crew" 60
+		"required crew" 45
 		"bunks" 90
 		"mass" 700
 		"drag" 7.5
@@ -3821,3 +3911,333 @@ ship "Arion Kukri Class Frigate"
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
 	description "The Kukri Class Light Patrol Frigate is originally used to help scout dangerous without having to bring in larger ships. It can easily outrun a lot of enemies due to its large engines, although it isn't the most heavily armed and is quite weak."
+
+ship "Arion Paris Class Destroyer"
+	sprite "ship/arionparis"
+	thumbnail "thumbnail/arionparis"
+	attributes
+		category "Heavy Warship"
+		licenses
+			"Arion"
+		"cost" 6400000
+		"shields" 210000
+		"hull" 175000
+		"required crew" 50
+		"bunks" 80
+		"mass" 720
+		"drag" 8.25
+		"heat dissipation" .9
+		"fuel capacity" 700
+		"cargo space" 30
+		"outfit space" 640
+		"weapon capacity" 320
+		"engine capacity" 150
+		"spinal mount" 1
+		"ion resistance" 3
+		"ion protection" 1
+		"disruption protection" 1
+		"discharge protection" 1
+		"corrosion protection" 1
+		"leak resistance" 5
+		"burn resistance" 5
+	outfits
+		"Arion Phalanx C.I.W.S" 2
+		"Arion SBL-03A Paralyzer Turret" 2
+		"Arion Vaporizer T.L.S"
+		"Arion Multirole Fuel System"
+		"Arion AR-100x"
+		"Arion L.C.D"
+		"Arion ARS-50x"
+		"Arion ODE-SHW-150x"
+		"Jump Drive"
+		"Hyperdrive"
+	engine 0 134 
+	engine -61.5 172.5 
+	engine 61.5 172.5 
+	turret -27.5 -88.5 
+	turret 27.5 -88.5 
+	turret -27.5 -32.5 
+	turret 27.5 -32.5 
+	gun 0 -155 
+	leak "leak" 30 50
+	leak "flame" 50 80
+	leak "big leak" 40 30
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The Paris Class Patrol Destroyer is a special heavy warship that has only one purpose, bring in the biggest guns in the smallest packages. Inspired by a frigate of the same name used by the United Nations Space Command, it can bring the big guns without having to call in the 'full size' ships."
+
+ship "Arion Algos Class Drone Carrier"
+	sprite "ship/arionalgos"
+	thumbnail "thumbnail/arionalgos"
+	attributes
+		category "Heavy Warship"
+		licenses
+			"Arion"
+		"cost" 7500000
+		"shields" 260000
+		"hull" 200000
+		"required crew" 80
+		"bunks" 180
+		"mass" 860
+		"drag" 10.5
+		"heat dissipation" .9
+		"fuel capacity" 900
+		"cargo space" 100
+		"outfit space" 800
+		"weapon capacity" 200
+		"engine capacity" 150
+		"ion resistance" 3
+		"ion protection" 1
+		"disruption protection" 1
+		"discharge protection" 1
+		"corrosion protection" 1
+		"leak resistance" 5
+		"burn resistance" 5
+	outfits
+		"Arion Phalanx C.I.W.S" 2
+		"Arion SBL-03A Paralyzer Turret" 2
+		"Arion Multirole Fuel System"
+		"Arion AR-100x"
+		"Arion L.C.D"
+		"Arion ARS-100x"
+		"Arion ODE-SHW-150x"
+		"Jump Drive"
+		"Hyperdrive"
+	engine 0 177 
+		under
+	engine -36.5 123 
+	engine 36.5 123 
+	turret 0 -100 
+	turret 0 139.5 
+	turret -32.5 -75 
+	turret 32.5 -75 
+	bay "Drone" -60 -88 
+		"launch effect" "human internal"
+	bay "Drone" 60 -88 
+		"launch effect" "human internal"
+	bay "Drone" -60 -101.5 
+		"launch effect" "human internal"
+	bay "Drone" 60 -101.5 
+		"launch effect" "human internal"
+	bay "Drone" -60 -117 
+		"launch effect" "human internal"
+	bay "Drone" 60 -117 
+		"launch effect" "human internal"
+	bay "Drone" -60 -129 
+		"launch effect" "human internal"
+	bay "Drone" 60 -129 
+		"launch effect" "human internal"
+	bay "Drone" -60 -145 
+		"launch effect" "human internal"
+	bay "Drone" 60 -145 
+		"launch effect" "human internal"
+	bay "Drone" -60 -162.5 
+		"launch effect" "human internal"
+	bay "Drone" 60 -162.5 
+		"launch effect" "human internal"
+	bay "Drone" -60 -177.5 
+		"launch effect" "human internal"
+	bay "Drone" 60 -177.5 
+		"launch effect" "human internal"
+	leak "leak" 30 50
+	leak "flame" 50 80
+	leak "big leak" 40 30
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The Algos class Patrol Drone Carrier is inspired by the a destroyer of the same name used by the Gallente. It is used in Arion as a smaller drone carrier for patrol fleets. Unlike the Gallente counterpart however, this ship can't really be used as a frontline ship due to it only having 4 turrets for defence."
+
+ship "Arion Odyssey Class Battlecruiser"
+	sprite "ship/arionodyssey"
+	thumbnail "thumbnail/arionodyssey"
+	attributes
+		category "Heavy Warship"
+		licenses
+			"Arion"
+		"cost" 11500000
+		"shields" 320000
+		"hull" 380000
+		"required crew" 100
+		"bunks" 420
+		"mass" 1300
+		"drag" 16
+		"heat dissipation" .9
+		"fuel capacity" 1000
+		"cargo space" 600
+		"outfit space" 1250
+		"weapon capacity" 600
+		"engine capacity" 210
+		"ion resistance" 3
+		"ion protection" 1
+		"disruption protection" 1
+		"discharge protection" 1
+		"corrosion protection" 1
+		"leak resistance" 5
+		"burn resistance" 5
+	outfits
+		"Arion Autopulse Laser Turret" 3
+		"Arion Hurricane MIRV Turret" 3
+		"Arion Phalanx C.I.W.S" 4
+		"Arion Multirole Fuel System"
+		"Arion AR-100x"
+		"Arion L.C.D"
+		"Arion ARS-100x"
+		"Arion ODE-MHW-180x"
+		"Arion Heavy Afterburner"
+		"Jump Drive"
+		"Hyperdrive"
+	engine -15 265.5 
+	engine 15 265.5 
+	engine -44.5 265.5 
+	engine 44.5 265.5 
+	turret 50.5 -54 
+	turret -57.5 -1 
+	turret -44.5 77 
+	turret -0.5 -180.5 
+	turret -35 -119.5 
+	turret 45 83.5 
+	turret -51.5 111 
+	turret 51.5 111 
+	turret -63.5 -75.5 
+	turret 45 -142 
+	bay "Fighter" 45 30 right
+		over
+	bay "Fighter" 45 0 right
+		over
+	bay "Fighter" 45 30 right
+	bay "Fighter" 45 0 right
+	leak "leak" 30 50
+	leak "flame" 50 80
+	leak "big leak" 40 30
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The Odyssey Class Patrol Battlecruiser is inspired by a ship of the same name from the 'Starsector' Universe. Here, it acts as a larger alternative to a Bactrian, but with even better combat capabilities."
+
+ship "Arion Alicorn Class Carrier"
+	sprite "ship/arionalicorn"
+	thumbnail "thumbnail/arionalicorn"
+	attributes
+		category "Heavy Warship"
+		licenses
+			"Arion"
+		"cost" 11500000
+		"shields" 400000
+		"hull" 330000
+		"required crew" 120
+		"bunks" 400
+		"mass" 1360
+		"drag" 14
+		"heat dissipation" .9
+		"fuel capacity" 1100
+		"cargo space" 250
+		"outfit space" 1200
+		"weapon capacity" 480
+		"engine capacity" 160
+		"ion resistance" 3
+		"ion protection" 1
+		"disruption protection" 1
+		"discharge protection" 1
+		"corrosion protection" 1
+		"leak resistance" 5
+		"burn resistance" 5
+		"cloak" 1
+		"cloaking energy" 15
+		"cloaking heat" 7.5
+		"vertical launching support" 4
+	outfits
+		"Arion Phalanx C.I.W.S" 4
+		"Arion SeaRAMx"
+		"Arion AIM-2x AMRAAM VLS" 4
+		"Arion Multirole Fuel System"
+		"Arion AR-100x"
+		"Arion L.C.D"
+		"Arion ARS-100x"
+		"Arion ODE-SHW-150x"
+		"Arion Light Afterburner"
+		"Jump Drive"
+		"Hyperdrive"
+	engine 0 295 
+	engine -56 295
+	engine 56 295
+	turret -56 56 
+	turret 56 56
+	turret -56 257 
+	turret 56 257 
+	turret 0 44 
+	turret -56 156 
+	turret 56 156
+	turret -56 200 
+	turret 56 200 
+	bay "Fighter" 0 210
+		over
+		angle 90
+	bay "Fighter" 0 260
+		over
+		angle 270
+	bay "Fighter" 0 -260
+		over
+	bay "Fighter" 0 -190
+		over
+	bay "Fighter" 0 -120
+		over
+	bay "Fighter" 0 -50
+		over
+	bay "Fighter" 0 270
+		angle 90
+	bay "Fighter" 0 240
+		angle 90
+	bay "Fighter 0 210
+		angle 90
+	bay "Fighter 0 180
+		angle 90
+	bay "Fighter" 0 150
+		angle 90
+	bay "Fighter" 0 120
+		angle 90
+	bay "Fighter" 0 90
+		angle 90
+	bay "Fighter" 0 60
+		angle 90
+	bay "Fighter" 0 30
+		angle 90
+	bay "Fighter" 0 0
+		angle 90
+	bay "Fighter" 0 -30
+		angle 90
+	bay "Fighter" 0 -60
+		angle 90
+	bay "Fighter" 0 -90
+		angle 90
+	bay "Fighter" 0 -120
+		angle 90
+	bay "Fighter" 0 -150
+		angle 90
+	bay "Fighter" 0 -180
+		angle 90
+	bay "Fighter 0 -210
+		angle 90
+	bay "Fighter 0 -240
+		angle 90
+	bay "Fighter 0 -270
+		angle 90
+	leak "leak" 30 50
+	leak "flame" 50 80
+	leak "big leak" 40 30
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description "The Alicorn Class Patrol Carrier is inspired by a naval ship of the same name from the 'Strangereal' universe. It is used to bring in large amounts of fighters without having to call in a 'full size' carrier."

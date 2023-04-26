@@ -1,20 +1,20 @@
 outfit "AK 74"
 	category "Hand to Hand"
 	cost 7000
-	thumbnail "outfit/pirateak74"
+	thumbnail "outfit/ak74"
 	"capture attack" 0.65
 	"capture defense" 0.85
 	"unplunderable" 1
-	description "An old reliable assault rifle firing 5.45 by 39."
+	description "A reliable and mass produced assault rifle, it has been modified to fire 5.56 instead of its original 5.45."
 
 outfit "AKs 74u"
 	category "Hand to Hand"
 	cost 7500
-	thumbnail "outfit/pirateaks74u"
+	thumbnail "outfit/aks74u"
 	"capture attack" 0.85
 	"capture defense" 0.65
 	"unplunderable" 1
-	description "An old reliable carbine firing 5.45 by 39."
+	description "A reliable and compact carbine, it has been modified to fire 5.56 instead of its original 5.45."
 
 outfit "RPK 74"
 	category "Hand to Hand"
@@ -23,7 +23,7 @@ outfit "RPK 74"
 	"capture attack" 1.2
 	"capture defense" 1.1
 	"unplunderable" 1
-	description "An old reliable lmg firing 5.45 by 39."
+	description "A reliable light machine gun, it has been modified to fire 5.56 instead of 5.45."
 
 outfit "M16A3"
 	category "Hand to Hand"
@@ -43,6 +43,15 @@ outfit "M4A1"
 	"unplunderable" 1
 	description "A carbine firing 5.56 by 45."
 
+outfit "MP5SD"
+	category "Hand to Hand"
+	cost 8500
+	thumbnail "outfit/mp5sd"
+	"capture attack" 0.8
+	"capture defense" 0.6
+	"unplunderable" 1
+	description "A famous suppressed submachine gun firing 9 by 19."
+
 outfit "O/U Double Barrel Shotgun"
 	category "Hand to Hand"
 	cost 3000
@@ -59,7 +68,25 @@ outfit "SPAS 12"
 	"capture attack" 1.6
 	"capture defense" 1.6
 	"unplunderable" 1
-	description "A Shotgun that can be used as a pump action or semi automatic shotgun that fires 12 gauge."
+	description "An improved version of an iconic shotgun that can fire in both semi automatic and pump action. It fires 12 gauge rounds ranging from standard buckshot and slugs to FRAG 12 and Dragonsbreath."
+
+outfit "AA 12"
+	category "Hand to Hand"
+	cost 30000
+	thumbnail "outfit/aa12"
+	"capture attack" 2.2
+	"capture defense" 2.2
+	"unplunderable" 1
+	description "An automatic shotgun that fires 12 gauge, it is quite devastating in CQB."
+
+outfit "Saiga 12"
+	category "Hand to Hand"
+	cost 25000
+	thumbnail "outfit/saiga12"
+	"capture attack" 2.1
+	"capture defense" 2.1
+	"unplunderable" 1
+	description "An AK platform Automatic shotgun that fires 12 gauge, it is quite devastating in CQB."
 
 outfit "Hecate II"
 	category "Hand to Hand"
@@ -69,6 +96,42 @@ outfit "Hecate II"
 	"capture defense" 0.1
 	"unplunderable" 1
 	description "An Anti Material Rifle that can be used to devastate enemy ranks firing 50 BMG. Probably not a good idea to use for defense."
+
+outfit "M82 Barrett"
+	category "Hand to Hand"
+	cost 55000
+	thumbnail "outfit/m82barrett"
+	"capture attack" 3.25
+	"capture defense" 0.25
+	"unplunderable" 1
+	description "A semi automatic Anti Material Rifle that can be used to devastate enemy ranks firing 50 BMG. Probably not a good idea to use for defense."
+
+outfit "M95 Barrett"
+	category "Hand to Hand"
+	cost 52000
+	thumbnail "outfit/m95barrett"
+	"capture attack" 3.1
+	"capture defense" 0.125
+	"unplunderable" 1
+	description "A bullpup bolt action anti material rifle that fires 50 bmg. Probably not a good idea to use for defense."
+
+outfit "GM6 Lynx"
+	category "Hand to Hand"
+	cost 60000
+	thumbnail "outfit/gm6lynx"
+	"capture attack" 3.3
+	"capture defense" 0.3
+	"unplunderable" 1
+	description "A semi automatic bullpup anti material that fires 50 bmg. Somewhat useable for defense."
+
+outfit "AK 50"
+	category "Hand to Hand"
+	cost 60000
+	thumbnail "outfit/ak50"
+	"capture attack" 2.75
+	"capture defense" 2.25
+	"unplunderable" 1
+	description "What is up you sexy youtube motherlovers! Originally designed by Brandon Herrera, you too can now feel the power of the AK 50!"
 
 outfit "Glock 17 Suppressed"
 	category "Hand to Hand"
@@ -129,14 +192,14 @@ outfit "500 S&W Revolver"
 	cost 7500
 	thumbnail "outfit/500sandw"
 	"capture attack" 0.425
-	"capture defense" 0.4
+	"capture defense" 0.35
 	"unplunderable" 1
 	description "A 'comically large revolver' firing the massive 500 S&W. It would probably annihilate both your enemies and your wrist, and perhaps even your face."
 
 outfit "Arion S.I Equipment"
 	category "Hand to Hand"
 	cost 170000
-	thumbnail "outfit/arion standard issue"
+	thumbnail "outfit/arionstandardissue"
 	"capture attack" 4.2
 	"capture defense" 4.5
 	"operating costs" 10
@@ -146,9 +209,9 @@ outfit "Arion S.I Equipment"
 outfit "Arion Heavy CQB"
 	category "Hand to Hand"
 	cost 200000
-	thumbnail "outfit/arion heavy cqb"
-	"capture attack" 5.2
-	"capture defense" 5.2
+	thumbnail "outfit/arionheavycqb"
+	"capture attack" 5.4
+	"capture defense" 5.4
 	"operating costs" 18
 	"unplunderable" 1
 	description "Now this is a deadly soldier for ship boarding. With either a Saiga 12 or AA12, the heavy cqb can easily clear out a ship with deadly efficiency. Maintenance however, is necessary to ensure the weapon is usable."
@@ -157,8 +220,8 @@ outfit "Arion Skirmisher"
 	category "Hand to Hand"
 	cost 170000
 	thumbnail "outfit/arionskirmisher"
-	"capture attack" 4.6
-	"capture defense" 4.6
+	"capture attack" 4.8
+	"capture defense" 4.8
 	"operating costs" 15
 	"unplunderable" 1
 	description "The SPAS 12 and arion armor is a deadly combination. Being able to fire multiple types of ammunition, the SPAS 12 has the ability to fire anything from the standard Buckshot and Slug, to FRAG 12 and Dragonsbreath, making it very deadly. Maintenance however, is necessary to ensure the weapon is usable."
@@ -166,7 +229,7 @@ outfit "Arion Skirmisher"
 outfit "Arion Riot Soldier"
 	category "Hand to Hand"
 	cost 200000
-	thumbnail "outfit/arion riot soldier"
+	thumbnail "outfit/arionriotsoldier"
 	"capture attack" 4
 	"capture defense" 5.4
 	"operating costs" 12
@@ -176,9 +239,9 @@ outfit "Arion Riot Soldier"
 outfit "Arion M4A1"
 	category "Hand to Hand"
 	cost 158800
-	thumbnail "outfit/m16 m203"
-	"capture attack" 4
-	"capture defense" 3.7
+	thumbnail "outfit/arionm4a1"
+	"capture attack" 4.1
+	"capture defense" 3.9
 	"operating costs" 5
 	"unplunderable" 1
 	description "The combination of the suppressed M4A1 and Standard Arion Armour is a powerful combination. This setup is sometimes used by the Arion National Guard. Maintenance however, is necessary to ensure the weapon is usable."
@@ -186,9 +249,9 @@ outfit "Arion M4A1"
 outfit "Arion M16A3 W/M203"
 	category "Hand to Hand"
 	cost 165000
-	thumbnail "outfit/m16 m203"
+	thumbnail "outfit/arionm16m203"
 	"capture attack" 5
-	"capture defense" 4
+	"capture defense" 4.2
 	"operating costs" 7
 	"unplunderable" 1
 	description "In addition to the standard armour, this soldier is equipped with a M16A3 with an under barrel grenade launcher. While the M16 isn't the best in close quarters, the under barrel grenade launcher more than make up for it. Maintenance however, is necessary to ensure the weapon is usable."
@@ -196,9 +259,9 @@ outfit "Arion M16A3 W/M203"
 outfit "Arion AKs 74u"
 	category "Hand to Hand"
 	cost 157000
-	thumbnail "outfit/aks74u"
-	"capture attack" 3.9
-	"capture defense" 3.7
+	thumbnail "outfit/arionaks74u"
+	"capture attack" 4
+	"capture defense" 3.8
 	"operating costs" 4
 	"unplunderable" 1
 	description "In addition to the standard armour, this soldier is equipped with an AKs 74u. This allows the soldier to be even more maneuverable than their comrades, while still firing a rifle caliber bullet. This is the main weapon of choice for our Spartan Rangers. Maintenance however, is necessary to ensure the weapon is usable."
@@ -206,9 +269,9 @@ outfit "Arion AKs 74u"
 outfit "Arion AK 74M"
 	category "Hand to Hand"
 	cost 157500
-	thumbnail "outfit/ak74m"
-	"capture attack" 3.7
-	"capture defense" 3.9
+	thumbnail "outfit/arionak74m"
+	"capture attack" 3.8
+	"capture defense" 4
 	"operating costs" 4
 	"unplunderable" 1
 	description "An assault rifle sometimes used by the Arion Foreign Legion for training and parades, and by Spartan Rangers. Maintenance however, is necessary to ensure the weapon is usable."
@@ -217,8 +280,8 @@ outfit "Arion RPK 74M"
 	category "Hand to Hand"
 	cost 158000
 	thumbnail "outfit/arionrpk74m"
-	"capture attack" 4.2
-	"capture defense" 4.1
+	"capture attack" 4.4
+	"capture defense" 4.3
 	"operating costs" 7
 	"unplunderable" 1
 	description "A light machine gun sometimes used by the Arion Foreign Legion for training and parades, and by Spartan Rangers. Maintenance however, is necessary to ensure the weapon is usable. Maintenance however, is necessary to ensure the weapon is usable."
@@ -227,8 +290,8 @@ outfit "Arion Hecate II"
 	category "Hand to Hand"
 	cost 202500
 	thumbnail "outfit/arionhecateii"
-	"capture attack" 6
-	"capture defense" 3.2
+	"capture attack" 6.2
+	"capture defense" 3.3
 	"operating costs" 20
 	"unplunderable" 1
 	description "The Hecate II is now paired up with a suppressed Glock 17 and Standard Arion Armour, which allows any wielder to eliminate enemies with ease. However, due to its size, the Hecate can only be used for attacking, which is why a Glock 17 is also issued. This weapon is the main Anti Material Rifle of choice of our Desert Rangers. Maintenance however, is necessary to ensure the weapon is usable."
@@ -236,9 +299,9 @@ outfit "Arion Hecate II"
 outfit "Arion M82 Barrett"
 	category "Hand to Hand"
 	cost 227500
-	thumbnail "outfit/m82barrett"
-	"capture attack" 6.25
-	"capture defense" 3.2
+	thumbnail "outfit/arionm82"
+	"capture attack" 6.45
+	"capture defense" 3.3
 	"operating costs" 22
 	"unplunderable" 1
 	description "Besides the standard armor, this soldier has an M82 Barrett 50 cal Anti Material Rifle, allowing them to annihilate any enemy they encounter. However, due to its unwieldiness and scope, its only suited for attacking. To help defend the sniper, they are either issued a sidearm or allowed to bring their own. Usually they are issued a suppressed Glock 17. Maintenance however, is necessary to ensure the weapon is usable."
@@ -246,9 +309,9 @@ outfit "Arion M82 Barrett"
 outfit "Arion M95 Barrett"
 	category "Hand to Hand"
 	cost 207500
-	thumbnail "outfit/m95barrett"
-	"capture attack" 6.1
-	"capture defense" 3.2
+	thumbnail "outfit/arionm95"
+	"capture attack" 6.3
+	"capture defense" 3.3
 	"operating costs" 21
 	"unplunderable" 1
 	description "Besides the standard armor, this soldier has an M82 Barrett 50 cal Anti Material Rifle, allowing them to annihilate any enemy they encounter. However, due to its unwieldiness and scope, its only suited for attacking. Also due to its bullpup configuration it is better at defending but its bolt action nature does kind of nullify that advantage. To help defend the sniper, they are either issued a sidearm or allowed to bring their own. Usually they are issued a suppressed Glock 17. Maintenance however, is necessary to ensure the weapon is usable."
@@ -256,22 +319,22 @@ outfit "Arion M95 Barrett"
 outfit "Arion GM6 Lynx"
 	category "Hand to Hand"
 	cost 252500
-	thumbnail "outfit/gm6lynx"
-	"capture attack" 6.3
-	"capture defense" 3.2
+	thumbnail "outfit/ariongm6lynx"
+	"capture attack" 6.5
+	"capture defense" 3.3
 	"operating costs" 23
 	"unplunderable" 1
 	description "Besides the standard armor, this soldier has an M82 Barrett 50 cal Anti Material Rifle, allowing them to annihilate any enemy they encounter. However, due to its unwieldiness and scope, its only suited for attacking. Because its a semi automatic bullpup however, its slightly better. To help defend the sniper, they are either issued a sidearm or allowed to bring their own. Usually they are issued a suppressed Glock 17. Maintenance however, is necessary to ensure the weapon is usable."
 
-outfit "Arion AK 50 V1"
+outfit "Arion AK 50"
 	category "Hand to Hand"
 	cost 300000
-	thumbnail "outfit/ak50v1"
-	"capture attack" 5.75
-	"capture defense" 5.25
+	thumbnail "outfit/arionak50"
+	"capture attack" 6
+	"capture defense" 5.5
 	"operating costs" 25
 	"unplunderable" 1
-	description "What is up you sexy youtube motherlovers! Originally designed by Brandon Herrera, you too can now feel the power of the AK 50!"
+	description "A semi automatic 50 bmg firing monster, it is usually used in Arion as a 'battle rifle' of sorts. Since this rifle does not use a scope, it doesn't really need a sidearm to back it up as defending with it shouldn't be that hard."
 
 outfit "Arion Purifier"
 	category "Hand to Hand"
@@ -279,9 +342,39 @@ outfit "Arion Purifier"
 	thumbnail "outfit/arionpurifier"
 	"capture attack" 9
 	"capture defense" 3.35
-	"operating costs" 40
+	"operating costs" 50
 	"unplunderable" 1
 	description "Paired with the standard Arion armor and dessert eagle, the MF-01 Bleach can cleanse any threat. It can be used for many threat, but it is usually only used either when there are bio threats or for clearing out enclosed spaces. The MPF-01 Bleach is a powerful weapon, it has 2 gas tanks, one in its stock and another under its handguard, that can be refilled with the pump handle on the handguard tank. The fuel tank located where a magazine would normally go can be replaced with a hose that connects to a backpack filled with fuel and gas, much like normal flamethrowers. The legality of flamethrowers is very questionable so it should be alright to have one, although due to the nature of flamethrowers, they are heavily taxed when sold to non government entities. Maintenance however, is necessary to ensure the weapon is usable."
+
+outfit "Arion Shredder"
+	category "Hand to Hand"
+	cost 500000
+	thumbnail "outfit/arionshredder"
+	"capture attack" 8
+	"capture defense" 8
+	"operating costs" 50
+	"unplunderable" 1
+	description "Paired with the standard Arion armor and beretta 93r, the SILMG-01 Shredder will cut down any enemy. It can easily suppress enemies with its high fire rate, owing to its design features borrowed from the Ameli/MG42, while still being able to feed from a belt or a standard STANAG magazine should the situation require it."
+
+outfit "Arion Wrecker"
+	category "Hand to Hand"
+	cost 480000
+	thumbnail "outfit/arionwrecker"
+	"capture attack" 8.5
+	"capture defense" 3.21
+	"operating costs" 45
+	"unplunderable" 1
+	description "Paired with the standard Arion armor and a tactical 1911, the PMRL-01 can easily blow up the enemy. It can fire both standard RPG rounds and specially made rockets, ranging from basic improved variants to guided variants. It can't however be used for defense, since it would probably destroy your own ship."
+
+outfit "Arion Milkor MGL"
+	category "Hand to Hand"
+	cost 480000
+	thumbnail "outfit/arionmgl"
+	"capture attack" 8.8
+	"capture defense" 3.21
+	"operating costs" 45
+	"unplunderable" 1
+	description "Paired with the standard Arion armor and a tactical 1911, the Milkor MGL can rain 40mm grenades on the enemy."
 
 outfit "Gold AK 74"
 	category "Unique"

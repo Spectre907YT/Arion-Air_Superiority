@@ -3,24 +3,24 @@ outfit "Arion License"
 	thumbnail "outfit/license"
 	description "A special license for captains affiliated with Arion."
 
-outfit "Arion Basic Aircraft Engines"
+outfit "Arion ODE-SA-15x"
 	category "Engines"
 	licenses
 			"Arion"
-	cost 300000
+	cost 250000
 	thumbnail "outfit/fissiondrive"
 	"mass" 15
 	"outfit space" -15
 	"engine capacity" -15
-	"thrust" 9
-	"thrusting energy" 0.5
-	"thrusting heat" 0.25
-	"turn" 250
-	"turning energy" 0.3
-	"turning heat" 0.15
-	"reverse thrust" 5
-	"reverse thrusting energy" 0.25
-	"reverse thrusting heat" 0.125
+	"thrust" 9.5
+	"thrusting energy" 0.8325
+	"thrusting heat" 1.24875
+	"turn" 247.5
+	"turning energy" 0.4125
+	"turning heat" 0.61875
+	"reverse thrust" 7.3125
+	"reverse thrusting energy" 0.8325
+	"reverse thrusting heat" 1.24875
 	"flare sprite" "effect/fissionflare"
 		"frame rate" 30
 		"rewind"
@@ -29,13 +29,13 @@ outfit "Arion Basic Aircraft Engines"
 		"frame rate" 30
 		"rewind"
 	"steering flare sound" "atomic tiny"
-	description "This is a basic and cheap engine for cheap planes."
+	description "The Omni Directional Engine-SA-20x is a the simplest and smallest engines used by Arion."
 
 outfit "Arion ODE-AA-20x"
 	category "Engines"
 	licenses
 			"Arion"
-	cost 800000
+	cost 400000
 	thumbnail "outfit/fissiondrive"
 	"mass" 20
 	"outfit space" -20
@@ -65,7 +65,7 @@ outfit "Arion ODE-FA-25x"
 	category "Engines"
 	licenses
 			"Arion"
-	cost 1000000
+	cost 500000
 	thumbnail "outfit/fissiondrive"
 	"mass" 25
 	"outfit space" -25
@@ -95,7 +95,7 @@ outfit "Arion ODE-IA-25x"
 	category "Engines"
 	licenses
 			"Arion"
-	cost 1000000
+	cost 500000
 	thumbnail "outfit/fissiondrive"
 	"mass" 25
 	"outfit space" -25
@@ -125,7 +125,7 @@ outfit "Arion ODE-LBA-30x"
 	category "Engines"
 	licenses
 			"Arion"
-	cost 1200000
+	cost 600000
 	thumbnail "outfit/fissiondrive"
 	"mass" 30
 	"outfit space" -30
@@ -155,7 +155,7 @@ outfit "Arion ODE-MBA-50x"
 	category "Engines"
 	licenses
 			"Arion"
-	cost 2000000
+	cost 1000000
 	thumbnail "outfit/fissiondrive"
 	"mass" 50
 	"outfit space" -50
@@ -185,7 +185,7 @@ outfit "Arion ODE-HBA-60x"
 	category "Engines"
 	licenses
 			"Arion"
-	cost 2400000
+	cost 1200000
 	thumbnail "outfit/fissiondrive"
 	"mass" 60
 	"outfit space" -60
@@ -215,7 +215,7 @@ outfit "Arion ODE-MLW-80x"
 	category "Engines"
 	licenses
 			"Arion"
-	cost 3200000
+	cost 1600000
 	thumbnail "outfit/fusiondrive"
 	"mass" 80
 	"outfit space" -80
@@ -249,7 +249,7 @@ outfit "Arion ODE-LLW-100x"
 	category "Engines"
 	licenses
 			"Arion"
-	cost 4000000
+	cost 2000000
 	thumbnail "outfit/fusiondrive"
 	"mass" 100
 	"outfit space" -100
@@ -283,7 +283,7 @@ outfit "Arion ODE-SHW-150x"
 	category "Engines"
 	licenses
 			"Arion"
-	cost 6000000
+	cost 3000000
 	thumbnail "outfit/fusiondrive"
 	"mass" 150
 	"outfit space" -150
@@ -317,7 +317,7 @@ outfit "Arion ODE-MHW-180x"
 	category "Engines"
 	licenses
 			"Arion"
-	cost 7200000
+	cost 3600000
 	thumbnail "outfit/fusiondrive"
 	"mass" 180
 	"outfit space" -180
@@ -351,7 +351,7 @@ outfit "Arion ODE-LHW-210x"
 	category "Engines"
 	licenses
 			"Arion"
-	cost 8400000
+	cost 4200000
 	thumbnail "outfit/fusiondrive"
 	"mass" 210
 	"outfit space" -210
@@ -385,7 +385,7 @@ outfit "Arion ODE-HHW-250x"
 	category "Engines"
 	licenses
 			"Arion"
-	cost 10000000
+	cost 5000000
 	thumbnail "outfit/fusiondrive"
 	"mass" 250
 	"outfit space" -250
@@ -423,11 +423,11 @@ outfit "Arion Light Afterburner"
 	"outfit space" -10
 	"engine capacity" -10
 	"afterburner thrust" 30
-	"afterburner fuel" 0.025
+	"afterburner fuel" 0.05
 	"afterburner energy" 5
 	"afterburner heat" 5
 	"afterburner effect" "ionic afterburner"
-	description "An emergency that can be used to escape confrontations."
+	description "An emergency afterburner that can be used to escape confrontations."
 
 outfit "Arion Medium Afterburner"
 	category "Engines"
@@ -436,12 +436,26 @@ outfit "Arion Medium Afterburner"
 	"mass" 20
 	"outfit space" -20
 	"engine capacity" -20
-	"afterburner thrust" 60
-	"afterburner fuel" 0.05
+	"afterburner thrust" 65
+	"afterburner fuel" 0.1
 	"afterburner energy" 10
 	"afterburner heat" 10
 	"afterburner effect" "ionic afterburner"
-	description "An emergency that can be used to escape confrontations."
+	description "An emergency afterburner that can be used to escape confrontations."
+
+outfit "Arion Heavy Afterburner"
+	category "Engines"
+	"cost" 1500000
+	thumbnail "outfit/caldera afterburner"
+	"mass" 30
+	"outfit space" -30
+	"engine capacity" -30
+	"afterburner thrust" 100
+	"afterburner fuel" 0.15
+	"afterburner energy" 15
+	"afterburner heat" 15
+	"afterburner effect" "ionic afterburner"
+	description "An emergency afterburner that can be used to escape confrontations."
 
 outfit "Arion I.E.W.S"
 	category "Systems"

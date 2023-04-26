@@ -18,9 +18,9 @@ government "Arion (SFF)"
 		"Arion (AMFS)" 1
 		"Arion (AFLS)" 1
 	"penalty for"
-		assist -0.5
-		disable 2.5
-		board 10
+		assist -0.1
+		disable 100
+		board 250
 		capture 1000
 		destroy 1000
 	"player reputation" 1
@@ -51,9 +51,9 @@ government "Arion (AMFS)"
 		"Arion (AMFS)" 1
 		"Arion (AFLS)" 1
 	"penalty for"
-		assist -0.5
-		disable 2.5
-		board 10
+		assist -0.1
+		disable 100
+		board 250
 		capture 500
 		destroy 500
 	"player reputation" 1
@@ -84,9 +84,9 @@ government "Arion (AFLS)"
 		"Arion (AMFS)" 1
 		"Arion (AFLS)" 1
 	"penalty for"
-		assist -0.5
-		disable 2.5
-		board 10
+		assist -0.1
+		disable 100
+		board 250
 		capture 500
 		destroy 500
 	"player reputation" 1

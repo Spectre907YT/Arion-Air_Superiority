@@ -1565,3 +1565,42 @@ outfit "Arion Mini Overcharge Core"
 	"ion protection" 1
 	"unplunderable" 1
 	description "For smaller more energy hungry ships, the Arion Mini Overcharge Core might just solve your problems!"
+
+outfit "Arion Basic Aircraft Engines"
+	category "Engines"
+	licenses
+			"Arion"
+	cost 300000
+	thumbnail "outfit/fissiondrive"
+	"mass" 15
+	"outfit space" -15
+	"engine capacity" -15
+	"thrust" 9
+	"thrusting energy" 0.5
+	"thrusting heat" 0.25
+	"turn" 250
+	"turning energy" 0.3
+	"turning heat" 0.15
+	"reverse thrust" 5
+	"reverse thrusting energy" 0.25
+	"reverse thrusting heat" 0.125
+	"flare sprite" "effect/fissionflare"
+		"frame rate" 30
+		"rewind"
+	"flare sound" "atomic small"
+	"steering flare sprite" "effect/fissionflare"
+		"frame rate" 30
+		"rewind"
+	"steering flare sound" "atomic tiny"
+	description "This is a basic and cheap engine for cheap planes."
+
+============================Outdated H2H====
+outfit "Arion AK 50 V1"
+	category "Hand to Hand"
+	cost 300000
+	thumbnail "outfit/arionak50"
+	"capture attack" 5.75
+	"capture defense" 5.25
+	"operating costs" 25
+	"unplunderable" 1
+	description "What is up you sexy youtube motherlovers! Originally designed by Brandon Herrera, you too can now feel the power of the AK 50!"
