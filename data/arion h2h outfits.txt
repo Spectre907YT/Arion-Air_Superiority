@@ -137,7 +137,7 @@ outfit "Glock 17 Suppressed"
 	category "Hand to Hand"
 	cost 2500
 	thumbnail "outfit/glock17sd"
-	"capture attack" 0.225
+	"capture attack" 0.22
 	"capture defense" 0.2
 	"unplunderable" 1
 	description "A suppressed semi automatic pistol that is reliable. It fires 9 by 19 parabellum."
@@ -146,7 +146,7 @@ outfit "1911 Tactical"
 	category "Hand to Hand"
 	cost 2500
 	thumbnail "outfit/1911tactical"
-	"capture attack" 0.215
+	"capture attack" 0.21
 	"capture defense" 0.21
 	"unplunderable" 1
 	description "A semi automatic pistol that has been through a lot. It fires 45 acp."
@@ -162,9 +162,9 @@ outfit "Beretta 93R"
 
 outfit "Makarov PB"
 	category "Hand to Hand"
-	cost 2500
+	cost 2000
 	thumbnail "outfit/makarovpb"
-	"capture attack" 0.23
+	"capture attack" 0.2
 	"capture defense" 0.18
 	"unplunderable" 1
 	description "An integrally suppressed pistol that has been modified to fire 9 by 19 parabellum."
@@ -173,8 +173,8 @@ outfit "44 Magnum Revolver"
 	category "Hand to Hand"
 	cost 3500
 	thumbnail "outfit/anaconda44"
-	"capture attack" 0.3
-	"capture defense" 0.3
+	"capture attack" 0.25
+	"capture defense" 0.25
 	"unplunderable" 1
 	description "A revolver firing 44 magnum."
 
@@ -182,16 +182,16 @@ outfit "Dessert Eagle"
 	category "Hand to Hand"
 	cost 5000
 	thumbnail "outfit/desserteagle"
-	"capture attack" 0.35
-	"capture defense" 0.35
+	"capture attack" 0.3
+	"capture defense" 0.3
 	"unplunderable" 1
 	description "A 'hand cannon' firing 50 AE. Most definitely impractical, but it is still quite useful for taking out enemies."
 
 outfit "500 S&W Revolver"
 	category "Hand to Hand"
-	cost 7500
+	cost 6000
 	thumbnail "outfit/500sandw"
-	"capture attack" 0.425
+	"capture attack" 0.4
 	"capture defense" 0.35
 	"unplunderable" 1
 	description "A 'comically large revolver' firing the massive 500 S&W. It would probably annihilate both your enemies and your wrist, and perhaps even your face."
