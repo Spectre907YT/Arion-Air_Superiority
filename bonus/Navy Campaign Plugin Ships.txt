@@ -30,6 +30,11 @@ ship "Arion Prowler Block I"
 		"cloak" 0.1
 		"cloaking energy" 6
 		"cloaking heat" 3
+		weapon
+			"blast radius" 280
+			"shield damage" 2800
+			"hull damage" 1400
+			"hit force" 4200
 	outfits
 		"Arion FR-100x"
 		"Arion GTU-1x Shark Pod" 8

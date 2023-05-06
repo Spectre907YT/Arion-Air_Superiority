@@ -95,7 +95,7 @@ outfit "Hecate II"
 	"capture attack" 3
 	"capture defense" 0.1
 	"unplunderable" 1
-	description "An Anti Material Rifle that can be used to devastate enemy ranks firing 50 BMG. Probably not a good idea to use for defense."
+	description "An Anti Material Rifle that can be used to devastate enemy ranks firing 50 BMG. Probably not a good idea to use for defense. This specific version has been standardized to use Barrett mags."
 
 outfit "M82 Barrett"
 	category "Hand to Hand"
@@ -113,7 +113,7 @@ outfit "M95 Barrett"
 	"capture attack" 3.1
 	"capture defense" 0.125
 	"unplunderable" 1
-	description "A bullpup bolt action anti material rifle that fires 50 bmg. Probably not a good idea to use for defense."
+	description "A bullpup bolt action anti material rifle that fires 50 BMG. Probably not a good idea to use for defense."
 
 outfit "GM6 Lynx"
 	category "Hand to Hand"
@@ -122,7 +122,7 @@ outfit "GM6 Lynx"
 	"capture attack" 3.3
 	"capture defense" 0.3
 	"unplunderable" 1
-	description "A semi automatic bullpup anti material that fires 50 bmg. Somewhat useable for defense."
+	description "A semi automatic bullpup anti material that fires 50 BMG. Somewhat useable for defense. This specific version has been standardized and can take Barrett mags, although it usually uses a custom 15 round mag."
 
 outfit "AK 50"
 	category "Hand to Hand"
@@ -324,7 +324,7 @@ outfit "Arion GM6 Lynx"
 	"capture defense" 3.3
 	"operating costs" 23
 	"unplunderable" 1
-	description "Besides the standard armor, this soldier has an M82 Barrett 50 cal Anti Material Rifle, allowing them to annihilate any enemy they encounter. However, due to its unwieldiness and scope, its only suited for attacking. Because its a semi automatic bullpup however, its slightly better. To help defend the sniper, they are either issued a sidearm or allowed to bring their own. Usually they are issued a suppressed Glock 17. Maintenance however, is necessary to ensure the weapon is usable."
+	description "Besides the standard armor, this soldier has an M82 Barrett 50 cal Anti Material Rifle, allowing them to annihilate any enemy they encounter. However, due to its unwieldiness and scope, it's only suited for attacking. To help defend the sniper, they are either issued a sidearm or allowed to bring their own. Usually they are issued a suppressed Glock 17. Maintenance however, is necessary to ensure the weapon is usable."
 
 outfit "Arion AK 50"
 	category "Hand to Hand"
@@ -334,7 +334,7 @@ outfit "Arion AK 50"
 	"capture defense" 5.5
 	"operating costs" 25
 	"unplunderable" 1
-	description "A semi automatic 50 bmg firing monster, it is usually used in Arion as a 'battle rifle' of sorts. Since this rifle does not use a scope, it doesn't really need a sidearm to back it up as defending with it shouldn't be that hard."
+	description "A semi automatic 50 BMG firing monster, it is usually used in Arion as a 'battle rifle' of sorts. Since this rifle does not use a scope, it doesn't really need a sidearm to back it up as defending with it shouldn't be that hard."
 
 outfit "Arion Purifier"
 	category "Hand to Hand"
@@ -344,7 +344,7 @@ outfit "Arion Purifier"
 	"capture defense" 3.35
 	"operating costs" 50
 	"unplunderable" 1
-	description "Paired with the standard Arion armor and dessert eagle, the MF-01 Bleach can cleanse any threat. It can be used for many threat, but it is usually only used either when there are bio threats or for clearing out enclosed spaces. The MPF-01 Bleach is a powerful weapon, it has 2 gas tanks, one in its stock and another under its handguard, that can be refilled with the pump handle on the handguard tank. The fuel tank located where a magazine would normally go can be replaced with a hose that connects to a backpack filled with fuel and gas, much like normal flamethrowers. The legality of flamethrowers is very questionable so it should be alright to have one, although due to the nature of flamethrowers, they are heavily taxed when sold to non government entities. Maintenance however, is necessary to ensure the weapon is usable."
+	description "Paired with the standard Arion armor and dessert eagle, the MPF-01 Purifier can cleanse any threat. It can be used for many threat, but it is usually only used either when there are bio threats or for clearing out enclosed spaces. The MPF-01 Purifier is a powerful weapon, it has 2 gas tanks, one in its stock and another under its handguard, that can be refilled with the pump handle on the handguard tank. The fuel tank located where a magazine would normally go can be replaced with a hose that connects to a backpack filled with fuel and gas, much like normal flamethrowers. The legality of flamethrowers is very questionable so it should be alright to have one, although due to the nature of flamethrowers, they are heavily taxed when sold to non government entities. Maintenance however, is necessary to ensure the weapon is usable."
 
 outfit "Arion Shredder"
 	category "Hand to Hand"

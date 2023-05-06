@@ -20,6 +20,11 @@ ship "Arion Carabao H.A.T Block I"
 		"turret mounts" 6
 		"turret ports" 6
 		"weapon capacity" 500
+		weapon
+			"blast radius" 260
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3900
 	outfits
 		"Arion A.E.W.S"
 		"Arion FR-100x"
@@ -105,6 +110,11 @@ ship "Arion Hipparion H.A.T Block I"
 		"weapon capacity" 250
 		"engine capacity" 120
 		"atmosphere scan" 100
+		weapon
+			"blast radius" 140
+			"shield damage" 1400
+			"hull damage" 700
+			"hit force" 2200
 	outfits
 		"Arion B.E.W.S"
 		"Arion FR-100x"

@@ -19,6 +19,11 @@ ship "Arion Destroyer Block I"
 		"engine capacity" 125
 		"gun ports" 4
 		"turret ports" 5
+		weapon
+			"blast radius" 100
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
 	outfits
 		"Arion A.E.W.S"
 		"Arion FR-100x"
@@ -77,6 +82,11 @@ ship "Arion Corvette Block I"
 		"cloak" 1.5
 		"cloaking energy" 15
 		"cloaking heat" 7.5
+		weapon
+			"blast radius" 100
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
 	outfits
 		"Arion B.E.W.S"
 		"Arion FR-15x" 3

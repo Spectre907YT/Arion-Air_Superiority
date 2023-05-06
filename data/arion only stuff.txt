@@ -561,7 +561,7 @@ ship "Arion FQ/S-101x Block IIIA"
 		"hull" 4800
 		"automaton" 1
 		"mass" 18
-		"drag" 0.64
+		"drag" 0.55
 		"fuel capacity" 100
 		"heat dissipation" 0.9
 		"outfit space" 75

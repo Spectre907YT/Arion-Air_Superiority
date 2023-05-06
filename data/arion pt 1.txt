@@ -3,13 +3,19 @@ mission "Arion=First Contact"
 	landing
 	destination "Luna"
 	to offer 
-		not "Arion Expedition Start"
-		"combat rating" > 5000
+		or
+			"combat rating" > 10000
+			has "NCD Contractor"
+			and
+				not "chosen sides"
+				has "main plot completed"
 	on offer
 		conversation
 			`	While you are on the ground, you receive a mysterious message.`
 			choice
 				`	Accept the message`
+			branch "NCD Connections"
+				has "NCD Contractor"
 			`	When you accept the message, you hear a calm, neutral voice speaking to you. "Hello Captain <first> <last>," the man says. "I am the Handler, i am a representative of a..... secret organization. We invite you to visit Luna and come to our..... well you'll see."`
 			label choice
 			choice
@@ -21,12 +27,27 @@ mission "Arion=First Contact"
 			`	You then receive coordinates which leads you to a secluded area of Luna.`
 				accept
 			label eyes
-			`	"We have eyes and ears everywhere Captain <first> <last>, the Handler speaks to you. Trust me, you won't regret coming down here."`
+			`	"We have eyes and ears everywhere Captain <first> <last>," the Handler speaks to you. "Trust me, you won't regret coming down here."`
 				goto choice
+			label "NCD Connections"
+			`	When you accept the message, you hear a calm, neutral voice speaking to you. "Hello Captain <first> <last>," the man says. "It appears that an associate of yours has informed my organization of your talents. We invite you to visit Luna to come see us. We assure that it would be worth your time."`
+			label choice2
+			choice
+				`	"Ok, i'll visit."`
+				`	"Maybe next time."`
+					defer
+				`	"Who is this 'associate'?"`
+					goto ncd
+			`	You then receive coordinates which leads you to a secluded area of Luna.`
+				accept
+			label ncd
+			`	"Lets just say that the National Combined Defense corporation is not entirely who they say they are."`
+				goto choice2
+
 	on accept
 		event "Luna FOB access"
 	on complete
-		set "Arion:First Contact=done"
+		set "Arion contact established"
 		"salary: Arion" = 10000
 		set "license: Arion"
 		payment 5000000
@@ -83,7 +104,7 @@ mission "Arion:North Supply 1"
 	source "Luna"
 	destination "Sunracer"
 	to offer
-		has "Arion:First Contact=done"
+		has "Arion=First Contact: done"
 		not "Arion leaves"
 	on offer 
 		conversation
@@ -102,7 +123,7 @@ mission "Arion:North Supply 1"
 
 mission "Arion:North Supply 2"
 	name "Operation Giver"
-	description "Escort the the 11th Transport Squadron to <destination> and clear the northern passage from pirates. Remember to board them to capture their captains."
+	description "Escort the the 11th Transport Squadron to <destination> and clear the northern passage from pirates."
 	landing
 	source "Sunracer"
 	waypoint "Sumar"
@@ -651,7 +672,7 @@ mission "Arion:Exile Strike 3"
 		conversation
 			`	When you approach to land, you see that the 2nd Strike Group has returned once more. Entering the spaceport, you can see Vice Admiral Jean waiting for the both of you.`
 			`	"Well looks like the both of you have done a good job!" Jean exclaims.`
-			`	"Captain <first> <last> did a really good job out there," Vice Admiral Williams replies calmly. "I guess i understand why we decided to stay here after all." Anyways," Williams speaks to you, "You should probably head back to the Luna base. Maybe the Handler has something for you."`
+			`	"Captain <first> <last> did good job out there," Vice Admiral Williams replies calmly. "I guess i understand why we decided to stay here after all." Anyways," Williams speaks to you, "You should probably head back to the Luna base. I think you are finally about to be tasked to do something challenging."`
 	on fail
 		event "Arion leaves"
 		dialog `You have failed/aborted an essential Arion mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
@@ -673,7 +694,7 @@ mission "Arion:Gauntlet 1"
 	on offer
 		conversation
 			`	When you land in the base, the Handler approaches once more.`
-			`	"Good job Captain," the Handler congratulates you. "Now that you have  done a bunch of missions with all branches of our military, it is time for your final test before your true reward. You will be facing a large fleet alone. Looks like someone wants revenge for the trouble you caused them and brought some friends. Maybe you could defeat them alone, but i recommend you bring your own fleet. As usual, you can accept this whenever you're ready."`
+			`	"Good job Captain," the Handler congratulates you. "Now that you have  done a bunch of missions with all branches of our military, it is time for your final test before your true reward. You will be facing a large fleet alone. A bounty hunter fleet was sent to hunt you down. Maybe you could defeat them alone, but i recommend you bring your own fleet. As usual, you can accept this whenever you're ready."`
 			choice
 				`	Accept the mission`
 				`	Maybe Later`
@@ -777,13 +798,14 @@ mission "Arion:FOB Bravo Reveal"
 		set "Arion:First Contact=done"
 		"salary: Arion" = 20000
 		payment 10000000
-		log "People" "Expedition Commander Eliza" "Commander of the FOB Bravo and manager of most of Arion operations in this expedition."
+		log "People" "Expedition Commander Eliza" "Commander of the FOB Bravo and manager of most of Arion and NCD co operations in this expedition."
 		log "Was given access to the secret FOB Bravo."
 		log "Factions" "Arion" " "
+		log "Factions" "National Combined Defense corparation" " "
 		conversation
 			`	When you jumped in, you saw a station in a sea of nothingness. There is nothing in this 'system' besides this station, which is probably why it was able to stay so near to Sol without being detected. It is a large station, you can see multiple places for your ship to dock, although there is only 1 or 2 ships currently on the station. You can also see multiple lasers, railgun and missiles batteries all over the station. The Handler directed you to dock at Docking station 10.`
 			`	When you dock, you can see a group of 3 people waiting to greet you and all of them are armed. The 2 guards are wielding standard Arion assault rifles. However weirdly enough, not all of them human.`
-			`	Their leader approaches you. It is an alien, standing at around 2.5 meters tall with a sleek lizard like body and tail, with a head that looks similar to those from a t-rex from those old dinosaur movies but with bigger, forward facing eyes. It is wearing a uniform with similar design to the Commodore and Rear Admiral uniforms but with a 3 Gold striped shoulder mark and a gold stripe going down the sleeves and pants. It is armed with what looks like a 'comically large revolver' to you, but is probably a normal sized one to them.`
+			`	Their leader approaches you. It is an alien, standing at around 2.4 meters tall with an overall appearance of an upright standing bipedal Komodo dragon. It is wearing a uniform with similar design to the Commodore and Rear Admiral uniforms but with a 3 Gold striped shoulder mark and a gold stripe going down the sleeves and pants. It is armed with what looks like a 'comically large revolver' to you, but is probably a normal sized one to them.`
 			`	"Hello Captain <first> <last>," the alien speaks to you. "I am Expedition Commander Eliza."`
 			choice
 				`	"Hello."`
@@ -861,7 +883,7 @@ mission "Arion:FOB Bravo Reveal"
 				`	"How many aliens are here?"`
 					goto aliens
 				`	"Why is there not much Arion precense?"`
-					goto precence
+					goto presence
 				`	"I have no more questions."`
 					goto end
 			`	"Hmm, how do i explain this. Like the Handler said you are special. You are what we call an anomaly or singularity, there are many words that we use to describe people like you. You have powers, not like superpowers, but something else that is harder to explain. Unfortunately, that's all i can say for now. Maybe in the future you will find out, maybe you have somewhat figured it out."`
@@ -883,8 +905,8 @@ mission "Arion:FOB Bravo Reveal"
 			`	"And last but not least, there are the extinct 'Dragons' and 'Builders'."`
 				goto more
 			
-			label precence
-			`	Eliza frowns, and then explains. "I knew this question would be asked eventually. There have been complications in our home universe, so a lot of personnel and equipment have been reassigned to help with the 'war'. We are now down to 50 ships with 2 extra each from our closest allies which makes it a total of 54 ships. We also only have around 1500 personnel total to do our jobs across this entire universe. We are stretched thin and we can't do much, which is one of the main reasons that you were brought in to help."` 
+			label presence
+			`	Eliza frowns, and then explains. "I knew this question would be asked eventually. There have been complications in our home universe, so a lot of personnel and equipment have been reassigned to help with the 'war'. We are now down to 50 ships with 2 extra each from our closest allies and 6 additional ships to do NCD co business which makes it a total of 54 ships. We also only have around 1500 personnel with and additional 300 doing NCD co business to project power across this entire universe. We are stretched thin and we can't do much, which is one of the main reasons that you were brought in to help."` 
 				goto more
 			
 			label more

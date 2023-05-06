@@ -29,7 +29,7 @@ outfit "Arion ODE-SA-15x"
 		"frame rate" 30
 		"rewind"
 	"steering flare sound" "atomic tiny"
-	description "The Omni Directional Engine-SA-20x is a the simplest and smallest engines used by Arion."
+	description "The Omni Directional Engine-SA-15x is a the simplest and smallest engines used by Arion."
 
 outfit "Arion ODE-AA-20x"
 	category "Engines"
@@ -423,7 +423,7 @@ outfit "Arion Light Afterburner"
 	"outfit space" -10
 	"engine capacity" -10
 	"afterburner thrust" 30
-	"afterburner fuel" 0.05
+	"afterburner fuel" 0.025
 	"afterburner energy" 5
 	"afterburner heat" 5
 	"afterburner effect" "ionic afterburner"
@@ -437,7 +437,7 @@ outfit "Arion Medium Afterburner"
 	"outfit space" -20
 	"engine capacity" -20
 	"afterburner thrust" 65
-	"afterburner fuel" 0.1
+	"afterburner fuel" 0.05
 	"afterburner energy" 10
 	"afterburner heat" 10
 	"afterburner effect" "ionic afterburner"
@@ -451,7 +451,7 @@ outfit "Arion Heavy Afterburner"
 	"outfit space" -30
 	"engine capacity" -30
 	"afterburner thrust" 100
-	"afterburner fuel" 0.15
+	"afterburner fuel" 0.1
 	"afterburner energy" 15
 	"afterburner heat" 15
 	"afterburner effect" "ionic afterburner"
@@ -501,7 +501,7 @@ outfit "Arion B.E.W.S"
 	thumbnail "outfit/sheragi ews"
 	"mass" 10
 	"outfit space" -10
-	"radar jamming" 5
+	"radar jamming" 20
 	"outfit scan power" 35
 	"outfit scan efficiency" 25
 	"cargo scan power" 15
@@ -511,27 +511,27 @@ outfit "Arion B.E.W.S"
 	"energy consumption" 1
 	description "This is the cheaper alternative to the A.E.W.S."
 
-outfit "Arion P.C.S"
+outfit "Arion A.C.S"
 	category "Systems"
 	cost 50000000
 	thumbnail "outfit/interference plating"
 	"mass" 10
 	"outfit space" -10
 	"cloak" 0.1
-	"cloaking energy" 10
-	"cloaking heat" 5
-	description "The Arion Prototype Cloaking System is built for special forces. This device is incredibly expensive so most of our ships don't use it."
+	"cloaking energy" 6
+	"cloaking heat" 4.5
+	description "An advanced cloaking device, it is only used when the basic version is not good enough."
 
 outfit "Arion B.C.S"
 	category "Systems"
 	cost 5000000
 	thumbnail "outfit/interference plating"
-	"mass" 50
-	"outfit space" -50
-	"cloak" 1.5
-	"cloaking energy" 50
-	"cloaking heat" 50
-	description "Due to the price of the P.C.S, we made this simpler mass producible version."
+	"mass" 20
+	"outfit space" -20
+	"cloak" 0.005
+	"cloaking energy" 9
+	"cloaking heat" 9
+	description "When the prototype cloaking system is not available, the basic one, will do the job."
 
 outfit "Arion BRS-10x"
 	category "Systems"
@@ -546,6 +546,7 @@ outfit "Arion BRS-10x"
 	"shield energy" 0.45
 	"hull repair rate" 0.25
 	"hull energy" 0.25
+	"hull heat" 0.25
 	description "The Basic Repair System 10x is a useful combined shield generation and repair system that can help protect any ships using it." 
 
 outfit "Arion BRS-25x"
@@ -561,6 +562,7 @@ outfit "Arion BRS-25x"
 	"shield energy" 1.125
 	"hull repair rate" 0.625
 	"hull energy" 0.625
+	"hull heat" 0.625
 	description "The Basic Repair System 25x is a useful combined shield generation and repair system that can help protect any ships using it." 
 
 outfit "Arion BRS-50x"
@@ -576,6 +578,7 @@ outfit "Arion BRS-50x"
 	"shield energy" 2.25
 	"hull repair rate" 1.25
 	"hull energy" 1.25
+	"hull heat" 1.25
 	description "The Basic Repair System 50x is a useful combined shield generation and repair system that can help protect any ships using it." 
 
 outfit "Arion BRS-100x"
@@ -591,6 +594,7 @@ outfit "Arion BRS-100x"
 	"shield energy" 4.5
 	"hull repair rate" 2.5
 	"hull energy" 2.5
+	"hull heat" 2.5
 	description "The Basic Repair System 100x is a useful combined shield generation and repair system that can help protect any ships using it." 
 
 outfit "Arion ARS-10x"
@@ -606,6 +610,7 @@ outfit "Arion ARS-10x"
 	"shield energy" 0.7
 	"hull repair rate" 0.4
 	"hull energy" 0.4
+	"hull heat" 0.2
 	"disruption protection" 0.5
 	description "The Advanced Repair System 10x is a useful tool for any small spacecraft. With added disruption protection, any Captain using this should be safe from most threats." 
 
@@ -622,6 +627,7 @@ outfit "Arion ARS-25x"
 	"shield energy" 1.75
 	"hull repair rate" 1
 	"hull energy" 1
+	"hull heat" 1
 	"disruption protection" 1.25
 	description "The Advanced Repair System 25x is a useful tool for any Captain that requires advanced shield and repair systems in one package. With added disruption protection, any Captain using this should be safe from most threats." 
 
@@ -638,6 +644,7 @@ outfit "Arion ARS-50x"
 	"shield energy" 3.5
 	"hull repair rate" 2
 	"hull energy" 2
+	"hull heat" 2
 	"disruption protection" 2.5
 	description "The Advanced Repair System 50x is a useful tool for any Captain that requires advanced shield and repair systems in one package. With added disruption protection, any Captain using this should be safe from most threats." 
 
@@ -654,8 +661,22 @@ outfit "Arion ARS-100x"
 	"shield energy" 7
 	"hull repair rate" 4
 	"hull energy" 4
+	"hull heat" 4
 	"disruption protection" 5
 	description "The Advanced Repair System 100x is the largest and best repair system that is made by Arion that is available to you. With our advanced fabricator technology and shield generators, this repair system should be able to keep any ship using it in the fight longer. The bonus protection against disruption also helps." 
+
+outfit "Arion ERS-5x"
+	category "Systems"
+	licenses
+			"Arion"
+	cost 125000
+	thumbnail "outfit/small repair module"
+	"mass" 5
+	"outfit space" -5
+	"hull repair rate" 0.2
+	"hull energy" 0.2
+	"hull heat" 0.3
+	description "An emergency repair system for smaller ships and emergencies only."
 
 outfit "Arion S.C.D"
 	category "Systems"
@@ -821,16 +842,16 @@ outfit "Arion OCR-15x"
 	"unplunderable" 1
 	description "Due to the power hungry nature of our system, this Overcharged Reactor 15x was created. Beware however, it also runs way hotter and has less ion resistance and protection."
 
-outfit "Arion Basic Generator"
+outfit "Arion EG-20x"
 	category "Power"
 	cost 400000
 	thumbnail "outfit/hai pebble core"
 	"mass" 20
 	"outfit space" -20
-	"energy generation" 2
-	"heat generation" 5
-	"energy capacity" 2000
-	description "A basic and cheap generator that doubles as batteries"
+	"energy generation" 3
+	"heat generation" 7.5
+	"energy capacity" 2500
+	description "An emergency generator used for cheaper fighters or emergency situations which require mass deployments."
 
 outfit "Arion Multirole Fuel System"
 	category "Systems"

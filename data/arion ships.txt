@@ -14,15 +14,19 @@ ship "Arion Bactrian H.A.T Block I"
 		drag 15
 		"engine capacity" 180
 		"fuel capacity" 700
-		"gun ports" 4
-		"heat dissipation" 0.9
+		"heat dissipation" 0.4
 		hull 13500
+		shields 27000
 		"outfit space" 800
 		"required crew" 45
-		shields 27000
 		"turret mounts" 6
-		"turret ports" 6
+		"gun ports" 4
 		"weapon capacity" 360
+		weapon
+			"blast radius" 260
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3900
 	outfits
 		"Arion A.E.W.S"
 		"Arion Goalkeeper C.I.W.S"
@@ -92,12 +96,17 @@ ship "Arion Mule H.A.T Block I"
 		"bunks" 50
 		"mass" 300
 		"drag" 5.0
-		"heat dissipation" 0.9
+		"heat dissipation" 0.5
 		"fuel capacity" 600
 		"cargo space" 180
 		"outfit space" 480
 		"weapon capacity" 200
 		"engine capacity" 120
+		weapon
+			"blast radius" 100
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
 	outfits
 		"Arion B.E.W.S"
 		"Arion FR-100x"
@@ -143,13 +152,18 @@ ship "Arion Kestrel Block I"
 		"engine capacity" 210
 		"fuel capacity" 500
 		"gun ports" 12
-		"heat dissipation" 0.9
+		"heat dissipation" 0.6
 		hull 13500
 		"outfit space" 850
 		"required crew" 40
 		shields 35000
 		"turret mounts" 4
 		"weapon capacity" 450
+		weapon
+			"blast radius" 260
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3900
 	outfits
 		"Arion A.E.W.S"
 		"Arion FR-100x"
@@ -212,13 +226,18 @@ ship "Arion Cruiser Block I"
 		"engine capacity" 180
 		"fuel capacity" 600
 		"gun ports" 6
-		"heat dissipation" 0.9
+		"heat dissipation" 0.45
 		hull 10500
 		"outfit space" 800
 		"required crew" 55
 		shields 30000
 		"turret mounts" 4
 		"weapon capacity" 360
+		weapon
+			"blast radius" 260
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3900
 	outfits
 		"Arion A.E.W.S"
 		"Arion FR-100x"
@@ -283,13 +302,18 @@ ship "Arion Carrier Block I"
 		"engine capacity" 210
 		"fuel capacity" 700
 		"gun ports" 8
-		"heat dissipation" 0.9
+		"heat dissipation" 0.45
 		hull 13000
 		"outfit space" 900
 		"required crew" 80
 		shields 33000
 		"turret mounts" 4
 		"weapon capacity" 400
+		weapon
+			"blast radius" 300
+			"shield damage" 3000
+			"hull damage" 1500
+			"hit force" 4500
 	outfits
 		"Arion A.E.W.S"
 		"Arion FR-100x"
@@ -365,7 +389,7 @@ ship "Arion Auxiliary Block I"
 		"bunks" 250
 		"mass" 800
 		"drag" 13.0
-		"heat dissipation" 0.9
+		"heat dissipation" 0.45
 		"fuel capacity" 900
 		"cargo space" 250
 		"outfit space" 800
@@ -373,6 +397,11 @@ ship "Arion Auxiliary Block I"
 		"engine capacity" 210
 		"gun ports" 2
 		"turret ports" 4
+		weapon
+			"blast radius" 280
+			"shield damage" 2800
+			"hull damage" 1400
+			"hit force" 4200
 	outfits
 		"Arion B.E.W.S"
 		"Arion FR-100x"
@@ -423,7 +452,7 @@ ship "Arion Frigate Block I"
 		"bunks" 45
 		"mass" 300
 		"drag" 5.0
-		"heat dissipation" 0.9
+		"heat dissipation" 0.7
 		"fuel capacity" 500
 		"cargo space" 40
 		"outfit space" 450
@@ -431,6 +460,11 @@ ship "Arion Frigate Block I"
 		"engine capacity" 100
 		"gun ports" 4
 		"turret ports" 3
+		weapon
+			"blast radius" 100
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
 	outfits
 		"Arion B.E.W.S"
 		"Arion FR-15x" 3
@@ -477,13 +511,18 @@ ship "Arion Dreadnought Block I"
 		"engine capacity" 190
 		"fuel capacity" 600
 		"gun ports" 4
-		"heat dissipation" 0.9
+		"heat dissipation" 0.65
 		hull 11250
 		"outfit space" 825
 		"required crew" 55
 		shields 28500
 		"turret mounts" 5
 		"weapon capacity" 400
+		weapon
+			"blast radius" 260
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3900
 	outfits
 		"Arion A.E.W.S"
 		"Arion FR-100x"
@@ -538,7 +577,7 @@ ship "Arion Headhunter Block I"
 		"bunks" 4
 		"mass" 110
 		"drag" 2.0
-		"heat dissipation" 0.9
+		"heat dissipation" 0.8
 		"fuel capacity" 400
 		"cargo space" 50
 		"outfit space" 270
@@ -546,11 +585,15 @@ ship "Arion Headhunter Block I"
 		"engine capacity" 100
 		"gun ports" 4
 		"turret mounts" 1
+		weapon
+			"blast radius" 44
+			"shield damage" 440
+			"hull damage" 220
+			"hit force" 660
 	outfits
-		"Arion B.E.W.S"
-		"Arion FR-15x"
+		"Arion FR-15x" 2
 		"Arion Phalanx C.I.W.S"
-		"Arion Gau-8 Avenger" 4
+		"Arion 30mm Autocannon" 4
 		"Hyperdrive"
 		"Arion ODE-MLW-80x"
 		"Arion BRS-25x"
@@ -587,13 +630,18 @@ ship "Arion Marauder Leviathan Block I"
 		"engine capacity" 150
 		"fuel capacity" 500
 		"gun ports" 4
-		"heat dissipation" 0.9
+		"heat dissipation" 0.5
 		hull 9000
 		"outfit space" 725
 		"required crew" 35
 		shields 25000
 		"turret mounts" 4
 		"weapon capacity" 300
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
 	outfits
 		"Arion B.E.W.S"
 		"Arion FR-100x"
@@ -644,13 +692,18 @@ ship "Arion Marauder Falcon Block I"
 		"engine capacity" 180
 		"fuel capacity" 600
 		"gun ports" 6
-		"heat dissipation" 0.9
+		"heat dissipation" 0.7
 		hull 6750
 		"outfit space" 670
 		"required crew" 40
 		shields 22500
 		"turret mounts" 4
 		"weapon capacity" 300
+		weapon
+			"blast radius" 160
+			"shield damage" 1600
+			"hull damage" 800
+			"hit force" 2400
 	outfits
 		"Arion B.E.W.S"
 		"Arion FR-100x"
@@ -702,12 +755,17 @@ ship "Arion Argosy Block I"
 		"bunks" 15
 		"mass" 330
 		"drag" 5.0
-		"heat dissipation" 0.9
+		"heat dissipation" 0.7
 		"fuel capacity" 400
 		"cargo space" 125
 		"outfit space" 300
 		"weapon capacity" 100
 		"engine capacity" 80
+		weapon
+			"blast radius" 60
+			"shield damage" 600
+			"hull damage" 300
+			"hit force" 900
 	outfits
 		"Arion B.E.W.S"
 		"Arion FR-15x"
@@ -750,12 +808,17 @@ ship "Arion Star Queen Block I"
 		"bunks" 120
 		"mass" 225
 		"drag" 4.0
-		"heat dissipation" 0.9
+		"heat dissipation" 0.65
 		"fuel capacity" 700
 		"cargo space" 60
 		"outfit space" 400
 		"weapon capacity" 150
 		"engine capacity" 100
+		weapon
+			"blast radius" 60
+			"shield damage" 600
+			"hull damage" 300
+			"hit force" 900
 	outfits
 		"Arion Myriad C.I.W.S" 2
 		"Arion AIM-2x AMRAAM Pod" 3
@@ -804,13 +867,18 @@ ship "Arion Shield Beetle Block I"
 		"engine capacity" 150
 		"fuel capacity" 500
 		"gun ports" 8
-		"heat dissipation" 0.9
+		"heat dissipation" 0.6
 		hull 15000
 		"outfit space" 825
 		"required crew" 25
 		shields 50000
 		"turret mounts" 4
 		"weapon capacity" 350
+		weapon
+			"blast radius" 400
+			"shield damage" 4000
+			"hull damage" 2000
+			"hit force" 3000
 	outfits
 		"Arion A.E.W.S"
 		"Arion FR-100x"
@@ -869,7 +937,7 @@ ship "Arion Pelican Block I"
 		"engine capacity" 150
 		"fuel capacity" 600
 		"gun ports" 2
-		"heat dissipation" 0.9
+		"heat dissipation" 0.7
 		hull 9000
 		shields 18000
 		"hull energy" 0.75
@@ -884,6 +952,11 @@ ship "Arion Pelican Block I"
 		"tactical scan power" 26
 		"turret mounts" 3
 		"weapon capacity" 180
+		weapon
+			"blast radius" 160
+			"shield damage" 1600
+			"hull damage" 800
+			"hit force" 2400
 	outfits
 		"Arion A.E.W.S"
 		"Arion Phalanx C.I.W.S"
@@ -941,7 +1014,7 @@ ship "Arion Albatross Block I"
 		"engine capacity" 150
 		"fuel capacity" 600
 		"gun ports" 7
-		"heat dissipation" 0.9
+		"heat dissipation" 0.6
 		hull 20000
 		shields 52500
 		"hull energy" 1.2
@@ -956,6 +1029,11 @@ ship "Arion Albatross Block I"
 		"tactical scan power" 39
 		"turret mounts" 5
 		"weapon capacity" 280
+		weapon
+			"blast radius" 360
+			"shield damage" 3600
+			"hull damage" 1800
+			"hit force" 5400
 	outfits
 		"Arion A.E.W.S"
 		"Arion Myriad C.I.W.S" 2
@@ -1012,7 +1090,7 @@ ship "Arion Albatross Block I"
 	explode "medium explosion" 60
 	explode "small explosion" 30
 	"final explode" "final explosion large" 1
-	description "The Albatros is the remnant's premier heavy warship. It looks organic. We weren't really able to get much information on how to build these so these ships on sale are just refitted ships that we bought from the 'remmies'."
+	description "The Albatros is the 'remmies' premier heavy warship. It looks organic. We weren't really able to get much information on how to build these so these ships on sale are just refitted ships that we bought from the 'remmies'."
 
 =============================
 
@@ -1031,12 +1109,17 @@ ship "Arion Ra'at Ik 621 Block II"
 		"bunks" 1050
 		"mass" 1750
 		"drag" 27
-		"heat dissipation" 0.9
+		"heat dissipation" 0.45
 		"fuel capacity" 1000
 		"cargo space" 250
 		"outfit space" 1100
 		"weapon capacity" 425
 		"engine capacity" 250
+		weapon
+			"blast radius" 400
+			"shield damage" 8000
+			"hull damage" 4000
+			"hit force" 12000
 	outfits
 		"Arion AIM-1x Sidewinder Launcher"
 		"Arion GTU-1x Shark Launcher" 2
@@ -1111,12 +1194,17 @@ ship "Arion Deep River Block II"
 		"bunks" 20
 		"mass" 725
 		"drag" 9.25
-		"heat dissipation" 0.9
+		"heat dissipation" 0.6
 		"fuel capacity" 500
 		"cargo space" 1200
 		"outfit space" 400
 		"weapon capacity" 160
 		"engine capacity" 100
+		weapon
+			"blast radius" 280
+			"shield damage" 2800
+			"hull damage" 1400
+			"hit force" 4200
 	outfits
 		"Arion Phalanx C.I.W.S" 2
 		"Arion FR-100x"
@@ -1214,7 +1302,7 @@ ship "Arion Model 512 Block II"
 		"crew equivalent" 150
 		"mass" 1150
 		"drag" 17
-		"heat dissipation" 0.9
+		"heat dissipation" 0.8
 		"fuel capacity" 400
 		"cargo space" 105
 		"outfit space" 1000
@@ -1267,13 +1355,13 @@ ship "Arion F/S-111X Aardvark Block I"
 		category "Fighter"
 		licenses
 			"Arion"
-		"cost" 500000
+		"cost" 210000
 		"shields" 1500
 		"hull" 750
 		"required crew" 2
 		"bunks" 2
 		"mass" 45
-		"drag" 1.45
+		"drag" 0.75
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 110
@@ -1281,6 +1369,11 @@ ship "Arion F/S-111X Aardvark Block I"
 		"engine capacity" 30
 		"gun ports" 5
 		"flares" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
 	outfits
 		"Arion M61 Vulcan"
 		"Arion GPB-1x Piercer Pod" 2
@@ -1289,14 +1382,14 @@ ship "Arion F/S-111X Aardvark Block I"
 		"Arion BRS-10x"
 		"Arion FR-15x"
 		"Arion ODE-LBA-30x"
-	engine -3 29
-	engine 3 29
-	gun -5.5 -9.5 "Arion M61 Vulcan"
-	gun 0 1 "Arion G.P.B Pod"
-	gun 0 8.5 "Arion G.P.B Pod"
-	gun -5 5
-	gun 5 5
-	turret 0 11.5 "Arion Chaff and Flares Tier 1"
+	engine -3 39.5 
+	engine 3 39.5 
+	gun 3.5 -13 "Arion M61 Vulcan"
+	gun 0 1 
+	gun 0 4.5 
+	gun -5.5 3 
+	gun 5.5 3 
+	turret 0 9 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -1306,17 +1399,18 @@ ship "Arion F/S-111X Aardvark Block I"
 ship "Arion Su/S-34X Fullback Block I"
 	sprite "ship/arionsu34"
 	thumbnail "ship/arionsu34"
+	swizzle 0
 	attributes
 		category "Fighter"
 		licenses
 			"Arion"
-		"cost" 600000
+		"cost" 220000
 		"shields" 1600
 		"hull" 800
 		"required crew" 2
 		"bunks" 2
 		"mass" 45
-		"drag" 1.55
+		"drag" 0.85
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 120
@@ -1324,22 +1418,27 @@ ship "Arion Su/S-34X Fullback Block I"
 		"engine capacity" 30
 		"gun ports" 5
 		"flares" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
 	outfits
-		"Arion 30mm Autocannon"
+		"Arion Mk44 Bushmaster II Autocannon"
 		"Arion GPB-1x Piercer Pod" 2
 		"Arion Chaff and Flares Tier 1"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
 		"Arion ODE-LBA-30x"
-	engine -4 24.5
-	engine 4 24.5
-	gun 4 -7.5 "Arion 30mm Autocannon"
-	gun -21.5 13.5
-	gun 21.5 13.5
-	gun -4 6.5 "Arion G.P.B Pod"
-	gun 4 6.5 "Arion G.P.B Pod"
-	turret 0 30 "Arion Chaff and Flares Tier 1"
+	engine -5 33.5 
+	engine 5 33.5 
+	gun 5.5 -10 "Arion Mk44 Bushmaster II Autocannon"
+	gun -29 18.5 
+	gun 29 18.5 
+	gun -4 6 "Arion GPB-1x Piercer Pod"
+	gun 4 6 "Arion GPB-1x Piercer Pod"
+	turret 0 10 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -1353,31 +1452,36 @@ ship "Arion X/S-47 Block I"
 		category "Drone"
 		licenses
 			"Arion"
-		"cost" 3000000
+		"cost" 1500000
 		"shields" 700
 		"hull" 350
 		"automaton" 1
 		"mass" 20
-		"drag" 0.65
+		"drag" 0.575
 		"fuel capacity" 100
 		"heat dissipation" 0.9
-		"outfit space" 60
+		"outfit space" 50
 		"weapon capacity" 5
 		"engine capacity" 20
-		"cloak" 1.5
-		"cloaking energy" 10
-		"cloaking heat" 5
+		"cloak" 0.075
+		"cloaking energy" 3
+		"cloaking heat" 4.5
 		"flares" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
 	outfits
 		"Arion AIM-1x Sidewinder Pod"
-		"Arion ODE-AA-20x"
+		"Arion ODE-SA-15x"
 		"Arion Chaff and Flares Tier 1"
 		"Arion S.C.D"
-		"Arion BRS-10x"
+		"Arion ERS-5x"
 		"Arion FR-15x"
-	engine 0 14.5
-	gun 0 0.5
-	turret 0 4.5
+	engine 0 18.5 
+	gun 0 0.5 
+	turret 0 4 
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	description "The X-47 was originally a prototype drone that was made by Northrop Grumman. The blueprints for the drone was then purchased by Arion after experimentation has stopped. It now serves as one of the main drones for the Arion Air Force, Arion Foreign Legion, SFF and other allies to Arion under the designation 'FQ-101'. These drones can be operated as loyal wingman and as a defense system for the 'Arsenal Bird'. Although, this is an earlier version that still has the X-47 designation and is being sold as surplus."
@@ -1389,19 +1493,24 @@ ship "Arion F/S-15X Eagle Block I"
 		category "Fighter"
 		licenses
 			"Arion"
-		"cost" 500000
+		"cost" 180000
 		"shields" 1500
 		"hull" 750
 		"required crew" 1
 		"bunks" 1
 		"mass" 30
-		"drag" 1
+		"drag" 0.8
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 100
 		"weapon capacity" 25
 		"engine capacity" 25
 		"flares" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
 	outfits
 		"Arion M61 Vulcan"
 		"Arion AIM-1x Sidewinder Pod" 2
@@ -1411,13 +1520,13 @@ ship "Arion F/S-15X Eagle Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine -2 23.5
-	engine 2 23.5
-	gun -5 -5.5 "Arion M61 Vulcan"
-	gun -9 6
-	gun 9 6
+	engine -2.5 32 
+	engine 2.5 32 
+	gun 7 -7 "Arion M61 Vulcan"
 	gun 0 6 "Arion AIM-2x AMRAAM Pod"
-	turret 0 11
+	gun -12 6 
+	gun 12 6 
+	turret 0 9 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -1431,21 +1540,26 @@ ship "Arion Su/S-35X Flanker Block I"
 		category "Fighter"
 		licenses
 			"Arion"
-		"cost" 480000
+		"cost" 175000
 		"shields" 1400
 		"hull" 700
 		"required crew" 1
 		"bunks" 1
 		"mass" 35
-		"drag" 1.05
+		"drag" 0.825
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 100
 		"weapon capacity" 25
 		"engine capacity" 25
 		"flares" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
 	outfits
-		"Arion 30mm Autocannon"
+		"Arion Mk44 Bushmaster II Autocannon"
 		"Arion AIM-1x Sidewinder Pod" 2
 		"Arion AIM-2x AMRAAM Pod"
 		"Arion Chaff and Flares Tier 1"
@@ -1453,13 +1567,13 @@ ship "Arion Su/S-35X Flanker Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine -3.5 26
-	engine 3.5 26
-	gun -4.5 -4 "Arion 30mm Autocannon"
-	gun -22.5 14
-	gun 22.5 14
-	gun 0 6.5 "Arion AIM-2x AMRAAM Pod"
-	turret 0 14.5
+	engine -5 36 
+	engine 5 36 
+	gun 4 -13 "Arion Mk44 Bushmaster II Autocannon"
+	gun 0 7 "Arion AIM-2x AMRAAM Pod"
+	gun -30.5 20.5 
+	gun 30.5 20.5 
+	turret 0 10.5 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -1473,19 +1587,24 @@ ship "Arion F/S-14X Tomcat Block I"
 		category "Fighter"
 		licenses
 			"Arion"
-		"cost" 520000
+		"cost" 190000
 		"shields" 1400
 		"hull" 700
 		"required crew" 1
 		"bunks" 1
 		"mass" 33
-		"drag" 0.85
+		"drag" 0.65
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 99
 		"weapon capacity" 24
 		"engine capacity" 25
 		"flares" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
 	outfits
 		"Arion M61 Vulcan"
 		"Arion AIM-1x Sidewinder Pod"
@@ -1495,14 +1614,13 @@ ship "Arion F/S-14X Tomcat Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine -5.5 24
-		under
-	engine 5.5 24
-		under
-	gun -3 -13.5 "Arion M61 Vulcan"
-	gun 0 -0.5 "Arion AIM-2x AMRAAM Pod"
-	gun -7.5 -0.5
-	gun 7.5 -0.5
+	engine -6 29.5 
+	engine 6 29.5 
+	gun 2.5 -20 "Arion M61 Vulcan"
+	gun -12.5 -1 "Arion AIM-2x AMRAAM Pod"
+	gun 12.5 -1 "Arion AIM-2x AMRAAM Pod"
+	gun 0 -1 
+	turret 0 4.5 
 	turret 0 6
 	leak "leak" 60 50
 	explode "tiny explosion" 15
@@ -1517,33 +1635,38 @@ ship "Arion Mig/S-31X Foxhound Block I"
 		category "Fighter"
 		licenses
 			"Arion"
-		"cost" 700000
+		"cost" 200000
 		"shields" 1200
 		"hull" 600
 		"required crew" 2
 		"bunks" 2
 		"mass" 46
-		"drag" 0.55
+		"drag" 0.5
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 92
 		"weapon capacity" 20
 		"engine capacity" 25
 		"flares" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
 	outfits
-		"Arion 30mm Autocannon"
+		"Arion Mk44 Bushmaster II Autocannon"
 		"Arion AIM-2x AMRAAM Pod" 2
 		"Arion Chaff and Flares Tier 1"
 		"Arion ODE-IA-25x"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine -3.5 32
-	engine 3.5 32
-	gun 3 -14 "Arion 30mm Autocannon"
-	gun -4 8.5
-	gun 4 8.5
-	turret 0 17
+	engine -4 45 
+	engine 4 45 
+	gun 1.5 -26.5 "Arion Mk44 Bushmaster II Autocannon"
+	gun -13.5 16 
+	gun 13.5 16 
+	turret 0 14.5 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -1557,37 +1680,40 @@ ship "Arion A/S-10X Warthog Block I"
 		category "Fighter"
 		licenses
 			"Arion"
-		"cost" 300000
+		"cost" 160000
 		"shields" 2100
 		"hull" 1400
 		"required crew" 1
 		"bunks" 1
 		"mass" 21
-		"drag" 2
+		"drag" 1
 		"heat dissipation" 0.9
 		"fuel capacity" 100
 		"outfit space" 80
 		"weapon capacity" 30
 		"engine capacity" 20
 		"flares" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
 	outfits
 		"Arion Gau-8 Avenger"
 		"Arion Hydra 70x Pod" 2
 		"Arion Chaff and Flares Tier 1"
 		"Arion ODE-AA-20x"
 		"Arion S.C.D"
-		"Arion BRS-10x"
-		"Arion FR-15x"
-	engine -4 13.5
-		under
-	engine 4 13.5
-		under
-	gun -0.5 -24 "Arion Gau-8 Avenger"
-	gun -11.5 0 "Arion Rocket Pod"
-	gun 11.5 0 "Arion Rocket Pod"
-	gun -19 0
-	gun 19 0
-	turret 0 2
+		"Arion ERS-5x"
+		"Arion EG-20x"
+	engine -6 19.5 
+	engine 6 19.5 
+	gun -0.5 -32 "Arion Gau-8 Avenger"
+	gun -7 -4 
+	gun 7 -4 
+	gun -15 -4 
+	gun 15 -4 
+	turret 0 2 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -1601,35 +1727,40 @@ ship "Arion Su/S-25X Frogfoot Block I"
 		category "Fighter"
 		licenses
 			"Arion"
-		"cost" 250000
+		"cost" 150000
 		"shields" 1800
 		"hull" 1200
 		"required crew" 1
 		"bunks" 1
 		"mass" 19
-		"drag" 1.75
+		"drag" 0.92
 		"heat dissipation" 0.9
 		"fuel capacity" 100
 		"outfit space" 75
 		"weapon capacity" 25
 		"engine capacity" 20
 		"flares" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
 	outfits
-		"Arion 30mm Autocannon"
+		"Arion Mk44 Bushmaster II Autocannon"
 		"Arion Hydra 70x Pod" 2
 		"Arion Chaff and Flares Tier 1"
 		"Arion ODE-AA-20x"
 		"Arion S.C.D"
-		"Arion BRS-10x"
-		"Arion FR-15x"
-	engine -4 18.5
-	engine 4 18.5
-	gun 0 -33.5 "Arion 30mm Autocannon"
-	gun -14.5 -2.5 "Arion Rocket Pod"
-	gun 14.5 -2.5 "Arion Rocket Pod"
-	gun -23.5 1
-	gun 23.5 1
-	turret 0 31.5
+		"Arion ERS-5x"
+		"Arion EG-20x"
+	engine -3.5 13.5 
+	engine 3.5 13.5 
+	gun 1.5 -15 "Arion Mk44 Bushmaster II Autocannon"
+	gun -11 -3 
+	gun 11 -3 
+	gun -17.5 -0.5 
+	gun 17.5 -0.5 
+	turret 0 3 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -1643,22 +1774,27 @@ ship "Arion F/S-22X Raptor Block I"
 		category "Fighter"
 		licenses
 			"Arion"
-		"cost" 4000000
+		"cost" 2000000
 		"shields" 1500
 		"hull" 750
 		"required crew" 1
 		"bunks" 1
 		"mass" 36
-		"drag" 1
+		"drag" 0.79
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 100
 		"weapon capacity" 25
 		"engine capacity" 25
-		"cloak" 1.5
-		"cloaking energy" 10
-		"cloaking heat" 5
+		"cloak" 0.009
+		"cloaking energy" 3.5
+		"cloaking heat" 5.25
 		"flares" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
 	outfits
 		"Arion M61 Vulcan"
 		"Arion AIM-2x AMRAAM Pod"
@@ -1668,13 +1804,13 @@ ship "Arion F/S-22X Raptor Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine -2 20.5
-	engine 2 20.5
-	gun -5.5 -5.5 "Arion M61 Vulcan"
-	gun 0 3.5 "Arion AIM-2x AMRAAM Pod"
-	gun -5.5 3.5
-	gun 5.5 3.5
-	turret 0 9
+	engine -3 28 
+	engine 3 28 
+	gun 3 -20.5 "Arion M61 Vulcan"
+	gun 0 3 "Arion AIM-2x AMRAAM Pod"
+	gun -6 3 
+	gun 6 3 
+	turret 0 10.5 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -1688,24 +1824,29 @@ ship "Arion Su/S-57X Felon Block I"
 		category "Fighter"
 		licenses
 			"Arion"
-		"cost" 3750000
+		"cost" 1900000
 		"shields" 1400
 		"hull" 700
 		"required crew" 1
 		"bunks" 1
 		"mass" 35
-		"drag" 1.05
+		"drag" 0.83
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 98
 		"weapon capacity" 22
 		"engine capacity" 25
-		"cloak" 2.25
-		"cloaking energy" 13
-		"cloaking heat" 6.5
+		"cloak" 0.006
+		"cloaking energy" 4.5
+		"cloaking heat" 6.75
 		"flares" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
 	outfits
-		"Arion 30mm Autocannon"
+		"Arion Mk44 Bushmaster II Autocannon"
 		"Arion AIM-2x AMRAAM Pod"
 		"Arion AIM-1x Sidewinder Pod" 2
 		"Arion Chaff and Flares Tier 1"
@@ -1713,13 +1854,13 @@ ship "Arion Su/S-57X Felon Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine -3.5 24
-	engine 3.5 24
-	gun 4.5 -4.5 "Arion 30mm Autocannon"
-	gun 0 4 "Arion AIM-2x AMRAAM Pod"
-	gun -6 4
-	gun 6 4
-	turret 0 8
+	engine -6 32 
+	engine 6 32 
+	gun 3 -19.5 "Arion Mk44 Bushmaster II Autocannon"
+	gun 0 4.5 "Arion AIM-2x AMRAAM Pod"
+	gun -8 4.5 
+	gun 8 4.5 
+	turret 0 10.5 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -1733,22 +1874,27 @@ ship "Arion F/S-23X Black Widow Block I"
 		category "Fighter"
 		licenses
 			"Arion"
-		"cost" 4000000
+		"cost" 2000000
 		"shields" 1450
 		"hull" 725
 		"required crew" 1
 		"bunks" 1
 		"mass" 28
-		"drag" 0.9
+		"drag" 0.72
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 100
 		"weapon capacity" 24
 		"engine capacity" 25
-		"cloak" 1.25
-		"cloaking energy" 9
+		"cloak" 0.01
+		"cloaking energy" 3
 		"cloaking heat" 4.5
 		"flares" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
 	outfits
 		"Arion M61 Vulcan"
 		"Arion AIM-1x Sidewinder Pod"
@@ -1758,13 +1904,13 @@ ship "Arion F/S-23X Black Widow Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine -3.5 22.5
-	engine 3.5 22.5
-	gun -2.5 -10.5 "Arion M61 Vulcan"
-	gun 0 1.5 "Arion AIM-1x Sidewinder Pod"
-	gun -4.5 1.5
-	gun 4.5 1.5
-	turret 0 14.5
+	engine -4.5 28.5 
+	engine 4.5 28.5 
+	gun 4 -20.5 "Arion M61 Vulcan"
+	gun 0 -3 
+	gun -6 -3 "Arion AIM-2x AMRAAM Pod"
+	gun 6 -3 "Arion AIM-2x AMRAAM Pod"
+	turret 0 3 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -1778,22 +1924,27 @@ ship "Arion F/S-35X Lightning Block I"
 		category "Fighter"
 		licenses
 			"Arion"
-		"cost" 3400000
+		"cost" 1500000
 		"shields" 1300
 		"hull" 650
 		"required crew" 1
 		"bunks" 1
 		"mass" 30
-		"drag" 1.225
+		"drag" 0.82
 		"heat dissipation" 0.9
 		"fuel capacity" 100
 		"outfit space" 85
 		"weapon capacity" 20
 		"engine capacity" 25
-		"cloak" 1.75
-		"cloaking energy" 10
-		"cloaking heat" 5
+		"cloak" 0.008
+		"cloaking energy" 4
+		"cloaking heat" 6
 		"flares" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
 	outfits
 		"Arion Gau-12 Equalizer"
 		"Arion AIM-1x Sidewinder Pod"
@@ -1803,11 +1954,11 @@ ship "Arion F/S-35X Lightning Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine 0 18
-	gun -3 -4.5 "Arion Gau-12 Equalizer"
-	gun -3 2.5
-	gun 3 2.5
-	turret 0 9
+	engine 0 24.5 
+	gun 2.5 -16.5 "Arion Gau-12 Equalizer"
+	gun -3.5 3.5 
+	gun 3.5 3.5 
+	turret 0 9.5 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -1821,24 +1972,29 @@ ship "Arion Su/S-47X Berkut Block I"
 		category "Fighter"
 		licenses
 			"Arion"
-		"cost" 3800000
+		"cost" 1850000
 		"shields" 1350
 		"hull" 675
 		"required crew" 1
 		"bunks" 1
 		"mass" 34
-		"drag" 1.075
+		"drag" 0.8325
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 97
 		"weapon capacity" 22
 		"engine capacity" 25
-		"cloak" 2.5
+		"cloak" 0.004
 		"cloaking energy" 15
 		"cloaking heat" 7.5
 		"flares" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
 	outfits
-		"Arion 30mm Autocannon"
+		"Arion Mk44 Bushmaster II Autocannon"
 		"Arion AIM-1x Sidewinder Pod" 2
 		"Arion AIM-2x AMRAAM Pod"
 		"Arion Chaff and Flares Tier 1"
@@ -1846,13 +2002,13 @@ ship "Arion Su/S-47X Berkut Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine -1.5 29.5
-	engine 1.5 29.5
-	gun 4 -5.5 "Arion 30mm Autocannon"
-	gun 0 12 "Arion AIM-2x AMRAAM Pod"
-	gun -5 12
-	gun 5 12
-	turret 0 18.5
+	engine -2 40 
+	engine 2 40 
+	gun 3 -20.5 "Arion Mk44 Bushmaster II Autocannon"
+	gun 0 14.5 "Arion AIM-2x AMRAAM Pod"
+	gun -7 14.5 
+	gun 7 14.5 
+	turret 0 18.5 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -1866,13 +2022,13 @@ ship "Arion B/S-52X Stratofortress Block I"
 		category "Light Warship"
 		licenses
 			"Arion"
-		"cost" 3000000
+		"cost" 2500000
 		"shields" 4000
 		"hull" 2000
 		"required crew" 5
 		"bunks" 5
 		"mass" 221
-		"drag" 4.5
+		"drag" 4
 		"heat dissipation" 0.9
 		"fuel capacity" 500
 		"outfit space" 250
@@ -1882,6 +2038,11 @@ ship "Arion B/S-52X Stratofortress Block I"
 		"turret mounts" 1
 		"bomb bay" 1
 		"heavy flares" 1
+		weapon
+			"blast radius" 50
+			"shield damage" 500
+			"hull damage" 250
+			"hit force" 750
 	outfits
 		"Arion B52 Bomb Bay Mk1"
 		"Arion M61 Vulcan"
@@ -1919,7 +2080,7 @@ ship "Arion B/S-1X Lancer Block I"
 		category "Light Warship"
 		licenses
 			"Arion"
-		"cost" 3000000
+		"cost" 2400000
 		"shields" 3000
 		"hull" 1500
 		"required crew" 4
@@ -1935,6 +2096,11 @@ ship "Arion B/S-1X Lancer Block I"
 		"turret mounts" 1
 		"bomb bay" 1
 		"heavy flares" 1
+		weapon
+			"blast radius" 50
+			"shield damage" 500
+			"hull damage" 250
+			"hit force" 750
 	outfits
 		"Arion B1 Bomb Bay Mk1"
 		"Arion Heavy Chaff, Flares and ECM Tier 1"
@@ -1969,13 +2135,13 @@ ship "Arion B/S-2X Spirit Block I"
 		category "Light Warship"
 		licenses
 			"Arion"
-		"cost" 6000000
+		"cost" 5000000
 		"shields" 2500
 		"hull" 1250
 		"required crew" 2
 		"bunks" 2
 		"mass" 170
-		"drag" 4.1
+		"drag" 3.75
 		"heat dissipation" 0.9
 		"fuel capacity" 400
 		"outfit space" 225
@@ -1983,11 +2149,16 @@ ship "Arion B/S-2X Spirit Block I"
 		"engine capacity" 50
 		"gun ports" 2
 		"turret mounts" 1
-		"cloak" 1
-		"cloaking energy" 8
-		"cloaking heat" 4
+		"cloak" 0.025
+		"cloaking energy" 4
+		"cloaking heat" 6
 		"bomb bay" 1
 		"heavy flares" 1
+		weapon
+			"blast radius" 50
+			"shield damage" 500
+			"hull damage" 250
+			"hit force" 750
 	outfits
 		"Arion B2 Bomb Bay Mk1"
 		"Arion Heavy Chaff, Flares and ECM Tier 1"
@@ -2022,7 +2193,7 @@ ship "Arion Avro Vulcan X/S Block I"
 		"required crew" 5
 		"bunks" 5
 		"mass" 170
-		"drag" 3.5
+		"drag" 3.25
 		"heat dissipation" 0.9
 		"fuel capacity" 400
 		"outfit space" 200
@@ -2032,6 +2203,11 @@ ship "Arion Avro Vulcan X/S Block I"
 		"turret mounts" 1
 		"bomb bay" 1
 		"heavy flares" 1
+		weapon
+			"blast radius" 50
+			"shield damage" 500
+			"hull damage" 250
+			"hit force" 750
 	outfits
 		"Arion Vulcan Bomb Bay Mk1"
 		"Arion Heavy Chaff, Flares and ECM Tier 1"
@@ -2068,33 +2244,37 @@ ship "Arion A/S-4X Skyhawk Block I"
 		"required crew" 1
 		"bunks" 1
 		"mass" 16
-		"drag" 1.575
+		"drag" 0.8
 		"heat dissipation" 0.9
 		"fuel capacity" 100
-		"outfit space" 75
-		"weapon capacity" 15
+		"outfit space" 65
+		"weapon capacity" 11
 		"engine capacity" 20
 		"flares" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
 	outfits
-		"Arion 20mm Autocannon" 2
-		"Arion Hydra 70x Pod"
+		"Arion M39 Autocannon" 2
 		"Arion Chaff and Flares Tier 1"
 		"Arion ODE-AA-20x"
 		"Arion S.C.D"
-		"Arion BRS-10x"
-		"Arion FR-15x"
-	engine 0 17
-	gun -1 -8.5 "Arion 20mm Autocannon"
-	gun 1 -8.5 "Arion 20mm Autocannon"
-	gun 0 0.5 "Arion Rocket Pod"
-	gun -6.5 3.5
-	gun 6.5 3.5
-	turret 0 7
+		"Arion ERS-5x"
+		"Arion EG-20x"
+	engine 0 24 
+	gun 1.5 -10.5 "Arion M39 Autocannon"
+	gun -1.5 -10.5 "Arion M39 Autocannon"
+	gun -12 2 
+	gun 12 2 
+	gun 0 0
+	turret 0 1 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	"final explode" "final explosion small"
-	description "This was an Attacker aircraft used by the US and some of its allies. It has been modified and upgrade extensively not only to survive modern combat but also to fly in space. It is used mainly by the Arion Marine Corps and the Arion Army Air Corps as an attacker and a light fighter. While it isn't the best for A2A roles, its cheapness, ruggedness, maneuverability and ability to take off from almost any road has made it very useful. It is also used in the Arion Air Force, Arion Navy and Arion Foreign Legion mainly as Trainers. It is also very popular with civilians and mercenaries due to its low cost."
+	description "This was an Attacker aircraft used by the US and some of its allies. It has been modified and upgraded extensively not only to survive modern combat but also to fly in space. It is used mainly by the Arion Marine Corps and the Arion Army Air Corps as an attacker and a light fighter. While it isn't the best for A2A roles, its cheapness, ruggedness, maneuverability and ability to take off from almost any road has made it very useful. It is also used in the Arion Air Force, Arion Navy and Arion Foreign Legion mainly as Trainers. It is also very popular with civilians and mercenaries due to its low cost."
 
 ship "Arion Su/S-27X Flanker Block I"
 	sprite "ship/arionsu27"
@@ -2104,35 +2284,40 @@ ship "Arion Su/S-27X Flanker Block I"
 		category "Fighter"
 		licenses
 			"Arion"
-		"cost" 450000
+		"cost" 170000
 		"shields" 1300
 		"hull" 650
 		"required crew" 1
 		"bunks" 1
 		"mass" 30
-		"drag" 1.075
+		"drag" 0.84
 		"heat dissipation" 0.9
 		"fuel capacity" 200
-		"outfit space" 97
+		"outfit space" 92
 		"weapon capacity" 22
 		"engine capacity" 25
 		"flares" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
 	outfits
-		"Arion 30mm Autocannon"
+		"Arion Mk44 Bushmaster II Autocannon"
 		"Arion AIM-1x Sidewinder Pod" 2
 		"Arion AIM-2x AMRAAM Pod"
 		"Arion Chaff and Flares Tier 1"
 		"Arion ODE-FA-25x"
 		"Arion S.C.D"
-		"Arion BRS-10x"
+		"Arion ERS-5x"
 		"Arion FR-15x"
-	engine -3.5 25
-	engine 3.5 25
-	gun -3.5 -3.5 "Arion 30mm Autocannon"
-	gun -21.5 15
-	gun 21.5 15
-	gun 0 4.5 "Arion AIM-2x AMRAAM Pod"
-	turret 0 12.5
+	engine -5 34 
+	engine 5 34 
+	gun 4.5 -10.5 "Arion Mk44 Bushmaster II Autocannon"
+	gun -29 19.5 
+	gun 29 19.5 
+	gun 0 6.5 "Arion AIM-2x AMRAAM Pod"
+	turret 0 10.5 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -2146,13 +2331,13 @@ ship "Arion Panavia Tornado X/S Block I"
 		category "Fighter"
 		licenses
 			"Arion"
-		"cost" 470000
+		"cost" 180000
 		"shields" 1200
 		"hull" 600
 		"required crew" 2
 		"bunks" 2
 		"mass" 20
-		"drag" 1.475
+		"drag" 0.75
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 95
@@ -2160,21 +2345,26 @@ ship "Arion Panavia Tornado X/S Block I"
 		"engine capacity" 25
 		"gun ports" 4
 		"flares" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
 	outfits
-		"Arion 30mm Autocannon"
+		"Arion Mk44 Bushmaster II Autocannon"
 		"Arion GPB-1x Piercer Pod" 2
 		"Arion Chaff and Flares Tier 1"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
 		"Arion ODE-IA-25x"
-	engine -2 17.5
-	engine 2 17.5
-	gun -2 -8 "Arion 30mm Autocannon"
-	gun 0 2.5
-	gun -4 2.5 "Arion GPB-1x Piercer Pod"
-	gun 4 2.5 "Arion GPB-1x Piercer Pod"
-	turret 0 6.5 "Arion Chaff and Flares Tier 1"
+	engine -2.5 23.5 
+	engine 2.5 23.5 
+	gun 2.5 -18 "Arion Mk44 Bushmaster II Autocannon"
+	gun -4.5 2 "Arion GPB-1x Piercer Pod"
+	gun 4.5 2 "Arion GPB-1x Piercer Pod"
+	gun 0 2 
+	turret 0 5 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -2194,27 +2384,29 @@ ship "Arion F/S-104X Starfighter Block I"
 		"required crew" 1
 		"bunks" 1
 		"mass" 13
-		"drag" 0.75
+		"drag" 0.65
 		"heat dissipation" 0.9
 		"fuel capacity" 100
-		"outfit space" 75
+		"outfit space" 69
 		"weapon capacity" 19
 		"engine capacity" 25
 		"flares" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
 	outfits
 		"Arion M61 Vulcan"
-		"Arion AIM-2x AMRAAM Pod" 2
 		"Arion Chaff and Flares Tier 1"
 		"Arion ODE-IA-25x"
 		"Arion S.C.D"
-		"Arion BRS-10x"
-		"Arion FR-15x"
-	engine 0 22
-		under
-	gun -1.5 -3.5 "Arion M61 Vulcan"
-	gun -9.5 7.5
-	gun 9.5 7.5
-	turret 0 13
+		"Arion EG-20x"
+	engine 0 33 
+	gun 2 -16.5 "Arion M61 Vulcan"
+	gun -12.5 9.5 
+	gun 12.5 9.5 
+	turret 0 10.5 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -2228,31 +2420,36 @@ ship "Arion F/S-16X Super Falcon Block I"
 		category "Fighter"
 		licenses
 			"Arion"
-		"cost" 350000
+		"cost" 140000
 		"shields" 1100
 		"hull" 550
 		"required crew" 1
 		"bunks" 1
 		"mass" 20
-		"drag" 1.175
+		"drag" 0.84
 		"heat dissipation" 0.9
 		"fuel capacity" 150
-		"outfit space" 85
+		"outfit space" 80
 		"weapon capacity" 18
-		"engine capacity" 20
+		"engine capacity" 25
 		"flares" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
 	outfits
 		"Arion M61 Vulcan"
 		"Arion AIM-1x Sidewinder Pod" 2
 		"Arion Chaff and Flares Tier 1"
-		"Arion ODE-AA-20x"
+		"Arion ODE-FA-25x"
 		"Arion S.C.D"
-		"Arion BRS-10x"
+		"Arion ERS-5x"
 		"Arion FR-15x"
-	engine 0 20.5
-	gun -2 -6 "Arion M61 Vulcan"
-	gun 14.5 8.5
-	gun -14.5 8.5
+	engine 0 29 
+	gun 3.5 -8 "Arion M61 Vulcan"
+	gun -20 10 
+	gun 20 10 
 	turret 0 9
 	leak "leak" 60 50
 	explode "tiny explosion" 15
@@ -2267,19 +2464,24 @@ ship "Arion F/S-18X Super Hornet Block I"
 		category "Fighter"
 		licenses
 			"Arion"
-		"cost" 400000
+		"cost" 160000
 		"shields" 1200
 		"hull" 600
 		"required crew" 1
 		"bunks" 1
 		"mass" 24
-		"drag" 1.25
+		"drag" 0.82
 		"heat dissipation" 0.9
 		"fuel capacity" 150
 		"outfit space" 90
 		"weapon capacity" 22
 		"engine capacity" 25
 		"flares" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
 	outfits
 		"Arion M61 Vulcan"
 		"Arion AIM-1x Sidewinder Pod" 2
@@ -2288,12 +2490,12 @@ ship "Arion F/S-18X Super Hornet Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine -1 23.5
-	engine 1 23.5
-	gun -2 -7 "Arion M61 Vulcan"
-	gun 20 9
-	gun -20 9
-	turret 0 11.5
+	engine -2 32.5 
+	engine 2 32.5 
+	gun 5.5 -9.5 "Arion M61 Vulcan"
+	gun -27 12.5 
+	gun 27 12.5 
+	turret 0 6 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -2307,33 +2509,38 @@ ship "Arion Mig/S-35X Fulcrum Block I"
 		category "Fighter"
 		licenses
 			"Arion"
-		"cost" 375000
+		"cost" 155000
 		"shields" 1150
 		"hull" 575
 		"required crew" 1
 		"bunks" 1
 		"mass" 24
-		"drag" 1.275
+		"drag" 0.84
 		"heat dissipation" 0.9
 		"fuel capacity" 100
 		"outfit space" 90
 		"weapon capacity" 18
 		"engine capacity" 25
 		"flares" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
 	outfits
-		"Arion 30mm Autocannon"
+		"Arion Mk44 Bushmaster II Autocannon"
 		"Arion AIM-1x Sidewinder Pod" 2
 		"Arion Chaff and Flares Tier 1"
 		"Arion ODE-FA-25x"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine -3 20.5
-	engine 3 20.5
-	gun 2.5 -3 "Arion 30mm Autocannon"
-	gun -4.5 6
-	gun 4.5 6
-	turret 0 11.5
+	engine -3.5 28 
+	engine 3.5 28 
+	gun 1.5 -20 "Arion Mk44 Bushmaster II Autocannon"
+	gun -12 6.5 
+	gun 12 6.5 
+	turret 0 8 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -2347,32 +2554,37 @@ ship "Arion JAS/S-39X Gripen Block I"
 		category "Fighter"
 		licenses
 			"Arion"
-		"cost" 360000
+		"cost" 150000
 		"shields" 1100
 		"hull" 550
 		"required crew" 1
 		"bunks" 1
 		"mass" 17
-		"drag" 1.125
+		"drag" 0.83
 		"heat dissipation" 0.9
 		"fuel capacity" 100
 		"outfit space" 80
 		"weapon capacity" 16
 		"engine capacity" 20
 		"flares" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
 	outfits
-		"Arion 30mm Autocannon"
+		"Arion Mk44 Bushmaster II Autocannon"
 		"Arion AIM-1x Sidewinder Pod" 2
 		"Arion Chaff and Flares Tier 1"
 		"Arion ODE-AA-20x"
 		"Arion S.C.D"
-		"Arion BRS-10x"
+		"Arion ERS-5x"
 		"Arion FR-15x"
-	engine 0 20
-	gun -2 -5 "Arion 30mm Autocannon"
-	gun 12.5 12.5
-	gun -12.5 12.5
-	turret 0 7.5
+	engine 0 30 
+	gun 2 -15.5 "Arion Mk44 Bushmaster II Autocannon"
+	gun -17 16.5 
+	gun 17 16.5 
+	turret 0 14.5 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -2386,33 +2598,38 @@ ship "Arion Eurofighter Typhoon X/S Block I"
 		category "Fighter"
 		licenses
 			"Arion"
-		"cost" 370000
-		"shields" 1150
-		"hull" 575
+		"cost" 160000
+		"shields" 1190
+		"hull" 595
 		"required crew" 1
 		"bunks" 1
 		"mass" 23
-		"drag" 1.27
+		"drag" 0.835
 		"heat dissipation" 0.9
 		"fuel capacity" 150
 		"outfit space" 90
 		"weapon capacity" 20
 		"engine capacity" 25
 		"flares" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
 	outfits
-		"Arion 30mm Autocannon"
+		"Arion Mk44 Bushmaster II Autocannon"
 		"Arion AIM-1x Sidewinder Pod" 2
 		"Arion Chaff and Flares Tier 1"
 		"Arion ODE-FA-25x"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine -1.5 18
-	engine 1.5 18
-	gun -2.5 -5 "Arion 30mm Autocannon"
-	gun 16 13
-	gun -16 13
-	turret 0 9
+	engine -2.5 25 
+	engine 2.5 25 
+	gun 3 -13 "Arion Mk44 Bushmaster II Autocannon"
+	gun -21.5 17.5 
+	gun 21.5 17.5 
+	turret 0 18.5 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -2426,62 +2643,72 @@ ship "Arion Dassault Rafale X/S Block I"
 		category "Fighter"
 		licenses
 			"Arion"
-		"cost" 370000
+		"cost" 170000
 		"shields" 1180
 		"hull" 590
 		"required crew" 1
 		"bunks" 1
 		"mass" 24
-		"drag" 1.275
+		"drag" 0.83
 		"heat dissipation" 0.9
 		"fuel capacity" 150
 		"outfit space" 90
 		"weapon capacity" 20
 		"engine capacity" 25
 		"flares" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
 	outfits
-		"Arion 30mm Autocannon"
+		"Arion Mk44 Bushmaster II Autocannon"
 		"Arion AIM-1x Sidewinder Pod" 2
 		"Arion Chaff and Flares Tier 1"
 		"Arion ODE-FA-25x"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine -2 17.5
-	engine 2 17.5
-	gun -2.5 -5 "Arion 30mm Autocannon"
-	gun 16 11.5
-	gun -16 11.5
-	turret 0 7
+	engine -2.5 26 
+	engine 2.5 26 
+	gun 3.5 -12 "Arion Mk44 Bushmaster II Autocannon"
+	gun -21.5 16.5 
+	gun 21.5 16.5 
+	turret 0 15 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	"final explode" "final explosion small"
 	description "Fighter originally used by France, it has been modernized extensively and now also has the ability for space flight."
 
-ship "Arion FB/S-22X Raptor Block I"
+ship "Arion FB/S-22X Strike Raptor Block I"
 	sprite "ship/arionfb22"
 	thumbnail "ship/arionfb22"
 	attributes
 		category "Fighter"
 		licenses
 			"Arion"
-		"cost" 4200000
+		"cost" 2100000
 		"shields" 1600
 		"hull" 800
 		"required crew" 1
 		"bunks" 1
 		"mass" 40
-		"drag" 1.48
+		"drag" 0.84
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 110
 		"weapon capacity" 30
 		"engine capacity" 30
-		"cloak" 1.5
-		"cloaking energy" 10
-		"cloaking heat" 5
+		"cloak" 0.008
+		"cloaking energy" 3.75
+		"cloaking heat" 5.625
 		"flares" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
 	outfits
 		"Arion M61 Vulcan"
 		"Arion GPB-1x Piercer Pod" 2
@@ -2491,43 +2718,48 @@ ship "Arion FB/S-22X Raptor Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine -1.5 28.5
-	engine 1.5 28.5
-	gun -4 -9.5 "Arion M61 Vulcan"
-	gun -2 5 "Arion GPB-1x Piercer Pod"
-	gun 2 5 "Arion GPB-1x Piercer Pod"
-	gun -5.5 5
-	gun 5.5 5
-	turret 0 9.5
+	engine -2.5 36.5 
+	engine 2.5 36.5 
+	gun 3 -24 "Arion M61 Vulcan"
+	gun -2.5 3 
+	gun 2.5 3 
+	gun -6 3 
+	gun 6 3 
+	turret 0 7 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	"final explode" "final explosion small"
 	description "Stealth fighter bomber concept, it has been modernized extensively and now also has the ability for space flight. It has a built in cloak."
 
-ship "Arion F/S-22NX Raptor Block I"
+ship "Arion FN/S-22X Sea Raptor Block I"
 	sprite "ship/arionf22n"
 	thumbnail "ship/arionf22n"
 	attributes
 		category "Fighter"
 		licenses
 			"Arion"
-		"cost" 4200000
+		"cost" 2200000
 		"shields" 1400
 		"hull" 700
 		"required crew" 1
 		"bunks" 1
 		"mass" 38
-		"drag" 0.89
+		"drag" 0.67
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 99
 		"weapon capacity" 25
 		"engine capacity" 25
-		"cloak" 1.5
-		"cloaking energy" 10
-		"cloaking heat" 5
+		"cloak" 0.0075
+		"cloaking energy" 4
+		"cloaking heat" 6
 		"flares" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
 	outfits
 		"Arion M61 Vulcan"
 		"Arion AIM-1x Sidewinder Pod"
@@ -2537,50 +2769,18 @@ ship "Arion F/S-22NX Raptor Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine -3.5 22.5
-	engine 3.5 22.5
-	gun -3.5 -8.5 "Arion M61 Vulcan"
-	gun 0 3.5 "Arion AIM-1x Sidewinder Pod"
-	gun -4 3.5
-	gun 4 3.5
-	turret 0 13.5
+	engine -4.5 32 
+	engine 4.5 32 
+	gun 2.5 -23.5 "Arion M61 Vulcan"
+	gun 0 3.5 
+	gun -4 3.5 "Arion AIM-2x AMRAAM Pod"
+	gun 4 3.5 "Arion AIM-2x AMRAAM Pod"
+	turret 0 8.5 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
 	"final explode" "final explosion small"
 	description "Stealth naval fighter interceptor concept, it has been modernized extensively and now also has the ability for space flight. It has a built in cloak."
-
-ship "Super Space Swordfish"
-	sprite "ship/arionsuperswordfish"
-	thumbnail "ship/arionsuperswordfish"
-	attributes
-		category "Fighter"
-		licenses
-			"Arion"
-		"cost" 50000
-		"shields" 400
-		"hull" 200
-		"required crew" 1
-		"bunks" 1
-		"mass" 10
-		"drag" 1.75
-		"heat dissipation" 0.9
-		"fuel capacity" 20
-		"outfit space" 50
-		"weapon capacity" 10
-		"engine capacity" 15
-	outfits
-		"Arion S.C.D"
-		"Arion ODE-SA-15x"
-		"Arion Basic Generator"
-		"Arion UGT-1x Pod"
-	engine 0 14.5
-	gun 0 -6
-	leak "leak" 60 50
-	explode "tiny explosion" 15
-	explode "small explosion" 5
-	"final explode" "final explosion small"
-	description "This old torpedo bomber has somehow been modified and rebuilt to serve again in space. (Special thanks to 1010todd for making the sprite for the plane)"
 
 ship "Arion F/S-4X Phantom II Block I"
 	sprite "ship/arionf4"
@@ -2589,37 +2789,38 @@ ship "Arion F/S-4X Phantom II Block I"
 		category "Fighter"
 		licenses
 			"Arion"
-		"cost" 150000
+		"cost" 125000
 		"shields" 1200
 		"hull" 600
 		"required crew" 2
 		"bunks" 2
 		"mass" 28
-		"drag" 1.6
+		"drag" 0.83
 		"heat dissipation" 0.9
 		"fuel capacity" 200
-		"outfit space" 97
-		"weapon capacity" 30
+		"outfit space" 80
+		"weapon capacity" 22
 		"engine capacity" 25
 		"flares" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
 	outfits
 		"Arion M61 Vulcan"
-		"Arion GPB-1x Piercer Pod"
-		"Arion AIM-1x Sidewinder Pod" 2
 		"Arion Chaff and Flares Tier 1"
 		"Arion ODE-IA-25x"
 		"Arion S.C.D"
-		"Arion BRS-10x"
-		"Arion FR-15x"
-	engine -2 14.5
-		under
-	engine 2 14.5
-		under
-	gun -1.5 -11 "Arion M61 Vulcan"
-	gun 0 0.5 "Arion G.P.B Pod"
-	gun -7 -2.5
-	gun 7 -2.5
-	turret 0 8
+		"Arion ERS-5x"
+		"Arion EG-20x"
+	engine -3 19.5 
+	engine 3 19.5 
+	gun 2.5 -21 "Arion M61 Vulcan"
+	gun 0 -7.5 
+	gun -9 -5.5 
+	gun 9 -5.5 
+	turret 0 -1.5 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -2633,34 +2834,38 @@ ship "Arion F/S-5X Tiger II Block I"
 		category "Fighter"
 		licenses
 			"Arion"
-		"cost" 100000
+		"cost" 110000
 		"shields" 800
 		"hull" 400
 		"required crew" 1
 		"bunks" 1
 		"mass" 12
-		"drag" 1.2
+		"drag" 0.82
 		"heat dissipation" 0.9
 		"fuel capacity" 100
-		"outfit space" 75
+		"outfit space" 68
 		"weapon capacity" 14
 		"engine capacity" 20
 		"flares" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
 	outfits
-		"Arion 20mm Autocannon" 2
-		"Arion AIM-1x Sidewinder Pod" 2
+		"Arion M39 Autocannon" 2
 		"Arion Chaff and Flares Tier 1"
 		"Arion ODE-AA-20x"
 		"Arion S.C.D"
-		"Arion BRS-10x"
-		"Arion FR-15x"
-	engine -1.5 20.5
-	engine 1.5 20.5
-	gun -1.5 -4 "Arion 20mm Autocannon"
-	gun 1.5 4 "Arion 20mm Autocannon"
-	gun -12 7.5
-	gun 12 7.5
-	turret 0 8.5
+		"Arion ERS-5x"
+		"Arion EG-20x"
+	engine -1.5 28 
+	engine 1.5 28 
+	gun 2 -10 "Arion M39 Autocannon"
+	gun -2 -10 "Arion M39 Autocannon"
+	gun -15.5 9 
+	gun 15.5 9 
+	turret 0 11 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -2674,32 +2879,37 @@ ship "Arion FA/S-50X Golden Eagle Block I"
 		category "Fighter"
 		licenses
 			"Arion"
-		"cost" 135000
+		"cost" 115000
 		"shields" 1050
 		"hull" 525
 		"required crew" 1
 		"bunks" 1
 		"mass" 12.5
-		"drag" 1.18
+		"drag" 0.83
 		"heat dissipation" 0.9
 		"fuel capacity" 100
 		"outfit space" 80
 		"weapon capacity" 15
 		"engine capacity" 20
 		"flares" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
 	outfits
 		"Arion M61 Vulcan"
 		"Arion AIM-1x Sidewinder Pod" 2
 		"Arion Chaff and Flares Tier 1"
 		"Arion ODE-AA-20x"
 		"Arion S.C.D"
-		"Arion BRS-10x"
+		"Arion ERS-5x"
 		"Arion FR-15x"
-	engine 0 18.5
-	gun -2 -2.5 "Arion M61 Vulcan"
-	gun -13.5 7.5
-	gun 13.5 7.5
-	turret 0 11
+	engine 0 25.5 
+	gun 1.5 -13 "Arion M61 Vulcan"
+	gun -18 10 
+	gun 18 10 
+	turret 0 10.5 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -2713,33 +2923,38 @@ ship "Arion F-CK/S-1X Block I"
 		category "Fighter"
 		licenses
 			"Arion"
-		"cost" 140000
+		"cost" 120000
 		"shields" 1020
 		"hull" 510
 		"required crew" 1
 		"bunks" 1
 		"mass" 12.25
-		"drag" 1.16
+		"drag" 0.83
 		"heat dissipation" 0.9
 		"fuel capacity" 100
 		"outfit space" 80
 		"weapon capacity" 15
 		"engine capacity" 20
 		"flares" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
 	outfits
 		"Arion M61 Vulcan"
 		"Arion AIM-1x Sidewinder Pod" 2
 		"Arion Chaff and Flares Tier 1"
 		"Arion ODE-AA-20x"
 		"Arion S.C.D"
-		"Arion BRS-10x"
+		"Arion ERS-5x"
 		"Arion FR-15x"
-	engine -1 20
-	engine 1 20
-	gun -2 -2.5 "Arion M61 Vulcan"
-	gun -13 7.5
-	gun 13 7.5
-	turret 0 9.5
+	engine -2 27 
+	engine 2 27 
+	gun 2 -12 "Arion M61 Vulcan"
+	gun -17.5 10.5 
+	gun 17.5 10.5 
+	turret 0 11 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -2753,22 +2968,27 @@ ship "Arion KF/S-21X Boramae Block I"
 		category "Fighter"
 		licenses
 			"Arion"
-		"cost" 3000000
+		"cost" 1300000
 		"shields" 1200
 		"hull" 600
 		"required crew" 1
 		"bunks" 1
 		"mass" 25
-		"drag" 1.25
+		"drag" 0.84
 		"heat dissipation" 0.9
 		"fuel capacity" 100
 		"outfit space" 85
 		"weapon capacity" 18
 		"engine capacity" 25
-		"cloak" 2.25
-		"cloaking energy" 12
-		"cloaking heat" 6
+		"cloak" 0.005
+		"cloaking energy" 4.5
+		"cloaking heat" 6.75
 		"flares" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
 	outfits
 		"Arion M61 Vulcan"
 		"Arion AIM-1x Sidewinder Pod" 2
@@ -2777,12 +2997,12 @@ ship "Arion KF/S-21X Boramae Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine -1.5 21
-	engine 1.5 21
-	gun -3 -8.5 "Arion M61 Vulcan"
-	gun -3.5 5
-	gun 3.5 5
-	turret 0 10.5
+	engine -2 29.5 
+	engine 2 29.5 
+	gun 2.5 -19.5 "Arion M61 Vulcan"
+	gun -4.5 2.5 
+	gun 4.5 2.5 
+	turret 0 6 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -2796,22 +3016,27 @@ ship "Arion J/S-20X Block I"
 		category "Fighter"
 		licenses
 			"Arion"
-		"cost" 3600000
+		"cost" 1800000
 		"shields" 1400
 		"hull" 700
 		"required crew" 1
 		"bunks" 1
 		"mass" 37
-		"drag" 1.25
+		"drag" 0.85
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 95
 		"weapon capacity" 25
 		"engine capacity" 25
-		"cloak" 2.2
-		"cloaking energy" 13
-		"cloaking heat" 6.5
+		"cloak" 0.007
+		"cloaking energy" 4.5
+		"cloaking heat" 6.75
 		"flares" 1
+		weapon
+			"blast radius" 12
+			"shield damage" 120
+			"hull damage" 60
+			"hit force" 180
 	outfits
 		"Arion AIM-2x AMRAAM Pod"
 		"Arion AIM-1x Sidewinder Pod" 2
@@ -2820,12 +3045,12 @@ ship "Arion J/S-20X Block I"
 		"Arion S.C.D"
 		"Arion BRS-10x"
 		"Arion FR-15x"
-	engine -1.5 28
-	engine 1.5 28
-	gun 0 10.5 "Arion AIM-2x AMRAAM Pod"
-	gun -4.5 10.5 "Arion AIM-1x Sidewinder Pod"
-	gun 4.5 10.5 "Arion AIM-1x Sidewinder Pod"
-	turret 0 16.5
+	engine -3 38 
+	engine 3 38 
+	gun -7.5 12.5 
+	gun 7.5 12.5 
+	gun 0 12.5 
+	turret 0 17 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -2848,17 +3073,22 @@ ship "Arion X/S-02X Wyvern MKI"
 		"required crew" 1
 		"bunks" 1
 		"mass" 37
-		"drag" 0.85
+		"drag" 0.7
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 125
 		"weapon capacity" 50
 		"engine capacity" 25
-		"cloak" 2
-		"cloaking energy" 10
-		"cloaking heat" 5
+		"cloak" 0.0075
+		"cloaking energy" 4
+		"cloaking heat" 6
 		"flares" 1
 		"arclight eml" 1
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
 	outfits
 		"Arion G.A.G.G"
 		"Arion Arclight E.M.L"
@@ -2868,13 +3098,13 @@ ship "Arion X/S-02X Wyvern MKI"
 		"Arion S.C.D"
 		"Arion ARS-10x"
 		"Arion OCR-15x"
-	engine -2.5 29
-	engine 2.5 29
-	gun -3 -8.5 "Arion G.A.G.G"
-	gun 0 4.5 "Arion Arclight E.M.L"
-	gun -5 8.5
-	gun 5 8.5
-	turret 0 16
+	engine -3.5 37.5 
+	engine 3.5 37.5 
+	gun 4 -14 "Arion G.A.G.G"
+	gun 0 10.5 "Arion Arclight E.M.L"
+	gun -5.5 10.5 
+	gun 5.5 10.5 
+	turret 0 19 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -2895,17 +3125,22 @@ ship "Arion CFA/S-44X Nosferatu MKI"
 		"required crew" 1
 		"bunks" 1
 		"mass" 40
-		"drag" 0.95
+		"drag" 0.8
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 125
 		"weapon capacity" 45
 		"engine capacity" 25
-		"cloak" 2
-		"cloaking energy" 11
-		"cloaking heat" 5.5
+		"cloak" 0.0075
+		"cloaking energy" 4
+		"cloaking heat" 6
 		"flares" 1
 		"purgatorio eml" 2
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
 	outfits
 		"Arion G.A.A.C"
 		"Arion Purgatorio E.M.L" 2
@@ -2915,13 +3150,13 @@ ship "Arion CFA/S-44X Nosferatu MKI"
 		"Arion S.C.D"
 		"Arion ARS-10x"
 		"Arion OCR-15x"
-	engine -3.5 29
-	engine 3.5 29
-	gun -4 -9.5 "Arion G.A.A.C"
-	gun 0 8
-	gun -4.5 5 "Arion Purgatorio E.M.L"
-	gun 4.5 5 "Arion Purgatorio E.M.L"
-	turret 0 10
+	engine -4.5 40 
+	engine 4.5 40 
+	gun 4.5 -16 "Arion G.A.A.C"
+	gun -7.5 1.5 "Arion Purgatorio E.M.L"
+	gun 7.5 1.5 "Arion Purgatorio E.M.L"
+	gun 0 1.5 
+	turret 0 9.5 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -2941,7 +3176,7 @@ ship "Arion ADFX/S-02X Morgan MKI"
 		"required crew" 1
 		"bunks" 1
 		"mass" 43
-		"drag" 1.0
+		"drag" 0.85
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 125
@@ -2949,6 +3184,11 @@ ship "Arion ADFX/S-02X Morgan MKI"
 		"engine capacity" 25
 		"flares" 1
 		"morgan hardpoint" 1
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
 	outfits
 		"Arion G.A.G.G"
 		"Arion AIM-1x Sidewinder Pod" 2
@@ -2958,13 +3198,13 @@ ship "Arion ADFX/S-02X Morgan MKI"
 		"Arion S.C.D"
 		"Arion ARS-10x"
 		"Arion OCR-15x"
-	engine -5.5 34.5
-	engine 5.5 34.5
-	gun -2 -13.5 "Arion G.A.G.G"
-	gun 0 6 "Arion Zoisite T.L.S"
-	gun -6.5 12.5
-	gun 6.5 12.5
-	turret 0 12.5
+	engine -8 47.5 
+	engine 8 47.5 
+	gun 5 -10 "Arion G.A.G.G"
+	gun 0 6.5 "Arion Zoisite T.L.S"
+	gun -8 11.5 
+	gun 8 11.5 
+	turret 0 11.5 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -2984,17 +3224,22 @@ ship "Arion XFA/S-27X MKI"
 		"required crew" 1
 		"bunks" 1
 		"mass" 36
-		"drag" 0.85
+		"drag" 0.67
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 125
 		"weapon capacity" 40
 		"engine capacity" 25
-		"cloak" 2
-		"cloaking energy" 13
-		"cloaking heat" 6.5
+		"cloak" 0.008
+		"cloaking energy" 4
+		"cloaking heat" 6
 		"flares" 1
 		"xfa27 hardpoint" 2
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
 	outfits
 		"Arion G.A.G.G"
 		"Arion AIM-1x Sidewinder Pod" 2
@@ -3004,14 +3249,14 @@ ship "Arion XFA/S-27X MKI"
 		"Arion S.C.D"
 		"Arion ARS-10x"
 		"Arion OCR-15x"
-	engine -6.5 27
-	engine 6.5 27
-	gun -1.5 -21.5 "Arion G.A.G.G"
-	gun 5 6 "Arion AIM-1x Sidewinder Pod"
-	gun -5 6 "Arion AIM-1x Sidewinder Pod"
-	gun -9 6
-	gun 9 6
-	turret 0 12
+	engine -7.5 36 
+	engine 7.5 36 
+	gun 3 -21.5 "Arion G.A.G.G"
+	gun -7.5 0.5 
+	gun 7.5 0.5 
+	gun -11.5 0.5 "Arion Joint Strike Missile"
+	gun 11.5 0.5 "Arion Joint Strike Missile"
+	turret 0 5.5 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -3031,17 +3276,22 @@ ship "Arion XFA/S-33X Fenrir MKI"
 		"required crew" 1
 		"bunks" 1
 		"mass" 55
-		"drag" 1.1
+		"drag" 0.9
 		"heat dissipation" 0.9
 		"fuel capacity" 300
 		"outfit space" 150
 		"weapon capacity" 60
 		"engine capacity" 30
-		"cloak" 1.5
-		"cloaking energy" 9
-		"cloaking heat" 4.5
+		"cloak" 0.0075
+		"cloaking energy" 4.2
+		"cloaking heat" 6.3
 		"flares" 1
 		"fenrir hardpoint" 1
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
 	outfits
 		"Arion G.A.A.C"
 		"Arion AIM-1x Sidewinder Pod" 2
@@ -3051,13 +3301,13 @@ ship "Arion XFA/S-33X Fenrir MKI"
 		"Arion S.C.D"
 		"Arion ARS-10x"
 		"Arion OCR-15x"
-	engine -7 40.5
-	engine 7 40.5
-	gun -4 -18.5 "Arion G.A.A.C"
-	gun 0 7.5
-	gun -8.5 7.5 "Arion Missile Pod"
-	gun 8.5 7.5 "Arion Missile Pod"
-	turret 0 15.5
+	engine -9 55.5 
+	engine 9 55.5 
+	gun 5 -25 "Arion G.A.A.C"
+	gun 0 9.5 "Arion L.S.W.M"
+	gun -8.5 9.5 
+	gun 8.5 9.5 
+	turret 0 17.5 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -3076,17 +3326,22 @@ ship "Arion ADF/S-01X Falken MKI"
 		"hull" 1095
 		"automaton" 1
 		"mass" 51
-		"drag" 0.925
+		"drag" 0.81
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 125
 		"weapon capacity" 45
 		"engine capacity" 25
-		"cloak" 1.8
-		"cloaking energy" 12
-		"cloaking heat" 6
+		"cloak" 0.0075
+		"cloaking energy" 4.2
+		"cloaking heat" 6.3
 		"flares" 1
 		"morgan hardpoint" 1
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
 	outfits
 		"Arion G.A.A.C"
 		"Arion AIM-1x Sidewinder Pod" 2
@@ -3096,14 +3351,14 @@ ship "Arion ADF/S-01X Falken MKI"
 		"Arion S.C.D"
 		"Arion ARS-10x"
 		"Arion OCR-15x"
-	engine -6.5 31
-	engine 6.5 31
-	gun 0 -23 "Arion G.A.A.C"
-	gun 0 -13.5 "Arion Zoisite T.L.S"
+	engine -8 43 
+	engine 8 43 
+	gun 0 -28.5 "Arion G.A.A.C"
+	gun 0 -20.5 "Arion Zoisite T.L.S"
 		under
-	gun -6.5 10
-	gun 6.5 10
-	turret 0 5
+	gun -6.5 9 
+	gun 6.5 9 
+	turret 0 6 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -3122,17 +3377,22 @@ ship "Arion ADF/S-11X Raven MKI"
 		"hull" 1150
 		"automaton" 1
 		"mass" 54
-		"drag" 0.935
+		"drag" 0.8
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 125
 		"weapon capacity" 45
 		"engine capacity" 25
-		"cloak" 1.8
-		"cloaking energy" 12
-		"cloaking heat" 6
+		"cloak" 0.00725
+		"cloaking energy" 4.2
+		"cloaking heat" 6.3
 		"flares" 1
 		"morgan hardpoint" 1
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
 	outfits
 		"Arion G.A.A.C"
 		"Arion AIM-1x Sidewinder Pod" 2
@@ -3142,14 +3402,14 @@ ship "Arion ADF/S-11X Raven MKI"
 		"Arion S.C.D"
 		"Arion ARS-10x"
 		"Arion OCR-15x"
-	engine -6.5 37.5
-	engine 6.5 37.5
-	gun 0 -26 "Arion G.A.A.C"
-	gun 0 -20.5 "Arion Zoisite T.L.S"
+	engine -8.5 45.5 
+	engine 8.5 45.5 
+	gun 0 -36 "Arion G.A.A.C"
+	gun 0 -32 "Arion Zoisite T.L.S"
 		under
-	gun -6 9
-	gun 6 9
-	turret 0 15.5
+	gun -8.5 8 
+	gun 8.5 8 
+	turret 0 0 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -3168,17 +3428,22 @@ ship "Arion ADA/S-01X Adler MKI"
 		"hull" 1125
 		"automaton" 1
 		"mass" 54
-		"drag" 0.95
+		"drag" 0.87
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 140
 		"weapon capacity" 57
 		"engine capacity" 25
-		"cloak" 1.8
-		"cloaking energy" 12
-		"cloaking heat" 6
+		"cloak" 0.00775
+		"cloaking energy" 4.2
+		"cloaking heat" 6.3
 		"flares" 1
 		"fenrir hardpoint" 1
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
 	outfits
 		"Arion G.A.A.C"
 		"Arion AIM-1x Sidewinder Pod" 2
@@ -3188,13 +3453,13 @@ ship "Arion ADA/S-01X Adler MKI"
 		"Arion S.C.D"
 		"Arion ARS-10x"
 		"Arion OCR-15x"
-	engine -6 28.5 
-	engine 6 28.5
-	gun 0 -28 "Arion G.A.A.C"
-	gun 0 4.5 "Arion L.S.W.M"
-	gun -7 4.5
-	gun 7 4.5
-	turret 0 -2
+	engine -8 33 
+	engine 8 33 
+	gun 0 -38.5 "Arion G.A.A.C"
+	gun 0 -4 "Arion L.S.W.M"
+	gun -8.5 6 
+	gun 8.5 6 
+	turret 0 -2.5 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -3220,10 +3485,15 @@ ship "Arion R/S-103X Delphinus MKI"
 		"outfit space" 125
 		"weapon capacity" 35
 		"engine capacity" 25
-		"cloak" 2
-		"cloaking energy" 10
-		"cloaking heat" 5
+		"cloak" 0.008
+		"cloaking energy" 3.5
+		"cloaking heat" 5.25
 		"flares" 1
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
 	outfits
 		"Arion G.A.G.G"
 		"Arion AIM-1x Sidewinder Pod" 2
@@ -3233,14 +3503,14 @@ ship "Arion R/S-103X Delphinus MKI"
 		"Arion S.C.D"
 		"Arion ARS-10x"
 		"Arion OCR-15x"
-	engine 0 22
+	engine 0 32.5 
 		under
-	gun 0 -14.5 "Arion G.A.G.G"
-	gun -4 12.5 "Arion AIM-1x Sidewinder Pod"
-	gun 4 12.5 "Arion AIM-1x Sidewinder Pod"
-	gun -1.5 12.5
-	gun 1.5 12.5
-	turret 0 16.5
+	gun 0 -32.5 "Arion G.A.G.G"
+	gun -5 12.5 
+	gun 5 12.5 
+	gun -3.5 12.5 
+	gun 3.5 12.5 
+	turret 0 18 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -3260,16 +3530,21 @@ ship "Arion R-352X Sepia MKI"
 		"required crew" 1
 		"bunks" 1
 		"mass" 60
-		"drag" 0.5
+		"drag" 0.4
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 150
 		"weapon capacity" 40
 		"engine capacity" 25
-		"cloak" 1.8
-		"cloaking energy" 8
-		"cloaking heat" 4
+		"cloak" 0.009
+		"cloaking energy" 3.5
+		"cloaking heat" 5.25
 		"flares" 1
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
 	outfits
 		"Arion G.A.G.G"
 		"Arion AIM-1x Sidewinder Pod" 2
@@ -3279,14 +3554,14 @@ ship "Arion R-352X Sepia MKI"
 		"Arion S.C.D"
 		"Arion ARS-10x"
 		"Arion OCR-15x"
-	engine -5 34
-	engine 5 34
-	gun 0 -18 "Arion G.A.G.G"
-	gun 5 6 "Arion AIM-1x Sidewinder Pod"
-	gun -5 6 "Arion AIM-1x Sidewinder Pod"
-	gun -9 6
-	gun 9 6
-	turret 0 12
+	engine -6.5 45.5 
+	engine 6.5 45.5 
+	gun 0 -45 "Arion G.A.G.G"
+	gun -3.5 4.5 
+	gun 3.5 4.5 
+	gun -1.5 4.5 
+	gun 1.5 4.5 
+	turret 0 10 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -3312,10 +3587,15 @@ ship "Arion XFA/S-36X Game MKI"
 		"outfit space" 125
 		"weapon capacity" 35
 		"engine capacity" 25
-		"cloak" 1.5
-		"cloaking energy" 8
-		"cloaking heat" 4
+		"cloak" 0.009
+		"cloaking energy" 3.5
+		"cloaking heat" 5.25
 		"flares" 1
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
 	outfits
 		"Arion G.A.G.G"
 		"Arion AIM-1x Sidewinder Pod" 2
@@ -3325,14 +3605,14 @@ ship "Arion XFA/S-36X Game MKI"
 		"Arion S.C.D"
 		"Arion ARS-10x"
 		"Arion OCR-15x"
-		engine -4 26 
-	engine 4 26 
-	gun -3.5 -10 
-	gun -4.5 8.5 
-	gun 4.5 8.5 
-	gun -3.5 8.5 
-	gun 3.5 8.5 
-	turret 0 13 
+	engine -5.5 34.5 
+	engine 5.5 34.5 
+	gun 4 -11.5 "Arion G.A.G.G"
+	gun -3 9 
+	gun 3 9 
+	gun -1 9 
+	gun 1 9 
+	turret 0 12.5  
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -3352,17 +3632,22 @@ ship "Arion X/S-49X Night Raven MKI"
 		"required crew" 1
 		"bunks" 1
 		"mass" 43
-		"drag" 0.65
+		"drag" 0.7
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 125
 		"weapon capacity" 35
 		"engine capacity" 25
 		"flares" 1
-		"cloak" 1.9
-		"cloaking energy" 9
-		"cloaking heat" 4.5
+		"cloak" 0.008
+		"cloaking energy" 3.5
+		"cloaking heat" 5.25
 		"morgan hardpoint" 1
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
 	outfits
 		"Arion Zoisite T.L.S"
 		"Arion AIM-1x Sidewinder Pod" 2
@@ -3371,12 +3656,12 @@ ship "Arion X/S-49X Night Raven MKI"
 		"Arion S.C.D"
 		"Arion ARS-10x"
 		"Arion OCR-15x"
-		engine -3.5 -5.5 
-	engine 3.5 -5.5 
-	gun 0 -23.5 
-	gun -9 -12.5 
-	gun 9 -12.5 
-	turret 0 -12.5
+	engine -4.5 -8 
+	engine 4.5 -8 
+	gun 0 -32.5 "Arion Zoisite T.L.S"
+	gun -7 -18.5 
+	gun 7 -18.5 
+	turret 0 -16 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -3399,16 +3684,21 @@ ship "Arion X/S-37X Corsair MKI"
 		"required crew" 1
 		"bunks" 1
 		"mass" 34
-		"drag" 0.825
+		"drag" 0.5
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 90
 		"weapon capacity" 14
 		"engine capacity" 25
-		"cloak" 1.8
-		"cloaking energy" 11
-		"cloaking heat" 5.5
+		"cloak" 0.008
+		"cloaking energy" 4
+		"cloaking heat" 6
 		"flares" 1
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
 	outfits
 		"Arion G.A.G.G" 2
 		"Arion Chaff and Flares Tier 1"
@@ -3416,11 +3706,11 @@ ship "Arion X/S-37X Corsair MKI"
 		"Arion S.C.D"
 		"Arion ARS-10x"
 		"Arion OCR-15x"
-	engine -3.5 21
-	engine 3.5 21
-	gun 3.5 -10 "Arion G.A.G.G"
-	gun 3.5 -10 "Arion G.A.G.G"
-	turret 0 6
+	engine -4.5 27.5 
+	engine 4.5 27.5 
+	gun -4.5 -13.5 
+	gun 4.5 -13.5 
+	turret 0 2.5 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -3440,16 +3730,21 @@ ship "Arion X/S-44X Saracen MKI"
 		"required crew" 1
 		"bunks" 1
 		"mass" 36
-		"drag" 0.81
+		"drag" 0.48
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 95
 		"weapon capacity" 16
 		"engine capacity" 25
-		"cloak" 1.7
-		"cloaking energy" 10.5
-		"cloaking heat" 5.25
+		"cloak" 0.0085
+		"cloaking energy" 3.8
+		"cloaking heat" 5.7
 		"flares" 1
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
 	outfits
 		"Arion G.A.G.G"
 		"Arion AIM-1x Sidewinder Pod"
@@ -3458,11 +3753,11 @@ ship "Arion X/S-44X Saracen MKI"
 		"Arion S.C.D"
 		"Arion ARS-10x"
 		"Arion OCR-15x"
-	engine -2.5 21.5
-	engine 2.5 21.5
-	gun -2.5 -10.5 "Arion G.A.G.G"
-	gun 0 6.5 "Arion AIM-1x Sidewinder Pod"
-	turret 0 9.5
+	engine -3.5 31.5 
+	engine 3.5 31.5 
+	gun 3.5 -11 "Arion G.A.G.G"
+	gun 0 6.5 
+	turret 0 10 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -3482,16 +3777,21 @@ ship "Arion X/S-59X Marauder MKI"
 		"required crew" 1
 		"bunks" 1
 		"mass" 38
-		"drag" 0.8
+		"drag" 0.45
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 100
 		"weapon capacity" 19
 		"engine capacity" 25
-		"cloak" 1.6
-		"cloaking energy" 10
-		"cloaking heat" 5
+		"cloak" 0.009
+		"cloaking energy" 3.5
+		"cloaking heat" 5.25
 		"flares" 1
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
 	outfits
 		"Arion G.A.G.G"
 		"Arion AIM-1x Sidewinder Pod"
@@ -3501,12 +3801,12 @@ ship "Arion X/S-59X Marauder MKI"
 		"Arion S.C.D"
 		"Arion ARS-10x"
 		"Arion OCR-15x"
-	engine -4 21.5
-	engine 4 21.5
-	gun -4 -14 "Arion G.A.G.G"
-	gun -4.5 2.5 "Arion AIM-1x Sidewinder Pod"
-	gun 4.5 2.5 "Arion AIM-2x AMRAAM Pod"
-	turret 0 6
+	engine -5.5 28.5 
+	engine 5.5 28.5 
+	gun 5 -17 "Arion G.A.G.G"
+	gun -5.5 7 
+	gun 5.5 7 
+	turret 0 5 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -3526,17 +3826,22 @@ ship "Arion X/S-120X Fury MKI"
 		"required crew" 1
 		"bunks" 1
 		"mass" 45
-		"drag" 0.5
+		"drag" 0.4
 		"heat dissipation" 0.9
 		"fuel capacity" 500
 		"outfit space" 130
 		"weapon capacity" 30
 		"engine capacity" 30
-		"cloak" 1.4
-		"cloaking energy" 9
-		"cloaking heat" 4.5
+		"cloak" 0.01
+		"cloaking energy" 3
+		"cloaking heat" 4
 		"bomb bay" 1
 		"heavy flares" 1
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
 	outfits
 		"Arion Heavy Chaff, Flares and ECM Tier 1"
 		"Arion ODE-LBA-30x"
@@ -3544,10 +3849,10 @@ ship "Arion X/S-120X Fury MKI"
 		"Arion ARS-10x"
 		"Arion OCR-15x"
 		"Hyperdrive"
-	engine -10 29
-	engine 10 29
-	gun 0 9.5
-	turret 0 17
+	engine -12.5 38 
+	engine 12.5 38 
+	gun 0 8 
+	turret 0 12.5 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -3570,7 +3875,7 @@ ship "Arion A/S-4X SFF Skyhawk Mk1"
 		"required crew" 1
 		"bunks" 1
 		"mass" 17
-		"drag" 1.6
+		"drag" 0.77
 		"heat dissipation" 0.9
 		"fuel capacity" 100
 		"outfit space" 90
@@ -3584,6 +3889,11 @@ ship "Arion A/S-4X SFF Skyhawk Mk1"
 		"corrosion protection" 1
 		"leak resistance" 5
 		"burn resistance" 5
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
 	outfits
 		"Arion G.A.A.C"
 		"Arion G.A.G.G" 2
@@ -3592,11 +3902,12 @@ ship "Arion A/S-4X SFF Skyhawk Mk1"
 		"Arion S.C.D"
 		"Arion ARS-10x"
 		"Arion AR-15x"
-	engine 0 16.5
-	gun -5.5 -4 "Arion G.A.G.G"
-	gun 5.5 -4 "Arion G.A.G.G"
-	gun -1 -12 "Arion G.A.A.C"
-	turret 0 3
+		"Arion S.I Equipment"
+	engine 0 24 
+	gun 1 -11.5 "Arion G.A.A.C"
+	gun -7.5 -8 
+	gun 7.5 -8 
+	turret 0 0 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -3616,7 +3927,7 @@ ship "Arion F/S-16X SFF Super Falcon Mk1"
 		"required crew" 1
 		"bunks" 1
 		"mass" 21
-		"drag" 1.1
+		"drag" 0.8
 		"heat dissipation" 0.9
 		"fuel capacity" 200
 		"outfit space" 95
@@ -3630,6 +3941,11 @@ ship "Arion F/S-16X SFF Super Falcon Mk1"
 		"corrosion protection" 1
 		"leak resistance" 5
 		"burn resistance" 5
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
 	outfits
 		"Arion G.A.G.G"
 		"Arion AIM-1x Sidewinder Pod" 2
@@ -3639,12 +3955,13 @@ ship "Arion F/S-16X SFF Super Falcon Mk1"
 		"Arion S.C.D"
 		"Arion ARS-10x"
 		"Arion AR-15x"
-	engine 0 20.5
-	gun -2 -8 "Arion G.A.G.G"
-	gun 14.5 7 "Arion Missile Pod"
-	gun -14.5 7 "Arion Missile Pod"
-	gun 0 3.5 "Arion G.P.B Pod"
-	turret 0 8.5
+		"Arion S.I Equipment"
+	engine 0 29 
+	gun 3.5 -8 "Arion G.A.G.G"
+	gun -20 10 
+	gun 20 10 
+	gun 0 4 "Arion GPB-1x Piercer Pod"
+	turret 0 9 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -3664,7 +3981,7 @@ ship "Arion F/S-18X SFF Super Hornet Mk1"
 		"required crew" 1
 		"bunks" 1
 		"mass" 25
-		"drag" 1.175
+		"drag" 0.8
 		"heat dissipation" 0.9
 		"fuel capacity" 150
 		"outfit space" 106
@@ -3678,6 +3995,11 @@ ship "Arion F/S-18X SFF Super Hornet Mk1"
 		"corrosion protection" 1
 		"leak resistance" 5
 		"burn resistance" 5
+		weapon
+			"blast radius" 30
+			"shield damage" 300
+			"hull damage" 150
+			"hit force" 450
 	outfits
 		"Arion G.A.G.G"
 		"Arion AIM-1x Sidewinder Pod" 2
@@ -3687,14 +4009,15 @@ ship "Arion F/S-18X SFF Super Hornet Mk1"
 		"Arion S.C.D"
 		"Arion ARS-10x"
 		"Arion AR-15x"
-	engine -2 24
-	engine 2 24
-	gun -3.5 -6.5 "Arion G.A.G.G"
-	gun 20.5 8.5 "Arion AIM-1x Sidewinder Pod"
-	gun -20.5 8.5 "Arion AIM-1x Sidewinder Pod"
-	gun -10 2 "Arion AIM-2x AMRAAM Pod"
-	gun 10 2 "Arion AIM-2x AMRAAM Pod"
-	turret 0 9
+		"Arion S.I Equipment"
+	engine -2 32.5 
+	engine 2 32.5 
+	gun 5.5 -9.5 "Arion G.A.G.G"
+	gun -27 12.5 
+	gun 27 12.5 
+	gun -13 2 
+	gun 13 2 
+	turret 0 6 
 	leak "leak" 60 50
 	explode "tiny explosion" 15
 	explode "small explosion" 5
@@ -3708,7 +4031,7 @@ ship "Arion Halberd Class Cruiser"
 		category "Heavy Warship"
 		licenses
 			"Arion"
-		"cost" 7000000
+		"cost" 150000000
 		"shields" 275000
 		"hull" 165000
 		"required crew" 60
@@ -3728,6 +4051,11 @@ ship "Arion Halberd Class Cruiser"
 		"corrosion protection" 1
 		"leak resistance" 5
 		"burn resistance" 5
+		weapon
+			"blast radius" 260
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3900
 	outfits
 		"Arion AIM-1x Sidewinder Launcher" 4
 		"Arion Phalanx C.I.W.S" 2
@@ -3741,6 +4069,7 @@ ship "Arion Halberd Class Cruiser"
 		"Arion I.E.W.S"
 		"Jump Drive"
 		"Hyperdrive"
+		"Arion S.I Equipment" 60
 	engine -45 187
 	engine 45 187
 	engine -15 187
@@ -3780,7 +4109,7 @@ ship "Arion Halberd Class Cruiser"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Halberd Class Light Patrol Cruiser is originally used to help defend planets without having to bring in 'full sized' ships. It is very heavily armed for its size with 6 turrets, 4 torpedo launch tubes and 4 drone and fighter bays, allowing for a full squadron of fighters and drones to be stationed onboard."
+	description "The Halberd Class Light Patrol Cruiser is originally used to help defend planets without having to bring in 'full sized' ships. It is usually the backbone of any planetary defense fleet, being able to kill smaller ships while being able to run away from and harass tougher enemies."
 
 ship "Arion Scimitar Class Destroyer"
 	sprite "ship/arionscimitar"
@@ -3789,11 +4118,11 @@ ship "Arion Scimitar Class Destroyer"
 		category "Heavy Warship"
 		licenses
 			"Arion"
-		"cost" 5600000
+		"cost" 130000000
 		"shields" 225000
 		"hull" 150000
-		"required crew" 45
-		"bunks" 90
+		"required crew" 50
+		"bunks" 100
 		"mass" 700
 		"drag" 7.5
 		"heat dissipation" .9
@@ -3809,6 +4138,11 @@ ship "Arion Scimitar Class Destroyer"
 		"corrosion protection" 1
 		"leak resistance" 5
 		"burn resistance" 5
+		weapon
+			"blast radius" 260
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3900
 	outfits
 		"Arion AIM-1x Sidewinder Launcher" 2
 		"Arion Phalanx C.I.W.S"
@@ -3822,6 +4156,7 @@ ship "Arion Scimitar Class Destroyer"
 		"Arion I.E.W.S"
 		"Jump Drive"
 		"Hyperdrive"
+		"Arion S.I Equipment" 50
 	engine -30 162
 	engine 0 162
 	engine 30 162
@@ -3849,7 +4184,7 @@ ship "Arion Scimitar Class Destroyer"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Scimitar Class Light Patrol Destroyer is originally used to help defend planets without having to bring in 'full sized' ships. It is very heavily armed for its size with 5 turrets, 2 torpedo launch tubes and 2 drone and fighter bays, allowing for a full combined squadron of fighters and drones to be stationed onboard."
+	description "The Scimitar Class Light Patrol Destroyer is originally used to help defend planets without having to bring in 'full sized' ships. In a fleet it usually uses its fast speed and nimble nature to hunt down smaller ships like frigates, freeing up cruisers to hunt down larger targets."
 
 ship "Arion Kukri Class Frigate"
 	sprite "ship/arionkukri"
@@ -3858,12 +4193,12 @@ ship "Arion Kukri Class Frigate"
 		category "Medium Warship"
 		licenses
 			"Arion"
-		"cost" 4000000
+		"cost" 100000000
 		"shields" 150000
-		"hull" 120000
+		"hull" 100000
 		"required crew" 10
 		"bunks" 20
-		"mass" 320
+		"mass" 280
 		"drag" 4.5
 		"heat dissipation" .9
 		"fuel capacity" 900
@@ -3878,6 +4213,11 @@ ship "Arion Kukri Class Frigate"
 		"corrosion protection" 1
 		"leak resistance" 5
 		"burn resistance" 5
+		weapon
+			"blast radius" 100
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
 	outfits
 		"Arion E.M.L Compact"
 		"Arion AIM-2x AMRAAM Pod" 2
@@ -3885,13 +4225,13 @@ ship "Arion Kukri Class Frigate"
 		"Arion SBL-03A Paralyzer Turret"
 		"Arion Multirole Fuel System"
 		"Arion AR-15x" 4
-		"Arion P.C.S"
 		"Arion L.C.D"
 		"Arion ARS-25x"
 		"Arion ODE-SHW-150x"
 		"Arion I.E.W.S"
 		"Jump Drive"
 		"Hyperdrive"
+		"Arion S.I Equipment" 10
 	engine 0 97
 	engine -41 97
 	engine 41 97
@@ -3904,13 +4244,12 @@ ship "Arion Kukri Class Frigate"
 	leak "leak" 30 50
 	leak "flame" 50 80
 	leak "big leak" 40 30
-	explode "tiny explosion" 20
-	explode "small explosion" 45
-	explode "medium explosion" 50
-	explode "large explosion" 40
-	explode "huge explosion" 10
-	"final explode" "final explosion large"
-	description "The Kukri Class Light Patrol Frigate is originally used to help scout dangerous without having to bring in larger ships. It can easily outrun a lot of enemies due to its large engines, although it isn't the most heavily armed and is quite weak."
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion medium"
+	description "The Kukri class is a patrol frigate that has 2 main roles. It can be fitted with a cloaking device and extra fuel to be used a long range scout or as a hit and run frigate in a planetary defence fleet."
 
 ship "Arion Paris Class Destroyer"
 	sprite "ship/arionparis"
@@ -3919,11 +4258,11 @@ ship "Arion Paris Class Destroyer"
 		category "Heavy Warship"
 		licenses
 			"Arion"
-		"cost" 6400000
+		"cost" 150000000
 		"shields" 210000
 		"hull" 175000
-		"required crew" 50
-		"bunks" 80
+		"required crew" 60
+		"bunks" 100
 		"mass" 720
 		"drag" 8.25
 		"heat dissipation" .9
@@ -3940,6 +4279,11 @@ ship "Arion Paris Class Destroyer"
 		"corrosion protection" 1
 		"leak resistance" 5
 		"burn resistance" 5
+		weapon
+			"blast radius" 260
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3900
 	outfits
 		"Arion Phalanx C.I.W.S" 2
 		"Arion SBL-03A Paralyzer Turret" 2
@@ -3951,6 +4295,7 @@ ship "Arion Paris Class Destroyer"
 		"Arion ODE-SHW-150x"
 		"Jump Drive"
 		"Hyperdrive"
+		"Arion S.I Equipment" 60
 	engine 0 134 
 	engine -61.5 172.5 
 	engine 61.5 172.5 
@@ -3977,12 +4322,12 @@ ship "Arion Algos Class Drone Carrier"
 		category "Heavy Warship"
 		licenses
 			"Arion"
-		"cost" 7500000
+		"cost" 180000000
 		"shields" 260000
 		"hull" 200000
 		"required crew" 80
 		"bunks" 180
-		"mass" 860
+		"mass" 880
 		"drag" 10.5
 		"heat dissipation" .9
 		"fuel capacity" 900
@@ -3997,6 +4342,11 @@ ship "Arion Algos Class Drone Carrier"
 		"corrosion protection" 1
 		"leak resistance" 5
 		"burn resistance" 5
+		weapon
+			"blast radius" 260
+			"shield damage" 2600
+			"hull damage" 1300
+			"hit force" 3900
 	outfits
 		"Arion Phalanx C.I.W.S" 2
 		"Arion SBL-03A Paralyzer Turret" 2
@@ -4007,6 +4357,7 @@ ship "Arion Algos Class Drone Carrier"
 		"Arion ODE-SHW-150x"
 		"Jump Drive"
 		"Hyperdrive"
+		"Arion S.I Equipment" 80
 	engine 0 177 
 		under
 	engine -36.5 123 
@@ -4015,33 +4366,37 @@ ship "Arion Algos Class Drone Carrier"
 	turret 0 139.5 
 	turret -32.5 -75 
 	turret 32.5 -75 
-	bay "Drone" -60 -88 
+	bay "Drone" -60 -87.5
 		"launch effect" "human internal"
-	bay "Drone" 60 -88 
+	bay "Drone" 60 -87.5
 		"launch effect" "human internal"
-	bay "Drone" -60 -101.5 
+	bay "Drone" -60 -100
 		"launch effect" "human internal"
-	bay "Drone" 60 -101.5 
+	bay "Drone" 60 -100
 		"launch effect" "human internal"
-	bay "Drone" -60 -117 
+	bay "Drone" -60 -112.5
 		"launch effect" "human internal"
-	bay "Drone" 60 -117 
+	bay "Drone" 60 -112.5
 		"launch effect" "human internal"
-	bay "Drone" -60 -129 
+	bay "Drone" -60 -125
 		"launch effect" "human internal"
-	bay "Drone" 60 -129 
+	bay "Drone" 60 -125
 		"launch effect" "human internal"
-	bay "Drone" -60 -145 
+	bay "Drone" -60 -137.5
 		"launch effect" "human internal"
-	bay "Drone" 60 -145 
+	bay "Drone" 60 -137.5
 		"launch effect" "human internal"
-	bay "Drone" -60 -162.5 
+	bay "Drone" -60 -150
 		"launch effect" "human internal"
-	bay "Drone" 60 -162.5 
+	bay "Drone" 60 -150
 		"launch effect" "human internal"
-	bay "Drone" -60 -177.5 
+	bay "Drone" -60 -162.5
 		"launch effect" "human internal"
-	bay "Drone" 60 -177.5 
+	bay "Drone" 60 -162.5
+		"launch effect" "human internal"
+	bay "Drone" -60 -175
+		"launch effect" "human internal"
+	bay "Drone" 60 -175
 		"launch effect" "human internal"
 	leak "leak" 30 50
 	leak "flame" 50 80
@@ -4061,16 +4416,16 @@ ship "Arion Odyssey Class Battlecruiser"
 		category "Heavy Warship"
 		licenses
 			"Arion"
-		"cost" 11500000
-		"shields" 320000
-		"hull" 380000
+		"cost" 300000000
+		"shields" 380000
+		"hull" 320000
 		"required crew" 100
-		"bunks" 420
+		"bunks" 360
 		"mass" 1300
-		"drag" 16
+		"drag" 15
 		"heat dissipation" .9
 		"fuel capacity" 1000
-		"cargo space" 600
+		"cargo space" 500
 		"outfit space" 1250
 		"weapon capacity" 600
 		"engine capacity" 210
@@ -4081,6 +4436,11 @@ ship "Arion Odyssey Class Battlecruiser"
 		"corrosion protection" 1
 		"leak resistance" 5
 		"burn resistance" 5
+		weapon
+			"blast radius" 400
+			"shield damage" 8000
+			"hull damage" 4000
+			"hit force" 12000
 	outfits
 		"Arion Autopulse Laser Turret" 3
 		"Arion Hurricane MIRV Turret" 3
@@ -4093,6 +4453,7 @@ ship "Arion Odyssey Class Battlecruiser"
 		"Arion Heavy Afterburner"
 		"Jump Drive"
 		"Hyperdrive"
+		"Arion S.I Equipment" 100
 	engine -15 265.5 
 	engine 15 265.5 
 	engine -44.5 265.5 
@@ -4122,7 +4483,7 @@ ship "Arion Odyssey Class Battlecruiser"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Odyssey Class Patrol Battlecruiser is inspired by a ship of the same name from the 'Starsector' Universe. Here, it acts as a larger alternative to a Bactrian, but with even better combat capabilities."
+	description "The Odyssey Class Patrol Battlecruiser is inspired by a ship of the same name from the 'Starsector' Universe. As a battlecruiser, it usually acts as a flagship of a fast response force or something of a similar nature. With its relatively fast speed for a capital ship, it can charge straight into battle and annihilate any smaller ship, while being able to easily outrun the few ships it can't fight."
 
 ship "Arion Alicorn Class Carrier"
 	sprite "ship/arionalicorn"
@@ -4131,7 +4492,7 @@ ship "Arion Alicorn Class Carrier"
 		category "Heavy Warship"
 		licenses
 			"Arion"
-		"cost" 11500000
+		"cost" 320000000
 		"shields" 400000
 		"hull" 330000
 		"required crew" 120
@@ -4140,9 +4501,9 @@ ship "Arion Alicorn Class Carrier"
 		"drag" 14
 		"heat dissipation" .9
 		"fuel capacity" 1100
-		"cargo space" 250
+		"cargo space" 200
 		"outfit space" 1200
-		"weapon capacity" 480
+		"weapon capacity" 500
 		"engine capacity" 160
 		"ion resistance" 3
 		"ion protection" 1
@@ -4151,10 +4512,15 @@ ship "Arion Alicorn Class Carrier"
 		"corrosion protection" 1
 		"leak resistance" 5
 		"burn resistance" 5
-		"cloak" 1
-		"cloaking energy" 15
-		"cloaking heat" 7.5
+		"cloak" 0.05
+		"cloaking energy" 5
+		"cloaking heat" 3.75
 		"vertical launching support" 4
+		weapon
+			"blast radius" 400
+			"shield damage" 8000
+			"hull damage" 4000
+			"hit force" 12000
 	outfits
 		"Arion Phalanx C.I.W.S" 4
 		"Arion SeaRAMx"
@@ -4165,6 +4531,7 @@ ship "Arion Alicorn Class Carrier"
 		"Arion ARS-100x"
 		"Arion ODE-SHW-150x"
 		"Arion Light Afterburner"
+		"Arion S.I Equipment" 120
 		"Jump Drive"
 		"Hyperdrive"
 	engine 0 295 
@@ -4174,30 +4541,30 @@ ship "Arion Alicorn Class Carrier"
 	turret 56 56
 	turret -56 257 
 	turret 56 257 
-	turret 0 44 
-	turret -56 156 
-	turret 56 156
-	turret -56 200 
-	turret 56 200 
+	turret 0 44 "Arion SeaRAMx"
+	turret -56 156 "Arion AIM-2x AMRAAM VLS"
+	turret 56 156 "Arion AIM-2x AMRAAM VLS"
+	turret -56 200 "Arion AIM-2x AMRAAM VLS"
+	turret 56 200 "Arion AIM-2x AMRAAM VLS"
 	bay "Fighter" 0 210
 		over
 		angle 90
 	bay "Fighter" 0 260
 		over
 		angle 270
-	bay "Fighter" 0 -260
-		over
-	bay "Fighter" 0 -190
+	bay "Fighter" 0 -45
 		over
 	bay "Fighter" 0 -120
 		over
-	bay "Fighter" 0 -50
+	bay "Fighter" 0 -195
 		over
-	bay "Fighter" 0 270
+	bay "Fighter" 0 280
+		angle 90
+	bay "Fighter" 0 260
 		angle 90
 	bay "Fighter" 0 240
 		angle 90
-	bay "Fighter 0 210
+	bay "Fighter 0 220
 		angle 90
 	bay "Fighter 0 180
 		angle 90
@@ -4240,4 +4607,4 @@ ship "Arion Alicorn Class Carrier"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "The Alicorn Class Patrol Carrier is inspired by a naval ship of the same name from the 'Strangereal' universe. It is used to bring in large amounts of fighters without having to call in a 'full size' carrier."
+	description "The Alicorn Class Patrol Carrier is inspired by a naval ship of the same name from the 'Strangereal' universe. It can be used as an ambush predator, being able to close the distance with an enemy fleet with its cloak and quickly uncloaking and launching both its missiles and fighter complement."

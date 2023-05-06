@@ -1594,6 +1594,86 @@ outfit "Arion Basic Aircraft Engines"
 	"steering flare sound" "atomic tiny"
 	description "This is a basic and cheap engine for cheap planes."
 
+outfit "Arion Basic Generator"
+	category "Power"
+	cost 400000
+	thumbnail "outfit/hai pebble core"
+	"mass" 20
+	"outfit space" -20
+	"energy generation" 2
+	"heat generation" 5
+	"energy capacity" 2000
+	description "A basic and cheap generator that doubles as batteries"
+
+outfit "Arion P.C.S"
+	category "Systems"
+	cost 50000000
+	thumbnail "outfit/interference plating"
+	"mass" 10
+	"outfit space" -10
+	"cloak" 0.1
+	"cloaking energy" 6
+	"cloaking heat" 4.5
+	description "The Arion Prototype Cloaking System is built for special forces. This device is incredibly expensive so most of our ships don't use it."
+
+outfit "Arion 20mm Autocannon"
+	category "Guns"
+	licenses
+			"Arion"
+	cost 100000
+	thumbnail "outfit/arionautocannon"
+	"mass" 2
+	"outfit space" -2
+	"weapon capacity" -2
+	"gun ports" -1
+	weapon
+		sprite "projectile/bullet"
+			"delay" 5
+			"random start frame"
+			"frame rate" 0
+		"fire effect" "gunfire"
+		sound "gatling"
+		"inaccuracy" 0.4
+		"velocity" 100
+		"lifetime" 6
+		"shield damage" 5
+		"hull damage" 10
+		"hit force" 2
+		"reload" 5
+		"firing energy" 7.5
+		"firing heat" 15
+		"hit effect" "bullet impact"
+	description "Using the same cartridge as the M61, it is more compact but has a slower firing rate. It does however benefit from having more accuracy and slightly higher range. (Special thanks to 1010todd for letting me use the artwork from the 50 cal mod)"
+
+outfit "Arion 30mm Autocannon"
+	category "Guns"
+	licenses
+			"Arion"
+	cost 150000
+	thumbnail "outfit/arionautocannon"
+	"mass" 4
+	"outfit space" -4
+	"weapon capacity" -4
+	"gun ports" -1
+	weapon
+		sprite "projectile/bullet"
+			"delay" 5
+			"random start frame"
+			"frame rate" 0
+		"fire effect" "gunfire"
+		sound "gatling"
+		"velocity" 70
+		"lifetime" 8
+		"shield damage" 7.5
+		"hull damage" 15
+		"hit force" 3
+		"inaccuracy" 0.5
+		"reload" 5
+		"firing energy" 12
+		"firing heat" 24
+		"hit effect" "bullet impact"
+	description "Using the same cartridge as the GAU 8, it is more compact but has a slower firing rate. It does however benefit from having more accuracy and slightly higher range. (Special thanks to 1010todd for letting me use the artwork from the 50 cal mod)"
+
 ============================Outdated H2H====
 outfit "Arion AK 50 V1"
 	category "Hand to Hand"
