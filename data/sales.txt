@@ -417,7 +417,6 @@ shipyard developer
 	"A/S-4S Skyhawk"
 	"F/S-15S Eagle"
 	"F/S-111S Aardvark"
-	"Marauder Manta (NCD Bounty)"
 
 outfitter developer
 	"Arion License"
