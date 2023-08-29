@@ -1,17 +1,16 @@
 # Arion - Air Superiority
 An Endless Sky plugin that adds a variety of things to endless sky, including: 
-
--Real life fighters
--Real life bombers
--Ace combat super planes
--Xenonauts fighters
--A bunch of new H2H weapons based on real life weapons
--New outfits 
--New and powerful weapons
--Superweapons
--Custom ships
--Some new missions and jobs
--ETC
+- Real life fighters
+- Real life bombers
+- Ace combat super planes
+- Xenonauts fighters
+- A bunch of new H2H weapons based on real life weapons
+- New outfits 
+- New and powerful weapons
+- Superweapons
+- Custom ships
+- Some new missions and jobs
+- ETC
 
 To get access to some of the content visit Earth, Valhalla, Hephaestus or Bourne. Perhaps do a short "campaign" there to get all of the content, or simply either finish the main campaign or eliminate a lot of enemies. 
 
