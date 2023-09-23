@@ -621,8 +621,8 @@ outfit "Arion Singularity Destroyer Railgun"
 		"relative firing hull" 0.85
 		"relative firing shields" 1.0
 		"hit force" 10000
-		"relative shield damage" 100
-		"relative hull damage" 1000
+		"relative shield damage" 10000
+		"relative hull damage" 100000
 		"blast radius" 300
 		"piercing" 0.99
 		"phasing"
