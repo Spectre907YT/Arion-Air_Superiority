@@ -3787,6 +3787,7 @@ ship "Arion A/S-4X SFF Skyhawk Mk1"
 		"external rack" 5
 		"medium rack" 5
 		"heavy rack" 3
+		"spinal mount" 1
 		series "SFF Aircraft: Arion"
 		index 100
 		"ion resistance" 3
@@ -3848,6 +3849,7 @@ ship "Arion F/S-16X SFF Super Falcon Mk1"
 		"external rack" 7
 		"medium rack" 5
 		"heavy rack" 3
+		"spinal mount" 1
 		series "SFF Aircraft: Arion"
 		index 200
 		"ion resistance" 3
@@ -3914,6 +3916,7 @@ ship "Arion F/S-18X SFF Super Hornet Mk1"
 		"external rack" 9
 		"medium rack" 7
 		"heavy rack" 5
+		"spinal mount" 1
 		series "SFF Aircraft: Arion"
 		index 300
 		"ion resistance" 3
