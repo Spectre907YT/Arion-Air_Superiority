@@ -667,7 +667,7 @@ outfit "Dragonfire Super Railgun"
 
 outfit "406mm Caseless Railgun Ammo"
 	category "Ammunition"
-	cost 500000                   
+	cost 100000                   
 	thumbnail "outfit/bullet"
 	"mass" 5
 	"railgun round capacity" -1
