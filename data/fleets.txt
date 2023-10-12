@@ -339,27 +339,28 @@ fleet "Large Northern Pirates"
 fleet "Hired Guns"
 	variant 1
 		"Leviathan (Laser)"
-		"Mule (Heavy)"
-		"Dagger"
+		"Mule (20mmSide)"
+		"Mig/S-35w Fulcrum (SideVul)"
 	variant 1
 		"Falcon (Laser)"
-		"Mule (Heavy)"
-		"Dagger"
+		"Mule (20mmSide)"
+		"Mig/S-35w Fulcrum (SideVul)"
 	variant 1
 		"Vanguard (Particle)"
-		"Mule (Heavy)"
-		"Dagger"
+		"Mule (20mmSide)"
+		"Mig/S-35w Fulcrum (SideVul)"
 	variant 1
-		"Bactrian (Hired Gun)"
-		"Dagger" 3
+		"Bactrian (20mmSide)"
+		"Mig/S-35w Fulcrum (SideVul)" 3
 		"Modified Argosy" 2
 	variant 1
-		"Bactrian (Hired Gun)"
-		"Mule (Heavy)"
-		"Dagger" 4
+		"Bactrian (20mmSide)"
+		"Mig/S-35w Fulcrum (SideVul)" 3
+		"Mule (20mmSide)"
+		"Mig/S-35w Fulcrum (SideVul)"
 	variant 1
-		"Bactrian (Hired Gun)"
-		"Dagger" 3
+		"Bactrian (20mmSide)"
+		"Mig/S-35w Fulcrum (SideVul)" 3
 		"Corvette"
 
 
