@@ -582,6 +582,7 @@ shipyard developer
 	"Eurofighter Typhoon W/S"
 	"Dassault Rafale W/S"
 	"A/S-10w Warthog"
+	"Aerie (20mmHydra)"
 
 outfitter developer
 	"NCD Platinum License"
