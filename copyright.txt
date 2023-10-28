@@ -1,9 +1,8 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Source: 
 
 Files: data/*
 Copyright: Spectre907 <spectreyt907@gmail.com>
-License: GPL-3+
+License: CC-BY-SA 4.0
 Comment: Derived from works by Michael Zahniser (from under the same license).
 
 https://creativecommons.org/licenses/by-sa/4.0/
@@ -14,14 +13,14 @@ Files:
  images/ship/arionstarspear
  images/thumbnail/arionstarspear
 Copyright: yuyuko_saigyouji.
-License: CC BY-SA 4.0
+License: CC-BY-SA 4.0
 Comment: Used with author's permission.
 
 Files:
  images/ship/arionsuperswordfish
  images/outfit/arionautocannon
 Copyright: 1010todd
-License: CC BY-SA 4.0
+License: CC-BY-SA 4.0
 Comment: Used with author's permission.
 
 Files:
@@ -30,7 +29,7 @@ Files:
  images/ship/arionhunter
  images/thumbnail/arionhunter
 Copyright: gefulltetaubenbrust
-License: CC BY-SA 4.0
+License: CC-BY-SA 4.0
 Comment: Used with author's permission.
 
 Files:
@@ -91,4 +90,4 @@ Files:
  image/outfit/goldak74
  image/outfit/goldaks74u
 Copyright: Spectre907
-License: CC BY-SA 4.0
+License: CC-BY-SA 4.0
