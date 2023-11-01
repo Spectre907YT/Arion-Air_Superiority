@@ -902,7 +902,6 @@ outfit "Dragonfire Super Railgun"
 	description "A super railgun that can only be mounted on a special mount. It features a revolver like system to allow multiple rounds to be stored in one gun. There are six rounds in the revolver system and a further 12 rounds are stored in a special storage room."
 
 outfit "406mm Caseless Railgun Ammo"
-	display name "155mm Caseless Ammo"
 	category "Ammunition"
 	licenses
 		"NCD Contractor"
