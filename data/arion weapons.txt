@@ -939,9 +939,9 @@ outfit "Arion E.M.L"
 		"Arion"
 	cost 70000000
 	thumbnail "outfit/dragonflame"
-	"mass" 75
-	"outfit space" -75
-	"weapon capacity" -75
+	"mass" 80
+	"outfit space" -80
+	"weapon capacity" -80
 	"gun ports" -1
 	weapon
 		sound "dragonflame" 

@@ -83,7 +83,7 @@ outfit "M39 Autocannon"
 	description "The M39 was an autocannon that was used by some aircraft in the 20th century. It has been upgraded to serve humanity once more."
 
 outfit "Dual 20mm Autocannon Turret"
-	category "Turrets"
+	category "Secondary Weapons"
 	cost 50000
 	thumbnail "outfit/heavy anti-missile"
 	"mass" 8
@@ -117,7 +117,7 @@ outfit "Dual 20mm Autocannon Turret"
 	description "Dual mounted 20mm autocannon turrets."
 
 outfit "Vulcan Air Defense System"
-	category "Turrets"
+	category "Secondary Weapons"
 	cost 160000
 	thumbnail "outfit/warder"
 	"mass" 8
@@ -308,7 +308,7 @@ outfit "OTOMATIC CIWS"
 	description "A naval cannon that has been modified to shoot down missiles"
 
 outfit "76mm OTO Melara Turret"
-	category "Turrets"
+	category "Secondary Weapons"
 	cost 300000
 	thumbnail "outfit/choleric turret"
 	"mass" 25
@@ -624,6 +624,16 @@ outfit "Hydra 70w Storage Rack"
 	ammo "Hydra 70w Rocket"
 	description "Specialized storage facility for Hydra 70s rockets."
 
+outfit "Hydra 70w Large Storage Rack"
+	category "Ammunition"
+	cost 100000
+	thumbnail "outfit/javelin storage"
+	"mass" 2
+	"outfit space" -20
+	"hydra capacity" 180
+	ammo "Hydra 70w Rocket"
+	description "Specialized storage facility for Hydra 70s rockets."
+
 outfit "GBU-1w Piercer Pod"
 	category "Secondary Weapons"
 	cost 75000
@@ -867,14 +877,14 @@ outfit "Dragonfire Super Railgun"
 		"NCD Contractor"
 	cost 50000000
 	thumbnail "outfit/dragonflame"
-	"mass" 130
-	"outfit space" -220
+	"mass" 135
+	"outfit space" -180
 	"weapon capacity" -150
 	"gun ports" -1
 	"spinal mount" -1
 	"railgun round capacity" 18
 	weapon
-		ammo "406mm Caseless Railgun Ammo"
+		ammo "155mm Caseless Ammo"
 		sound "dragonflame" 
 		icon "icon/dragonflame"
 		sprite "projectile/arionemlsluglarge"
@@ -901,6 +911,16 @@ outfit "Dragonfire Super Railgun"
 		"phasing"
 	description "A super railgun that can only be mounted on a special mount. It features a revolver like system to allow multiple rounds to be stored in one gun. There are six rounds in the revolver system and a further 12 rounds are stored in a special storage room."
 
+outfit "155mm Caseless Ammo"
+	category "Ammunition"
+	licenses
+		"NCD Contractor"
+	cost 5000                   
+	thumbnail "outfit/railslug"
+	"mass" 0.5
+	"railgun round capacity" -1
+	description "Special caseless ammunition."
+
 outfit "406mm Caseless Railgun Ammo"
 	category "Ammunition"
 	licenses
@@ -908,5 +928,5 @@ outfit "406mm Caseless Railgun Ammo"
 	cost 100000                   
 	thumbnail "outfit/railslug"
 	"mass" 5
-	"railgun round capacity" -1
+	"large railgun round capacity" -1
 	description "Special caseless ammunition for large railguns."

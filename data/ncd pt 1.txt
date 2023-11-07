@@ -27,7 +27,7 @@ mission "First Contact : NCD"
 				`	(Land)`
 				`	(Maybe next time)`
 					defer
-			`	You proceed to land at the designated landing zone. When you land, you see that the complex is composed of a large central building with a landing zone for spacecraft in front of it with multiple large hangars. There is also a small parking area near it filled with armed vehicles which you assume belongs to the complex. There is also a heliport and airport next to the building. It is filled with fighters and both cargo and armed helicopters.`
+			`	You proceed to land at the designated landing zone. When you land, you see that the complex is composed of a large central building with a landing zone for spacecraft in front of it with multiple large hangars. There is also a small parking area near it filled with armed vehicles which you assume belongs to the complex. There is also a heliport and airport next to the building. It is filled with fighters and helicopters.`
 			`	You then see 3 people approaching you. 2 of them are armed with rifles, while the man in the center is wearing a business suit. While he appears unarmed, you can see a slight bulge in his suit which you assume is a weapon.`
 			`	"Hello Captain," the man with the suit introduces himself. "I am Sergei, the Manager of the National Combined Defense co. We are a relatively small company selling a lot of equipment ranging from firearms to large spacecraft. While we may be relatively unknown company, the effectiveness of our products makes it very favoured by anyone who knows of our existence." Sergei then stops talking for a few seconds before suddenly asking for your name. "Sorry Captain, it appears that i was too busy advertising the company to you that i forgot to ask for your name."`
 			choice
@@ -125,8 +125,9 @@ mission "NCD: Low Threat Contract 1"
 	source
 		planet "Earth" "Bourne" "Valhalla" "Hephaestus"
 	to offer 
-		has "First Contact : NCD: declined"
+		random < 75
 		"ncd contracter" >= 3
+		has "First Contact : NCD: declined"
 		not "First Contact : NCD Alternate: declined"
 		not "event: Arion leaves"
 	on offer
@@ -243,8 +244,9 @@ mission "NCD: Medium Threat Contract 1"
 	source
 		planet "Earth" "Bourne" "Valhalla" "Hephaestus"
 	to offer 
-		has "NCD: Low Threat Contract 3: done"
+		random < 75
 		"ncd contracter" >= 5
+		has "NCD: Low Threat Contract 3: done"
 		not "First Contact : NCD Alternate: declined"
 		not "event: Arion leaves"
 	on offer
@@ -364,8 +366,9 @@ mission "NCD: High Threat Contract 1"
 	source
 		planet "Earth" "Bourne" "Valhalla" "Hephaestus"
 	to offer 
-		has "NCD: Medium Threat Contract 3: done"
+		random < 75
 		"ncd contracter" >= 8
+		has "NCD: Medium Threat Contract 3: done"
 		not "First Contact : NCD Alternate: declined"
 		not "event: Arion leaves"
 	on offer
@@ -488,8 +491,9 @@ mission "NCD: Low Threat Fleet Contract"
 	source
 		planet "Earth" "Bourne" "Valhalla" "Hephaestus"
 	to offer 
-		has "NCD: High Threat Contract 3: done"
+		random < 75
 		"ncd contracter" >= 12
+		has "NCD: High Threat Contract 3: done"
 		not "First Contact : NCD Alternate: declined"
 		not "event: Arion leaves"
 	on offer
