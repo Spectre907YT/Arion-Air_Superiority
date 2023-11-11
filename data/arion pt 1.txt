@@ -126,7 +126,7 @@ mission "First Contact : Arion"
 				goto choices
 
 			label end
-			`	"Well then Captain, i expect that we will meet again soon. After all, we have a lot of work ahead of us. Before you leave here is an Arion license Captain." He then proceeds to hand you a keycard of sorts. "This will allow you to enter our facilities and purchase our equipment. See you around Captain." The Handler and the 2 soldiers then proceed to leave.`
+			`	"Well then Captain, i expect that we will meet again soon. After all, we have a lot of work ahead of us. Before you leave here is an Arion license Captain." He then proceeds to hand you a keycard of sorts. "This will allow you to enter our facilities and purchase our equipment. Also, we have some resupply jobs for you to do in the job boards, so keep an eye out for that. See you around Captain." The Handler and the 2 soldiers then proceed to leave.`
 
 	on fail
 		event "Arion leaves"

@@ -2,7 +2,7 @@ Standard H2H
 
 outfit "Glock 17 Suppressed"
 	category "Hand to Hand"
-	cost 1400
+	cost 1250
 	thumbnail "outfit/glock17sd"
 	"capture attack" 0.22
 	"capture defense" 0.2
@@ -29,7 +29,7 @@ outfit "Makarov PB"
 
 outfit "Beretta 93R"
 	category "Hand to Hand"
-	cost 1500
+	cost 1350
 	thumbnail "outfit/beretta93r"
 	"capture attack" 0.23
 	"capture defense" 0.23
@@ -38,7 +38,7 @@ outfit "Beretta 93R"
 
 outfit "44 Magnum Revolver"
 	category "Hand to Hand"
-	cost 1800
+	cost 1500
 	thumbnail "outfit/anaconda44"
 	"capture attack" 0.25
 	"capture defense" 0.13
@@ -47,7 +47,7 @@ outfit "44 Magnum Revolver"
 
 outfit "Dessert Eagle"
 	category "Hand to Hand"
-	cost 2500
+	cost 2000
 	thumbnail "outfit/desserteagle"
 	"capture attack" 0.3
 	"capture defense" 0.3
@@ -56,7 +56,7 @@ outfit "Dessert Eagle"
 
 outfit "500 S&W Revolver"
 	category "Hand to Hand"
-	cost 3000
+	cost 2500
 	thumbnail "outfit/500sandw"
 	"capture attack" 0.5
 	"capture defense" 0.25

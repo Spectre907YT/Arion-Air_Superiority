@@ -1305,7 +1305,7 @@ ship "Admiring Class"
 	explode "large explosion" 40
 	explode "huge explosion" 10
 	"final explode" "final explosion large"
-	description "A modified Hunter class made to fulfill the role of planetary assault, it has lost some durability, fire power and outfit space in exchange for an extra turret, more fighters and more cargo and bunks to allow this ship to quickly assault planets."
+	description "A sub class of the Hunter made to fulfill the role of planetary assault, it has lost some durability, fire power and outfit space in exchange for an extra turret, more fighters and more cargo and bunks to allow this ship to quickly assault planets."
 	description "(Special thanks to gefulltetaubenbrust for the sprite)."
 
 ship "Starspear Class"
