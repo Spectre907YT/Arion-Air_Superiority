@@ -39,7 +39,7 @@ ship "Arion Destroyer Block I"
 	gun 29 -49
 	gun -25.5 -53
 	gun -30 -49
-	turret -0 -30 "Arion OTOMATIC CIWS"
+	turret -0 -30
 	turret 0 -47 "Arion 127mm Mk 45 Turret"
 	turret -0 -6.5
 	turret -28 47 "Arion Phalanx C.I.W.S"
