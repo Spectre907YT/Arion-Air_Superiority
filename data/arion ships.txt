@@ -1,10 +1,10 @@
 Human Ships
 
-ship "Arion Bactrian H.A.T Block I"
+ship "Arion Bactrian Block I"
 	sprite ship/bactrian
 	thumbnail thumbnail/bactrian
 	attributes
-		category "Heavy Warship"
+		category Utility
 		licenses Arion
 		cost 20000000
 		"mass" 900
@@ -62,11 +62,11 @@ ship "Arion Bactrian H.A.T Block I"
 	"final explode" "final explosion large"
 	description "The Bactrian is an excellent spaceship being able to fill the role of flagship perfectly. It has high amount of fighters and large bunk areas. With some modifications it can fit the role of a Heavy Attack Transport (H.A.T)."
 
-ship "Arion Mule H.A.T Block I"
+ship "Arion Mule Block I"
 	sprite ship/mule
 	thumbnail thumbnail/mule
 	attributes
-		category "Medium Warship"
+		category Utility
 		cost 5000000
 		"mass" 300
 		"outfit space" 480
