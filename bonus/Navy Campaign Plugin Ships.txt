@@ -47,9 +47,9 @@ ship "Arion Prowler Block I"
 	engine -16 220.5
 	engine 16 220.5
 	"reverse engine" -31 146.5
-		angle -35.002
+		angle -35
 	"reverse engine" 31 146.5
-		angle -324.998
+		angle 35
 	"steering engine" -11.5 166
 		angle 45
 		left
@@ -57,10 +57,10 @@ ship "Arion Prowler Block I"
 		angle -45
 		right
 	"steering engine" -1 -91
-		angle 105.002
+		angle 105
 		right
 	"steering engine" 1 -91
-		angle -105.002
+		angle -105
 		left
 	turret 0 -92 "Arion Phalanx C.I.W.S"
 	turret 0 -26 "Arion RIM-3x ERAM VLS"

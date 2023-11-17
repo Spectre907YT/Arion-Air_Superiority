@@ -42,9 +42,9 @@ ship "Arion Aurora Block II"
 		Hyperdrive
 		"Jump Drive"
 	engine -85.5 322
-		angle 9.998
+		angle 10
 	engine 85.5 322
-		angle -9.998
+		angle -10
 	engine -32.5 338
 		zoom 0.8
 	engine 32.5 338
@@ -57,16 +57,16 @@ ship "Arion Aurora Block II"
 		zoom 0.2
 	"reverse engine" -27 -328.5
 		zoom 0.4
-		angle -360
+		angle 0
 	"reverse engine" 27 -328.5
 		zoom 0.4
-		angle -360
+		angle 0
 	"reverse engine" -89 212.5
 		zoom 0.6
-		angle -18.001
+		angle -18
 	"reverse engine" 89 212.5
 		zoom 0.6
-		angle -341.999
+		angle 18
 	"steering engine" -39 -239
 		zoom 0.33
 		angle 90

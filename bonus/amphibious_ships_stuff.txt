@@ -146,7 +146,7 @@ ship "Arion Regnum Block III"
 		angle -45
 		over
 	bay Fighter 53.5 146
-		angle -3.999
+		angle -4
 		over
 	bay Fighter 44 222.5
 		over
