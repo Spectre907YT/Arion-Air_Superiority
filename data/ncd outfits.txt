@@ -21,7 +21,7 @@ outfit "Thrust Vectoring Engine-20w"
 	"thrust" 17.3
 	"thrusting energy" 1.4
 	"thrusting heat" 2.8
-	"turn" 666
+	"turn" 400
 	"turning energy" 0.7
 	"turning heat" 1.4
 	"flare sprite" "effect/fissionflare"
@@ -46,7 +46,7 @@ outfit "Thrust Vectoring Engine-25w"
 	"thrust" 24
 	"thrusting energy" 1.7
 	"thrusting heat" 3.4
-	"turn" 842
+	"turn" 506
 	"turning energy" 0.85
 	"turning heat" 1.7
 	"flare sprite" "effect/fissionflare"
@@ -71,7 +71,7 @@ outfit "Thrust Vectoring Engine-30w"
 	"thrust" 29.2
 	"thrusting energy" 2
 	"thrusting heat" 4
-	"turn" 1020
+	"turn" 612
 	"turning energy" 1
 	"turning heat" 2
 	"flare sprite" "effect/fissionflare"
@@ -96,7 +96,7 @@ outfit "Thrust Vectoring Engine-80w"
 	"thrust" 84
 	"thrusting energy" 4.9
 	"thrusting heat" 9.8
-	"turn" 2930
+	"turn" 1758
 	"turning energy" 2.45
 	"turning heat" 4.9
 	"flare sprite" "effect/fissionflare"
@@ -121,7 +121,7 @@ outfit "Thrust Vectoring Engine-100w"
 	"thrust" 106
 	"thrusting energy" 6.1
 	"thrusting heat" 12.2
-	"turn" 3700
+	"turn" 2220
 	"turning energy" 3.05
 	"turning heat" 6.1
 	"flare sprite" "effect/fissionflare"
@@ -146,7 +146,7 @@ outfit "Omni Directional Engine-20w"
 	"thrust" 21.6
 	"thrusting energy" 1.6
 	"thrusting heat" 3.5
-	"turn" 754
+	"turn" 452
 	"turning energy" 0.8
 	"turning heat" 1.75
 	"reverse thrust" 17.3
@@ -178,7 +178,7 @@ outfit "Omni Directional Engine-25w"
 	"thrust" 27
 	"thrusting energy" 2
 	"thrusting heat" 4.3
-	"turn" 942
+	"turn" 566
 	"turning energy" 1.0
 	"turning heat" 2.15
 	"reverse thrust" 21.6
@@ -210,7 +210,7 @@ outfit "Omni Directional Engine-30w"
 	"thrust" 32.4
 	"thrusting energy" 2.4
 	"thrusting heat" 5.2
-	"turn" 1130
+	"turn" 678
 	"turning energy" 1.2
 	"turning heat" 2.6
 	"reverse thrust" 26
@@ -242,7 +242,7 @@ outfit "Omni Directional Engine-80w"
 	"thrust" 93.6
 	"thrusting energy" 3.3
 	"thrusting heat" 7.2
-	"turn" 3270
+	"turn" 2478
 	"turning energy" 1.65
 	"turning heat" 3.6
 	"reverse thrust" 65.5
@@ -274,7 +274,7 @@ outfit "Omni Directional Engine-100w"
 	"thrust" 118.4
 	"thrusting energy" 7.2
 	"thrusting heat" 15.6
-	"turn" 4130
+	"turn" 3304
 	"turning energy" 3.6
 	"turning heat" 7.8
 	"reverse thrust" 83
@@ -306,7 +306,7 @@ outfit "Omni Directional Engine-150w"
 	"thrust" 186.2
 	"thrusting energy" 11
 	"thrusting heat" 23.9
-	"turn" 6520
+	"turn" 3912
 	"turning energy" 5.5
 	"turning heat" 11.95
 	"reverse thrust" 130
@@ -338,7 +338,7 @@ outfit "Omni Directional Engine-180w"
 	"thrust" 225.8
 	"thrusting energy" 13.3
 	"thrusting heat" 28.9
-	"turn" 7903
+	"turn" 4742
 	"turning energy" 6.65
 	"turning heat" 14.45
 	"reverse thrust" 158

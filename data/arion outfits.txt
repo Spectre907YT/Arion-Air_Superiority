@@ -17,7 +17,7 @@ outfit "Arion ODE-AA-20x"
 	"thrust" 27
 	"thrusting energy" 2
 	"thrusting heat" 4.3
-	"turn" 942
+	"turn" 566
 	"turning energy" 1.0
 	"turning heat" 2.15
 	"reverse thrust" 24.3
@@ -53,7 +53,7 @@ outfit "Arion ODE-FA-25x"
 	"thrust" 31
 	"thrusting energy" 2.5
 	"thrusting heat" 5.4
-	"turn" 1270
+	"turn" 762
 	"turning energy" 1.25
 	"turning heat" 2.7
 	"reverse thrust" 28
@@ -89,7 +89,7 @@ outfit "Arion ODE-IA-25x"
 	"thrust" 36.5
 	"thrusting energy" 2.5
 	"thrusting heat" 6.5
-	"turn" 1082
+	"turn" 650
 	"turning energy" 1.25
 	"turning heat" 2.4
 	"reverse thrust" 32
@@ -121,7 +121,7 @@ outfit "Arion ODE-LBA-30x"
 	"thrust" 40.5
 	"thrusting energy" 3
 	"thrusting heat" 6.5
-	"turn" 1412
+	"turn" 848
 	"turning energy" 1.5
 	"turning heat" 3.25
 	"reverse thrust" 36.5
@@ -157,7 +157,7 @@ outfit "Arion ODE-MBA-50x"
 	"thrust" 71
 	"thrusting energy" 5
 	"thrusting heat" 10.8
-	"turn" 2478
+	"turn" 1488
 	"turning energy" 2.5
 	"turning heat" 5.4
 	"reverse thrust" 62.5
@@ -193,7 +193,7 @@ outfit "Arion ODE-HBA-60x"
 	"thrust" 86
 	"thrusting energy" 6
 	"thrusting heat" 13
-	"turn" 3004
+	"turn" 1802
 	"turning energy" 3
 	"turning heat" 6.5
 	"reverse thrust" 75.7
@@ -226,7 +226,7 @@ outfit "Arion ODE-MLW-80x"
 	"mass" 80
 	"outfit space" -80
 	"engine capacity" -80
-	"turn" 4088
+	"turn" 2452
 	"turning energy" 4.1
 	"turning heat" 8.9
 	"thrust" 117
@@ -262,7 +262,7 @@ outfit "Arion ODE-LLW-100x"
 	"mass" 100
 	"outfit space" -100
 	"engine capacity" -100
-	"turn" 5162
+	"turn" 3098
 	"turning energy" 5.15
 	"turning heat" 11.2
 	"thrust" 148
@@ -298,7 +298,7 @@ outfit "Arion ODE-SHW-150x"
 	"mass" 150
 	"outfit space" -150
 	"engine capacity" -150
-	"turn" 8150
+	"turn" 4890
 	"turning energy" 7.9
 	"turning heat" 17.15
 	"thrust" 232.8
@@ -334,7 +334,7 @@ outfit "Arion ODE-MHW-180x"
 	"mass" 180
 	"outfit space" -180
 	"engine capacity" -180
-	"turn" 9879
+	"turn" 5928
 	"turning energy" 9.5
 	"turning heat" 20.6
 	"thrust" 282.2
@@ -370,7 +370,7 @@ outfit "Arion ODE-LHW-210x"
 	"mass" 210
 	"outfit space" -210
 	"engine capacity" -210
-	"turn" 11642
+	"turn" 6986
 	"turning energy" 11.15
 	"turning heat" 24.15
 	"thrust" 332.6
@@ -407,7 +407,7 @@ outfit "Arion ODE-HHW-250x"
 	"mass" 250
 	"outfit space" -250
 	"engine capacity" -250
-	"turn" 14000
+	"turn" 8400
 	"turning energy" 13.25
 	"turning heat" 28.75
 	"thrust" 400

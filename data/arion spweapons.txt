@@ -231,8 +231,6 @@ outfit "Arion AIM-1x Sidewinder External Pod"
 	cost 500000
 	series "Specialized Fighter Weapons: Arion"
 	index 300
-	series "Specialized Fighter Weapons: Arion"
-	index 100
 	thumbnail "outfit/sidewinder pod"
 	"mass" 4
 	"gun ports" -1
