@@ -475,6 +475,7 @@ outfit "Arion M61 Vulcan"
 		icon icon/gat
 		"fire effect" gunfire
 		"hit effect" "bullet impact"
+		"cluster"
 		"inaccuracy" 1.6
 		"velocity" 105
 		lifetime 5
