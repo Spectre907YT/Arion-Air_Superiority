@@ -678,6 +678,9 @@ shipyard developer
 	"Arion Aurora Block II"
 	"Condottiere Class"
 	"Warlord Class"
+	"Crow G"
+	"Crow I"
+	"Destroyer NCD"
 
 outfitter developer
 	"NCD Platinum License"
